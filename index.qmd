@@ -1,0 +1,27 @@
+---
+title: "Scott Powers"
+image: assets/headshot.jpg
+toc: false
+about:
+    template: trestles
+    links:
+        - text: "{{< iconify simple-icons github >}}"
+          href: https://github.com/saberpowers
+          target: _blank
+        - text: "{{< iconify simple-icons googlescholar >}}"
+          href: https://scholar.google.com/citations?hl=en&user=lcXNms8AAAAJ
+          target: _blank
+        - text: "{{< iconify simple-icons linkedin >}}"
+          href: https://www.linkedin.com/in/saberpowers/
+          target: _blank
+        - text: "{{< iconify simple-icons twitter >}}"
+          href: https://twitter.com/saberpowers
+          target: _blank
+        - text: "{{< iconify simple-icons bluesky >}}"
+          href: https://bsky.app/profile/saberpowers.bsky.social
+          target: _blank
+---
+
+I am an Assistant Professor of [Sport Analytics](https://sport.rice.edu/){target="_blank"} and of [Statistics](https://statistics.rice.edu/){target="_blank"} at [Rice University](https://www.rice.edu/){target="_blank"}. My expertise is in the measurement of individual contributions to team success, as well as the projection of player performance. I have a budding interest in modeling kinematic tracking data and overhead athlete injuries. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.
+
+I completed my PhD in statistics at [Stanford University](https://www.stanford.edu/){target="_blank"} in 2017. From there, I worked for the [Los Angeles Dodgers](https://www.mlb.com/dodgers){target="_blank"} in R&D for five years and then spent one season as an Assistant General Manager with the [Houston Astros](https://www.mlb.com/astros){target="_blank"} before joining Rice in 2023. Along the way, I have held multiple-year consulting engagements with the [Oakland Athletics](https://www.mlb.com/athletics){target="_blank"} (baseball), [AZ Alkmaar](https://www.az.nl/en){target="_blank"} (soccer) and [Zelus Analytics](https://zelusanalytics.com/){target="_blank"} (baseball and soccer).

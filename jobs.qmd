@@ -1,0 +1,26 @@
+---
+title: "Jobs"
+toc: false
+---
+
+```{r, echo = FALSE}
+jobs <- read.csv("assets/jobs.csv")
+logos <- read.csv("assets/logos.csv")
+data <- jobs |>
+    dplyr::mutate(team = stringr::str_trim(team, side = "both")) |>
+    dplyr::left_join(logos, by = "team") |>
+    dplyr::transmute(
+        date_posted,
+        team = glue::glue("<img height='22' src='{logo_url}'> {team}"),
+        title = glue::glue("<a target='_blank' href='{url}'>{title}</a>"),
+        discipline,
+        stage,
+        sport
+    )
+DT::datatable(
+    data = data,
+    colnames = c("Date Posted", "Team", "Title", "Discipline", "Stage", "Sport"),
+    escape = FALSE,
+    style = 'bootstrap'
+)
+```

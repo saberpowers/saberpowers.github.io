@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Scott Powers"
+  favicon: assets/favicon.png
+  search: false
+  navbar:
+    right:
+      - research.qmd
+      - teaching.qmd
+      - lab.qmd
+      - jobs.qmd
+      - text: CV
+        href: assets/powers.pdf
+        target: _blank
+format:
+  html:
+    theme: solar
+    css: styles.css
+    toc: true
+    page-layout: full
