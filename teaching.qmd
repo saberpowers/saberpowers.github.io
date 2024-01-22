@@ -16,3 +16,5 @@ Spring 2024
 ### Stanford
 [STATS 50: Mathematics of Sports](https://web.stanford.edu/class/stats50/){target="_blank"}\
 Spring 2016
+
+![my concept map for the fundamental models used across sport analytics (from Rice SMGT 430)](assets/concept_map.png)
