@@ -1,7 +1,11 @@
 ---
 title: "Research"
-toc: false
 ---
+
+## Preprints
+
+**Powers S**, Stancil L, Consiglio N\
+[Estimating individual contributions to team success in women's college volleyball](https://arxiv.org/abs/2402.01083){target=_blank}\
 
 ## Conference Presentations
 
