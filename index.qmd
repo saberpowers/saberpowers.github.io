@@ -25,3 +25,17 @@ about:
 I am an Assistant Professor of [Sport Analytics](https://sport.rice.edu/){target="_blank"} and of [Statistics](https://statistics.rice.edu/){target="_blank"} at [Rice University](https://www.rice.edu/){target="_blank"}. My expertise is in the measurement of individual contributions to team success, as well as the projection of player performance. I have a budding interest in modeling kinematic tracking data and overhead athlete injuries. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.
 
 I completed my PhD in statistics at [Stanford University](https://www.stanford.edu/){target="_blank"} in 2017. From there, I worked for the [Los Angeles Dodgers](https://www.mlb.com/dodgers){target="_blank"} in R&D for five years and then spent one season as an Assistant General Manager with the [Houston Astros](https://www.mlb.com/astros){target="_blank"} before joining Rice in 2023. Along the way, I have held multiple-year consulting engagements with the [Oakland Athletics](https://www.mlb.com/athletics){target="_blank"} (baseball), [AZ Alkmaar](https://www.az.nl/en){target="_blank"} (soccer) and [Zelus Analytics](https://zelusanalytics.com/){target="_blank"} (baseball and soccer).
+
+#### In the news
+
+2024-02-13 [​​Scott Powers: Major league analyst acing Rice](https://www.ricethresher.org/article/2024/02/scott-powers-major-league-analyst-acing-rice){target="_blank"}\
+*The Rice Thresher*
+
+2023-09-27 [What volleyball can tell us about what’s missing in MLB analytics](https://www.ocregister.com/2023/09/27/hoornstra-reckoning-with-the-powers-and-limits-of-analytics-in-baseball/){target="_blank"}\
+*The Orange County Register*
+
+2022-11-11 [Astros fire assistant general manager Scott Powers](https://www.mlbtraderumors.com/2022/11/astros-fire-assistant-general-manager-scott-powers.html){target="_blank"}\
+*MLB Trade Rumors*
+
+2022-01-03 [Dodgers executive leaving for Astros front office is traitorous activity](https://dodgersway.com/2022/01/03/dodgers-executive-leaving-astros-front-office-traitorous-activity/){target="_blank"}\
+*Dodgers Way*
