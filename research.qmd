@@ -9,6 +9,12 @@ title: "Research"
 
 ## Conference Presentations
 
+2024 Sloan Sports Analytics Conference (Boston)
+[slides](https://github.com/saberpowers/talks/blob/master/2024/sloan/slides.pdf){target="_blank"},
+[video](https://www.youtube.com/watch?v=we8oPw_C4zQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target="_blank"}\
+"Spotlighting under-the-radar performers in women's college volleyball"\
+Joint work w/ Luke Stancil and Naomi Consiglio
+
 2023 New England Symposium on Statistics in Sports (Boston)
 [slides](https://github.com/saberpowers/talks/blob/master/2023/nessis/slides.pdf){target="_blank"},
 [video](https://www.youtube.com/watch?v=kiV2QDFDMVo&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target="_blank"}\
@@ -93,7 +99,7 @@ Petersen A, Sitarik A, Luedtke A, **Powers S**, Bekmetjev A, Tintle NL (2011)\
 [Evaluating methods for combining rare variant data in pathway-based tests of genetic association](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3287885){target=_blank}\
 *BMC Proceedings* **5** S48
 
-## Other Publications
+## Magazine/Blog Articles
 
 **Powers S** (2016)\
 [Toward a Probability Distribution over Batted-Ball Trajectories](https://tht.fangraphs.com/toward-a-probability-distribution-over-batted-ball-trajectories){target=_blank}\
@@ -102,3 +108,9 @@ Petersen A, Sitarik A, Luedtke A, **Powers S**, Bekmetjev A, Tintle NL (2011)\
 Smith RL, **Powers S**, Cisewski J (2014)\
 [Qualifying Times for the Boston Marathon](https://chance.amstat.org/2014/09/boston-marathon){target=_blank}\
 *CHANCE* (not peer reviewed)
+
+## Student Posters
+
+Kang A, **Powers S**, Curson T\
+[Not All Features Are Created Equal: Player clustering and evaluation](assets/research/posters/kang_2024.pdf){target=_blank}\
+Presented at Opta Forum 2024
