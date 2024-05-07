@@ -10,6 +10,11 @@
   bottom=1in
 ]{geometry}
 
+% Horizontal lines within section titles
+\usepackage[explicit]{titlesec}
+\newcommand{\raisedrulefill}[2][0ex]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+\titleformat{\section}{\Large\bfseries}{\thesection. }{0em}{#1\,\raisedrulefill[0.4ex]{2pt}}
+
 
 \begin{document}
 
@@ -18,12 +23,14 @@
 saberpowers.github.io
 \end{center}
 
+
 \section*{\sc Academic Experience}
 
 {\bf Rice University} \hfill 2023-\\
 Assistant Professor of Sport Analytics and (by courtesy) of Statistics
 
-\section*{\sc Pro Sports Experience}
+
+\section*{\sc Sport Experience}
 
 \subsection*{\sc Full-Time}
 
@@ -60,72 +67,15 @@ B.S. Mathematical Decision Sciences and Mathematics\\
 {\it Highest Honors from the Department and Highest Distinction from the University}
 
 
-\section*{\sc Teaching}
-
-* indicates a course for which I designed the curriculum\\
-~\\
-{\bf Rice University}\\
-Instructor, *SMGT 430: Introduction to Sport Analytics \hfill Spring 2024\\
-Instructor, *SMGT 432: Soccer Analytics \hfill Fall 2023\\
-Instructor, *SMGT 435: Baseball Analytics \hfill Spring 2024\\
-~\\
-{\bf Stanford University}\\
-Instructor, *STATS 50: Mathematics of Sports \hspace{5mm} \hfill Spring 2016\\
-TA, STATS 305A: Applied Statistics I \hfill Fall 2016\\
-TA, STATS 216: Introduction to Statistical Learning \hfill Winter 2014, Summer 2015, Winter 2017\\
-TA, STATS 202: Data Mining and Analysis \hfill Fall 2013, Summer 2014\\
-TA, STATS 50: Mathematics of Sports \hfill Fall 2014\\
-~\\
-{\bf University of Chicago}\\
-Instructor, STAT 23400: Statistical Models and Methods \hfill Spring 2013\\
-TA, STAT 22000: Statistical Methods and Applications \hfill Fall 2011, Spring 2012, Fall 2012
-
-
 \section*{\sc Research}
 
-\subsection*{\sc Conference Presentations}
+\subsection*{\sc Pre-prints}
 
-{\bf New England Symposium on Statistics in Sports}\\
-``Estimating individual contributions to team success in women's college volleyball'' \hfill Boston 2023\\
-~\\
-{\bf Saberseminar}\\
-``Pitch trajectory density estimation for predicting future outcomes'' \hfill Chicago 2023\\
-``Jointly predicting exit velocity and launch angle for batter-pitcher matchups'' \hfill Boston 2016\\
-``Rewarding batters for baserunner advancement: A ridge-regressed Rasch model'' \hfill Boston 2015\\
-~\\
-{\bf Joint Statistical Meetings}\\
-``Nuclear penalized multinomial regression for predicting at bat outcomes in baseball'' \hfill Chicago 2016\\
-~\\
-{\bf SABR Analytics Conference}\\
-``True wOBA: Estimation of true talent level for batters'' \hfill Phoenix 2016
+{\bf Powers S}, Stancil L, Consiglio N\\
+``Estimating individual contributions to team success in women's college volleyball''\\
+https://arxiv.org/abs/2402.01083
 
 \subsection*{\sc Publications}
-
-\subsubsection*{\sc Sports}
-
-{\bf Powers S}, Hastie T, Tibshirani R (2018)\\
-``Nuclear penalized multinomial regression with an application to predicting at bat outcomes in baseball''\\
-{\it Statistical Modelling} {\bf 18}(5-6) 388-410\\
-~\\
-Burton T, {\bf Powers S} (2015)\\
-``A linear model for estimating optimal service fraction in volleyball''\\
-{\it Journal of Quantitative Analysis in Sports} {\bf 11} 117-129\\
-~\\
-Saavedra S, {\bf Powers S}, McCotter T, Porter MA, Mucha PJ (2010)\\
-``Mutually-antagonistic interactions in baseball networks''\\
-{\it Physica A: Statistical Mechanics and its Applications} {\bf 389} 1131-1141\\
-~\\
-{\color{gray}
-  {\bf Powers S} (2016)\\
-  ``Toward a Probability Distribution over Batted-Ball Trajectories''\\
-  {\it The Hardball Times} (not peer reviewed)\\
-  ~\\
-  Smith RL, {\bf Powers S}, Cisewski J (2014)\\
-  ``Qualifying Times for the Boston Marathon''\\
-  {\it CHANCE} (not peer reviewed)\\
-}
-
-\subsubsection*{\sc Not Sports}
 
 Burton T, {\bf Powers S}, Burns C, Conway G, Leach F, Senecal K (2023)\\
 ``A data-driven greenhouse gas emission rate analysis for vehicle comparisons''\\
@@ -135,6 +85,10 @@ Burton T, {\bf Powers S}, Burns C, Conway G, Leach F, Senecal K (2023)\\
 ``Evaluating disease prediction models using a cohort whose covariate distribution differs from that of the target population''\\
 {\it Statistical Methods in Medical Research} {\bf 28}(1) 309-320\\
 ~\\
+{\bf Powers S}, Hastie T, Tibshirani R (2018)\\
+``Nuclear penalized multinomial regression with an application to predicting at bat outcomes in baseball''\\
+{\it Statistical Modelling} {\bf 18}(5-6) 388-410\\
+~\\
 {\bf Powers S}, Qian J, Jung K, Schuler A, Shah NH, Hastie T, Tibshirani R (2018)\\
 ``Some methods for heterogeneous treatment effect estimation in high dimensions''\\
 {\it Statistics in Medicine} {\bf 37}(11) 1767-1787\\
@@ -142,6 +96,10 @@ Burton T, {\bf Powers S}, Burns C, Conway G, Leach F, Senecal K (2023)\\
 McGinnis L, {\bf Powers S}, Bangs D, Cherry A, Tibshirani R, Natkunam Y (2016)\\
 ``Double-hit diffuse large B-cell lymphomas with MYC gene rearrangements more commonly involve BCL2 than BCL6 gene rearrangements as the second hit: A large scale single institution study''\\
 {\it Laboratory Investigation} {\bf 96} 362A\\
+~\\
+Burton T, {\bf Powers S} (2015)\\
+``A linear model for estimating optimal service fraction in volleyball''\\
+{\it Journal of Quantitative Analysis in Sports} {\bf 11} 117-129\\
 ~\\
 {\bf Powers S}, Hastie T, Tibshirani R (2015)\\
 ``Customized training with an application to mass spectrometric imaging of cancer tissue''\\
@@ -162,20 +120,95 @@ Luedtke A, {\bf Powers S}, Petersen A, Sitarik A, Bekmetjev A, Tintle NL (2011)\
 Petersen A, Sitarik A, Luedtke A, {\bf Powers S}, Bekmetjev A, Tintle NL (2011)\\
 ``Evaluating methods for combining rare variant data in pathway-based tests of genetic association''\\
 {\it BMC Proceedings} {\bf 5} S48\\
-
-\subsection*{\sc Software}
-
-\subsubsection*{\sc Published R Packages (CRAN)}
-npmr: Nuclear Penalized Multinomial Regression\\
-{\color{gray} https://cran.r-project.org/web/packages/npmr/index.html}\\
 ~\\
-customizedTraining: Customized Training for Lasso and Elastic-Net Regularized Generalized Linear Models\\
-{\color{gray} https://cran.r-project.org/web/packages/customizedTraining/index.html}
+Saavedra S, {\bf Powers S}, McCotter T, Porter MA, Mucha PJ (2010)\\
+``Mutually-antagonistic interactions in baseball networks''\\
+{\it Physica A: Statistical Mechanics and its Applications} {\bf 389} 1131-1141
 
-\subsubsection*{\sc Published RShiny Apps}
+\subsection*{\sc Conference Presentations}
 
-mRchmadness: NCAA Basketball Tournament Bracket Pool Submission Optimization\\
-{\color{gray} https://saberpowers.shinyapps.io/mRchmadness}
+{\bf Conference of Texas Statisticians}\\
+``Baseball pitch trajectory density estimation for predicting future pitcher outcomes'' \hfill Houston 2024\\
+~\\
+{\bf MIT Sloan Sports Analytics Conference}\\
+``Spotlighting under-the-radar performers in women's college volleyball'' \hfill Boston 2024\\
+~\\
+{\bf New England Symposium on Statistics in Sports}\\
+``Estimating individual contributions to team success in women's college volleyball'' \hfill Boston 2023\\
+~\\
+{\bf Saberseminar}\\
+``Pitch trajectory density estimation for predicting future outcomes'' \hfill Chicago 2023\\
+``Jointly predicting exit velocity and launch angle for batter-pitcher matchups'' \hfill Boston 2016\\
+``Rewarding batters for baserunner advancement: A ridge-regressed Rasch model'' \hfill Boston 2015\\
+~\\
+{\bf Joint Statistical Meetings}\\
+``Nuclear penalized multinomial regression for predicting at bat outcomes in baseball'' \hfill Chicago 2016\\
+~\\
+{\bf SABR Analytics Conference}\\
+``True wOBA: Estimation of true talent level for batters'' \hfill Phoenix 2016
+
+\subsection*{\sc Student Poster Presentations}
+
+{\bf Opta Forum}\\
+Andrew Kang: ``Not All Features Are Created Equal: Player clustering and evaluation''  \hfill London 2024
+
+
+\section*{\sc Funding}
+
+{\bf Rice University Creative Ventures Conference and Workshop Development}\\
+``Rice Soccer Analytics Conference'' PI: S Powers, \$10,000 \hfill 2024-2025
+
+
+\section*{\sc Teaching}
+
+\vspace{-4mm}\hfill * indicates a course I designed\\
+{\bf Rice University}\\
+Instructor, *SMGT 430: Introduction to Sport Analytics \hfill Spring 2024\\
+Instructor, *SMGT 432: Soccer Analytics \hfill Fall 2023\\
+Instructor, *SMGT 435: Baseball Analytics \hfill Spring 2024\\
+~\\
+{\bf Stanford University}\\
+Instructor, *STATS 50: Mathematics of Sports \hspace{5mm} \hfill Spring 2016\\
+TA, STATS 305A: Applied Statistics I \hfill Fall 2016\\
+TA, STATS 216: Introduction to Statistical Learning \hfill Winter 2014, Summer 2015, Winter 2017\\
+TA, STATS 202: Data Mining and Analysis \hfill Fall 2013, Summer 2014\\
+TA, STATS 50: Mathematics of Sports \hfill Fall 2014\\
+~\\
+{\bf University of Chicago}\\
+Instructor, STAT 23400: Statistical Models and Methods \hfill Spring 2013\\
+TA, STAT 22000: Statistical Methods and Applications \hfill Fall 2011, Spring 2012, Fall 2012
+
+
+\section*{\sc Student Mentorship}
+
+{\bf Rice University}\\
+Principal Investigator, Sport Analytics Undergraduate Research Lab \hfill 2024-\\
+{\it Students/Alumni: Jeff Brover, Naomi Consiglio, Jacob Hahn, Rahul Herrero, Elisabeth Millington, Elizabeth Sepulveda, Luke Stancil, Lou Zhou, Judy Zhu}\\
+Coordinator, Sport Analytics Graduate Reading Group \hfill 2023-2024\\
+Coordinator, Big Data Bowl Support Group \hfill 2023
+
+\section*{\sc University Service}
+
+{\bf Rice University}\\
+Faculty Associate, Wiess College \hfill 2024-\\
+Instructor, Owl Days Classroom Sampler (Office of Admission) \hfill 2024\\
+Speaker, Special Occasion Dinner (Friends of Fondren Library) \hfill 2024\\
+Speaker, Brains in a Bar (Association of Rice Alumni) \hfill 2024\\
+~\\
+{\bf Sport Analytics Club Program}\\
+Faculty Advisor, Rio Rico High School (Rio Rico, AZ) \hfill 2023-2024
+
+\section*{\sc Professional Development}
+
+{\bf Rice Center for Teaching Excellence}\\
+INSTILL Mini-Grant Program \hfill 2023-2024\\
+Reading Group \hfill 2023-2024\\
+Symposium on Teaching and Learning \hfill 2024\\
+Workshop on Inclusive Teaching Strategies \hfill 2023\\
+~\\
+{\bf Conferences Attended}\\
+Women in Sports Data Symposium \hfill Philadelphia 2023\\
+Minority Trailblazers in Sports Conference \hfill Houston 2023
 
 \section*{\sc Awards}
 
