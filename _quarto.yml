@@ -17,7 +17,9 @@ website:
         target: _blank
 format:
   html:
-    theme: solar
+    theme:
+      - solar
+      - custom.scss
     css: styles.css
     toc: true
     page-layout: full
