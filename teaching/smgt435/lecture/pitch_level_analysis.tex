@@ -1,0 +1,113 @@
+
+\documentclass{article}
+
+\input{preamble.sty}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
+
+\begin{document}
+
+\begin{framed}
+  {\bf Caution:} These lecture notes are under construction. You may find parts that are incomplete.
+\end{framed}
+
+\setcounter{section}{3}
+\section{\sc Introduction to Pitch-Level Analysis}
+
+  So far, everything we have discussed has been on the plate appearance level. We put run values on plate appearances and evaluated players on the basis of plate appearance outcomes. Now, we transition to the more granular level of pitch-by-pitch data.
+
+  \subsection{\sc Pitch-by-Pitch Data}
+
+    We observe a dataset of pitches indexed by $i \in \{1, ..., n\}$. By way of introduction, here are some of the most important variables we observe on each pitch:
+
+    \begin{itemize}
+      \item $c_i = (c_i^{\mbox{\scriptsize B}}, c_i^{\mbox{\scriptsize S}}) \in \{0, 1, 2, 3\} \times \{0, 1, 2\}$ is the ball-strike count before pitch $i$ is thrown.
+      \begin{itemize}
+        \item $c'_i \in \{0, 1, 2, 3, 4\} \times \{0, 1, 2, 3\}$ is the ball-strike count {\it after} pitch $i$ is thrown.
+      \end{itemize}
+      \item $h_i \in \{\mbox{L, R}\}$ denotes the handedness of the batter (left or right)
+      \item $x_i \in \mathbb{R}$ is the left/right location (in feet) of the pitch as it crosses the front of home plate.
+      \begin{itemize}
+        \item $x = 0$ is the middle of the plate; $x = 17 / 24$ is the edge of home plate on the side of 1B.
+      \end{itemize}
+      \item $z_i \in \mathbb{R}$ is the height (in feet) of the pitch as it crosses the front of home plate.
+      \begin{itemize}
+        \item $z = 3.4$ and $z = 1.6$, respectively, are the top and bottom of the strike zone for the median batter.
+      \end{itemize}
+      \item $o_i \in \{\mbox{Strikeout, ..., Home Run}\}$ is the outcome of the {\it plate appearance} in which pitch $i$ occurred.
+      \item Per the outcome tree below, $\{\mbox{node}\}_i \in \{0, 1\}$ is the indicator that pitch $i$ runs through $\{\mbox{node}\}$.
+      \begin{itemize}
+        \item Example \#1: $\mbox{Call}_i \in \{0, 1\}$ indicates that the batter did not swing and was not hit by the pitch.
+        \item Example \#2: $\mbox{Strike}_i \in \{0, 1\}$ indicates the pitch was no swing, no hit by pitch, and called strike.
+      \end{itemize}
+    \end{itemize}
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node (pitch) at (0, 0) {\small Pitch};
+      \node (take) at (-3, -1.2) {\small Take};
+      \node (swing) at (3, -1.2) {\small Swing};
+      \node (call) at (-4.5, -2.4) {\small Call};
+      \node (hbp) at (-1.5, -2.4) {\small HBP};
+      \node (miss) at (1.5, -2.4) {\small Miss};
+      \node (contact) at (4.5, -2.4) {\small Contact};
+      \node (ball) at (-6, -3.6) {\small Ball};
+      \node (strike) at (-3, -3.6) {\small Strike};
+      \node (foul) at (3, -3.6) {\small Foul};
+      \node (fair) at (6, -3.6) {\small Fair};
+      \node (outcome) at (6, -4.8) {\small Outcome};
+      \draw[->] (pitch) -- (take);
+      \draw[->] (pitch) -- (swing);
+      \draw[->] (take) -- (call);
+      \draw[->] (take) -- (hbp);
+      \draw[->] (swing) -- (miss);
+      \draw[->] (swing) -- (contact);
+      \draw[->] (call) -- (ball);
+      \draw[->] (call) -- (strike);
+      \draw[->] (contact) -- (foul);
+      \draw[->] (contact) -- (fair);
+      \draw[->, decorate, decoration = snake] (fair) -- (outcome);
+    \end{tikzpicture}
+  \end{center}
+
+  This outcome tree is very important for evaluating the effectiveness of a pitch. On baseball broadcasts (and, frankly, within MLB front offices), you'll hear stats such as, ``Batters are hitting .XXX against this pitcher's curveball.'' Aside from batting average being a poor measure of batter performance (see Chapter ???), this stat only includes pitches that terminate an at bat. That excludes roughly 80\% of all pitches! And what if the pitch is only thrown in two-strike counts? We can do much, much better.
+
+  \subsection{\sc Count Value}
+
+    The ball-strike count of a plate appearance is somewhat analogous to the base-out state of an inning. We can think of a plate appearance as a Markov chain transitioning from count to count. When modeling an inning as a Markov chain, our goal was to estimate base-out run expectancy. Here, we want to estimate {\it count value}: Given that a plate appearance is in count $c$, what is the expected linear weight of the outcome of the plate appearance?
+
+    To estimate count value, we could follow the same steps as for base-out run expetancy: set up the simplified Bellman equation and iteratively update the value function until convergence. However, in this case we have a property that makes the problem easier. The graph of transitions between counts is {\it acyclic}, meaning that once we leave a count, we cannot come back to it in the same plate appearance. Because of this property, the solution to the simplied Bellman equation is the same as the empirical average outcome linear weight from each count:
+    \begin{equation}
+      \label{eqn:count-value}
+      v(c) = \frac
+        {\sum_{i = 1}^n \mathbb{I}\{c_i = c\} \cdot \ell(o_i)}
+        {\sum_{i = 1}^n \mathbb{I}\{c_i = c\}}.
+    \end{equation}
+
+    Note that equation (\ref{eqn:count-value}) isn't {\it precisely} correct. Because of two-strike foul balls, some plate appearances will include multiple observations of the same pre-pitch count $c$. To be precise, we would only include each count once per plate appearance. We are ignoring this detail for notational convenience. The practical difference is insignificant.
+
+    An alternative to using the ball-strike count as the state of the Markov chain would be to expand our state to include ball-strike count {\it and} base-out state (modeling the whole inning, rather than the plate appearance). In this case, we would define the count value to be the inning run expectancy, and it would depend on the base-out state. Here, we choose to ignore base-out state when calculating count value for the same reason we prefer LW over RE24 in Chapter ???. The difference between base-out-specific performance and base-out-neutral performance is mostly noise (it takes several years of data to be equal parts signal and noise). As a shortcut, we choose to model and evaluate players on the basis of plate appearance outcomes rather than inning outcomes.
+
+  \subsection{\sc A Simple Strike Probability Model}
+
+    While we can observe the full trajectory of a pitch (and we will in Chapter ???), the most important variables for estimating strike probability are plate location, count and batter handedness. We can introduce a simple model for the probability of a strike (conditioned on no swing, no HBP) as a function of these variables:
+    \begin{align*}
+      \mathbb{P}(\mbox{Strike}_i = 1 \mid \mbox{Call}_i = 1) = p(x_i, z_i, c_i, h_i).
+    \end{align*}
+
+    Estimating $p(\cdot)$ is a supervised regression problem, and there are many possible approaches. For now, we ignore that task and assume that $p(\cdot)$ is known. For pitch $i$, we use $p_i$ as a shorthand to denote $p(x_i, z_i, c_i, h_i)$.
+
+  \subsection{\sc Catcher Framing}
+
+    We define the framing run value on pitch $i$ to be zero if the pitch is not a called a ball or a strike by the umpire. If the pitch is called by the umpire, the framing run value is the difference between the value of the resulting count and its expected value, given the strike probability $p_i$. We use $c_i^+ = (c_i^{\mbox{\scriptsize B}} + 1, c_i^{\mbox{\scriptsize S}})$ and $c_i^- = (c_i^{\mbox{\scriptsize B}}, c_i^{\mbox{\scriptsize S}} + 1)$ to denote the counts resulting from adding a ball or a strike, respectively, to count $c_i$.
+    \begin{equation*}
+      r_i^{\mbox{\scriptsize F}} = \begin{cases}
+        v(c'_i) - \left[(1 - p_i) \cdot v(c_i^+) + p_i \cdot v(c_i^-)\right] & \mbox{if Call}_i = 1\\
+        0 & \mbox{otherwise}
+      \end{cases}.
+    \end{equation*}
+
+    For the sake of this calculation, we define the value of any four-ball count to be $\ell(\mbox{BB})$ (the linear weight of a walk) and the value of any three-strike count to be $\ell(\mbox{K})$, the linear weight of a strikeout.
+
+\end{document}

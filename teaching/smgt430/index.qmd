@@ -1,0 +1,80 @@
+---
+title: "SMGT 430: Introduction to Sport Analytics"
+---
+
+## Preliminaries
+
+[Syllabus](syllabus/latest.pdf){target="_blank"}
+
+[Colab Notebook: Introduction to R](https://colab.research.google.com/drive/1sLJA9radwdvLjE2bw_mURiNLw-PvNgBg){target="_blank"}
+
+[Project Overview](assignment/project.pdf){target="_blank"}
+
+[Assignment #1: Sports Data](assignment/1.pdf){target="_blank"}
+
+![](concept_map.png)
+
+
+## Regression to the Mean
+
+[Lecture Notes](lecture/regression_to_the_mean.pdf){target="_blank"}
+
+[Colab Notebook](https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa){target="_blank"}
+
+[Assignment #2: Regression to the Mean](assignment/2.pdf){target="_blank"}
+
+
+## Pythagorean Formula
+
+[Lecture Notes](lecture/pythagorean_formula.pdf){target="_blank"}
+
+[Colab Notebok](https://colab.research.google.com/drive/1qmyQF6ilN4mwtNAQOwtz1xgY8Wl3q48q){target="_blank"}
+
+[Assignment #3: Pythagorean Formula](assignment/3.pdf){target="_blank"}
+
+
+## Bradley-Terry Model
+
+[Lecture Notes](lecture/bradley_terry_model.pdf){target="_blank"}
+
+[Colab Notebook](https://colab.research.google.com/drive/1nHK7E_6GXk_alOoMl3AL0SlxsxaCWq3b){target="_blank"}
+
+[Assignment #4: Bradley-Terry Model](assignment/4.pdf){target="_blank"}
+
+
+## Plus-Minus Models
+
+[Lecture Notes](lecture/plus_minus_models.pdf){target="_blank"}
+
+
+## Regularized Regression
+
+[Lecture Notes](lecture/regularized_regression.pdf){target="_blank"}
+
+[Colab Notebook: Regularized Rasch Model](https://colab.research.google.com/drive/1-gOm05FhWTH1l0FJmqFGgQevBbM3WxyE){target="_blank"}
+
+[Colab Notebook: Regularized Adjusted Plus-Minus](https://colab.research.google.com/drive/1bOJJPkNZ6gps0Qan6Wn_i_M9uIYOdTYd){target="_blank"}
+
+[Assignment #5: Regularized Regression](assignment/5.pdf){target="_blank"}
+
+
+## Win Probability Models
+
+[Colab Notebook](https://colab.research.google.com/drive/130szYABIinDc9lcnwBgExS6Evhz0_pAP){target="_blank"}
+
+[Assignment #6: Win Probability Model](assignment/6.pdf){target="_blank"}
+
+
+## Lessons from Sport Analytics
+
+### Be careful with regression
+
+[Colab Notebook](https://colab.research.google.com/drive/182F7iWSPJP2umxfQ74zt8-pPtVhbaHuF){target="_blank"}
+
+[Assignment #7: YouTube Short](assignment/7.pdf){target="_blank"}
+
+### Don't be fooled by noise
+
+[Lecture Notes](lecture/dont_be_fooled_by_noise.pdf){target="_blank"}
+
+[Colab Notebook](https://colab.research.google.com/drive/1zdEslpU8Y-3gtnrHgOJA6n87BvS2i1cH){target="_blank"}

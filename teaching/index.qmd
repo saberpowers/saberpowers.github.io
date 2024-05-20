@@ -1,0 +1,18 @@
+---
+title: "Teaching"
+toc: false
+---
+
+## Rice
+[SMGT 430: Introduction to Sport Analytics](smgt430/index.qmd)\
+Spring 2024
+
+[SMGT 432: Soccer Analytics](smgt432/index.qmd)\
+Fall 2023
+
+[SMGT 435: Baseball Analytics](smgt435/index.qmd)\
+Spring 2024
+
+## Stanford
+[STATS 50: Mathematics of Sports](https://web.stanford.edu/class/stats50/){target="_blank"}\
+Spring 2016

@@ -7,3 +7,5 @@ assets/*.csv
 *.fls
 *.log
 *.synctex.gz
+
+teaching/*/*/*.pdf

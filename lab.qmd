@@ -3,7 +3,7 @@ title: "Lab"
 toc: false
 ---
 
-### Current Students
+## Current Students
 
 [Jeff Brover](https://www.linkedin.com/in/jeff-brover/"){target="_blank"} (BA Statistics and BA Sport Analytics, exp. 2024)
 
@@ -15,6 +15,6 @@ toc: false
 
 [Elizabeth Sepulveda](https://www.linkedin.com/in/elizabeth-sepulveda-76a852224/){target="_blank"} (BA Statistics and BA Sport Analytics, exp. 2025)
 
-### Graduate Mentor
+## Graduate Mentor
 
 [Rose Graves](https://www.linkedin.com/in/rose-graves/){target="_blank"} (PhD student in Statistics)

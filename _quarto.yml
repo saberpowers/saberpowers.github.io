@@ -9,7 +9,7 @@ website:
   navbar:
     right:
       - research.qmd
-      - teaching.qmd
+      - teaching/index.qmd
       - lab.qmd
       - jobs.qmd
       - text: CV

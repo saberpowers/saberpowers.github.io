@@ -1,10 +1,122 @@
 [
   {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "SMGT 430: Introduction to Sport Analytics\nSpring 2024\nSMGT 432: Soccer Analytics\nFall 2023\nSMGT 435: Baseball Analytics\nSpring 2024"
+  },
+  {
+    "objectID": "teaching/index.html#rice",
+    "href": "teaching/index.html#rice",
+    "title": "Teaching",
+    "section": "",
+    "text": "SMGT 430: Introduction to Sport Analytics\nSpring 2024\nSMGT 432: Soccer Analytics\nFall 2023\nSMGT 435: Baseball Analytics\nSpring 2024"
+  },
+  {
+    "objectID": "teaching/index.html#stanford",
+    "href": "teaching/index.html#stanford",
+    "title": "Teaching",
+    "section": "Stanford",
+    "text": "Stanford\nSTATS 50: Mathematics of Sports\nSpring 2016"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html",
+    "href": "teaching/smgt435/index.html",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Syllabus\nProject Overview"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#preliminaries",
+    "href": "teaching/smgt435/index.html#preliminaries",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Syllabus\nProject Overview"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#pythagorean-formula",
+    "href": "teaching/smgt435/index.html#pythagorean-formula",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Pythagorean Formula",
+    "text": "Pythagorean Formula\nLecture Notes\nColab Notebook"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#base-out-run-expectancy-and-linear-weight",
+    "href": "teaching/smgt435/index.html#base-out-run-expectancy-and-linear-weight",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Base-Out Run Expectancy and Linear Weight",
+    "text": "Base-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#batted-ball-outcome-model",
+    "href": "teaching/smgt435/index.html#batted-ball-outcome-model",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Batted Ball Outcome Model",
+    "text": "Batted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#fielding-and-baserunning",
+    "href": "teaching/smgt435/index.html#fielding-and-baserunning",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Fielding and Baserunning",
+    "text": "Fielding and Baserunning\nColab Notebook"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#babip-fip-and-dips",
+    "href": "teaching/smgt435/index.html#babip-fip-and-dips",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "BABIP, FIP and DIPS",
+    "text": "BABIP, FIP and DIPS\nColab Notebook\nAssignment #2: Signal v. Noise in Pitcher Outcomes"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#introduction-to-pitch-level-analysis",
+    "href": "teaching/smgt435/index.html#introduction-to-pitch-level-analysis",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Introduction to Pitch-Level Analysis",
+    "text": "Introduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#pitch-outcome-modeling",
+    "href": "teaching/smgt435/index.html#pitch-outcome-modeling",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Pitch Outcome Modeling",
+    "text": "Pitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #3: Pitch Outcome Model"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#projections",
+    "href": "teaching/smgt435/index.html#projections",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "Projections",
+    "text": "Projections\nColab Notebook"
+  },
+  {
+    "objectID": "teaching/smgt435/index.html#stuff",
+    "href": "teaching/smgt435/index.html#stuff",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "“Stuff”",
+    "text": "“Stuff”\nLecture Notes\nColab Notebook"
+  },
+  {
     "objectID": "lab.html",
     "href": "lab.html",
     "title": "Lab",
     "section": "",
-    "text": "Current Students\nJeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepulveda (BA Statistics and BA Sport Analytics, exp. 2025)\n\n\nGraduate Mentor\nRose Graves (PhD student in Statistics)"
+    "text": "Jeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepulveda (BA Statistics and BA Sport Analytics, exp. 2025)"
+  },
+  {
+    "objectID": "lab.html#current-students",
+    "href": "lab.html#current-students",
+    "title": "Lab",
+    "section": "",
+    "text": "Jeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepulveda (BA Statistics and BA Sport Analytics, exp. 2025)"
+  },
+  {
+    "objectID": "lab.html#graduate-mentor",
+    "href": "lab.html#graduate-mentor",
+    "title": "Lab",
+    "section": "Graduate Mentor",
+    "text": "Graduate Mentor\nRose Graves (PhD student in Statistics)"
   },
   {
     "objectID": "teaching.html",
@@ -61,5 +173,96 @@
     "title": "Scott Powers",
     "section": "",
     "text": "I am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I have held multiple-year consulting engagements with the Oakland Athletics (baseball), AZ Alkmaar (soccer) and Zelus Analytics (baseball and soccer).\n\nIn the news\n2024-02-13 ​​Scott Powers: Major league analyst acing Rice\nThe Rice Thresher\n2023-09-27 What volleyball can tell us about what’s missing in MLB analytics\nThe Orange County Register\n2022-11-11 Astros fire assistant general manager Scott Powers\nMLB Trade Rumors\n2022-01-03 Dodgers executive leaving for Astros front office is traitorous activity\nDodgers Way"
+  },
+  {
+    "objectID": "teaching/smgt432/index.html",
+    "href": "teaching/smgt432/index.html",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "",
+    "text": "This course page is less built out than my other course pages.\nSyllabus"
+  },
+  {
+    "objectID": "teaching/smgt432/index.html#lecture-notes",
+    "href": "teaching/smgt432/index.html#lecture-notes",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "Lecture Notes",
+    "text": "Lecture Notes\nBradley-Terry\nValidation and Regularization\nPlus-Minus\nA Lite Survey of Research with Tracking Data\nA Brief History of Tactics"
+  },
+  {
+    "objectID": "teaching/smgt432/index.html#python-notebooks",
+    "href": "teaching/smgt432/index.html#python-notebooks",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "Python Notebooks",
+    "text": "Python Notebooks\nGitHub repository"
+  },
+  {
+    "objectID": "teaching/smgt432/index.html#assignments",
+    "href": "teaching/smgt432/index.html#assignments",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "Assignments",
+    "text": "Assignments"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html",
+    "href": "teaching/smgt430/index.html",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Syllabus\nColab Notebook: Introduction to R\nProject Overview\nAssignment #1: Sports Data"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#preliminaries",
+    "href": "teaching/smgt430/index.html#preliminaries",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Syllabus\nColab Notebook: Introduction to R\nProject Overview\nAssignment #1: Sports Data"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#regression-to-the-mean",
+    "href": "teaching/smgt430/index.html#regression-to-the-mean",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Regression to the Mean",
+    "text": "Regression to the Mean\nLecture Notes\nColab Notebook\nAssignment #2: Regression to the Mean"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#pythagorean-formula",
+    "href": "teaching/smgt430/index.html#pythagorean-formula",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Pythagorean Formula",
+    "text": "Pythagorean Formula\nLecture Notes\nColab Notebok\nAssignment #3: Pythagorean Formula"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#bradley-terry-model",
+    "href": "teaching/smgt430/index.html#bradley-terry-model",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Bradley-Terry Model",
+    "text": "Bradley-Terry Model\nLecture Notes\nColab Notebook\nAssignment #4: Bradley-Terry Model"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#plus-minus-models",
+    "href": "teaching/smgt430/index.html#plus-minus-models",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Plus-Minus Models",
+    "text": "Plus-Minus Models\nLecture Notes"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#regularized-regression",
+    "href": "teaching/smgt430/index.html#regularized-regression",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Regularized Regression",
+    "text": "Regularized Regression\nLecture Notes\nColab Notebook: Regularized Rasch Model\nColab Notebook: Regularized Adjusted Plus-Minus\nAssignment #5: Regularized Regression"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#win-probability-models",
+    "href": "teaching/smgt430/index.html#win-probability-models",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Win Probability Models",
+    "text": "Win Probability Models\nColab Notebook\nAssignment #6: Win Probability Model"
+  },
+  {
+    "objectID": "teaching/smgt430/index.html#lessons-from-sport-analytics",
+    "href": "teaching/smgt430/index.html#lessons-from-sport-analytics",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "Lessons from Sport Analytics",
+    "text": "Lessons from Sport Analytics\n\nBe careful with regression\nColab Notebook\nAssignment #7: YouTube Short\n\n\nDon’t be fooled by noise\nLecture Notes\nColab Notebook"
   }
 ]

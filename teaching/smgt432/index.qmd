@@ -1,0 +1,26 @@
+---
+title: "SMGT 432: Soccer Analytics"
+toc: false
+---
+
+This course page is less built out than my other course pages.
+
+[Syllabus](syllabus/latest.pdf){target="_blank"}
+
+## Lecture Notes
+
+[Bradley-Terry](lecture/bradley_terry.pdf){target="_blank"}
+
+[Validation and Regularization](lecture/validation_regularization.pdf){target="_blank"}
+
+[Plus-Minus](lecture/plus_minus.pdf){target="_blank"}
+
+[A Lite Survey of Research with Tracking Data](lecture/tracking/slides.pdf){target="_blank"}
+
+[A Brief History of Tactics](lecture/tactics_history.pdf){target="_blank"}
+
+## Python Notebooks
+
+[GitHub repository](https://github.com/saberpowers/teaching/tree/main/rice/smgt432/pyday){target="_blank"}
+
+## Assignments
