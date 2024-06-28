@@ -11,7 +11,12 @@ data <- jobs |>
     dplyr::left_join(logos, by = "team") |>
     dplyr::transmute(
         date_posted,
-        team = glue::glue("<img height='22' src='{logo_url}'> {team}"),
+        team = glue::glue("
+            <span style='display:inline-block;text-align:center;width:33px'>
+                <img height='22' src='{logo_url}'>
+            </span>
+            {team}
+        "),
         title = glue::glue("<a target='_blank' href='{url}'>{title}</a>"),
         discipline,
         stage,
