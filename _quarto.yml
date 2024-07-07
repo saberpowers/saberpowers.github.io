@@ -9,6 +9,7 @@ website:
   navbar:
     right:
       - research.qmd
+      - software.qmd
       - teaching/index.qmd
       - lab.qmd
       - jobs.qmd

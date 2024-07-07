@@ -1,0 +1,8 @@
+---
+title: "Software"
+toc: false
+---
+
+## R Packages
+
+[sabRmetrics](https://saberpowers.github.io/sabRmetrics/){target="_blank"} --- Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models
