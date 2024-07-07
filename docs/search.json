@@ -98,25 +98,11 @@
     "text": "“Stuff”\nLecture Notes\nColab Notebook"
   },
   {
-    "objectID": "lab.html",
-    "href": "lab.html",
-    "title": "Lab",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scott Powers",
     "section": "",
-    "text": "Jeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)"
-  },
-  {
-    "objectID": "lab.html#current-students",
-    "href": "lab.html#current-students",
-    "title": "Lab",
-    "section": "",
-    "text": "Jeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)"
-  },
-  {
-    "objectID": "lab.html#graduate-mentor",
-    "href": "lab.html#graduate-mentor",
-    "title": "Lab",
-    "section": "Graduate Mentor",
-    "text": "Graduate Mentor\nRose Graves (PhD student in Statistics)"
+    "text": "I am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I have held multiple-year consulting engagements with the Oakland Athletics (baseball), AZ Alkmaar (soccer) and Zelus Analytics (baseball and soccer).\n\nIn the news\n2024-02-13 ​​Scott Powers: Major league analyst acing Rice\nThe Rice Thresher\n2023-09-27 What volleyball can tell us about what’s missing in MLB analytics\nThe Orange County Register\n2022-11-11 Astros fire assistant general manager Scott Powers\nMLB Trade Rumors\n2022-01-03 Dodgers executive leaving for Astros front office is traitorous activity\nDodgers Way"
   },
   {
     "objectID": "research.html",
@@ -161,11 +147,39 @@
     "text": "Student Posters\nKang A, Powers S, Curson T\nNot All Features Are Created Equal: Player clustering and evaluation\nPresented at Opta Forum 2024"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Scott Powers",
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "Lab",
     "section": "",
-    "text": "I am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I have held multiple-year consulting engagements with the Oakland Athletics (baseball), AZ Alkmaar (soccer) and Zelus Analytics (baseball and soccer).\n\nIn the news\n2024-02-13 ​​Scott Powers: Major league analyst acing Rice\nThe Rice Thresher\n2023-09-27 What volleyball can tell us about what’s missing in MLB analytics\nThe Orange County Register\n2022-11-11 Astros fire assistant general manager Scott Powers\nMLB Trade Rumors\n2022-01-03 Dodgers executive leaving for Astros front office is traitorous activity\nDodgers Way"
+    "text": "Jeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)"
+  },
+  {
+    "objectID": "lab.html#current-students",
+    "href": "lab.html#current-students",
+    "title": "Lab",
+    "section": "",
+    "text": "Jeff Brover (BA Statistics and BA Sport Analytics, exp. 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, exp. 2024)\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Computer Science and BA Sport Analytics, exp. 2025)\nElizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)"
+  },
+  {
+    "objectID": "lab.html#graduate-mentor",
+    "href": "lab.html#graduate-mentor",
+    "title": "Lab",
+    "section": "Graduate Mentor",
+    "text": "Graduate Mentor\nRose Graves (PhD student in Statistics)"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "sabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+  },
+  {
+    "objectID": "software.html#r-packages",
+    "href": "software.html#r-packages",
+    "title": "Software",
+    "section": "",
+    "text": "sabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
   },
   {
     "objectID": "teaching/smgt432/index.html",
