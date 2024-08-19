@@ -6,6 +6,7 @@ assets/*.csv
 *.fdb_latexmk
 *.fls
 *.log
+*.out
 *.synctex.gz
 
 teaching/*/*/*.pdf
