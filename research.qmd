@@ -9,6 +9,11 @@ title: "Research"
 
 ## Conference Presentations
 
+2024 Saberseminar (Chicago)
+[slides](https://github.com/saberpowers/swinging-fast-and-slow/blob/main/reports/saberseminar/slides.pdf){target="_blank"}\
+"Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length"\
+Joint work w/ Ron Yurko
+
 2024 Sloan Sports Analytics Conference (Boston)
 [slides](https://github.com/saberpowers/talks/blob/master/2024/sloan/slides.pdf){target="_blank"},
 [video](https://www.youtube.com/watch?v=we8oPw_C4zQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target="_blank"}\
