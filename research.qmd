@@ -10,7 +10,8 @@ title: "Research"
 ## Conference Presentations
 
 2024 Saberseminar (Chicago)
-[slides](https://github.com/saberpowers/swinging-fast-and-slow/blob/main/reports/saberseminar/slides.pdf){target="_blank"}\
+[slides](https://github.com/saberpowers/swinging-fast-and-slow/blob/main/reports/saberseminar/slides.pdf){target="_blank"},
+[video](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3)\
 "Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length"\
 Joint work w/ Ron Yurko
 
@@ -114,7 +115,15 @@ Smith RL, **Powers S**, Cisewski J (2014)\
 [Qualifying Times for the Boston Marathon](https://chance.amstat.org/2014/09/boston-marathon){target=_blank}\
 *CHANCE* (not peer reviewed)
 
-## Student Posters
+## Student Presentations
+
+### Talks
+
+Hahn J, **Powers S**, Pai M, Schaefer A\
+[The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://www.youtube.com/watch?v=sVQ-b1lW8nQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+Presented at Saberseminar 2024
+
+### Posters
 
 Kang A, **Powers S**, Curson T\
 [Not All Features Are Created Equal: Player clustering and evaluation](assets/research/posters/kang_2024.pdf){target=_blank}\

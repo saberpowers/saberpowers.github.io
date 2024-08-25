@@ -123,7 +123,7 @@
     "href": "research.html#conference-presentations",
     "title": "Research",
     "section": "Conference Presentations",
-    "text": "Conference Presentations\n2024 Saberseminar (Chicago) slides\n“Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length”\nJoint work w/ Ron Yurko\n2024 Sloan Sports Analytics Conference (Boston) slides, video\n“Spotlighting under-the-radar performers in women’s college volleyball”\nJoint work w/ Luke Stancil and Naomi Consiglio\n2023 New England Symposium on Statistics in Sports (Boston) slides, video\n“Estimating individual contributions to team success in women’s college volleyball”\nJoint work w/ Luke Stancil and Naomi Consiglio\n2023 Saberseminar (Chicago) slides, video\n“Pitch trajectory density estimation for predicting future outcomes”\nJoint work w/ Vicente Iglesias\n2016 Saberseminar (Boston) slides\n“Jointly predicting exit velocity and launch angle for batter-pitcher matchups”\n2016 Joint Statistical Meetings (Chicago) slides\n“Nuclear penalized multinomial regression for predicting at bat outcomes in baseball”\nJoint work w/ Trevor Hastie and Rob Tibshirani\n2016 SABR Analytics Conference (Phoenix) slides\n“True wOBA: Estimation of true talent level for batters”\nJoint work w/ Eli Shayer\n2015 Saberseminar (Boston) slides\n“Rewarding batters for baserunner advancement: A ridge-regressed Rasch model”"
+    "text": "Conference Presentations\n2024 Saberseminar (Chicago) slides, video\n“Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length”\nJoint work w/ Ron Yurko\n2024 Sloan Sports Analytics Conference (Boston) slides, video\n“Spotlighting under-the-radar performers in women’s college volleyball”\nJoint work w/ Luke Stancil and Naomi Consiglio\n2023 New England Symposium on Statistics in Sports (Boston) slides, video\n“Estimating individual contributions to team success in women’s college volleyball”\nJoint work w/ Luke Stancil and Naomi Consiglio\n2023 Saberseminar (Chicago) slides, video\n“Pitch trajectory density estimation for predicting future outcomes”\nJoint work w/ Vicente Iglesias\n2016 Saberseminar (Boston) slides\n“Jointly predicting exit velocity and launch angle for batter-pitcher matchups”\n2016 Joint Statistical Meetings (Chicago) slides\n“Nuclear penalized multinomial regression for predicting at bat outcomes in baseball”\nJoint work w/ Trevor Hastie and Rob Tibshirani\n2016 SABR Analytics Conference (Phoenix) slides\n“True wOBA: Estimation of true talent level for batters”\nJoint work w/ Eli Shayer\n2015 Saberseminar (Boston) slides\n“Rewarding batters for baserunner advancement: A ridge-regressed Rasch model”"
   },
   {
     "objectID": "research.html#peer-reviewed-publications",
@@ -271,5 +271,12 @@
     "title": "SMGT 430: Introduction to Sport Analytics",
     "section": "Lessons from Sport Analytics",
     "text": "Lessons from Sport Analytics\n\nBe careful with regression\nColab Notebook\nAssignment #7: YouTube Short\n\n\nDon’t be fooled by noise\nLecture Notes\nColab Notebook"
+  },
+  {
+    "objectID": "research.html#student-presentations",
+    "href": "research.html#student-presentations",
+    "title": "Research",
+    "section": "Student Presentations",
+    "text": "Student Presentations\n\nTalks\nHahn J, Powers S, Pai M, Schaefer A\nThe Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball\nPresented at Saberseminar 2024\n\n\nPosters\nKang A, Powers S, Curson T\nNot All Features Are Created Equal: Player clustering and evaluation\nPresented at Opta Forum 2024"
   }
 ]
