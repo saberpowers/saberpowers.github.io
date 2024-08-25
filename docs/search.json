@@ -140,11 +140,11 @@
     "text": "Magazine/Blog Articles\nPowers S (2016)\nToward a Probability Distribution over Batted-Ball Trajectories\nThe Hardball Times (not peer reviewed)\nSmith RL, Powers S, Cisewski J (2014)\nQualifying Times for the Boston Marathon\nCHANCE (not peer reviewed)"
   },
   {
-    "objectID": "research.html#student-posters",
-    "href": "research.html#student-posters",
+    "objectID": "research.html#student-presentations",
+    "href": "research.html#student-presentations",
     "title": "Research",
-    "section": "Student Posters",
-    "text": "Student Posters\nKang A, Powers S, Curson T\nNot All Features Are Created Equal: Player clustering and evaluation\nPresented at Opta Forum 2024"
+    "section": "Student Presentations",
+    "text": "Student Presentations\n\nTalks\nHahn J, Powers S, Pai M, Schaefer A\nThe Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball\nPresented at Saberseminar 2024\nBrover J, **Powers S*\nDo we learn more about AAA batters when they face better pitches?\nPresented at Saberseminar 2024\n\n\nPosters\nKang A, Powers S, Curson T\nNot All Features Are Created Equal: Player clustering and evaluation\nPresented at Opta Forum 2024"
   },
   {
     "objectID": "lab.html",
@@ -271,12 +271,5 @@
     "title": "SMGT 430: Introduction to Sport Analytics",
     "section": "Lessons from Sport Analytics",
     "text": "Lessons from Sport Analytics\n\nBe careful with regression\nColab Notebook\nAssignment #7: YouTube Short\n\n\nDon’t be fooled by noise\nLecture Notes\nColab Notebook"
-  },
-  {
-    "objectID": "research.html#student-presentations",
-    "href": "research.html#student-presentations",
-    "title": "Research",
-    "section": "Student Presentations",
-    "text": "Student Presentations\n\nTalks\nHahn J, Powers S, Pai M, Schaefer A\nThe Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball\nPresented at Saberseminar 2024\n\n\nPosters\nKang A, Powers S, Curson T\nNot All Features Are Created Equal: Player clustering and evaluation\nPresented at Opta Forum 2024"
   }
 ]
