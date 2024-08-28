@@ -28,18 +28,18 @@
     "text": "Syllabus"
   },
   {
-    "objectID": "teaching/smgt435/index.html#unit-1-evaluating-batter-performance",
-    "href": "teaching/smgt435/index.html#unit-1-evaluating-batter-performance",
+    "objectID": "teaching/smgt435/index.html#unit-1-measuring-batting-performance",
+    "href": "teaching/smgt435/index.html#unit-1-measuring-batting-performance",
     "title": "SMGT 435/535: Baseball Analytics",
-    "section": "Unit 1: Evaluating Batter Performance",
-    "text": "Unit 1: Evaluating Batter Performance\n\nPythagorean Formula\nLecture Notes\nColab Notebook\n\n\nBase-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook\n\n\nBatted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
+    "section": "Unit 1: Measuring Batting Performance",
+    "text": "Unit 1: Measuring Batting Performance\n\nPythagorean Formula\nLecture Notes\nColab Notebook\n\n\nBase-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook\n\n\nBatted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
   },
   {
-    "objectID": "teaching/smgt435/index.html#unit-2-evaluating-pitcher-performance",
-    "href": "teaching/smgt435/index.html#unit-2-evaluating-pitcher-performance",
+    "objectID": "teaching/smgt435/index.html#unit-2-measuring-pitching-performance",
+    "href": "teaching/smgt435/index.html#unit-2-measuring-pitching-performance",
     "title": "SMGT 435/535: Baseball Analytics",
-    "section": "Unit 2: Evaluating Pitcher Performance",
-    "text": "Unit 2: Evaluating Pitcher Performance\n\nBABIP, FIP and DIPS\nColab Notebook\nAssignment #2: Signal v. Noise in Pitcher Outcomes\n\n\nIntroduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook\n\n\nPitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #3: Pitch Outcome Model\n\n\n“Stuff”\nLecture Notes\nColab Notebook"
+    "section": "Unit 2: Measuring Pitching Performance",
+    "text": "Unit 2: Measuring Pitching Performance\n\nBABIP, FIP and DIPS\nColab Notebook\nAssignment #2: Signal v. Noise in Pitcher Outcomes\n\n\nIntroduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook\n\n\nPitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #3: Pitch Outcome Model\n\n\n“Stuff”\nLecture Notes\nColab Notebook"
   },
   {
     "objectID": "teaching/smgt435/index.html#unit-3-valuing-player-performance",

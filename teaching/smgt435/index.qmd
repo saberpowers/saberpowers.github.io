@@ -5,7 +5,7 @@ title: "SMGT 435/535: Baseball Analytics"
 [Syllabus](syllabus/latest.pdf){target="_blank"}
 
 
-## Unit 1: Evaluating Batter Performance
+## Unit 1: Measuring Batting Performance
 
 ### Pythagorean Formula
 
@@ -28,7 +28,7 @@ title: "SMGT 435/535: Baseball Analytics"
 [Assignment #1: Signal v. Noise in Batter Outcomes](assignment/1.pdf){target="_blank"}
 
 
-## Unit 2: Evaluating Pitcher Performance
+## Unit 2: Measuring Pitching Performance
 
 ### BABIP, FIP and DIPS
 
