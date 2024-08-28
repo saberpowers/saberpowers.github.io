@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Scott Powers - SMGT 435: Baseball Analytics</title>
+<title>Scott Powers - SMGT 435/535: Baseball Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,16 +112,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#preliminaries" id="toc-preliminaries" class="nav-link active" data-scroll-target="#preliminaries">Preliminaries</a></li>
+  <li><a href="#unit-1-evaluating-batter-performance" id="toc-unit-1-evaluating-batter-performance" class="nav-link active" data-scroll-target="#unit-1-evaluating-batter-performance">Unit 1: Evaluating Batter Performance</a>
+  <ul class="collapse">
   <li><a href="#pythagorean-formula" id="toc-pythagorean-formula" class="nav-link" data-scroll-target="#pythagorean-formula">Pythagorean Formula</a></li>
   <li><a href="#base-out-run-expectancy-and-linear-weight" id="toc-base-out-run-expectancy-and-linear-weight" class="nav-link" data-scroll-target="#base-out-run-expectancy-and-linear-weight">Base-Out Run Expectancy and Linear Weight</a></li>
   <li><a href="#batted-ball-outcome-model" id="toc-batted-ball-outcome-model" class="nav-link" data-scroll-target="#batted-ball-outcome-model">Batted Ball Outcome Model</a></li>
-  <li><a href="#fielding-and-baserunning" id="toc-fielding-and-baserunning" class="nav-link" data-scroll-target="#fielding-and-baserunning">Fielding and Baserunning</a></li>
+  </ul></li>
+  <li><a href="#unit-2-evaluating-pitcher-performance" id="toc-unit-2-evaluating-pitcher-performance" class="nav-link" data-scroll-target="#unit-2-evaluating-pitcher-performance">Unit 2: Evaluating Pitcher Performance</a>
+  <ul class="collapse">
   <li><a href="#babip-fip-and-dips" id="toc-babip-fip-and-dips" class="nav-link" data-scroll-target="#babip-fip-and-dips">BABIP, FIP and DIPS</a></li>
   <li><a href="#introduction-to-pitch-level-analysis" id="toc-introduction-to-pitch-level-analysis" class="nav-link" data-scroll-target="#introduction-to-pitch-level-analysis">Introduction to Pitch-Level Analysis</a></li>
   <li><a href="#pitch-outcome-modeling" id="toc-pitch-outcome-modeling" class="nav-link" data-scroll-target="#pitch-outcome-modeling">Pitch Outcome Modeling</a></li>
-  <li><a href="#projections" id="toc-projections" class="nav-link" data-scroll-target="#projections">Projections</a></li>
   <li><a href="#stuff" id="toc-stuff" class="nav-link" data-scroll-target="#stuff">“Stuff”</a></li>
+  </ul></li>
+  <li><a href="#unit-3-valuing-player-performance" id="toc-unit-3-valuing-player-performance" class="nav-link" data-scroll-target="#unit-3-valuing-player-performance">Unit 3: Valuing Player Performance</a>
+  <ul class="collapse">
+  <li><a href="#fielding-and-baserunning" id="toc-fielding-and-baserunning" class="nav-link" data-scroll-target="#fielding-and-baserunning">Fielding and Baserunning</a></li>
+  <li><a href="#projections" id="toc-projections" class="nav-link" data-scroll-target="#projections">Projections</a></li>
+  </ul></li>
+  <li><a href="#unit-4-practicum" id="toc-unit-4-practicum" class="nav-link" data-scroll-target="#unit-4-practicum">Unit 4: Practicum</a></li>
   </ul>
 </nav>
     </div>
@@ -130,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">SMGT 435: Baseball Analytics</h1>
+<h1 class="title">SMGT 435/535: Baseball Analytics</h1>
 </div>
 
 
@@ -147,55 +156,64 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preliminaries" class="level2">
-<h2 class="anchored" data-anchor-id="preliminaries">Preliminaries</h2>
 <p><a href="syllabus/latest.pdf" target="_blank">Syllabus</a></p>
-<p><a href="assignment/project.pdf" target="_blank">Project Overview</a></p>
-</section>
-<section id="pythagorean-formula" class="level2">
-<h2 class="anchored" data-anchor-id="pythagorean-formula">Pythagorean Formula</h2>
+<section id="unit-1-evaluating-batter-performance" class="level2">
+<h2 class="anchored" data-anchor-id="unit-1-evaluating-batter-performance">Unit 1: Evaluating Batter Performance</h2>
+<section id="pythagorean-formula" class="level3">
+<h3 class="anchored" data-anchor-id="pythagorean-formula">Pythagorean Formula</h3>
 <p><a href="lecture/pythagorean_formula.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1iBKnJEVVIAOls98L7O2gDlZJyTD2GLDF" target="_blank">Colab Notebook</a></p>
 </section>
-<section id="base-out-run-expectancy-and-linear-weight" class="level2">
-<h2 class="anchored" data-anchor-id="base-out-run-expectancy-and-linear-weight">Base-Out Run Expectancy and Linear Weight</h2>
+<section id="base-out-run-expectancy-and-linear-weight" class="level3">
+<h3 class="anchored" data-anchor-id="base-out-run-expectancy-and-linear-weight">Base-Out Run Expectancy and Linear Weight</h3>
 <p><a href="lecture/run_expectancy.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1ssbGKZM41kLR76-iLukm64DaSRpzrkwD" target="blank">Colab Notebook</a></p>
 </section>
-<section id="batted-ball-outcome-model" class="level2">
-<h2 class="anchored" data-anchor-id="batted-ball-outcome-model">Batted Ball Outcome Model</h2>
+<section id="batted-ball-outcome-model" class="level3">
+<h3 class="anchored" data-anchor-id="batted-ball-outcome-model">Batted Ball Outcome Model</h3>
 <p><a href="lecture/batted_ball_outcome_model.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1DdBF-D_Pl3fzg0xgsEGtKBTPVj-9pV9g" target="_blank">Colab Notebook</a></p>
 <p><a href="assignment/1.pdf" target="_blank">Assignment #1: Signal v. Noise in Batter Outcomes</a></p>
 </section>
-<section id="fielding-and-baserunning" class="level2">
-<h2 class="anchored" data-anchor-id="fielding-and-baserunning">Fielding and Baserunning</h2>
-<p><a href="https://colab.research.google.com/drive/1tyAWCmhTgQi7AC8hIXYF7NOsoqxTKoTY" target="_blank">Colab Notebook</a></p>
 </section>
-<section id="babip-fip-and-dips" class="level2">
-<h2 class="anchored" data-anchor-id="babip-fip-and-dips">BABIP, FIP and DIPS</h2>
+<section id="unit-2-evaluating-pitcher-performance" class="level2">
+<h2 class="anchored" data-anchor-id="unit-2-evaluating-pitcher-performance">Unit 2: Evaluating Pitcher Performance</h2>
+<section id="babip-fip-and-dips" class="level3">
+<h3 class="anchored" data-anchor-id="babip-fip-and-dips">BABIP, FIP and DIPS</h3>
 <p><a href="https://colab.research.google.com/drive/1cd-KnI2VcNlG6fgDPQQi41Id_ZxCVyRT" target="_blank">Colab Notebook</a></p>
 <p><a href="assignment/2.pdf" target="_blank">Assignment #2: Signal v. Noise in Pitcher Outcomes</a></p>
 </section>
-<section id="introduction-to-pitch-level-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-pitch-level-analysis">Introduction to Pitch-Level Analysis</h2>
+<section id="introduction-to-pitch-level-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-to-pitch-level-analysis">Introduction to Pitch-Level Analysis</h3>
 <p><a href="lecture/pitch_level_analysis.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1oR82uQxRAETizWOkJJFkt2M2EUyr2nH-" target="_blank">Colab Notebook</a></p>
 </section>
-<section id="pitch-outcome-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="pitch-outcome-modeling">Pitch Outcome Modeling</h2>
+<section id="pitch-outcome-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="pitch-outcome-modeling">Pitch Outcome Modeling</h3>
 <p><a href="lecture/pitch_outcome_modeling.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1zcZqQ1Vc-ilIieTaNdHFMV0njffBRzBm" target="_blank">Colab Notebook</a></p>
 <p><a href="assignment/3.pdf" target="_blank">Assignment #3: Pitch Outcome Model</a></p>
 </section>
-<section id="projections" class="level2">
-<h2 class="anchored" data-anchor-id="projections">Projections</h2>
-<p><a href="https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA" target="_blank">Colab Notebook</a></p>
-</section>
-<section id="stuff" class="level2">
-<h2 class="anchored" data-anchor-id="stuff">“Stuff”</h2>
+<section id="stuff" class="level3">
+<h3 class="anchored" data-anchor-id="stuff">“Stuff”</h3>
 <p><a href="lecture/stuff.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1X67kiqAVAFImx3VIxFH-1MvJ6TSQ83KC" target="_blank">Colab Notebook</a></p>
+</section>
+</section>
+<section id="unit-3-valuing-player-performance" class="level2">
+<h2 class="anchored" data-anchor-id="unit-3-valuing-player-performance">Unit 3: Valuing Player Performance</h2>
+<section id="fielding-and-baserunning" class="level3">
+<h3 class="anchored" data-anchor-id="fielding-and-baserunning">Fielding and Baserunning</h3>
+<p><a href="https://colab.research.google.com/drive/1tyAWCmhTgQi7AC8hIXYF7NOsoqxTKoTY" target="_blank">Colab Notebook</a></p>
+</section>
+<section id="projections" class="level3">
+<h3 class="anchored" data-anchor-id="projections">Projections</h3>
+<p><a href="https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA" target="_blank">Colab Notebook</a></p>
+</section>
+</section>
+<section id="unit-4-practicum" class="level2">
+<h2 class="anchored" data-anchor-id="unit-4-practicum">Unit 4: Practicum</h2>
+<p><a href="assignment/project.pdf" target="_blank">Project Overview</a></p>
 
 
 </section>

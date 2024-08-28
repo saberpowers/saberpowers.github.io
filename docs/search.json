@@ -23,79 +23,37 @@
   {
     "objectID": "teaching/smgt435/index.html",
     "href": "teaching/smgt435/index.html",
-    "title": "SMGT 435: Baseball Analytics",
+    "title": "SMGT 435/535: Baseball Analytics",
     "section": "",
-    "text": "Syllabus\nProject Overview"
+    "text": "Syllabus"
   },
   {
-    "objectID": "teaching/smgt435/index.html#preliminaries",
-    "href": "teaching/smgt435/index.html#preliminaries",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "",
-    "text": "Syllabus\nProject Overview"
+    "objectID": "teaching/smgt435/index.html#unit-1-evaluating-batter-performance",
+    "href": "teaching/smgt435/index.html#unit-1-evaluating-batter-performance",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 1: Evaluating Batter Performance",
+    "text": "Unit 1: Evaluating Batter Performance\n\nPythagorean Formula\nLecture Notes\nColab Notebook\n\n\nBase-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook\n\n\nBatted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
   },
   {
-    "objectID": "teaching/smgt435/index.html#pythagorean-formula",
-    "href": "teaching/smgt435/index.html#pythagorean-formula",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Pythagorean Formula",
-    "text": "Pythagorean Formula\nLecture Notes\nColab Notebook"
+    "objectID": "teaching/smgt435/index.html#unit-2-evaluating-pitcher-performance",
+    "href": "teaching/smgt435/index.html#unit-2-evaluating-pitcher-performance",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 2: Evaluating Pitcher Performance",
+    "text": "Unit 2: Evaluating Pitcher Performance\n\nBABIP, FIP and DIPS\nColab Notebook\nAssignment #2: Signal v. Noise in Pitcher Outcomes\n\n\nIntroduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook\n\n\nPitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #3: Pitch Outcome Model\n\n\n“Stuff”\nLecture Notes\nColab Notebook"
   },
   {
-    "objectID": "teaching/smgt435/index.html#base-out-run-expectancy-and-linear-weight",
-    "href": "teaching/smgt435/index.html#base-out-run-expectancy-and-linear-weight",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Base-Out Run Expectancy and Linear Weight",
-    "text": "Base-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook"
+    "objectID": "teaching/smgt435/index.html#unit-3-valuing-player-performance",
+    "href": "teaching/smgt435/index.html#unit-3-valuing-player-performance",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 3: Valuing Player Performance",
+    "text": "Unit 3: Valuing Player Performance\n\nFielding and Baserunning\nColab Notebook\n\n\nProjections\nColab Notebook"
   },
   {
-    "objectID": "teaching/smgt435/index.html#batted-ball-outcome-model",
-    "href": "teaching/smgt435/index.html#batted-ball-outcome-model",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Batted Ball Outcome Model",
-    "text": "Batted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
-  },
-  {
-    "objectID": "teaching/smgt435/index.html#fielding-and-baserunning",
-    "href": "teaching/smgt435/index.html#fielding-and-baserunning",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Fielding and Baserunning",
-    "text": "Fielding and Baserunning\nColab Notebook"
-  },
-  {
-    "objectID": "teaching/smgt435/index.html#babip-fip-and-dips",
-    "href": "teaching/smgt435/index.html#babip-fip-and-dips",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "BABIP, FIP and DIPS",
-    "text": "BABIP, FIP and DIPS\nColab Notebook\nAssignment #2: Signal v. Noise in Pitcher Outcomes"
-  },
-  {
-    "objectID": "teaching/smgt435/index.html#introduction-to-pitch-level-analysis",
-    "href": "teaching/smgt435/index.html#introduction-to-pitch-level-analysis",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Introduction to Pitch-Level Analysis",
-    "text": "Introduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook"
-  },
-  {
-    "objectID": "teaching/smgt435/index.html#pitch-outcome-modeling",
-    "href": "teaching/smgt435/index.html#pitch-outcome-modeling",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Pitch Outcome Modeling",
-    "text": "Pitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #3: Pitch Outcome Model"
-  },
-  {
-    "objectID": "teaching/smgt435/index.html#projections",
-    "href": "teaching/smgt435/index.html#projections",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "Projections",
-    "text": "Projections\nColab Notebook"
-  },
-  {
-    "objectID": "teaching/smgt435/index.html#stuff",
-    "href": "teaching/smgt435/index.html#stuff",
-    "title": "SMGT 435: Baseball Analytics",
-    "section": "“Stuff”",
-    "text": "“Stuff”\nLecture Notes\nColab Notebook"
+    "objectID": "teaching/smgt435/index.html#unit-4-practicum",
+    "href": "teaching/smgt435/index.html#unit-4-practicum",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 4: Practicum",
+    "text": "Unit 4: Practicum\nProject Overview"
   },
   {
     "objectID": "index.html",

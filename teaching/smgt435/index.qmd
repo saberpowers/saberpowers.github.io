@@ -1,29 +1,25 @@
 ---
-title: "SMGT 435: Baseball Analytics"
+title: "SMGT 435/535: Baseball Analytics"
 ---
-
-## Preliminaries
 
 [Syllabus](syllabus/latest.pdf){target="_blank"}
 
-[Project Overview](assignment/project.pdf){target="_blank"}
 
+## Unit 1: Evaluating Batter Performance
 
-## Pythagorean Formula
+### Pythagorean Formula
 
 [Lecture Notes](lecture/pythagorean_formula.pdf){target="_blank"}
 
 [Colab Notebook](https://colab.research.google.com/drive/1iBKnJEVVIAOls98L7O2gDlZJyTD2GLDF){target="_blank"}
 
-
-## Base-Out Run Expectancy and Linear Weight
+### Base-Out Run Expectancy and Linear Weight
 
 [Lecture Notes](lecture/run_expectancy.pdf){target="_blank"}
 
 [Colab Notebook](https://colab.research.google.com/drive/1ssbGKZM41kLR76-iLukm64DaSRpzrkwD){target="blank"}
 
-
-## Batted Ball Outcome Model
+### Batted Ball Outcome Model
 
 [Lecture Notes](lecture/batted_ball_outcome_model.pdf){target="_blank"}
 
@@ -32,26 +28,21 @@ title: "SMGT 435: Baseball Analytics"
 [Assignment #1: Signal v. Noise in Batter Outcomes](assignment/1.pdf){target="_blank"}
 
 
-## Fielding and Baserunning
+## Unit 2: Evaluating Pitcher Performance
 
-[Colab Notebook](https://colab.research.google.com/drive/1tyAWCmhTgQi7AC8hIXYF7NOsoqxTKoTY){target="_blank"}
-
-
-## BABIP, FIP and DIPS
+### BABIP, FIP and DIPS
 
 [Colab Notebook](https://colab.research.google.com/drive/1cd-KnI2VcNlG6fgDPQQi41Id_ZxCVyRT){target="_blank"}
 
 [Assignment #2: Signal v. Noise in Pitcher Outcomes](assignment/2.pdf){target="_blank"}
 
-
-## Introduction to Pitch-Level Analysis
+### Introduction to Pitch-Level Analysis
 
 [Lecture Notes](lecture/pitch_level_analysis.pdf){target="_blank"}
 
 [Colab Notebook](https://colab.research.google.com/drive/1oR82uQxRAETizWOkJJFkt2M2EUyr2nH-){target="_blank"}
 
-
-## Pitch Outcome Modeling
+### Pitch Outcome Modeling
 
 [Lecture Notes](lecture/pitch_outcome_modeling.pdf){target="_blank"}
 
@@ -59,14 +50,24 @@ title: "SMGT 435: Baseball Analytics"
 
 [Assignment #3: Pitch Outcome Model](assignment/3.pdf){target="_blank"}
 
-
-## Projections
-
-[Colab Notebook](https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA){target="_blank"}
-
-
-## "Stuff"
+### "Stuff"
 
 [Lecture Notes](lecture/stuff.pdf){target="_blank"}
 
 [Colab Notebook](https://colab.research.google.com/drive/1X67kiqAVAFImx3VIxFH-1MvJ6TSQ83KC){target="_blank"}
+
+
+## Unit 3: Valuing Player Performance
+
+### Fielding and Baserunning
+
+[Colab Notebook](https://colab.research.google.com/drive/1tyAWCmhTgQi7AC8hIXYF7NOsoqxTKoTY){target="_blank"}
+
+### Projections
+
+[Colab Notebook](https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA){target="_blank"}
+
+
+## Unit 4: Practicum
+
+[Project Overview](assignment/project.pdf){target="_blank"}
