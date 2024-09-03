@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Scott Powers - SMGT 430: Introduction to Sport Analytics</title>
+<title>Scott Powers - SMGT 430/530: Introduction to Sport Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,13 +112,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#preliminaries" id="toc-preliminaries" class="nav-link active" data-scroll-target="#preliminaries">Preliminaries</a></li>
-  <li><a href="#regression-to-the-mean" id="toc-regression-to-the-mean" class="nav-link" data-scroll-target="#regression-to-the-mean">Regression to the Mean</a></li>
+  <li><a href="#unit-1-estimating-team-and-player-strength" id="toc-unit-1-estimating-team-and-player-strength" class="nav-link active" data-scroll-target="#unit-1-estimating-team-and-player-strength">Unit 1: Estimating Team and Player Strength</a>
+  <ul class="collapse">
   <li><a href="#pythagorean-formula" id="toc-pythagorean-formula" class="nav-link" data-scroll-target="#pythagorean-formula">Pythagorean Formula</a></li>
   <li><a href="#bradley-terry-model" id="toc-bradley-terry-model" class="nav-link" data-scroll-target="#bradley-terry-model">Bradley-Terry Model</a></li>
   <li><a href="#plus-minus-models" id="toc-plus-minus-models" class="nav-link" data-scroll-target="#plus-minus-models">Plus-Minus Models</a></li>
+  </ul></li>
+  <li><a href="#unit-2-reducing-noise-in-player-evaluation" id="toc-unit-2-reducing-noise-in-player-evaluation" class="nav-link" data-scroll-target="#unit-2-reducing-noise-in-player-evaluation">Unit 2: Reducing Noise in Player Evaluation</a>
+  <ul class="collapse">
+  <li><a href="#regression-to-the-mean" id="toc-regression-to-the-mean" class="nav-link" data-scroll-target="#regression-to-the-mean">Regression to the Mean</a></li>
   <li><a href="#regularized-regression" id="toc-regularized-regression" class="nav-link" data-scroll-target="#regularized-regression">Regularized Regression</a></li>
+  <li><a href="#regularized-adjusted-plus-minus" id="toc-regularized-adjusted-plus-minus" class="nav-link" data-scroll-target="#regularized-adjusted-plus-minus">Regularized Adjusted Plus-Minus</a></li>
+  </ul></li>
+  <li><a href="#unit-3-applications-of-markov-chains-in-sports" id="toc-unit-3-applications-of-markov-chains-in-sports" class="nav-link" data-scroll-target="#unit-3-applications-of-markov-chains-in-sports">Unit 3: Applications of Markov Chains in Sports</a>
+  <ul class="collapse">
   <li><a href="#win-probability-models" id="toc-win-probability-models" class="nav-link" data-scroll-target="#win-probability-models">Win Probability Models</a></li>
+  </ul></li>
+  <li><a href="#unit-4-practicum" id="toc-unit-4-practicum" class="nav-link" data-scroll-target="#unit-4-practicum">Unit 4: Practicum</a></li>
   <li><a href="#lessons-from-sport-analytics" id="toc-lessons-from-sport-analytics" class="nav-link" data-scroll-target="#lessons-from-sport-analytics">Lessons from Sport Analytics</a>
   <ul class="collapse">
   <li><a href="#be-careful-with-regression" id="toc-be-careful-with-regression" class="nav-link" data-scroll-target="#be-careful-with-regression">Be careful with regression</a></li>
@@ -132,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">SMGT 430: Introduction to Sport Analytics</h1>
+<h1 class="title">SMGT 430/530: Introduction to Sport Analytics</h1>
 </div>
 
 
@@ -149,54 +159,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preliminaries" class="level2">
-<h2 class="anchored" data-anchor-id="preliminaries">Preliminaries</h2>
 <p><a href="syllabus/latest.pdf" target="_blank">Syllabus</a></p>
-<p><a href="https://colab.research.google.com/drive/1sLJA9radwdvLjE2bw_mURiNLw-PvNgBg" target="_blank">Colab Notebook: Introduction to R</a></p>
-<p><a href="assignment/project.pdf" target="_blank">Project Overview</a></p>
-<p><a href="assignment/1.pdf" target="_blank">Assignment #1: Sports Data</a></p>
 <p><img src="concept_map.png" class="img-fluid"></p>
-</section>
-<section id="regression-to-the-mean" class="level2">
-<h2 class="anchored" data-anchor-id="regression-to-the-mean">Regression to the Mean</h2>
-<p><a href="lecture/regression_to_the_mean.pdf" target="_blank">Lecture Notes</a></p>
-<p><a href="https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa" target="_blank">Colab Notebook</a></p>
-<p><a href="assignment/2.pdf" target="_blank">Assignment #2: Regression to the Mean</a></p>
-</section>
-<section id="pythagorean-formula" class="level2">
-<h2 class="anchored" data-anchor-id="pythagorean-formula">Pythagorean Formula</h2>
+<section id="unit-1-estimating-team-and-player-strength" class="level2">
+<h2 class="anchored" data-anchor-id="unit-1-estimating-team-and-player-strength">Unit 1: Estimating Team and Player Strength</h2>
+<section id="pythagorean-formula" class="level3">
+<h3 class="anchored" data-anchor-id="pythagorean-formula">Pythagorean Formula</h3>
 <p><a href="lecture/pythagorean_formula.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1qmyQF6ilN4mwtNAQOwtz1xgY8Wl3q48q" target="_blank">Colab Notebok</a></p>
-<p><a href="assignment/3.pdf" target="_blank">Assignment #3: Pythagorean Formula</a></p>
+<p><a href="assignment/pythagorean_formula.pdf" target="_blank">Assignment #1: Pythagorean Formula</a></p>
 </section>
-<section id="bradley-terry-model" class="level2">
-<h2 class="anchored" data-anchor-id="bradley-terry-model">Bradley-Terry Model</h2>
+<section id="bradley-terry-model" class="level3">
+<h3 class="anchored" data-anchor-id="bradley-terry-model">Bradley-Terry Model</h3>
 <p><a href="lecture/bradley_terry_model.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1nHK7E_6GXk_alOoMl3AL0SlxsxaCWq3b" target="_blank">Colab Notebook</a></p>
-<p><a href="assignment/4.pdf" target="_blank">Assignment #4: Bradley-Terry Model</a></p>
+<p><a href="assignment/4.pdf" target="_blank">Assignment #2: Bradley-Terry Model</a></p>
 </section>
-<section id="plus-minus-models" class="level2">
-<h2 class="anchored" data-anchor-id="plus-minus-models">Plus-Minus Models</h2>
+<section id="plus-minus-models" class="level3">
+<h3 class="anchored" data-anchor-id="plus-minus-models">Plus-Minus Models</h3>
 <p><a href="lecture/plus_minus_models.pdf" target="_blank">Lecture Notes</a></p>
 </section>
-<section id="regularized-regression" class="level2">
-<h2 class="anchored" data-anchor-id="regularized-regression">Regularized Regression</h2>
+</section>
+<section id="unit-2-reducing-noise-in-player-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="unit-2-reducing-noise-in-player-evaluation">Unit 2: Reducing Noise in Player Evaluation</h2>
+<section id="regression-to-the-mean" class="level3">
+<h3 class="anchored" data-anchor-id="regression-to-the-mean">Regression to the Mean</h3>
+<p><a href="lecture/regression_to_the_mean.pdf" target="_blank">Lecture Notes</a></p>
+<p><a href="https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa" target="_blank">Colab Notebook</a></p>
+<p><a href="assignment/2.pdf" target="_blank">Assignment #3: Regression to the Mean</a></p>
+</section>
+<section id="regularized-regression" class="level3">
+<h3 class="anchored" data-anchor-id="regularized-regression">Regularized Regression</h3>
 <p><a href="lecture/regularized_regression.pdf" target="_blank">Lecture Notes</a></p>
 <p><a href="https://colab.research.google.com/drive/1-gOm05FhWTH1l0FJmqFGgQevBbM3WxyE" target="_blank">Colab Notebook: Regularized Rasch Model</a></p>
-<p><a href="https://colab.research.google.com/drive/1bOJJPkNZ6gps0Qan6Wn_i_M9uIYOdTYd" target="_blank">Colab Notebook: Regularized Adjusted Plus-Minus</a></p>
-<p><a href="assignment/5.pdf" target="_blank">Assignment #5: Regularized Regression</a></p>
 </section>
-<section id="win-probability-models" class="level2">
-<h2 class="anchored" data-anchor-id="win-probability-models">Win Probability Models</h2>
+<section id="regularized-adjusted-plus-minus" class="level3">
+<h3 class="anchored" data-anchor-id="regularized-adjusted-plus-minus">Regularized Adjusted Plus-Minus</h3>
+<p><a href="https://colab.research.google.com/drive/1bOJJPkNZ6gps0Qan6Wn_i_M9uIYOdTYd" target="_blank">Colab Notebook: Regularized Adjusted Plus-Minus</a></p>
+<p><a href="assignment/5.pdf" target="_blank">Assignment #4: Regularized Regression</a></p>
+</section>
+</section>
+<section id="unit-3-applications-of-markov-chains-in-sports" class="level2">
+<h2 class="anchored" data-anchor-id="unit-3-applications-of-markov-chains-in-sports">Unit 3: Applications of Markov Chains in Sports</h2>
+<section id="win-probability-models" class="level3">
+<h3 class="anchored" data-anchor-id="win-probability-models">Win Probability Models</h3>
 <p><a href="https://colab.research.google.com/drive/130szYABIinDc9lcnwBgExS6Evhz0_pAP" target="_blank">Colab Notebook</a></p>
-<p><a href="assignment/6.pdf" target="_blank">Assignment #6: Win Probability Model</a></p>
+<p><a href="assignment/6.pdf" target="_blank">Assignment #5: Win Probability Model</a></p>
+</section>
+</section>
+<section id="unit-4-practicum" class="level2">
+<h2 class="anchored" data-anchor-id="unit-4-practicum">Unit 4: Practicum</h2>
+<p><a href="assignment/7.pdf" target="_blank">Assignment #6: YouTube Short</a></p>
+<p><a href="assignment/project.pdf" target="_blank">Project Overview</a></p>
 </section>
 <section id="lessons-from-sport-analytics" class="level2">
 <h2 class="anchored" data-anchor-id="lessons-from-sport-analytics">Lessons from Sport Analytics</h2>
+<p><a href="https://colab.research.google.com/drive/1sLJA9radwdvLjE2bw_mURiNLw-PvNgBg" target="_blank">Colab Notebook: Introduction to R</a></p>
 <section id="be-careful-with-regression" class="level3">
 <h3 class="anchored" data-anchor-id="be-careful-with-regression">Be careful with regression</h3>
 <p><a href="https://colab.research.google.com/drive/182F7iWSPJP2umxfQ74zt8-pPtVhbaHuF" target="_blank">Colab Notebook</a></p>
-<p><a href="assignment/7.pdf" target="_blank">Assignment #7: YouTube Short</a></p>
 </section>
 <section id="dont-be-fooled-by-noise" class="level3">
 <h3 class="anchored" data-anchor-id="dont-be-fooled-by-noise">Don’t be fooled by noise</h3>
