@@ -42,13 +42,34 @@
         Z_i &\sim \mbox{ind. Normal}(\eta_i,\, \sigma^2_Z / n_i)\\
         \eta_i &\sim \mbox{i.i.d. Normal}(0,\, \sigma^2_\eta)
       \end{align*}
-
-      One can show that $X_i$ does better than $Y_i$ at estimating $E[Y_i]$ if $\sigma^2_\eta < \sigma^2_Z / n$, i.e. $n < \sigma^2_Z / \sigma^2_\eta$.
-
-    \subsection{\sc Exercises}
     
-    \begin{enumerate}
-      \item Show that $X_i$ does better than $Y_i$ at estimating $E[Y_i]$ if $n < \sigma^2_Z / \sigma^2_\eta$.
-    \end{enumerate}
+      For $Z_i$, the signal variance is $\sigma^2_\eta$, and the noise variance is $\sigma^2_Z / n$. The total variance is $\sigma^2_\eta + \sigma^2_Z / n$. When $n = \sigma^2_Z / \sigma^2_\eta$, the variance in $Z_i$ is half signal, half noise.
+
+      A common measurement of interest for evaluating metrics in baseball is the {\it split-half correlation}. A high split-half correlation close to one tells you that a metric is stable and reliable. A lower split-half correlation close to zero tells you that a metric is noisy and unreliable. We can imagine splitting the season into two halves and calculating the residual winning percentages $Z_i^1$ and $Z_i^2$ in the first half and second half respectively. Assuming equal sample sizes $n_i = n_i^1 = n_i^2$,
+      \begin{align*}
+        \mbox{Corr}(Z_i^1, Z_i^2) &= 
+        \frac{\mbox{Cov}(Z_i^1, Z_i^2)}{\sqrt{\mbox{Var}(Z_i^1) \mbox{Var}(Z_i^2)}}
+        = \frac{\mbox{Cov}(\eta_i, \eta_i)}{\sqrt{(\sigma^2_\eta + \sigma^2_Z / n^1_i)(\sigma^2_\eta + \sigma^2_Z / n^2_i)}}\\
+        & = \frac{\mbox{Var}(\eta_i)}{\sqrt{(\sigma^2_\eta + \sigma^2_Z / n_i)(\sigma^2_\eta + \sigma^2_Z / n_i)}}
+        = \frac{\sigma^2_\eta}{\sigma^2_\eta + \sigma^2_Z / n_i}.
+      \end{align*}
+      Again we see the significance of $n = \sigma^2_Z / \sigma^2_\eta$ because this sample size makes the split-half correlation 0.5.
+
+      Lastly, if our goal is to use observed results to predict future results, then $\mu_i + \eta_i$ is what we want to estimate. We can compare how well $X_i$ and $Y_i$ achieve this goal.
+      \begin{align*}
+        E[(X_i - (\mu_i + \eta_i))^2] &= E[((X_i - \mu_i) + \eta_i)^2]\\
+        &= E[(X_i - \mu_i)^2] + 2E[(X_i - \mu_i) \cdot \eta_i] + E[\eta_i^2]\\
+        &= \sigma^2_X / n + 0 + \sigma^2_\eta
+        = \sigma^2_X / n + \sigma^2_\eta.
+      \end{align*}
+      By contrast,
+      \begin{align*}
+        E[(Y_i - (\mu_i + \eta_i))^2] &= E[((X_i - \mu_i) + (Z_i - \eta_i))^2]\\
+        &= E[(X_i - \mu_i)^2] + 2E[(X_i - \mu_i) \cdot (Z_i - \eta_i)] + E[(Z_i - \eta_i)^2]\\
+        &= \sigma^2_X / n + 0 + \sigma^2_Z / n
+        = \sigma^2_X / n + \sigma^2_Z / n.
+      \end{align*}
+
+      We see that $E[(Y_i - (\mu_i + \eta_i))^2]$ < $E[(X_i - (\mu_i + \eta_i))^2]$ when $n > \sigma^2_Z / \sigma^2_\eta$. In other words, actual record ($Y_i$) becomes a stronger prediction of future record than Pythagorean record ($X_i$) when the number of games observed is at least $\sigma^2_Z / \sigma^2_\eta$.
 
 \end{document}
