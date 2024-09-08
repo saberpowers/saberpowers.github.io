@@ -11,6 +11,9 @@ about:
         - text: "{{< iconify simple-icons googlescholar >}}"
           href: https://scholar.google.com/citations?hl=en&user=lcXNms8AAAAJ
           target: _blank
+        - text: "{{< iconify simple-icons youtube >}}"
+          href: https://www.youtube.com/playlist?list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3
+          target: _blank
         - text: "{{< iconify simple-icons linkedin >}}"
           href: https://www.linkedin.com/in/saberpowers/
           target: _blank
@@ -28,7 +31,7 @@ I completed my PhD in statistics at [Stanford University](https://www.stanford.e
 
 #### In the news
 
-2024-09-05 [Looking For Friends Among Baseball’s Most Passionate Nerds](https://defector.com/looking-for-friends-among-baseballs-most-passionate-nerds){target="_blank"}\
+2024-09-05 [Looking for friends among baseball's most passionate nerds](https://defector.com/looking-for-friends-among-baseballs-most-passionate-nerds){target="_blank"}\
 *Defector*
 
 2024-02-13 [​​Scott Powers: Major league analyst acing Rice](https://www.ricethresher.org/article/2024/02/scott-powers-major-league-analyst-acing-rice){target="_blank"}\
