@@ -66,9 +66,11 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 ## Unit 4: Practicum
 
+[Project Overview](assignment/project.pdf){target="_blank"}
+
 [Assignment #6: YouTube Short](assignment/7.pdf){target="_blank"}
 
-[Project Overview](assignment/project.pdf){target="_blank"}
+[Assignment: Article Review](assignment/article_review.pdf){target="_blank"} (SMGT 530 only)
 
 
 ## Lessons from Sport Analytics
