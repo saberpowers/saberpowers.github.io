@@ -42,6 +42,41 @@
     "text": "Lessons from Sport Analytics\nColab Notebook: Introduction to R\n\nBe careful with regression\nColab Notebook\n\n\nDon’t be fooled by noise\nLecture Notes\nColab Notebook"
   },
   {
+    "objectID": "teaching/smgt430/plan/2024-08.html",
+    "href": "teaching/smgt430/plan/2024-08.html",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "2:30-2:45 Last Name Dice Game Exercise - not sure how long this will take - Everyone plays round-robin, then 4-person playoff - Ask students to guess the winner of each matchup\n2:45-3:05 Discussion Questions - How would you have chosen the winner if we didn’t see the last names? - How would this game have been different if we used 6-sided dice? - How would this game have been different if we used 20-sided dice? - How is this game different from soccer? - How is this game similar to soccer? - What do the dice represent? - What do your last names represent?\n3:05-3:10 introduce the four units and assign students to tables\n3:10-3:20 give students a chance to meet their tables\n3:20-3:35 Think/Pair/Share The SCORE Network (scorenetwork.org) - Ask each student to find what they think is the most interesting dataset - What could you do with these data? - What other cool datasets are you aware of?\n3:35-3:40 run through the syllabus\nokay to end class early today\nReflections - Last Name Dice Game was good for getting students interacting with each other\nSubjective Rating 4/5\n\n\n\n\nAnnounce no class on Sep 12\nAnnounce INSTILL verbage on syllabus\nRemind students that first homework is due Monday at midnight\n\n2:30-3:05 Announcements, re-assign tables\n2:35-3:05 Pythagorean formula lecture\n3:05-3:15 Think/Pair/Share - What properties of a sport might cause alpha to be bigger or smaller?\n3:15-3:40 Preview homework and allow students to get started\n3:40-3:45 leave time to complete exit ticket (8K8n)\nReflections - Students were extremely engaged with good questions during lecture\nSubjective Rating 5/5\n\n\n\n\nGround rules for R days:\n\nSave a copy to your drive\nRuntime -&gt; Change Runtime Type -&gt; R\nI think there’s a natural tendency to think that if you’re struggling or confused, it’s your fault, and that can make it more difficult to ask questions. I encourage you to raise your hand a lot when you feel lost. Right now is the opportunity for me to provide that instruction to you.\n\n\n2:30-2:35 introduce students to Google Colab\n2:35-3:40 allow students to work through R tutorial at their own pace\n3:40-3:45 leave time to complete exit ticket\nReflections - Encouraging students to ask questions when stuck or lost was very effective—Lou and I were bouncing around answering individual questions for the whole class period. - It seems that this tutorial was too difficult for the first day of using R in class. Last semester I started with a simple introduction to R tutorial which was more appropriate.\nSubjective Rating 3/5\n\n\n\n3:00-3:15 Pythagorean Formula assignment discussion - Students discuss their results at their tables - Table by table, ask students to - Ask students to plot their sport (x = actual/actual correlation, y = pythag/actual correlation) - Discussion questions"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-08.html#section",
+    "href": "teaching/smgt430/plan/2024-08.html#section",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "2:30-2:45 Last Name Dice Game Exercise - not sure how long this will take - Everyone plays round-robin, then 4-person playoff - Ask students to guess the winner of each matchup\n2:45-3:05 Discussion Questions - How would you have chosen the winner if we didn’t see the last names? - How would this game have been different if we used 6-sided dice? - How would this game have been different if we used 20-sided dice? - How is this game different from soccer? - How is this game similar to soccer? - What do the dice represent? - What do your last names represent?\n3:05-3:10 introduce the four units and assign students to tables\n3:10-3:20 give students a chance to meet their tables\n3:20-3:35 Think/Pair/Share The SCORE Network (scorenetwork.org) - Ask each student to find what they think is the most interesting dataset - What could you do with these data? - What other cool datasets are you aware of?\n3:35-3:40 run through the syllabus\nokay to end class early today\nReflections - Last Name Dice Game was good for getting students interacting with each other\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-08.html#section-1",
+    "href": "teaching/smgt430/plan/2024-08.html#section-1",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Announce no class on Sep 12\nAnnounce INSTILL verbage on syllabus\nRemind students that first homework is due Monday at midnight\n\n2:30-3:05 Announcements, re-assign tables\n2:35-3:05 Pythagorean formula lecture\n3:05-3:15 Think/Pair/Share - What properties of a sport might cause alpha to be bigger or smaller?\n3:15-3:40 Preview homework and allow students to get started\n3:40-3:45 leave time to complete exit ticket (8K8n)\nReflections - Students were extremely engaged with good questions during lecture\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-08.html#section-2",
+    "href": "teaching/smgt430/plan/2024-08.html#section-2",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Ground rules for R days:\n\nSave a copy to your drive\nRuntime -&gt; Change Runtime Type -&gt; R\nI think there’s a natural tendency to think that if you’re struggling or confused, it’s your fault, and that can make it more difficult to ask questions. I encourage you to raise your hand a lot when you feel lost. Right now is the opportunity for me to provide that instruction to you.\n\n\n2:30-2:35 introduce students to Google Colab\n2:35-3:40 allow students to work through R tutorial at their own pace\n3:40-3:45 leave time to complete exit ticket\nReflections - Encouraging students to ask questions when stuck or lost was very effective—Lou and I were bouncing around answering individual questions for the whole class period. - It seems that this tutorial was too difficult for the first day of using R in class. Last semester I started with a simple introduction to R tutorial which was more appropriate.\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-08.html#section-3",
+    "href": "teaching/smgt430/plan/2024-08.html#section-3",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "3:00-3:15 Pythagorean Formula assignment discussion - Students discuss their results at their tables - Table by table, ask students to - Ask students to plot their sport (x = actual/actual correlation, y = pythag/actual correlation) - Discussion questions"
+  },
+  {
     "objectID": "teaching/smgt432/index.html",
     "href": "teaching/smgt432/index.html",
     "title": "SMGT 432: Soccer Analytics",
@@ -103,6 +138,41 @@
     "title": "SMGT 435/535: Baseball Analytics",
     "section": "Unit 4: Practicum",
     "text": "Unit 4: Practicum\nProject Overview"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-08.html",
+    "href": "teaching/smgt435/plan/2024-08.html",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "9:25-9:30 Introduce the four units of the class\n9:30-9:30 Randomly assign students to tables\n9:30-9:40 Give students time to get to know each other\n9:40-9:55 discuss Pythagorean formula - What is the Pythagorean formula? - What is the purpose of the Pythagorean formula? - How might a baseball executive leverage the Pythagorean formula in their decision-making?\n9:55-10:00 Think for yourself: At what number of games do we prefer actual winning percentage over Pythagorean winning percentage?\n10:00-10:05 Pair discussion\n10:05-10:10 Larger group discussion\n10:10-10:10 Highlight what’s important in the syllabus\n10:10-10:40 Lesson on regression to the mean vis-a-vis Pythagorean record\nReflections - I created a “questions scoreboard” with the two tables competing against each other to ask questions. This worked very well to create an open environment. Students seemed very engaged. - Residual winning percentage is a really tough one to conceptualize the noise.\nSubjective Rating: 4/5\nOdd Table: 7 Even Table: 10\n\n\n\nAnnounce that we will not meet on Sep 12\n9:25-9:55 Review and complete last week’s lecture - Give visual representation of signal variance and noise variance - Derive the ratio at which actual record is preferable to Pythag - Discuss how we’re going to estimate signal and noise variance\n9:55-10:05 Think/Pair/Share: Propose a model that projects a team’s record based on run differential that is different from the Pythagorean formula.\n10:05-10:35 Get started on the first R tutorial\n10:35-10:40 Give students time to complete exit ticket\nReflections - Planned 30-minute lecture went way short (not much engagement) - Lecture was slow and boring (need to add excitement) - Students didn’t like the discussion question very much (conversation died quickly) - The R tutorial was well-paced (only did the first two exercises)\nSubjective Rating 3/5\nOdd Table: 7 + 4 = 11 Even Table: 10 + 3 = 13\nFeedback - What are some R resources we can use outside of class if we are struggling? - I am a bit confused still on the difference in variances in the models (blue vs black). - I just need to brush up on my R. I have not done much with R over the last few months. - I’m just rusty after not coding for a while - More of a statement than a question, but, I understand what I need to do, I just have never used R so I need to figure out how to actually do it.\n\n\n\n\nAnnounce that we will not meet on Sep 12!\n\n9:25-9:35 Discuss sigma^2_eta and sigma^2_Z again - Talk about how Var(Z_i) = sigma^2_eta + sigma^2_Z / n - Show that the split half correlation for Z_i is 0.5 when n = sigma^2_Z / sigma^2_eta - Show that X_i is a better estimate than Y_i of mu_i + eta_i when n &lt; sigma^2_Z / sigma^2_eta\n9:35-10:35 Students work on Pythagorean formula notebok\n10:35-10:40 Give students time to complete exit tickets\nStudent questions/confusions - Knowing when to use dplyr and what structure the data needs to be in for me to use dplyr\nReflections - The pacing was about right today although the math on the whiteboard was a bit fast\nSubjective Rating: 4/5\nOdd Table: 11 + 5 = 15 Even Table: 13 + 0 = 13\n\n\n\nAnnouncements - Assignment #1 is released, deadline pushed back 1 week\n9:25-9:55 Base-Out Run Expectancy and Linear Weights lecture, part 1\n9:55-10:05 Discussion break - Think/pair/share: What are the advantages and disadvantages of RE24 and LW relative to each other? - Follow-up questions - If you were creating a WAR metric, which would you use as the basis for batter evaluation? - What reasons might the residual RE24 - LW reflect true talent rather than luck?\n10:05-10:35 Base-Out Run Expectancy and Linear Weights lecture, part 2 (regression to the mean)\n10:35-10:40 Give students time to complete exit tickets"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-08.html#section",
+    "href": "teaching/smgt435/plan/2024-08.html#section",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "9:25-9:30 Introduce the four units of the class\n9:30-9:30 Randomly assign students to tables\n9:30-9:40 Give students time to get to know each other\n9:40-9:55 discuss Pythagorean formula - What is the Pythagorean formula? - What is the purpose of the Pythagorean formula? - How might a baseball executive leverage the Pythagorean formula in their decision-making?\n9:55-10:00 Think for yourself: At what number of games do we prefer actual winning percentage over Pythagorean winning percentage?\n10:00-10:05 Pair discussion\n10:05-10:10 Larger group discussion\n10:10-10:10 Highlight what’s important in the syllabus\n10:10-10:40 Lesson on regression to the mean vis-a-vis Pythagorean record\nReflections - I created a “questions scoreboard” with the two tables competing against each other to ask questions. This worked very well to create an open environment. Students seemed very engaged. - Residual winning percentage is a really tough one to conceptualize the noise.\nSubjective Rating: 4/5\nOdd Table: 7 Even Table: 10"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-08.html#section-1",
+    "href": "teaching/smgt435/plan/2024-08.html#section-1",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Announce that we will not meet on Sep 12\n9:25-9:55 Review and complete last week’s lecture - Give visual representation of signal variance and noise variance - Derive the ratio at which actual record is preferable to Pythag - Discuss how we’re going to estimate signal and noise variance\n9:55-10:05 Think/Pair/Share: Propose a model that projects a team’s record based on run differential that is different from the Pythagorean formula.\n10:05-10:35 Get started on the first R tutorial\n10:35-10:40 Give students time to complete exit ticket\nReflections - Planned 30-minute lecture went way short (not much engagement) - Lecture was slow and boring (need to add excitement) - Students didn’t like the discussion question very much (conversation died quickly) - The R tutorial was well-paced (only did the first two exercises)\nSubjective Rating 3/5\nOdd Table: 7 + 4 = 11 Even Table: 10 + 3 = 13\nFeedback - What are some R resources we can use outside of class if we are struggling? - I am a bit confused still on the difference in variances in the models (blue vs black). - I just need to brush up on my R. I have not done much with R over the last few months. - I’m just rusty after not coding for a while - More of a statement than a question, but, I understand what I need to do, I just have never used R so I need to figure out how to actually do it."
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-08.html#section-2",
+    "href": "teaching/smgt435/plan/2024-08.html#section-2",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Announce that we will not meet on Sep 12!\n\n9:25-9:35 Discuss sigma^2_eta and sigma^2_Z again - Talk about how Var(Z_i) = sigma^2_eta + sigma^2_Z / n - Show that the split half correlation for Z_i is 0.5 when n = sigma^2_Z / sigma^2_eta - Show that X_i is a better estimate than Y_i of mu_i + eta_i when n &lt; sigma^2_Z / sigma^2_eta\n9:35-10:35 Students work on Pythagorean formula notebok\n10:35-10:40 Give students time to complete exit tickets\nStudent questions/confusions - Knowing when to use dplyr and what structure the data needs to be in for me to use dplyr\nReflections - The pacing was about right today although the math on the whiteboard was a bit fast\nSubjective Rating: 4/5\nOdd Table: 11 + 5 = 15 Even Table: 13 + 0 = 13"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-08.html#section-3",
+    "href": "teaching/smgt435/plan/2024-08.html#section-3",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Announcements - Assignment #1 is released, deadline pushed back 1 week\n9:25-9:55 Base-Out Run Expectancy and Linear Weights lecture, part 1\n9:55-10:05 Discussion break - Think/pair/share: What are the advantages and disadvantages of RE24 and LW relative to each other? - Follow-up questions - If you were creating a WAR metric, which would you use as the basis for batter evaluation? - What reasons might the residual RE24 - LW reflect true talent rather than luck?\n10:05-10:35 Base-Out Run Expectancy and Linear Weights lecture, part 2 (regression to the mean)\n10:35-10:40 Give students time to complete exit tickets"
   },
   {
     "objectID": "index.html",
@@ -196,6 +266,153 @@
     "text": "sabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
   },
   {
+    "objectID": "teaching/smgt435/plan/2024-01.html",
+    "href": "teaching/smgt435/plan/2024-01.html",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:40 small talk\n2:40-2:55 discuss Pythagorean formula - What is the Pythagorean formula? - What is the purpose of the Pythagorean formula? - How might a baseball executive leverage the Pythagorean formula in their decision-making?\n2:55-3:00 Think for yourself: At what number of games do we prefer actual winning percentage over Pythagorean winning percentage?\n3:00-3:05 Pair discussion\n3:05-3:10 Larger group discussion\n3:10-3:30 Lesson on regression to the mean vis-a-vis Pythagorean record\n3:30-3:45 students complete Canvas “quiz”\nReflection - I badly botched the lecture portion (need to choose less confusing notation) - Everything before then was going well enough\nSubjective Rating 1/5\n\n\n\nNotes: - Start by re-explaining the previous lecture with better notation\n2:30-2:35 re-explain the previous lecture with better notation\n2:35-2:55 Parts 1-3 of ThuRsday script\n2:55-3:00 Think for yourself: Propose a model that projects a team’s record based on run differential that is different from the Pythagorean formula.\n3:00-3:05 Pair discussion\n3:05-3:10 Group discussion\n3:10-3:30 Parts 4-6 of ThuRsday script\n3:30-3:45 students complete exit ticket and quiz\nReflection - The R exercises were too challenging. Need to be more careful about the starting point I give to students so that they can get through all of the material.\nSubjective Rating 2/5\n\n\n\nAll Rice classes cancelled because of cold\n\n\n\nNotes - Ask for a recap of what we learned about Pythagorean record last week (We learned where wins come from—runs. Where do runs come from? Today!) - Review missed quiz questions - Discuss what “true talent” means\n2:30-2:35 Review from last week\n2:35-2:55 Base-out run expectancy and linear weights lecture\n2:55-3:10 Think for yourself / pair discussion / group discussion - What are the advantages and disadvantages of RE24 and LW relative to each other? - Follow-up: If you were creating a WAR metric, which would you use as the basis for batter evaluation? - Follow-up: What reasons might the residual RE24 - LW reflect true talent rather than luck?\n3:10-3:30 Regression to the mean lecture\n3:30-3:45 students complete exit ticket and quiz\nReflection - I made a mistake and incorrectly defined Z_j on the chalkboard - Students seemed to follow along for the most part - Forgot to review missed quiz questions and discuss what “true talent” means!!\nSubjective Rating 3/5\n\n\n\nNotes - Review missed quiz questions!! - Discuss what “true talent” means!!\n2:30-2:35 Review from last week\n2:35-2:55 R tutorial part 1\n2:55-3:10 Think for yourself / pair discussion / group discussion - What do you dislike about linear weights? - How could one use the same information in a better way?\n3:10-3:30 R tutorial part 2\n3:30-3:45 students complete exit ticket and quiz\nReflections - I presented part 1 from 2:40-2:55 (finished 10 minutes later than expected) - Students worked on part 1 exercises from 2:55-3:05 - I talked through the part 1 exercises from 3:05-3:20 - Discussed strengths and weaknesses of LW 3:20-3:25 - Students worked on exit ticket and quiz starting at 3:25 - We did not cover part 2 of the R tutorial - My pacing was really bad. Need to find a solution.\nSubjective Rating 3/5\n\n\n\n2:30-2:40 Run through the second half of last R tutorial\n2:40-3:00 Batted ball outcome model lecture part 1\n3:00-3:15 Think for yourself / pair discussion / group discussion - Imagine you are a general manager getting ready for the trade deadline. You can choose between knowing LW or xLW3 for all batters. Which do you choose, and why?\n3:15-3:30 Batted ball outcome model lecture part 2\n3:30-3:45 students complete exit ticket and quiz\nReflections - Students seemed really engaged on this lecture - Covering R tutorial took 15 minutes (budgeted 10) - Gave students 10 minutes for quiz instead of 15\nSubjective Rating 5/5\n\n\n\nNotes - Discuss Assignment #1 prompt\n2:30-3:00 R tutorial part 1\n3:00-3:10 Group discussion - What are some of your other favorite statistics for measuring batter performance?\n3:10-3:25 R tutorial part 2\n3:25-3:30 Discussion of R tutorial results\n3:30-3:45 students complete exit ticket and quiz\nReflections - I had some bug during live coding that I couldn’t resolve - Skipped the group discussion because we didn’t have time\nSubjective Rating 3/5\n\n\n\n2:30-3:30 Interactive discussion of fielder and baserunner evaluation - Crediting fielders for run value of converting outs - Crediting fielders for run value of ball in play baserunner movement - Crediting baserunners for run value of ball in play baserunner movement - Crediting baserunners for stolen bases and caught stealing\n3:30-3:45 students complete exit ticket and quiz\nReflections - This one felt a little bit too unstructured - Completely skipped covering run value for BIP baserunning - I’m not sure the students actually learned anything\nSubjective Rating 2/5\n\n\n\n2:30-2:55 R Tutorial part 1\n2:55-3:05 Homework share\n3:05-3:30 R Tutorial part 2\n3:30-3:45 students complete exit ticket and early course eval\nReflections - I took too long on Exercise #0 - We skipped the homework share for time\nSubjective Rating 3/5\n\n\n\n2:30-2:50 Introduce BABIP, FIP and DIPS - What do you know about BABIP? (it’s noisy) - What implications does this have for evaluating batters? - Connect it to RE24 -&gt; LW -&gt; xLW3 -&gt; xLW2 -&gt; xLW1 - What implications does this have for evaluating pitchers? - DIPS = Defense-Independent Pitching Statistics - FIP = (13 * HR + 3 * (BB + HBP) - 2 * K) / IP - Due to Voros McCracken (early 2000s)\n2:50-3:05 Discuss 2023 NL Cy Young Voting - Blake Snell - 14-9, 2.25 ERA, 3.44 FIP, 180 IP, 4.1 fWAR, 6.0 rWAR - Zack Wheeler - 13-6, 3.61 ERA, 3.15 FIP, 192 IP, 5.9 fWAR, 4.3 rWAR - Which player would you vote for, for Cy Young - Which player would you rather have on your team in 2024?\n3:05-3:30 Discuss Homework #2 - How does all of the analysis we did for batters change if we’re evaluating pitchers? - Talk about xLW0. What would K%_0 and BB%_0 be?\n3:30-3:45 students complete exit ticket and quiz\nReflections - As far as low-structure discussions go, this one wasn’t bad\nSubjective Rating 3/5\n\n\n\n2:30-2:40 review regression to the mean model\n2:40-3:20 students work on R tutorial at their own pace\n3:20-3:30 go over one solution together as a class\n3:30-3:45 students complete exit ticket and quiz\nReflections - This format worked really well - Very little talking by me, just pasted solutions into colab doc every 10 minutes - Cycled through students asking “how’s it going? any questions?” - Lots of time with hands on keyboard\nSubjective Rating 5/5\n\n\n\nNotes “The difference between sigma^2_epsilon and sigma^2_epsilon / n is still a bit confusing to me, not sure where we should have used each one in this assignment”\n2:30-2:35 Review noise variance (see note above)\n2:35-3:25 Introduction to Pitch-Level Analysis lecture\n3:25-3:30 slow down to hear from students\n3:30-3:45 students complete exit ticket and quiz\n\n\n\n2:30-2:35 watch spring training opening day while students download pitch data and get set up\n2:35-3:25 students work through R tutorial at their own pace - I kept the spring training game on throughout the class, and students seemed to like it\n3:25-3:30 debrief\n3:30-3:45 students complete exit ticket and quiz\nReflections - I felt like I was twiddling my thumbs the whole time, but students seemed engaged\nSubjective Rating 4/5\n\n\n\nNotes - “What is the difference between a random effect and a fixed effect? Mainly interested in the definition of a random effect.” - “I’m unsure when to divide by n in the estimate_population_variance function”\n2:30-2:35 review confusions from previous class\n2:35-3:30 pitch outcome model lecture\n3:30-3:45 discussion (forgot to set up quiz)\nSubjective Rating 4/5\n\n\n\n2:30-3:30 R tutorial #7\n3:30-3:45 students complete exit ticket and quiz\nReflections - naive pitch outcome model was a disaster - students weren’t able to complete excercises because naive model was too bad\nSubjective Rating 1/5\n\n\n\nDiego Martinez guest speaker\n9:25-9:30 Baseball talk\n9:30-9:35 Diego Martinez introduction\n9:35-9:55 Q&A\n9:55-10:10 Assignment #5 pair discussion\n10:10-10:30 Diego Martinez lesson\n10:30-10:40 students complete quiz and exit ticket\n\n\n\nClass cancelled because 3/6 registered students were travelling\n\n\n\n2:30-2:40 preview the final five weeks - Assignment #4 cancelled (discuss how grad will be adjusted) - Announce Rick Hahn guest lecture\n2:40-2:50 Recap of what we covered during the first 9 weeks of the class - Measuring everything in runs - Separating signal from noise - Ask students to summarize strategies for separating signal from noise: - Regression to the mean - De-contextualizing performance\n2:50-2:55 Discuss the need for positional adjustments\n2:55-3:10 Discuss strategies for positional adjustments - offense-based - defense-based - FanGraphs: https://blogs.fangraphs.com/position-adjustments/ - http://www.insidethebook.com/ee/index.php/site/comments/uzr_positional_adjustments_revised_with_2008_uzr/#1 - http://www.insidethebook.com/ee/index.php/site/comments/fielding_position_adjustments - http://www.insidethebook.com/ee/index.php/site/comments/uzr_positional_adjustments - http://www.insidethebook.com/ee/index.php/site/comments/fielding_differences_in_the_positions_take_2 - Baseball-Reference: https://www.baseball-reference.com/about/war_explained_position.shtml - Baseball-Reference also uses fixed values that were calculated ca. 2008, only they were done by Sean Smith (aka rallymonkey or Rally) using TZR (which is based public Retrosheet data). I couldn’t find an original source for these numbers, but given that Rally was active on Tango’s blog, I would bet that the methodologies are similar. - https://blogs.fangraphs.com/historical-position-adjustments/ - Additional thinkpieces: - 2010: https://www.baseballprospectus.com/news/article/11934/manufactured-runs-solving-the-mays-problem/ - 2017: https://philliesminorthoughts.com/breaking-defensive-metrics-and-the-large-hole-in-public-facing-defensive-ratings/ - 2017: https://www.baseballprospectus.com/news/article/34043/baseball-therapy-need-talk-defense/ - 2020: https://walksaber.blogspot.com/2020/12/musings-on-positional-adjustments.html - 2023: https://www.baseballprospectus.com/news/article/80203/is-war-still-stuck-in-the-20th-century/\n3:10-3:15 Discuss the need for replacement level\n3:15-3:25 Discuss strategies for estimating replacement level - FanGraphs + Baseball-Reference: https://blogs.fangraphs.com/unifying-replacement-level/ - 1000 total WAR, .294 replacement-level winning percentage - Bottom X% by playing time?\n3:25-3:30\n3:30-3:45 Give students time to complete midpoint course eval\n\n\n\nRick Hahn guest lecture\n\n\n\n2:30-2:35 discuss feedback midpoint course eval - one student does not like the quizzes - schedule has been chaotic - would like more direction on the final project\n2:35-2:40 discuss final project\n2:40-3:30 MARCEL projections and aging curves lecture\n3:30-3:45 students complete exit ticket at quiz"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section",
+    "href": "teaching/smgt435/plan/2024-01.html#section",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:40 small talk\n2:40-2:55 discuss Pythagorean formula - What is the Pythagorean formula? - What is the purpose of the Pythagorean formula? - How might a baseball executive leverage the Pythagorean formula in their decision-making?\n2:55-3:00 Think for yourself: At what number of games do we prefer actual winning percentage over Pythagorean winning percentage?\n3:00-3:05 Pair discussion\n3:05-3:10 Larger group discussion\n3:10-3:30 Lesson on regression to the mean vis-a-vis Pythagorean record\n3:30-3:45 students complete Canvas “quiz”\nReflection - I badly botched the lecture portion (need to choose less confusing notation) - Everything before then was going well enough\nSubjective Rating 1/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-1",
+    "href": "teaching/smgt435/plan/2024-01.html#section-1",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Notes: - Start by re-explaining the previous lecture with better notation\n2:30-2:35 re-explain the previous lecture with better notation\n2:35-2:55 Parts 1-3 of ThuRsday script\n2:55-3:00 Think for yourself: Propose a model that projects a team’s record based on run differential that is different from the Pythagorean formula.\n3:00-3:05 Pair discussion\n3:05-3:10 Group discussion\n3:10-3:30 Parts 4-6 of ThuRsday script\n3:30-3:45 students complete exit ticket and quiz\nReflection - The R exercises were too challenging. Need to be more careful about the starting point I give to students so that they can get through all of the material.\nSubjective Rating 2/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-2",
+    "href": "teaching/smgt435/plan/2024-01.html#section-2",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "All Rice classes cancelled because of cold"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-3",
+    "href": "teaching/smgt435/plan/2024-01.html#section-3",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Notes - Ask for a recap of what we learned about Pythagorean record last week (We learned where wins come from—runs. Where do runs come from? Today!) - Review missed quiz questions - Discuss what “true talent” means\n2:30-2:35 Review from last week\n2:35-2:55 Base-out run expectancy and linear weights lecture\n2:55-3:10 Think for yourself / pair discussion / group discussion - What are the advantages and disadvantages of RE24 and LW relative to each other? - Follow-up: If you were creating a WAR metric, which would you use as the basis for batter evaluation? - Follow-up: What reasons might the residual RE24 - LW reflect true talent rather than luck?\n3:10-3:30 Regression to the mean lecture\n3:30-3:45 students complete exit ticket and quiz\nReflection - I made a mistake and incorrectly defined Z_j on the chalkboard - Students seemed to follow along for the most part - Forgot to review missed quiz questions and discuss what “true talent” means!!\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-4",
+    "href": "teaching/smgt435/plan/2024-01.html#section-4",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Notes - Review missed quiz questions!! - Discuss what “true talent” means!!\n2:30-2:35 Review from last week\n2:35-2:55 R tutorial part 1\n2:55-3:10 Think for yourself / pair discussion / group discussion - What do you dislike about linear weights? - How could one use the same information in a better way?\n3:10-3:30 R tutorial part 2\n3:30-3:45 students complete exit ticket and quiz\nReflections - I presented part 1 from 2:40-2:55 (finished 10 minutes later than expected) - Students worked on part 1 exercises from 2:55-3:05 - I talked through the part 1 exercises from 3:05-3:20 - Discussed strengths and weaknesses of LW 3:20-3:25 - Students worked on exit ticket and quiz starting at 3:25 - We did not cover part 2 of the R tutorial - My pacing was really bad. Need to find a solution.\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-5",
+    "href": "teaching/smgt435/plan/2024-01.html#section-5",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:40 Run through the second half of last R tutorial\n2:40-3:00 Batted ball outcome model lecture part 1\n3:00-3:15 Think for yourself / pair discussion / group discussion - Imagine you are a general manager getting ready for the trade deadline. You can choose between knowing LW or xLW3 for all batters. Which do you choose, and why?\n3:15-3:30 Batted ball outcome model lecture part 2\n3:30-3:45 students complete exit ticket and quiz\nReflections - Students seemed really engaged on this lecture - Covering R tutorial took 15 minutes (budgeted 10) - Gave students 10 minutes for quiz instead of 15\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-6",
+    "href": "teaching/smgt435/plan/2024-01.html#section-6",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Notes - Discuss Assignment #1 prompt\n2:30-3:00 R tutorial part 1\n3:00-3:10 Group discussion - What are some of your other favorite statistics for measuring batter performance?\n3:10-3:25 R tutorial part 2\n3:25-3:30 Discussion of R tutorial results\n3:30-3:45 students complete exit ticket and quiz\nReflections - I had some bug during live coding that I couldn’t resolve - Skipped the group discussion because we didn’t have time\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-7",
+    "href": "teaching/smgt435/plan/2024-01.html#section-7",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-3:30 Interactive discussion of fielder and baserunner evaluation - Crediting fielders for run value of converting outs - Crediting fielders for run value of ball in play baserunner movement - Crediting baserunners for run value of ball in play baserunner movement - Crediting baserunners for stolen bases and caught stealing\n3:30-3:45 students complete exit ticket and quiz\nReflections - This one felt a little bit too unstructured - Completely skipped covering run value for BIP baserunning - I’m not sure the students actually learned anything\nSubjective Rating 2/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-8",
+    "href": "teaching/smgt435/plan/2024-01.html#section-8",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:55 R Tutorial part 1\n2:55-3:05 Homework share\n3:05-3:30 R Tutorial part 2\n3:30-3:45 students complete exit ticket and early course eval\nReflections - I took too long on Exercise #0 - We skipped the homework share for time\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-9",
+    "href": "teaching/smgt435/plan/2024-01.html#section-9",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:50 Introduce BABIP, FIP and DIPS - What do you know about BABIP? (it’s noisy) - What implications does this have for evaluating batters? - Connect it to RE24 -&gt; LW -&gt; xLW3 -&gt; xLW2 -&gt; xLW1 - What implications does this have for evaluating pitchers? - DIPS = Defense-Independent Pitching Statistics - FIP = (13 * HR + 3 * (BB + HBP) - 2 * K) / IP - Due to Voros McCracken (early 2000s)\n2:50-3:05 Discuss 2023 NL Cy Young Voting - Blake Snell - 14-9, 2.25 ERA, 3.44 FIP, 180 IP, 4.1 fWAR, 6.0 rWAR - Zack Wheeler - 13-6, 3.61 ERA, 3.15 FIP, 192 IP, 5.9 fWAR, 4.3 rWAR - Which player would you vote for, for Cy Young - Which player would you rather have on your team in 2024?\n3:05-3:30 Discuss Homework #2 - How does all of the analysis we did for batters change if we’re evaluating pitchers? - Talk about xLW0. What would K%_0 and BB%_0 be?\n3:30-3:45 students complete exit ticket and quiz\nReflections - As far as low-structure discussions go, this one wasn’t bad\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-10",
+    "href": "teaching/smgt435/plan/2024-01.html#section-10",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:40 review regression to the mean model\n2:40-3:20 students work on R tutorial at their own pace\n3:20-3:30 go over one solution together as a class\n3:30-3:45 students complete exit ticket and quiz\nReflections - This format worked really well - Very little talking by me, just pasted solutions into colab doc every 10 minutes - Cycled through students asking “how’s it going? any questions?” - Lots of time with hands on keyboard\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-11",
+    "href": "teaching/smgt435/plan/2024-01.html#section-11",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Notes “The difference between sigma^2_epsilon and sigma^2_epsilon / n is still a bit confusing to me, not sure where we should have used each one in this assignment”\n2:30-2:35 Review noise variance (see note above)\n2:35-3:25 Introduction to Pitch-Level Analysis lecture\n3:25-3:30 slow down to hear from students\n3:30-3:45 students complete exit ticket and quiz"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-12",
+    "href": "teaching/smgt435/plan/2024-01.html#section-12",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:35 watch spring training opening day while students download pitch data and get set up\n2:35-3:25 students work through R tutorial at their own pace - I kept the spring training game on throughout the class, and students seemed to like it\n3:25-3:30 debrief\n3:30-3:45 students complete exit ticket and quiz\nReflections - I felt like I was twiddling my thumbs the whole time, but students seemed engaged\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-13",
+    "href": "teaching/smgt435/plan/2024-01.html#section-13",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Notes - “What is the difference between a random effect and a fixed effect? Mainly interested in the definition of a random effect.” - “I’m unsure when to divide by n in the estimate_population_variance function”\n2:30-2:35 review confusions from previous class\n2:35-3:30 pitch outcome model lecture\n3:30-3:45 discussion (forgot to set up quiz)\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-14",
+    "href": "teaching/smgt435/plan/2024-01.html#section-14",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-3:30 R tutorial #7\n3:30-3:45 students complete exit ticket and quiz\nReflections - naive pitch outcome model was a disaster - students weren’t able to complete excercises because naive model was too bad\nSubjective Rating 1/5"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-15",
+    "href": "teaching/smgt435/plan/2024-01.html#section-15",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Diego Martinez guest speaker\n9:25-9:30 Baseball talk\n9:30-9:35 Diego Martinez introduction\n9:35-9:55 Q&A\n9:55-10:10 Assignment #5 pair discussion\n10:10-10:30 Diego Martinez lesson\n10:30-10:40 students complete quiz and exit ticket"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-16",
+    "href": "teaching/smgt435/plan/2024-01.html#section-16",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Class cancelled because 3/6 registered students were travelling"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-17",
+    "href": "teaching/smgt435/plan/2024-01.html#section-17",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:40 preview the final five weeks - Assignment #4 cancelled (discuss how grad will be adjusted) - Announce Rick Hahn guest lecture\n2:40-2:50 Recap of what we covered during the first 9 weeks of the class - Measuring everything in runs - Separating signal from noise - Ask students to summarize strategies for separating signal from noise: - Regression to the mean - De-contextualizing performance\n2:50-2:55 Discuss the need for positional adjustments\n2:55-3:10 Discuss strategies for positional adjustments - offense-based - defense-based - FanGraphs: https://blogs.fangraphs.com/position-adjustments/ - http://www.insidethebook.com/ee/index.php/site/comments/uzr_positional_adjustments_revised_with_2008_uzr/#1 - http://www.insidethebook.com/ee/index.php/site/comments/fielding_position_adjustments - http://www.insidethebook.com/ee/index.php/site/comments/uzr_positional_adjustments - http://www.insidethebook.com/ee/index.php/site/comments/fielding_differences_in_the_positions_take_2 - Baseball-Reference: https://www.baseball-reference.com/about/war_explained_position.shtml - Baseball-Reference also uses fixed values that were calculated ca. 2008, only they were done by Sean Smith (aka rallymonkey or Rally) using TZR (which is based public Retrosheet data). I couldn’t find an original source for these numbers, but given that Rally was active on Tango’s blog, I would bet that the methodologies are similar. - https://blogs.fangraphs.com/historical-position-adjustments/ - Additional thinkpieces: - 2010: https://www.baseballprospectus.com/news/article/11934/manufactured-runs-solving-the-mays-problem/ - 2017: https://philliesminorthoughts.com/breaking-defensive-metrics-and-the-large-hole-in-public-facing-defensive-ratings/ - 2017: https://www.baseballprospectus.com/news/article/34043/baseball-therapy-need-talk-defense/ - 2020: https://walksaber.blogspot.com/2020/12/musings-on-positional-adjustments.html - 2023: https://www.baseballprospectus.com/news/article/80203/is-war-still-stuck-in-the-20th-century/\n3:10-3:15 Discuss the need for replacement level\n3:15-3:25 Discuss strategies for estimating replacement level - FanGraphs + Baseball-Reference: https://blogs.fangraphs.com/unifying-replacement-level/ - 1000 total WAR, .294 replacement-level winning percentage - Bottom X% by playing time?\n3:25-3:30\n3:30-3:45 Give students time to complete midpoint course eval"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-18",
+    "href": "teaching/smgt435/plan/2024-01.html#section-18",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "Rick Hahn guest lecture"
+  },
+  {
+    "objectID": "teaching/smgt435/plan/2024-01.html#section-19",
+    "href": "teaching/smgt435/plan/2024-01.html#section-19",
+    "title": "SMGT 435: Baseball Analytics",
+    "section": "",
+    "text": "2:30-2:35 discuss feedback midpoint course eval - one student does not like the quizzes - schedule has been chaotic - would like more direction on the final project\n2:35-2:40 discuss final project\n2:40-3:30 MARCEL projections and aging curves lecture\n3:30-3:45 students complete exit ticket at quiz"
+  },
+  {
     "objectID": "teaching/smgt435/notebook/pythagorean_formula_solutions.html",
     "href": "teaching/smgt435/notebook/pythagorean_formula_solutions.html",
     "title": "Scott Powers",
@@ -222,6 +439,146 @@
     "title": "Teaching",
     "section": "Stanford",
     "text": "Stanford\nSTATS 50: Mathematics of Sports\nSpring 2016"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html",
+    "href": "teaching/smgt430/plan/2024-01.html",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:30 small talk\n9:30-9:35 ask students to list concepts they already know from sport analytics (activating prior knowledge)\n9:35-9:40 demonstrate the skeleton of a concept map\n9:40-9:50 students create concept maps in groups (making connections)\n9:50-9:55 one or two student groups explain their concept map (peer instruction)\n9:55-10:05 shuffle groups and create new concept maps (repeated practice)\n10:05-10:10 share my concept map with the class\n10:10-10:15 discuss how topics from original list fit into my concept map\n10:15-10:25 motivational speech about mindset 1. This is my first time teaching SMGT 430 and only my second time teaching at Rice. Please be patient with me as I work through kinks in the course. The feedback last semester was largely positive, but some students said they were surprised by the amount of work and how hard the grading was. I grade hard because sport analytics is a very competitive field, and I want to push you to improve yourself. I ask you to adopt a growth mindset this semester and focus on learning over earning a grade. This class involves a lot of math and coding. If you are thinking about dropping the class because you are struggling, I would encourage you to have a conversation with me first in case I can help. 2. By being in this class, you have a unique opportunity that I didn’t have when I was in school. You are surrounded by peers who are passionate about both math and sports. Take advantage of this! I sincerely hope that you will learn from each other more than you learn from me. I have two goals with this class: 1. Give you some tools and the opportunity for hands-on application of ideas; 2. Encourage you to think for yourself. I don’t want to indoctrinate you into a certain way of thinking about sport analytics. The way you’re ultimately going to be successful in life is thinking for yourself, not regurgitating what you’ve been taught.\n10:25-10:40 students complete Canvas “quiz”\nReflection - We ran about 10 minutes late and didn’t have time for the motivational speech. - Students seemed reasonably engaged in the class period. - Remember to bring paper and pens for the concept mapping exercise!\nSubjective Rating 4/5\n\n\n\nNotes - Mention the first homework assignment is due at midnight next Tuesday. - Remind students that this is an intro class, no background in sport analytics expected. The reason we spent yesterday discussing what students already know is to acknowledge that we do have some existing knowledge in the room, and we want to activate that knowledge and connect it to what we’re covering in class. I hope that learning from each other will be a big part of this course.\n9:25-9:30 Motivational speech about mindset\n9:30-9:40 Part 1 of R tutorial\n9:40-9:50 Part 2 of R tutorial\n9:50-9:55 Think for yourself: What is a research question you have about your favorite sport that you might be able to answer with sport analytics?\n9:55-10:00 Pair discussion\n10:00-10:05 Group discussion\n10:05-10:15 Part 3 of R tutorial\n10:15-10:25 Part 4 of R tutorial\n10:25-10:40 students complete exit ticket and quiz\nReflection - We only had time to do parts 1 and 2 of the R tutorial - Students really lit up during the group discussion of project ideas - I forgot to adjust the quiz to reflect that we only covered half of the tutorial!\nSubjective Rating 4/5\n\n\n\nAll Rice classes cancelled because of cold\n\n\n\nNotes - Apologize for the quiz going beyond what we covered in class - Explain that due dates have been revised following cancellation - Start with sport analytics concept map!\n9:25-9:40 Free Throw Exercise, Part 1 - 9:25-9:30 Students draw “true talents” and simulate 30 free throws - 9:30-9:35 Ask students to predict the number written on the winner’s card - 9:35-9:40 Visualize submissions, ask high/low/median students to explain their predictions\n9:40-9:55 Regression to the mean lecture, part 1\n9:55 Announce the winner of the prediction contest\n9:55-10:10 Assignment #1 discussion - 9:55-10:00 Partner discussion #1 - 10:00-10:05 Partner discussion #2 - 10:05-10:10 Larger group discussion\n10:10-10:25 Regression to the mean lecture, part 2\n10:25-10:40 students complete exit ticket and quiz\nReflection - I tried to cram too much into this class period - I saw a lot of confused faces in the room - More examples would have been helpful - Only had time for one partner discussion\nSubjective Rating 3/5\n\n\n\nNotes - Announce that assignment #2-#4 deadlines will be pushed back from Thursday night to Sunday night - Start with the posterior mean on the board, and discuss the interpretation of each component in terms of real-life sports\n9:25-9:35 Review regression to the mean\n9:35-9:55 Step through pre-written R code in tutorial\n9:55-10:10 think for yourself / pair discussion / group discussion - What is an example of a player metric for which regression to the mean would be particularly useful? - What is an example of a player metric for which regression to the mean would not be very useful? - What is an example of a real-life sport management decision that might benefit from this tool?\n10:10-10:25 Students work on R exercises\n10:25-10:40 students complete exit ticket and quiz\nReflections - I executed the plan well\nSubjective Rating 5/5\n\n\n\n9:25-9:30 Sports talk - NFL Conference Championships (11) - NBA games (3) - Australian Open (Zach, Trey) - AFC Asian Cup (Lou) - Africa Cup of Nations (Trey)\n9:30-9:40 Review quiz question on regression to the mean\n9:40-10:00 Pythagorean formula lecture - start with concept map!\n10:00-10:25 Going for 2 down 8 discussion - 10:00-10:05 Review what happened, watch clips together - 10:05-10:10 Students read the Ben Recht article - 10:10-10:15 Students discuss in pairs - 10:15-10:25 Larger group discussion\n10:25-10:40 students complete exit ticket and quiz\nReflections - Students were very engaged on G42D8 discussion - Introducing the G42D8 discussion took 15 minutes (planned for 5) - Made up for it by shortening large group discussion and quiz time - First student done at 10:40 (10 minutes) - Last student done at 10:50 (20 minutes)\nSubjective Rating 5/5\n\n\n\n9:25-9:30 Sports talk\n9:30-9:50 R tutorial part 1 - 9:30-9:35 Exercise 0 - 9:35-9:40 Exercise 1 - 9:40-9:45 Exercise 2 - 9:45-9:50 Exercise 3\n9:50-10:05 Think/Pair/Share - Predict split half correlations for: actual W%, Pythag W%, residual\n10:05-10:25 R tutorial part 2 - 10:05-10:10 Exercise 0 - 10:10-10:15 Exercise 1 - 10:15-10:20 Exercise 2 - 10:20-10:25 Exercise 3\n10:25-10:40 students complete exit ticket and quiz\nReflections - Sports talk went 5 minutes long (skip it next time?) - Made a couple of errors on live coding (leave more time!)\nSubjective Rating 3/5\n\n\n\nNotes - “I am confused on why we would be analyzing the correlation of those values.” - “It would help me to go over the material again.” - Apologize for botched live coding - Emphasize the value of what we’re learning\n9:25-10:00 Bradley-Terry model lecture, part 1\n10:00-10:10 Think/Pair/Share - Review correlations from last class - Why did we calculate them? - What is our interpretation of the results? - How could this be used in decision-making?\n10:10-10:30 Bradley-Terry model lecture, part 2\n10:30-10:40 students complete exit tickets and quizzes\nReflections - Pacing was better, but didn’t cover everything I wanted to\nSubjective Rating 3/5\n\n\n\n9:25-9:50 Review Bradley-Terry with quidditch example\n9:50-10:00 Think/pair/share homework assignment\n10:00-10:25 R tutorial\n10:25-10:40 students complete course evaluation part 1\nReflections - Example was very well received - I should spend less time talking on R days\nSubjective Rating 4/5\n\n\n\n9:25-9:30 discuss super bowl\n9:30-9:35 discuss early course eval\n9:35-9:55 lecture part 1\n9:55-10:05 homework show & tell\n10:05-10:25 lecture part 2\n10:25-10:40 students complete exit ticket and quiz\nReflections - Discussion of early course eval went a little long (closer to 10 min) - Felt really good to me\nSubjective Rating 5/5\n\n\n\nNotes “The summations are a little confusing on the adjusted plus and minus? Why in Rasch model we don’t have a wi? What is the point of having all of the data from the other teams that are not involved or is that just how the model is ?”\n9:25-9:30 sports talk\n9:30-9:35 review plus-minus and rasch model\n9:35-10:20 students work on R tutorial at their own pace\n10:20-10:25 invite a student up to present their solution to an exercise\n10:25-10:40 students complete exit ticket and quiz\nReflections - only had 10 minutes for exit ticket and quiz (need to start transition to student presentation earlier)\nSubjective Rating 4/5\n\n\n\nNotes - Discuss honor code policy for quizzes (and why we repeat questions)\n9:25-9:30 Review weekend of sports\n9:30-9:55 Regularized regression lecture, part 1\n9:55-10:10 Homework share\n10:10-10:25 Regularized regression lecture, part 2\n10:25-10:40 students work on exit tickets and quizzes\nReflections - I don’t think I did a good enough job of motivating regularization (students weren’t engaged)\nSubjective Rating 4/5\n\n\n\n9:25-9:30 Preview weekend of sports\n9:30-10:20 Students work on R tutorial on their own time\n10:20-10:25 Pick a student to share their work with the class\n10:25-10:40 students work on exit tickets and quizzes\nReflections - Students are starting to speak up more now that I’m going around and asking who has questions\nSubjective Rating 5/5\n\n\n\nNotes - “Could you give a quick run down of regularized before we move on? Just to like hear it again”\n9:25-9:30 sports talk\n9:30-9:50 Markov chain lecture part 1 (based on Stanford notes, including quidditch example)\n9:50-10:05 Assignment #4 pair discussion\n10:05-10:25 Markov chain lecture part 2 (based on Stanford notes, including quidditch example)\n10:25-10:40 students complete quiz and exit ticket\nReflections - Forgot to give the quick run down of regularized regression at the beginning!\nSubjective Rating 4/5\n\n\n\n9:25-10:25 R tutorial #7\n10:25-10:40 students complete quiz and exit ticket\nReflections - Students felt slightly less engaged on this day\nSubjective Rating 3/5\n\n\n\nJason Christian guest speaker\n9:25-9:30 Sports talk\n9:30-9:35 Jason Christian introduction\n9:35-9:55 Q&A\n9:55-10:10 Assignment #5 pair discussion\n10:10-10:30 Jason Christian lesson\n10:30-10:40 students complete quiz and exit ticket\n\n\n\nJake Flancer guest speaker\n9:25-9:30 Sports talk\n9:30-9:35 Jake Flancer introduction\n9:35-9:55 Q&A\n9:55-10:10 Think/pair/share: How could you combine information from box score statistics with the RAPM framework for evaluating players?\n10:10-10:40 Jake Flancer lesson\n\n\n\n9:25-9:35 Give an overview of the remaining four weeks - Explain how grade will be determined in absence of Homework #6 - Remind students that Assignment #7 is due tonight - Announce bracket competition!!\n9:35-9:45 Recap of everything we covered before spring break - 9:35-9:40 Create a list of things you learned during the first nine weeks. What skills do you have that you didn’t have in 2023? - 9:40-9:50 Create a concept map on the whiteboard\n9:50-10:00 Discuss linear regression as the GOAT of statistical models, and discuss pitfalls - https://www.espn.com/nfl/news/story?id=2241159 - https://www.espn.com/nfl/news/story?id=2241121\n10:00-10:10 Ask students to predict what will happen in the following regression models: - Football: team_wins ~ passing_attempts + rushing attempts - Baseball: team_runs_scored ~ flyouts + groundouts + strikeouts + walks + singles + doubles + triples + home_runs - Baseball: team_runs_allowed ~ flyouts + groundouts + strikeouts + walks + singles + doubles + triples + home_runs - Soccer: team_table_points ~ corner_kicks\n10:10-10:15 Ask students to write down the moral of the story (and discuss)\n10:15-10:20 Discuss the alternative to linear regression\n10:20-10:25 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4697111\n10:25-10:40 Give students time to complete midpoint course eval\nReflections - Students seemed bored; I think this lecture was too slow - It seemed everyone already knew the NFL rushing example\nSubjective Rating 2/5\n\n\n\n9:25-9:35 Review midpoint course eval, preview final 4 weeks - Review March Madness leaderboard - Guest speakers were popular (announce Ehsan Bokhari as guest speaker) - Quizzes are still unpopular (described as repetitive) - R tutorials could include more explanation of code - A few asked for tracking data and advanced baseball metrics (SMGT 435) - Lots of other one-off feedback; let me know if you want it addressed\n9:35-9:55 Don’t be fooled by noise, part 1 - Motivate with Larry Brown batting average example - Write down our old regression to the mean model - Calculate the expected error for population mean and for naive estimator\n9:55-10:10 Think/Pair/Share - https://twitter.com/mindthegamepod/status/1770058890928931024\n10:10-10:25 Don’t be fooled by noise, part 2 - Example #1 - Calculate correlation between first half and second half - Example #2\n10:25-10:40 Students complete exit ticket and quiz"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section",
+    "href": "teaching/smgt430/plan/2024-01.html#section",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:30 small talk\n9:30-9:35 ask students to list concepts they already know from sport analytics (activating prior knowledge)\n9:35-9:40 demonstrate the skeleton of a concept map\n9:40-9:50 students create concept maps in groups (making connections)\n9:50-9:55 one or two student groups explain their concept map (peer instruction)\n9:55-10:05 shuffle groups and create new concept maps (repeated practice)\n10:05-10:10 share my concept map with the class\n10:10-10:15 discuss how topics from original list fit into my concept map\n10:15-10:25 motivational speech about mindset 1. This is my first time teaching SMGT 430 and only my second time teaching at Rice. Please be patient with me as I work through kinks in the course. The feedback last semester was largely positive, but some students said they were surprised by the amount of work and how hard the grading was. I grade hard because sport analytics is a very competitive field, and I want to push you to improve yourself. I ask you to adopt a growth mindset this semester and focus on learning over earning a grade. This class involves a lot of math and coding. If you are thinking about dropping the class because you are struggling, I would encourage you to have a conversation with me first in case I can help. 2. By being in this class, you have a unique opportunity that I didn’t have when I was in school. You are surrounded by peers who are passionate about both math and sports. Take advantage of this! I sincerely hope that you will learn from each other more than you learn from me. I have two goals with this class: 1. Give you some tools and the opportunity for hands-on application of ideas; 2. Encourage you to think for yourself. I don’t want to indoctrinate you into a certain way of thinking about sport analytics. The way you’re ultimately going to be successful in life is thinking for yourself, not regurgitating what you’ve been taught.\n10:25-10:40 students complete Canvas “quiz”\nReflection - We ran about 10 minutes late and didn’t have time for the motivational speech. - Students seemed reasonably engaged in the class period. - Remember to bring paper and pens for the concept mapping exercise!\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-1",
+    "href": "teaching/smgt430/plan/2024-01.html#section-1",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes - Mention the first homework assignment is due at midnight next Tuesday. - Remind students that this is an intro class, no background in sport analytics expected. The reason we spent yesterday discussing what students already know is to acknowledge that we do have some existing knowledge in the room, and we want to activate that knowledge and connect it to what we’re covering in class. I hope that learning from each other will be a big part of this course.\n9:25-9:30 Motivational speech about mindset\n9:30-9:40 Part 1 of R tutorial\n9:40-9:50 Part 2 of R tutorial\n9:50-9:55 Think for yourself: What is a research question you have about your favorite sport that you might be able to answer with sport analytics?\n9:55-10:00 Pair discussion\n10:00-10:05 Group discussion\n10:05-10:15 Part 3 of R tutorial\n10:15-10:25 Part 4 of R tutorial\n10:25-10:40 students complete exit ticket and quiz\nReflection - We only had time to do parts 1 and 2 of the R tutorial - Students really lit up during the group discussion of project ideas - I forgot to adjust the quiz to reflect that we only covered half of the tutorial!\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-2",
+    "href": "teaching/smgt430/plan/2024-01.html#section-2",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "All Rice classes cancelled because of cold"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-3",
+    "href": "teaching/smgt430/plan/2024-01.html#section-3",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes - Apologize for the quiz going beyond what we covered in class - Explain that due dates have been revised following cancellation - Start with sport analytics concept map!\n9:25-9:40 Free Throw Exercise, Part 1 - 9:25-9:30 Students draw “true talents” and simulate 30 free throws - 9:30-9:35 Ask students to predict the number written on the winner’s card - 9:35-9:40 Visualize submissions, ask high/low/median students to explain their predictions\n9:40-9:55 Regression to the mean lecture, part 1\n9:55 Announce the winner of the prediction contest\n9:55-10:10 Assignment #1 discussion - 9:55-10:00 Partner discussion #1 - 10:00-10:05 Partner discussion #2 - 10:05-10:10 Larger group discussion\n10:10-10:25 Regression to the mean lecture, part 2\n10:25-10:40 students complete exit ticket and quiz\nReflection - I tried to cram too much into this class period - I saw a lot of confused faces in the room - More examples would have been helpful - Only had time for one partner discussion\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-4",
+    "href": "teaching/smgt430/plan/2024-01.html#section-4",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes - Announce that assignment #2-#4 deadlines will be pushed back from Thursday night to Sunday night - Start with the posterior mean on the board, and discuss the interpretation of each component in terms of real-life sports\n9:25-9:35 Review regression to the mean\n9:35-9:55 Step through pre-written R code in tutorial\n9:55-10:10 think for yourself / pair discussion / group discussion - What is an example of a player metric for which regression to the mean would be particularly useful? - What is an example of a player metric for which regression to the mean would not be very useful? - What is an example of a real-life sport management decision that might benefit from this tool?\n10:10-10:25 Students work on R exercises\n10:25-10:40 students complete exit ticket and quiz\nReflections - I executed the plan well\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-5",
+    "href": "teaching/smgt430/plan/2024-01.html#section-5",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:30 Sports talk - NFL Conference Championships (11) - NBA games (3) - Australian Open (Zach, Trey) - AFC Asian Cup (Lou) - Africa Cup of Nations (Trey)\n9:30-9:40 Review quiz question on regression to the mean\n9:40-10:00 Pythagorean formula lecture - start with concept map!\n10:00-10:25 Going for 2 down 8 discussion - 10:00-10:05 Review what happened, watch clips together - 10:05-10:10 Students read the Ben Recht article - 10:10-10:15 Students discuss in pairs - 10:15-10:25 Larger group discussion\n10:25-10:40 students complete exit ticket and quiz\nReflections - Students were very engaged on G42D8 discussion - Introducing the G42D8 discussion took 15 minutes (planned for 5) - Made up for it by shortening large group discussion and quiz time - First student done at 10:40 (10 minutes) - Last student done at 10:50 (20 minutes)\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-6",
+    "href": "teaching/smgt430/plan/2024-01.html#section-6",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:30 Sports talk\n9:30-9:50 R tutorial part 1 - 9:30-9:35 Exercise 0 - 9:35-9:40 Exercise 1 - 9:40-9:45 Exercise 2 - 9:45-9:50 Exercise 3\n9:50-10:05 Think/Pair/Share - Predict split half correlations for: actual W%, Pythag W%, residual\n10:05-10:25 R tutorial part 2 - 10:05-10:10 Exercise 0 - 10:10-10:15 Exercise 1 - 10:15-10:20 Exercise 2 - 10:20-10:25 Exercise 3\n10:25-10:40 students complete exit ticket and quiz\nReflections - Sports talk went 5 minutes long (skip it next time?) - Made a couple of errors on live coding (leave more time!)\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-7",
+    "href": "teaching/smgt430/plan/2024-01.html#section-7",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes - “I am confused on why we would be analyzing the correlation of those values.” - “It would help me to go over the material again.” - Apologize for botched live coding - Emphasize the value of what we’re learning\n9:25-10:00 Bradley-Terry model lecture, part 1\n10:00-10:10 Think/Pair/Share - Review correlations from last class - Why did we calculate them? - What is our interpretation of the results? - How could this be used in decision-making?\n10:10-10:30 Bradley-Terry model lecture, part 2\n10:30-10:40 students complete exit tickets and quizzes\nReflections - Pacing was better, but didn’t cover everything I wanted to\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-8",
+    "href": "teaching/smgt430/plan/2024-01.html#section-8",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:50 Review Bradley-Terry with quidditch example\n9:50-10:00 Think/pair/share homework assignment\n10:00-10:25 R tutorial\n10:25-10:40 students complete course evaluation part 1\nReflections - Example was very well received - I should spend less time talking on R days\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-9",
+    "href": "teaching/smgt430/plan/2024-01.html#section-9",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:30 discuss super bowl\n9:30-9:35 discuss early course eval\n9:35-9:55 lecture part 1\n9:55-10:05 homework show & tell\n10:05-10:25 lecture part 2\n10:25-10:40 students complete exit ticket and quiz\nReflections - Discussion of early course eval went a little long (closer to 10 min) - Felt really good to me\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-10",
+    "href": "teaching/smgt430/plan/2024-01.html#section-10",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes “The summations are a little confusing on the adjusted plus and minus? Why in Rasch model we don’t have a wi? What is the point of having all of the data from the other teams that are not involved or is that just how the model is ?”\n9:25-9:30 sports talk\n9:30-9:35 review plus-minus and rasch model\n9:35-10:20 students work on R tutorial at their own pace\n10:20-10:25 invite a student up to present their solution to an exercise\n10:25-10:40 students complete exit ticket and quiz\nReflections - only had 10 minutes for exit ticket and quiz (need to start transition to student presentation earlier)\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-11",
+    "href": "teaching/smgt430/plan/2024-01.html#section-11",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes - Discuss honor code policy for quizzes (and why we repeat questions)\n9:25-9:30 Review weekend of sports\n9:30-9:55 Regularized regression lecture, part 1\n9:55-10:10 Homework share\n10:10-10:25 Regularized regression lecture, part 2\n10:25-10:40 students work on exit tickets and quizzes\nReflections - I don’t think I did a good enough job of motivating regularization (students weren’t engaged)\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-12",
+    "href": "teaching/smgt430/plan/2024-01.html#section-12",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:30 Preview weekend of sports\n9:30-10:20 Students work on R tutorial on their own time\n10:20-10:25 Pick a student to share their work with the class\n10:25-10:40 students work on exit tickets and quizzes\nReflections - Students are starting to speak up more now that I’m going around and asking who has questions\nSubjective Rating 5/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-13",
+    "href": "teaching/smgt430/plan/2024-01.html#section-13",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Notes - “Could you give a quick run down of regularized before we move on? Just to like hear it again”\n9:25-9:30 sports talk\n9:30-9:50 Markov chain lecture part 1 (based on Stanford notes, including quidditch example)\n9:50-10:05 Assignment #4 pair discussion\n10:05-10:25 Markov chain lecture part 2 (based on Stanford notes, including quidditch example)\n10:25-10:40 students complete quiz and exit ticket\nReflections - Forgot to give the quick run down of regularized regression at the beginning!\nSubjective Rating 4/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-14",
+    "href": "teaching/smgt430/plan/2024-01.html#section-14",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-10:25 R tutorial #7\n10:25-10:40 students complete quiz and exit ticket\nReflections - Students felt slightly less engaged on this day\nSubjective Rating 3/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-15",
+    "href": "teaching/smgt430/plan/2024-01.html#section-15",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Jason Christian guest speaker\n9:25-9:30 Sports talk\n9:30-9:35 Jason Christian introduction\n9:35-9:55 Q&A\n9:55-10:10 Assignment #5 pair discussion\n10:10-10:30 Jason Christian lesson\n10:30-10:40 students complete quiz and exit ticket"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-16",
+    "href": "teaching/smgt430/plan/2024-01.html#section-16",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "Jake Flancer guest speaker\n9:25-9:30 Sports talk\n9:30-9:35 Jake Flancer introduction\n9:35-9:55 Q&A\n9:55-10:10 Think/pair/share: How could you combine information from box score statistics with the RAPM framework for evaluating players?\n10:10-10:40 Jake Flancer lesson"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-17",
+    "href": "teaching/smgt430/plan/2024-01.html#section-17",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:35 Give an overview of the remaining four weeks - Explain how grade will be determined in absence of Homework #6 - Remind students that Assignment #7 is due tonight - Announce bracket competition!!\n9:35-9:45 Recap of everything we covered before spring break - 9:35-9:40 Create a list of things you learned during the first nine weeks. What skills do you have that you didn’t have in 2023? - 9:40-9:50 Create a concept map on the whiteboard\n9:50-10:00 Discuss linear regression as the GOAT of statistical models, and discuss pitfalls - https://www.espn.com/nfl/news/story?id=2241159 - https://www.espn.com/nfl/news/story?id=2241121\n10:00-10:10 Ask students to predict what will happen in the following regression models: - Football: team_wins ~ passing_attempts + rushing attempts - Baseball: team_runs_scored ~ flyouts + groundouts + strikeouts + walks + singles + doubles + triples + home_runs - Baseball: team_runs_allowed ~ flyouts + groundouts + strikeouts + walks + singles + doubles + triples + home_runs - Soccer: team_table_points ~ corner_kicks\n10:10-10:15 Ask students to write down the moral of the story (and discuss)\n10:15-10:20 Discuss the alternative to linear regression\n10:20-10:25 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4697111\n10:25-10:40 Give students time to complete midpoint course eval\nReflections - Students seemed bored; I think this lecture was too slow - It seemed everyone already knew the NFL rushing example\nSubjective Rating 2/5"
+  },
+  {
+    "objectID": "teaching/smgt430/plan/2024-01.html#section-18",
+    "href": "teaching/smgt430/plan/2024-01.html#section-18",
+    "title": "SMGT 430: Introduction to Sport Analytics",
+    "section": "",
+    "text": "9:25-9:35 Review midpoint course eval, preview final 4 weeks - Review March Madness leaderboard - Guest speakers were popular (announce Ehsan Bokhari as guest speaker) - Quizzes are still unpopular (described as repetitive) - R tutorials could include more explanation of code - A few asked for tracking data and advanced baseball metrics (SMGT 435) - Lots of other one-off feedback; let me know if you want it addressed\n9:35-9:55 Don’t be fooled by noise, part 1 - Motivate with Larry Brown batting average example - Write down our old regression to the mean model - Calculate the expected error for population mean and for naive estimator\n9:55-10:10 Think/Pair/Share - https://twitter.com/mindthegamepod/status/1770058890928931024\n10:10-10:25 Don’t be fooled by noise, part 2 - Example #1 - Calculate correlation between first half and second half - Example #2\n10:25-10:40 Students complete exit ticket and quiz"
   },
   {
     "objectID": "teaching/smgt430/notebook/pythagorean_formula_solutions.html",

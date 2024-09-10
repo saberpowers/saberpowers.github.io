@@ -25,7 +25,7 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1DdBF-D_Pl3fzg0xgsEGtKBTPVj-9pV9g){target="_blank"}
 
-[Assignment #1: Signal v. Noise in Batter Outcomes](assignment/1.pdf){target="_blank"}
+[Assignment #1: Signal v. Noise in Batter Outcomes](assignment/batter_outcomes.pdf){target="_blank"}
 
 
 ## Unit 2: Measuring Pitching Performance
