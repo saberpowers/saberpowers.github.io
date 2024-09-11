@@ -34,7 +34,7 @@
     There is no concept of ``home team'' in the cup, so let's treat the first team alphabetically as the home team in each match. Hufflepuff's average score differential is:
     $$ (0 \cdot 180 + -1 \cdot -10 + 1 \cdot 20 + 0 \cdot 150) / (0 + 1 + 1 + 0) = 30 / 2 = 15$$
     $^\dagger$ Miraculously, this match only lasted 22 minutes!\\
-    * Result known but exact score unknown. Most likely score inferred from Rowling JK (2003) {\it Harry Potter and the Order of the Phoenix}. See \url{harrypotter.fandom.com/wiki/Inter-House_Quidditch_Cup}
+    * Result known but exact score unknown. Most likely score inferred from Rowling JK (2003) {\it Harry Potter and the Order of the Phoenix}. See \small\url{harrypotter.fandom.com/wiki/Inter-House_Quidditch_Cup}
   \end{framed}
 
   We may interpret $s_j$ as an estimate of the strength of team $j$. We could use these estimated strengths to calculate a strength-of-schedule-adjusted score differential for each game. If $o_{ij}$ is the opponent of team $j$ in game $i$, then we would achieve this with $x_{ij} \cdot y_i + s_{o_{ij}}$. This leads to a strength-of-schedule-adjusted average score differential for team $j$:
@@ -96,13 +96,13 @@
       {\bf y} = \begin{bmatrix*}[r] 180 \\ -10 \\ 20 \\ 150 \end{bmatrix*}
       \hspace{1cm}
       \boldsymbol{\beta} = \begin{bmatrix*}[l]
-        \alpha \\
-        \beta_{\mbox{\scriptsize Hufflepuff}} \\
-        \beta_{\mbox{\scriptsize Ravenclaw}} \\
+        \beta_0\\
+        \beta_{\mbox{\scriptsize Hufflepuff}}\\
+        \beta_{\mbox{\scriptsize Ravenclaw}}\\
         \beta_{\mbox{\scriptsize Slytherin}}
       \end{bmatrix*}
     $$
-    Because there is no home team, let's drop the home-field advantage coefficient $\alpha$ from the model.
+    Because there is no home team, let's drop the home-field advantage coefficient $\beta_0$ from the model.
     $$
       {\bf X} = \begin{bmatrix*}[r]
          0 &  0 & -1\\
@@ -119,7 +119,6 @@
         \beta_{\mbox{\scriptsize Slytherin}}
       \end{bmatrix*}
     $$
-
     $$
       \boldsymbol{\hat\beta} = \left(
         \begin{bmatrix*}[r]
