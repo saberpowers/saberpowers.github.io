@@ -17,7 +17,3 @@ teaching/smgt432/lecture/tracking/*.pdf
 
 # These images are just used for the syllabus
 teaching/images/
-
-# Colab notebooks and lesson plans are not hosted on website
-docs/teaching/*/notebook/
-docs/teaching/*/plan/

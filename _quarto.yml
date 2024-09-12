@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: docs
-
+  render:
+    - "*.qmd"
+    - "!*.md"
+    - "!*.ipynb"
 website:
   title: "Scott Powers"
   favicon: assets/favicon.png
