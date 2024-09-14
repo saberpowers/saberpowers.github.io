@@ -1,3 +1,11 @@
 /*-- scss:defaults --*/
 $link-color:            #268bd2 !default;
 $navbar-hover-color:    #268bd2 !default;
+
+
+/*-- scss:rules --*/
+// reduce the size of the social media links on mobile
+div.quarto-about-trestles .about-entity .about-links {
+    column-gap: 1em;
+    flex-direction: row;
+}
