@@ -17,7 +17,7 @@
       There are three components to this assignment:
 
       \begin{enumerate}
-        \item Using the data provided (mlb\_event\_2023.csv), estimate a batted ball outcome model that is better than the very simple one we estimated in class. Use your model to generate predictions for the linear weights of the outcomes of the batted balls in the held-out test set (mlb\_batted\_ball\_test.csv).
+        \item Using the data provided (event.csv), estimate a batted ball outcome model that is better than the very simple one we estimated in class. Use your model to generate predictions for the linear weights of the outcomes of the batted balls in the held-out test set (batted\_ball\_test.csv).
         \item Split the data into two halves, and perform an empirical validation of the model-based sample size thresholds we estimated in class. Specifically:
         \begin{itemize}
           \item Is it true that the correlation between first-half xLW3 and second-half LW is higher than the correlation between first-half LW and second-half LW?
@@ -26,7 +26,7 @@
           \item For players with more than 150 first-half batted balls, is it true that the correlation between first-half xLW2 and second-half xLW2 is higher than the correlation between first-half xLW1 and second-half xLW2?
         \end{itemize}
         For the metrics xLW*, use the model you estimated in component 1, not the naive model from class. When calculating these correlations, take care with how you handle tiny-sample ($n < 30$) players.
-        \item Create a batting leaderboard that includes every player with at least one plate appearance as a batter in 2023. Your leaderboard must include player name, number of plate appearances and {\bf at most three} additional columns describing the player's batting performance. You choose from traditional statistics (e.g. BB\%, K\%, ISO, BABIP) as well as the metrics we have covered in class. Your goal is to paint as clear a picture as possible of the player's batting performance subject to the three-number constraint. Which three numbers will you choose?
+        \item Create a batting leaderboard that includes every player with at least one plate appearance as a batter in 2024. Your leaderboard must include player name, number of plate appearances and {\bf at most three} additional columns describing the player's batting performance. You choose from traditional statistics (e.g. BB\%, K\%, ISO, BABIP) as well as the metrics we have covered in class. Your goal is to paint as clear a picture as possible of the player's batting performance subject to the three-number constraint. Which three numbers will you choose?
       \end{enumerate}
 
       \subsubsection*{\sc Submission Requirements}
@@ -39,7 +39,7 @@
             \item An explanation of why you choose the three numbers you included in your batting leaderboard
           \end{itemize}
           \item A CSV of predictions for the held-out batted ball test set, with columns \texttt{play\_id} and \texttt{pred\_lw}
-          \item A CSV leaderboard of batting performance in 2023
+          \item A CSV leaderboard of batting performance in 2024
           \item A R script (.R file extension) with all of the code you used to generate your report and the CSVs
         \end{itemize}
 
