@@ -27,6 +27,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Lecture Notes](lecture/plus_minus_models.pdf){target="_blank"}
 
+[Colab Notebook](https://colab.research.google.com/drive/1DD1XwQc4Ih5vpZRtdflKUqqlTr7azf6I){target="_blank"}
 
 
 
