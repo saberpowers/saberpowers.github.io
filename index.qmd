@@ -20,9 +20,6 @@ about:
         - text: "{{< iconify simple-icons twitter >}}"
           href: https://twitter.com/saberpowers
           target: _blank
-        - text: "{{< iconify simple-icons bluesky >}}"
-          href: https://bsky.app/profile/saberpowers.bsky.social
-          target: _blank
 ---
 
 Check out the [American Soccer Insights Summit](https://americansoccerinsights.com/){target="_blank"}!
@@ -35,17 +32,17 @@ I completed my PhD in statistics at [Stanford University](https://www.stanford.e
 
 #### In the news
 
-2024-09-05 [Looking for friends among baseball's most passionate nerds](https://defector.com/looking-for-friends-among-baseballs-most-passionate-nerds){target="_blank"}\
-*Defector*
+[Looking for friends among baseball's most passionate nerds](https://defector.com/looking-for-friends-among-baseballs-most-passionate-nerds){target="_blank"}\
+2024-09-05 *Defector*
 
-2024-02-13 [​​Scott Powers: Major league analyst acing Rice](https://www.ricethresher.org/article/2024/02/scott-powers-major-league-analyst-acing-rice){target="_blank"}\
-*The Rice Thresher*
+[​​Scott Powers: Major league analyst acing Rice](https://www.ricethresher.org/article/2024/02/scott-powers-major-league-analyst-acing-rice){target="_blank"}\
+2024-02-13 *The Rice Thresher*
 
-2023-09-27 [What volleyball can tell us about what’s missing in MLB analytics](https://www.ocregister.com/2023/09/27/hoornstra-reckoning-with-the-powers-and-limits-of-analytics-in-baseball/){target="_blank"}\
-*The Orange County Register*
+[What volleyball can tell us about what’s missing in MLB analytics](https://www.ocregister.com/2023/09/27/hoornstra-reckoning-with-the-powers-and-limits-of-analytics-in-baseball/){target="_blank"}\
+2023-09-27 *The Orange County Register*
 
-2022-11-11 [Astros fire assistant general manager Scott Powers](https://www.mlbtraderumors.com/2022/11/astros-fire-assistant-general-manager-scott-powers.html){target="_blank"}\
-*MLB Trade Rumors*
+[Astros fire assistant general manager Scott Powers](https://www.mlbtraderumors.com/2022/11/astros-fire-assistant-general-manager-scott-powers.html){target="_blank"}\
+2022-11-11 *MLB Trade Rumors*
 
-2022-01-03 [Dodgers executive leaving for Astros front office is traitorous activity](https://dodgersway.com/2022/01/03/dodgers-executive-leaving-astros-front-office-traitorous-activity/){target="_blank"}\
-*Dodgers Way*
+[Dodgers executive leaving for Astros front office is traitorous activity](https://dodgersway.com/2022/01/03/dodgers-executive-leaving-astros-front-office-traitorous-activity/){target="_blank"}\
+2022-01-03 *Dodgers Way*
