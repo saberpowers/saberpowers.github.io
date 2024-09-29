@@ -81,14 +81,14 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "sabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+    "text": "npmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
   },
   {
     "objectID": "software.html#r-packages",
     "href": "software.html#r-packages",
     "title": "Software",
     "section": "",
-    "text": "sabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+    "text": "npmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
   },
   {
     "objectID": "lab.html",
@@ -123,28 +123,28 @@
     "href": "index.html",
     "title": "Scott Powers",
     "section": "",
-    "text": "Check out the American Soccer Insights Summit!\nI am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I’ve kept a thread of consulting, starting with the Oakland Athletics, which led directly to part-time work for AZ Alkmaar, which became part-time work for Zelus Analytics (primarily soccer analytics), which became part-time work for Teamworks (soccer analytics).\nRegretfully, I do not have the bandwidth to respond to individual requests from students for video calls or feedback on projects. If you are a potential collaborator with (a) data and (b) research questions, please reach out—I may be able to provide students and brainpower. I am also open to media inquiries.\n\nIn the news\n2024-09-05 Looking for friends among baseball’s most passionate nerds\nDefector\n2024-02-13 ​​Scott Powers: Major league analyst acing Rice\nThe Rice Thresher\n2023-09-27 What volleyball can tell us about what’s missing in MLB analytics\nThe Orange County Register\n2022-11-11 Astros fire assistant general manager Scott Powers\nMLB Trade Rumors\n2022-01-03 Dodgers executive leaving for Astros front office is traitorous activity\nDodgers Way"
+    "text": "Check out the American Soccer Insights Summit!\nI am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I’ve kept a thread of consulting, starting with the Oakland Athletics, which led directly to part-time work for AZ Alkmaar, which became part-time work for Zelus Analytics (primarily soccer analytics), which became part-time work for Teamworks (soccer analytics).\nRegretfully, I do not have the bandwidth to respond to individual requests from students for video calls or feedback on projects. If you are a potential collaborator with (a) data and (b) research questions, please reach out—I may be able to provide students and brainpower. I am also open to media inquiries.\n\nIn the news\nLooking for friends among baseball’s most passionate nerds\n2024-09-05 Defector\n​​Scott Powers: Major league analyst acing Rice\n2024-02-13 The Rice Thresher\nWhat volleyball can tell us about what’s missing in MLB analytics\n2023-09-27 The Orange County Register\nAstros fire assistant general manager Scott Powers\n2022-11-11 MLB Trade Rumors\nDodgers executive leaving for Astros front office is traitorous activity\n2022-01-03 Dodgers Way"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Powers S, Stancil L, Consiglio N\nEstimating individual contributions to team success in women’s college volleyball"
+    "text": "Powers S, Stancil L, Consiglio N\n“Estimating individual contributions to team success in women’s college volleyball”\narxiv, code"
   },
   {
     "objectID": "research.html#preprints",
     "href": "research.html#preprints",
     "title": "Research",
     "section": "",
-    "text": "Powers S, Stancil L, Consiglio N\nEstimating individual contributions to team success in women’s college volleyball"
+    "text": "Powers S, Stancil L, Consiglio N\n“Estimating individual contributions to team success in women’s college volleyball”\narxiv, code"
   },
   {
     "objectID": "research.html#conference-presentations",
     "href": "research.html#conference-presentations",
     "title": "Research",
     "section": "Conference Presentations",
-    "text": "Conference Presentations\n2024 Saberseminar (Chicago) slides, video\n“Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length”\nJoint work w/ Ron Yurko\n2024 Sloan Sports Analytics Conference (Boston) slides, video\n“Spotlighting under-the-radar performers in women’s college volleyball”\nJoint work w/ Luke Stancil and Naomi Consiglio\n2023 New England Symposium on Statistics in Sports (Boston) slides, video\n“Estimating individual contributions to team success in women’s college volleyball”\nJoint work w/ Luke Stancil and Naomi Consiglio\n2023 Saberseminar (Chicago) slides, video\n“Pitch trajectory density estimation for predicting future outcomes”\nJoint work w/ Vicente Iglesias\n2016 Saberseminar (Boston) slides\n“Jointly predicting exit velocity and launch angle for batter-pitcher matchups”\n2016 Joint Statistical Meetings (Chicago) slides\n“Nuclear penalized multinomial regression for predicting at bat outcomes in baseball”\nJoint work w/ Trevor Hastie and Rob Tibshirani\n2016 SABR Analytics Conference (Phoenix) slides\n“True wOBA: Estimation of true talent level for batters”\nJoint work w/ Eli Shayer\n2015 Saberseminar (Boston) slides\n“Rewarding batters for baserunner advancement: A ridge-regressed Rasch model”"
+    "text": "Conference Presentations\nPowers S, Yurko R\n“Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length”\n2024 Cascadia Symposium on Statistics in Sports code, slides, video\n2024 Saberseminar code, slides, video\nPowers S, Stancil L, Consiglio N\n“Estimating individual contributions to team success in women’s college volleyball”\n2024 Sloan Sports Analytics Conference code, slides, video\n2023 New England Symposium on Statistics in Sports code, slides, video\nPowers S, Iglesias V\n“Pitch trajectory density estimation for predicting future outcomes”\n2023 Saberseminar code, slides, video\nPowers S\n“Jointly predicting exit velocity and launch angle for batter-pitcher matchups”\n2016 Saberseminar code, slides\nPowers S, Hastie T, Tibshirani R\n“Nuclear penalized multinomial regression for predicting at bat outcomes in baseball”\n2016 Joint Statistical Meetings code, slides\nPowers S, Shayer E\n“True wOBA: Estimation of true talent level for batters”\n2016 SABR Analytics Conference code, slides\nPowers S\n“Rewarding batters for baserunner advancement: A ridge-regressed Rasch model”\n2015 Saberseminar slides"
   },
   {
     "objectID": "research.html#peer-reviewed-publications",
@@ -154,18 +154,11 @@
     "text": "Peer Reviewed Publications\n\nSports\nPowers S, Hastie T, Tibshirani R (2018)\nNuclear penalized multinomial regression with an application to predicting at bat outcomes in baseball\nStatistical Modelling 18(5-6) 388-410\nBurton T, Powers S (2015)\nA linear model for estimating optimal service fraction in volleyball\nJournal of Quantitative Analysis in Sports 11 117-129\nSaavedra S, Powers S, McCotter T, Porter MA, Mucha PJ (2010)\nMutually-antagonistic interactions in baseball networks\nPhysica A: Statistical Mechanics and its Applications 389 1131-1141\n\n\nNot Sports\nBurton T, Powers S, Burns C, Conway G, Leach F, Senecal K (2023)\nA data-driven greenhouse gas emission rate analysis for vehicle comparisons\nSAE International Journal of Electrified Vehicles 12(1)\nPowers S, McGuire V, Bernstein L, Canchola AJ, Whittemore AS (2019)\nEvaluating disease prediction models using a cohort whose covariate distribution differs from that of the target population\nStatistical Methods in Medical Research 28(1) 309-320\nPowers S, Qian J, Jung K, Schuler A, Shah NH, Hastie T, Tibshirani R (2018)\nSome methods for heterogeneous treatment effect estimation in high dimensions\nStatistics in Medicine 37(11) 1767-1787\nMcGinnis L, Powers S, Bangs D, Cherry A, Tibshirani R, Natkunam Y (2016)\nDouble-hit diffuse large B-cell lymphomas with MYC gene rearrangements more commonly involve BCL2 than BCL6 gene rearrangements as the second hit: A large scale single institution study\nLaboratory Investigation 96 362A\nPowers S, Hastie T, Tibshirani R (2015)\nCustomized training with an application to mass spectrometric imaging of cancer tissue\nThe Annals of Applied Statistics 9 1709-1725\nPowers S, DeJongh M, Best AA, Tintle NL (2015)\nCautions about the reliability of pairwise gene correlations based on expression data\nFrontiers in Microbiology 6 650\nPowers S, Gopalakrishnan S, Tintle NL (2011)\nAssessing the impact of non-differential genotyping errors on rare variant tests of association\nHuman Heredity 72 153-160\nLuedtke A, Powers S, Petersen A, Sitarik A, Bekmetjev A, Tintle NL (2011)\nEvaluating methods for the analysis of rare variants in sequence data\nBMC Proceedings 5 S119\nPetersen A, Sitarik A, Luedtke A, Powers S, Bekmetjev A, Tintle NL (2011)\nEvaluating methods for combining rare variant data in pathway-based tests of genetic association\nBMC Proceedings 5 S48"
   },
   {
-    "objectID": "research.html#magazineblog-articles",
-    "href": "research.html#magazineblog-articles",
-    "title": "Research",
-    "section": "Magazine/Blog Articles",
-    "text": "Magazine/Blog Articles\nPowers S (2016)\nToward a Probability Distribution over Batted-Ball Trajectories\nThe Hardball Times (not peer reviewed)\nSmith RL, Powers S, Cisewski J (2014)\nQualifying Times for the Boston Marathon\nCHANCE (not peer reviewed)"
-  },
-  {
     "objectID": "research.html#student-presentations",
     "href": "research.html#student-presentations",
     "title": "Research",
     "section": "Student Presentations",
-    "text": "Student Presentations\n\nTalks\nHahn J, Powers S, Pai M, Schaefer A\nThe Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball\nPresented at Saberseminar 2024\nBrover J, Powers S\nDo we learn more about AAA batters when they face better pitches?\nPresented at Saberseminar 2024\nHaugen D, Powers S\nTime warping for clustering pitcher deliveries\nPresented at Saberseminar 2024\n\n\nPosters\nKang A, Powers S, Curson T\nNot All Features Are Created Equal: Player clustering and evaluation\nPresented at Opta Forum 2024"
+    "text": "Student Presentations\n\nTalks\nHahn J, Powers S, Pai M, Schaefer A\n“The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball”\n2024 Cascadia Symposium on Statistics in Sports slides, video\n2024 Saberseminar video\nConsiglio N, Powers S\n“Modifying k-means clustering to optimize defensive positioning in volleyball”\n2024 Women in Sports Data Symposium slides, video\nBrover J, Powers S\n“Do we learn more about AAA batters when they face better pitches?”\n2024 Saberseminar slides, video\nHaugen D, Powers S\n“Time warping for clustering pitcher deliveries”\n2024 Saberseminar slides, video\n\n\nPosters\nSepúlveda E, McClellan M, Powers S\n“A statistical approach to sport climbing difficulty and progression”\n2024 Cascadia Symposium on Statistics in Sports pdf\nKang A, Powers S, Curson T\n“Not All Features Are Created Equal: Player clustering and evaluation”\n2024 Opta Forum pdf"
   },
   {
     "objectID": "teaching/index.html",
