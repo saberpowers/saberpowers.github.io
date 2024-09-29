@@ -4,135 +4,157 @@ title: "Research"
 
 ## Preprints
 
-**Powers S**, Stancil L, Consiglio N\
-[Estimating individual contributions to team success in women's college volleyball](https://arxiv.org/abs/2402.01083){target=_blank}\
+Powers S, Stancil L, Consiglio N\
+"Estimating individual contributions to team success in women's college volleyball"\
+[arxiv](https://arxiv.org/abs/2402.01083){target=_blank},
+[code](https://github.com/saberpowers/markov-chain-volleyball){target="blank"}
 
 ## Conference Presentations
 
-2024 Saberseminar (Chicago)
-[slides](https://github.com/saberpowers/swinging-fast-and-slow/blob/main/reports/saberseminar/slides.pdf){target="_blank"},
-[video](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3)\
+Powers S, Yurko R\
 "Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length"\
-Joint work w/ Ron Yurko
+2024 Cascadia Symposium on Statistics in Sports
+[code](https://github.com/saberpowers/swinging-fast-and-slow){target="blank"},
+[slides](https://drive.google.com/file/d/12FuQxjcDzmxETV-RaKdjPA1gbP1BLUaR){target=_blank},
+[video](https://www.youtube.com/watch?v=rsJmNvDaHJc&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+2024 Saberseminar
+[code](https://github.com/saberpowers/swinging-fast-and-slow){target="blank"},
+[slides](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank},
+[video](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
-2024 Sloan Sports Analytics Conference (Boston)
-[slides](https://github.com/saberpowers/talks/blob/master/2024/sloan/slides.pdf){target="_blank"},
-[video](https://www.youtube.com/watch?v=we8oPw_C4zQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target="_blank"}\
-"Spotlighting under-the-radar performers in women's college volleyball"\
-Joint work w/ Luke Stancil and Naomi Consiglio
-
-2023 New England Symposium on Statistics in Sports (Boston)
-[slides](https://github.com/saberpowers/talks/blob/master/2023/nessis/slides.pdf){target="_blank"},
-[video](https://www.youtube.com/watch?v=kiV2QDFDMVo&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target="_blank"}\
+Powers S, Stancil L, Consiglio N\
 "Estimating individual contributions to team success in women's college volleyball"\
-Joint work w/ Luke Stancil and Naomi Consiglio
+2024 Sloan Sports Analytics Conference
+[code](https://github.com/saberpowers/markov-chain-volleyball){target="blank"},
+[slides](https://drive.google.com/file/d/193olTWrsrSh-2qSuf67kVzfE17ZAGpRV){target=_blank},
+[video](https://www.youtube.com/watch?v=we8oPw_C4zQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+2023 New England Symposium on Statistics in Sports
+[code](https://github.com/saberpowers/markov-chain-volleyball){target="blank"},
+[slides](https://drive.google.com/file/d/1J4RUxu-oV8o_xQJi7cCvEKm8wfXS_B2Y){target=_blank},
+[video](https://www.youtube.com/watch?v=kiV2QDFDMVo&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
-2023 Saberseminar (Chicago)
-[slides](https://github.com/saberpowers/talks/blob/master/2023/saberseminar/slides.pdf){target="_blank"},
-[video](https://www.youtube.com/watch?v=IgPB4TlTass&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target="_blank"}\
+Powers S, Iglesias V\
 "Pitch trajectory density estimation for predicting future outcomes"\
-Joint work w/ Vicente Iglesias
+2023 Saberseminar
+[code](https://github.com/saberpowers/predictive-pitch-score){target=_blank},
+[slides](https://drive.google.com/file/d/1MI_olwoJ6AJ1BWEVaXiWwGh63Dt7vdqj){target=_blank},
+[video](https://www.youtube.com/watch?v=IgPB4TlTass&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
-2016 Saberseminar (Boston)
-[slides](https://github.com/saberpowers/talks/blob/master/2016/saberseminar/slides.pdf){target="_blank"}\
-"Jointly predicting exit velocity and launch angle for batter-pitcher matchups"
+Powers S\
+"Jointly predicting exit velocity and launch angle for batter-pitcher matchups"\
+2016 Saberseminar
+[code](https://github.com/saberpowers/trajectory-distribution){target=_blank},
+[slides](https://drive.google.com/file/d/1dBwmXiejFQkje7MJ1mcv3-HMWg0sO1Qw){target=_blank}
 
-2016 Joint Statistical Meetings (Chicago)
-[slides](https://github.com/saberpowers/talks/blob/master/2016/jsm/slides.pdf){target="_blank"}\
+Powers S, Hastie T, Tibshirani R\
 "Nuclear penalized multinomial regression for predicting at bat outcomes in baseball"\
-Joint work w/ Trevor Hastie and Rob Tibshirani
+2016 Joint Statistical Meetings
+[code](https://github.com/saberpowers/npmr){target=_blank},
+[slides](https://drive.google.com/file/d/1ERY4Ry63w80IIGf1dUpT6qp2mcX6gHvu){target=_blank}
 
-2016 SABR Analytics Conference (Phoenix)
-[slides](https://github.com/saberpowers/talks/blob/master/2016/sabr_analytics/slides.pdf){target="_blank"}\
+Powers S, Shayer E\
 "True wOBA: Estimation of true talent level for batters"\
-Joint work w/ Eli Shayer
+2016 SABR Analytics Conference
+[code](https://github.com/sspowers/true-woba){target=_blank},
+[slides](https://drive.google.com/file/d/1ROrrWrpGyONj8a9cv-VYIO-NsK9jFD-n){target=_blank}
 
-2015 Saberseminar (Boston)
-[slides](https://github.com/saberpowers/talks/blob/master/2015/saberseminar/slides.pdf){target="_blank"}\
-"Rewarding batters for baserunner advancement: A ridge-regressed Rasch model"
+Powers S\
+"Rewarding batters for baserunner advancement: A ridge-regressed Rasch model"\
+2015 Saberseminar
+[slides](https://drive.google.com/file/d/1IodOhnzXWrwM-jX5CU7GLqpzVJX2iVij){target=_blank}
 
 ## Peer Reviewed Publications
 
 ### Sports
 
-**Powers S**, Hastie T, Tibshirani R (2018)\
+Powers S, Hastie T, Tibshirani R (2018)\
 [Nuclear penalized multinomial regression with an application to predicting at bat outcomes in baseball](https://arxiv.org/abs/1706.10272){target=_blank}\
 *Statistical Modelling* **18**(5-6) 388-410
 
-Burton T, **Powers S** (2015)\
+Burton T, Powers S (2015)\
 [A linear model for estimating optimal service fraction in volleyball](https://doi.org/10.1515/jqas-2014-0087){target=_blank}\
 *Journal of Quantitative Analysis in Sports* **11** 117-129
 
-Saavedra S, **Powers S**, McCotter T, Porter MA, Mucha PJ (2010)\
+Saavedra S, Powers S, McCotter T, Porter MA, Mucha PJ (2010)\
 [Mutually-antagonistic interactions in baseball networks](https://arxiv.org/abs/0907.5241v2){target=_blank}\
 *Physica A: Statistical Mechanics and its Applications* **389** 1131-1141
 
 ### Not Sports
 
-Burton T, **Powers S**, Burns C, Conway G, Leach F, Senecal K (2023)\
+Burton T, Powers S, Burns C, Conway G, Leach F, Senecal K (2023)\
 [A data-driven greenhouse gas emission rate analysis for vehicle comparisons](https://doi.org/10.4271/14-12-01-0006){target=_blank}\
 *SAE International Journal of Electrified Vehicles* **12**(1)
 
-**Powers S**, McGuire V, Bernstein L, Canchola AJ, Whittemore AS (2019)\
+Powers S, McGuire V, Bernstein L, Canchola AJ, Whittemore AS (2019)\
 [Evaluating disease prediction models using a cohort whose covariate distribution differs from that of the target population](https://doi.org/10.1177/0962280217723945){target=_blank}\
 *Statistical Methods in Medical Research* **28**(1) 309-320
 
-**Powers S**, Qian J, Jung K, Schuler A, Shah NH, Hastie T, Tibshirani R (2018)\
+Powers S, Qian J, Jung K, Schuler A, Shah NH, Hastie T, Tibshirani R (2018)\
 [Some methods for heterogeneous treatment effect estimation in high dimensions](https://arxiv.org/abs/1707.00102){target=_blank}\
 *Statistics in Medicine* **37**(11) 1767-1787
 
-McGinnis L, **Powers S**, Bangs D, Cherry A, Tibshirani R, Natkunam Y (2016)\
+McGinnis L, Powers S, Bangs D, Cherry A, Tibshirani R, Natkunam Y (2016)\
 Double-hit diffuse large B-cell lymphomas with MYC gene rearrangements more commonly involve BCL2 than BCL6 gene rearrangements as the second hit: A large scale single institution study\
 *Laboratory Investigation* **96** 362A
 
-**Powers S**, Hastie T, Tibshirani R (2015)\
+Powers S, Hastie T, Tibshirani R (2015)\
 [Customized training with an application to mass spectrometric imaging of cancer tissue](https://arxiv.org/abs/1601.07994){target=_blank}\
 *The Annals of Applied Statistics* **9** 1709-1725
 
-**Powers S**, DeJongh M, Best AA, Tintle NL (2015)\
+Powers S, DeJongh M, Best AA, Tintle NL (2015)\
 [Cautions about the reliability of pairwise gene correlations based on expression data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4481165){target=_blank}\
 *Frontiers in Microbiology* **6** 650
 
-**Powers S**, Gopalakrishnan S, Tintle NL (2011)\
+Powers S, Gopalakrishnan S, Tintle NL (2011)\
 [Assessing the impact of non-differential genotyping errors on rare variant tests of association](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3214826){target=_blank}\
 *Human Heredity* **72** 153-160
 
-Luedtke A, **Powers S**, Petersen A, Sitarik A, Bekmetjev A, Tintle NL (2011)\
+Luedtke A, Powers S, Petersen A, Sitarik A, Bekmetjev A, Tintle NL (2011)\
 [Evaluating methods for the analysis of rare variants in sequence data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3287843){target=_blank}\
 *BMC Proceedings* **5** S119
 
-Petersen A, Sitarik A, Luedtke A, **Powers S**, Bekmetjev A, Tintle NL (2011)\
+Petersen A, Sitarik A, Luedtke A, Powers S, Bekmetjev A, Tintle NL (2011)\
 [Evaluating methods for combining rare variant data in pathway-based tests of genetic association](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3287885){target=_blank}\
 *BMC Proceedings* **5** S48
-
-## Magazine/Blog Articles
-
-**Powers S** (2016)\
-[Toward a Probability Distribution over Batted-Ball Trajectories](https://tht.fangraphs.com/toward-a-probability-distribution-over-batted-ball-trajectories){target=_blank}\
-*The Hardball Times* (not peer reviewed)
-
-Smith RL, **Powers S**, Cisewski J (2014)\
-[Qualifying Times for the Boston Marathon](https://chance.amstat.org/2014/09/boston-marathon){target=_blank}\
-*CHANCE* (not peer reviewed)
 
 ## Student Presentations
 
 ### Talks
 
-Hahn J, **Powers S**, Pai M, Schaefer A\
-[The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://www.youtube.com/watch?v=sVQ-b1lW8nQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-Presented at Saberseminar 2024
+Hahn J, Powers S, Pai M, Schaefer A\
+"The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball"\
+2024 Cascadia Symposium on Statistics in Sports
+[slides](https://drive.google.com/file/d/17jveBX0U5hDRP7KH2GtvgGVATdS8wI7Q){target=_blank},
+[video](https://www.youtube.com/watch?v=oOvvNnDCD5Y&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+2024 Saberseminar
+[video](https://www.youtube.com/watch?v=sVQ-b1lW8nQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
-Brover J, **Powers S**\
-[Do we learn more about AAA batters when they face better pitches?](https://www.youtube.com/watch?v=58IRGftqgNk&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-Presented at Saberseminar 2024
+Consiglio N, Powers S\
+"Modifying k-means clustering to optimize defensive positioning in volleyball"\
+2024 Women in Sports Data Symposium
+[slides](https://drive.google.com/file/d/1I7is6OWz4pjr0_LHZ4aXLhDoWhQrc-Qt/view?usp=sharing){target=_blank},
+[video](https://www.youtube.com/watch?v=YtEnMA_oo-M&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
-Haugen D, **Powers S**\
-[Time warping for clustering pitcher deliveries](https://www.youtube.com/watch?v=QcIdjBnQbHU&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-Presented at Saberseminar 2024
+Brover J, Powers S\
+"Do we learn more about AAA batters when they face better pitches?"\
+2024 Saberseminar
+[slides](https://drive.google.com/file/d/15tkgY2AF0itN_YAMJBSBGqdkhBkKn6bx){target=_blank},
+[video](https://www.youtube.com/watch?v=58IRGftqgNk&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
+
+Haugen D, Powers S\
+"Time warping for clustering pitcher deliveries"\
+2024 Saberseminar
+[slides](https://drive.google.com/file/d/1W_GtgfRGmzeAktd0CIqhjcxFYQsvJfaX){target=_blank},
+[video](https://docs.google.com/presentation/d/1Fv72j57Ry1Ua2r-8NvxenzSsAJQFPFp7&ouid=114765791034767974559&rtpof=true&sd=true){target=_blank}
 
 ### Posters
 
-Kang A, **Powers S**, Curson T\
-[Not All Features Are Created Equal: Player clustering and evaluation](assets/research/posters/kang_2024.pdf){target=_blank}\
-Presented at Opta Forum 2024
+Sepúlveda E, McClellan M, Powers S\
+"A statistical approach to sport climbing difficulty and progression"\
+2024 Cascadia Symposium on Statistics in Sports
+[pdf](https://drive.google.com/file/d/1Yr4v89__a6qT_zFzkCu1ber-Xb6ybAer){target=_blank}
+
+Kang A, Powers S, Curson T\
+"Not All Features Are Created Equal: Player clustering and evaluation"\
+2024 Opta Forum
+[pdf](https://drive.google.com/file/d/1lHfovGuNbaoPwJjo4VhS5VcErqmv3V4f){target=_blank}
