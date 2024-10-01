@@ -6,17 +6,19 @@
 
   \section*{\sc Assignment \#2: Signal v. Noise in Pitcher Outcomes}
 
-    Your task is to predict the LW allowed by each pitcher in 2024, using only data from 2023 and ignoring age.
+    Your GM has asked you to prepare a report on the top pitchers available in free agency this off-season, predicting their RE24 allowed for next season and making a recommendation on how to prioritize them.
 
     \subsection*{\sc Why are you being asked to do this?}
 
-      Predicting player performance is of great interest to teams, who need to make decisions on trades and free agent signings. Usually, when creating projections, you have multiple years of data, and age is an important consideration. We are simplifying the task to practice the fundamental skill of extracting signal from noise in a single season of data.
+      Evaluating players in free agency is a fundamental task for baseball front offices. Usually, when creating projections, you have multiple years of data, and age is an important consideration. We are simplifying the task to practice the fundamental skill of extracting signal from noise in a single season of data.
 
     \subsection*{\sc What (exactly) are you being asked to do?}
 
-      This assignment is very open-ended. You are to create a set of predictions that covers every pitcher who appears in the provided data (mlb\_event\_2023.csv). Your goal is to predict as accurately as possible the average linear weight (per plate appearance) allowed by each pitcher in 2024. More important that the accuracy of your predictions is how well you explain your methodology and reasoning. We will not know the accuracy of your predictions until well after the assignment is graded, so you will be evaluated on your methodology and reasoning.
+      Your task is to put together everything we've learned so far about separating signal from noise to predict next year's RE24 against four of the top free agent pitchers available: {\bf Corbin Burnes}, {\bf Jack Flaherty}, {\bf Max Fried} and {\bf Blake Snell}. For the sake of these predictions, you are to ignore the players' ages and use only data provided in event.csv from the current year. In your report, describe your prediction methodology in sufficient detail that another student in the class could reproduce your work.
+      
+      After describing your methodology and presenting your results, make a recommendation by ranking the four pitchers in the order that you would prioritize signing them. In other words, if all pitchers were available for the same price, what would be your preference order for signing them? Note any large gaps between consecutive pitchers in this ranking. {\bf This recommendation is a subjective exercise, and you are allowed to consider outside information when making this recommendation.}
 
-      The expectation is that you will use some of the tools we have covered in the class (e.g. regression to the mean) in the context of batter evaluation. We have learned how to separate signal from noise for batters, and now you must think critically about how to apply that framework to pitchers. Although you are expected to use some of the tools we have learned in class, there is no right answer. You are also encouraged to think on your own about how to predict pitcher performance. Importantly, you are expected to do some sanity-checking of your results. Just as you would in a real job, make sure your results make sense before you submit them! Do you believe in the pitchers at the top of your list?
+      The expectation is that you will use some of the tools we have covered in the class (e.g. regression to the mean) in the context of batter evaluation. We have learned how to separate signal from noise for batters, and now you must think critically about how to apply that framework to pitchers. Although you are expected to use some of the tools we have learned in class, there is no right answer. You are also encouraged to think on your own about how to predict pitcher performance. Importantly, you are expected to do some sanity-checking of your results. Just as you would in a real job, make sure your results make sense before you submit them!
 
       Note that you are discouraged from incorporating outside data in your predictions. For example, pitch trajectory information is very useful for pitcher projection, but we will cover that on the next assignment. For now, focus on extracting the signal from the event data.
 
@@ -28,7 +30,6 @@
             \item A description of (and reasoning for) your methodology for predicting pitcher performance
             \item At least one data visualization that tells a story about your results
           \end{itemize}
-          \item A CSV of predictions, with columns \texttt{pitcher\_id} and \texttt{pred\_lw} (average LW per plate appearance)
           \item A R script (.R file extension) with all of the code you used to generate your report and the CSV
         \end{itemize}
 
