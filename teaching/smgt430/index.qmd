@@ -39,7 +39,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa){target="_blank"}
 
-[Assignment #3: Regression to the Mean](assignment/2.pdf){target="_blank"}
+[Assignment #3: Regression to the Mean](assignment/regression_to_the_mean.pdf){target="_blank"}
 
 ### Regularized Regression
 
