@@ -77,53 +77,25 @@
     "text": "Lessons from Sport Analytics\nColab Notebook: Introduction to R\n\nBe careful with regression\nColab Notebook\n\n\nDon’t be fooled by noise\nLecture Notes\nColab Notebook"
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
-    "text": "npmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+    "text": "Recommendations for effectively communicating insights in sport analytics"
   },
   {
-    "objectID": "software.html#r-packages",
-    "href": "software.html#r-packages",
-    "title": "Software",
-    "section": "",
-    "text": "npmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+    "objectID": "teaching/index.html#rice",
+    "href": "teaching/index.html#rice",
+    "title": "Teaching",
+    "section": "Rice",
+    "text": "Rice\nSMGT 430/530: Introduction to Sport Analytics\nSpring 2024, Fall 2024\nSMGT 432/532: Soccer Analytics\nFall 2023\nSMGT 435/535: Baseball Analytics\nSpring 2024, Fall 2024"
   },
   {
-    "objectID": "lab.html",
-    "href": "lab.html",
-    "title": "Lab",
-    "section": "",
-    "text": "Elizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)\nJudy Zhu (BA Mathematics w/ Data Science minor, exp. 2025)\nElisabeth Millington (BA Sports Medicine and Exercise Physiology and BA Sport Analytics, exp. 2026)\nZach Pool (BS Computer Science, exp. 2026)\nRahul Hererro (BA Mathematical Economic Analysis and BA Sport Analytics, exp. 2027)\nLou Zhou (BA Statistics and BA Sport Analytics, exp. 2027)"
-  },
-  {
-    "objectID": "lab.html#current-students",
-    "href": "lab.html#current-students",
-    "title": "Lab",
-    "section": "",
-    "text": "Elizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)\nJudy Zhu (BA Mathematics w/ Data Science minor, exp. 2025)\nElisabeth Millington (BA Sports Medicine and Exercise Physiology and BA Sport Analytics, exp. 2026)\nZach Pool (BS Computer Science, exp. 2026)\nRahul Hererro (BA Mathematical Economic Analysis and BA Sport Analytics, exp. 2027)\nLou Zhou (BA Statistics and BA Sport Analytics, exp. 2027)"
-  },
-  {
-    "objectID": "lab.html#graduate-mentor",
-    "href": "lab.html#graduate-mentor",
-    "title": "Lab",
-    "section": "Graduate Mentor",
-    "text": "Graduate Mentor\nRose Graves (PhD student in Statistics)"
-  },
-  {
-    "objectID": "lab.html#alumni",
-    "href": "lab.html#alumni",
-    "title": "Lab",
-    "section": "Alumni",
-    "text": "Alumni\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Statistics and BA Sport Analytics, exp. 2025)\nJeff Brover (BA Statistics and BA Sport Analytics, 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, 2024)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Scott Powers",
-    "section": "",
-    "text": "Check out the American Soccer Insights Summit!\nI am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I’ve kept a thread of consulting, starting with the Oakland Athletics, which led directly to part-time work for AZ Alkmaar, which became part-time work for Zelus Analytics (primarily soccer analytics), which became part-time work for Teamworks (soccer analytics).\nRegretfully, I do not have the bandwidth to respond to individual requests from students for video calls or feedback on projects. If you are a potential collaborator with (a) data and (b) research questions, please reach out—I may be able to provide students and brainpower. I am also open to media inquiries.\n\nIn the news\nLooking for friends among baseball’s most passionate nerds\n2024-09-05 Defector\n​​Scott Powers: Major league analyst acing Rice\n2024-02-13 The Rice Thresher\nWhat volleyball can tell us about what’s missing in MLB analytics\n2023-09-27 The Orange County Register\nAstros fire assistant general manager Scott Powers\n2022-11-11 MLB Trade Rumors\nDodgers executive leaving for Astros front office is traitorous activity\n2022-01-03 Dodgers Way"
+    "objectID": "teaching/index.html#stanford",
+    "href": "teaching/index.html#stanford",
+    "title": "Teaching",
+    "section": "Stanford",
+    "text": "Stanford\nSTATS 50: Mathematics of Sports\nSpring 2016"
   },
   {
     "objectID": "research.html",
@@ -161,25 +133,60 @@
     "text": "Student Presentations\n\nTalks\nHahn J, Powers S, Pai M, Schaefer A\n“The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball”\n2024 Cascadia Symposium on Statistics in Sports slides, video\n2024 Saberseminar video\nConsiglio N, Powers S\n“Modifying k-means clustering to optimize defensive positioning in volleyball”\n2024 Women in Sports Data Symposium slides, video\nBrover J, Powers S\n“Do we learn more about AAA batters when they face better pitches?”\n2024 Saberseminar slides, video\nHaugen D, Powers S\n“Time warping for clustering pitcher deliveries”\n2024 Saberseminar slides, video\n\n\nPosters\nSepúlveda E, McClellan M, Powers S\n“A statistical approach to sport climbing difficulty and progression”\n2024 Cascadia Symposium on Statistics in Sports pdf\nKang A, Powers S, Curson T\n“Not All Features Are Created Equal: Player clustering and evaluation”\n2024 Opta Forum pdf"
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scott Powers",
     "section": "",
-    "text": "SMGT 430/530: Introduction to Sport Analytics\nSpring 2024, Fall 2024\nSMGT 432/532: Soccer Analytics\nFall 2023\nSMGT 435/535: Baseball Analytics\nSpring 2024, Fall 2024"
+    "text": "Check out the American Soccer Insights Summit!\nI am an Assistant Professor of Sport Analytics and of Statistics at Rice University. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.\nI completed my PhD in statistics at Stanford University in 2017. From there, I worked for the Los Angeles Dodgers in R&D for five years and then spent one season as an Assistant General Manager with the Houston Astros before joining Rice in 2023. Along the way, I’ve kept a thread of consulting, starting with the Oakland Athletics, which led directly to part-time work for AZ Alkmaar, which became part-time work for Zelus Analytics (primarily soccer analytics), which became part-time work for Teamworks (soccer analytics).\nRegretfully, I do not have the bandwidth to respond to individual requests from students for video calls or feedback on projects. If you are a potential collaborator with (a) data and (b) research questions, please reach out—I may be able to provide students and brainpower. I am also open to media inquiries.\n\nIn the news\nLooking for friends among baseball’s most passionate nerds\n2024-09-05 Defector\n​​Scott Powers: Major league analyst acing Rice\n2024-02-13 The Rice Thresher\nWhat volleyball can tell us about what’s missing in MLB analytics\n2023-09-27 The Orange County Register\nAstros fire assistant general manager Scott Powers\n2022-11-11 MLB Trade Rumors\nDodgers executive leaving for Astros front office is traitorous activity\n2022-01-03 Dodgers Way"
   },
   {
-    "objectID": "teaching/index.html#rice",
-    "href": "teaching/index.html#rice",
-    "title": "Teaching",
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "Lab",
     "section": "",
-    "text": "SMGT 430/530: Introduction to Sport Analytics\nSpring 2024, Fall 2024\nSMGT 432/532: Soccer Analytics\nFall 2023\nSMGT 435/535: Baseball Analytics\nSpring 2024, Fall 2024"
+    "text": "Elizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)\nJudy Zhu (BA Mathematics w/ Data Science minor, exp. 2025)\nElisabeth Millington (BA Sports Medicine and Exercise Physiology and BA Sport Analytics, exp. 2026)\nZach Pool (BS Computer Science, exp. 2026)\nRahul Hererro (BA Mathematical Economic Analysis and BA Sport Analytics, exp. 2027)\nLou Zhou (BA Statistics and BA Sport Analytics, exp. 2027)"
   },
   {
-    "objectID": "teaching/index.html#stanford",
-    "href": "teaching/index.html#stanford",
-    "title": "Teaching",
-    "section": "Stanford",
-    "text": "Stanford\nSTATS 50: Mathematics of Sports\nSpring 2016"
+    "objectID": "lab.html#current-students",
+    "href": "lab.html#current-students",
+    "title": "Lab",
+    "section": "",
+    "text": "Elizabeth Sepúlveda (BA Statistics and BA Sport Analytics, exp. 2025)\nJudy Zhu (BA Mathematics w/ Data Science minor, exp. 2025)\nElisabeth Millington (BA Sports Medicine and Exercise Physiology and BA Sport Analytics, exp. 2026)\nZach Pool (BS Computer Science, exp. 2026)\nRahul Hererro (BA Mathematical Economic Analysis and BA Sport Analytics, exp. 2027)\nLou Zhou (BA Statistics and BA Sport Analytics, exp. 2027)"
+  },
+  {
+    "objectID": "lab.html#graduate-mentor",
+    "href": "lab.html#graduate-mentor",
+    "title": "Lab",
+    "section": "Graduate Mentor",
+    "text": "Graduate Mentor\nRose Graves (PhD student in Statistics)"
+  },
+  {
+    "objectID": "lab.html#alumni",
+    "href": "lab.html#alumni",
+    "title": "Lab",
+    "section": "Alumni",
+    "text": "Alumni\nNaomi Consiglio (BA Statistics and BA Sport Analytics, exp. 2025)\nJacob Hahn (BA Statistics and BA Sport Analytics, exp. 2025)\nJeff Brover (BA Statistics and BA Sport Analytics, 2024)\nLuke Stancil (BA Economics and BA Computational and Applied Mathematics, 2024)"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "npmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+  },
+  {
+    "objectID": "software.html#r-packages",
+    "href": "software.html#r-packages",
+    "title": "Software",
+    "section": "",
+    "text": "npmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+  },
+  {
+    "objectID": "teaching/recommendations/index.html",
+    "href": "teaching/recommendations/index.html",
+    "title": "Recommendations for effectively communicating insights in sport analytics",
+    "section": "",
+    "text": "When reporting numeric results, don’t report too many digits.\nFor example, when you use R or Python to calculate the correlation between two vectors, your computer might spit out a result like 0.13083978. The interpretation of this output is that the correlation is 0.13. If you copy and paste the full number 0.13083978 into a report, that does two things:\n\nit injects white noise (083978) into your report, distracting the reader from what’s important; and\nit suggests to the reader that you don’t understand what is the meaning of your result.\n\nWhen presenting your results, your purpose is to convey meaning. As a simple rule of thumb, two or three significant digits would usually be appropriate for this purpose. Four digits would be pushing it, and five or more digits would be over the line.\nWhen plotting two variables that have the same unit of measurement, choose your x- and y-axis limits so that the aspect ratio is close to 1:1.\nThe scale that you choose for your x- and y-axes can have a huge impact on the perception and qualitative interpretation of your results. For example, consider the following two plots which display the exact same data (actual winning percentage on the x-axis and modeled winning percentage on the y-axis, same units for both variables: wins per game).\n \nAt first glance at the first plot, you might jump to the conclusion that modeled winning percentage aligns reasonably with actual winning percentage. But did you notice the scale of the y-axis? The second figure clearly communicates the important takeaway: modeled winning percentage is way more compressed than actual winning percentage. Perhaps this is how things should be, or perhaps this indicates a bug in your model. Either way, the second figure conveys the meaning of your results more effectively.\n\nThat’s it. That’s the list. I will add to it if/when I come across additional common pitfalls that compel me to write them up."
   },
   {
     "objectID": "teaching/smgt432/index.html",

@@ -3,6 +3,8 @@ title: "Teaching"
 toc: false
 ---
 
+[Recommendations for effectively communicating insights in sport analytics](recommendations/index.qmd)
+
 ## Rice
 [SMGT 430/530: Introduction to Sport Analytics](smgt430/index.qmd)\
 Spring 2024, Fall 2024
