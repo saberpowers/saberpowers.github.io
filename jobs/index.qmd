@@ -5,7 +5,7 @@ toc: false
 
 This is nothing more than a list of cool job postings (mostly in R&D with pro sports teams) I have noticed. I have no inside knowledge of them.
 
-[Advice for becoming a competitive candidate for jobs in sport analytics](advice/index.qmd)
+[Unsolicited advice for becoming a competitive candidate for jobs in sport analytics](advice/index.qmd)
 
 ```{r, echo = FALSE}
 jobs <- read.csv("../assets/jobs.csv")

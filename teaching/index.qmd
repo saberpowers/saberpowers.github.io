@@ -3,7 +3,7 @@ title: "Teaching"
 toc: false
 ---
 
-[Recommendations for effectively communicating insights in sport analytics](recommendations/index.qmd)
+[Scott's recommendations for effectively communicating insights in sport analytics](recommendations/index.qmd)
 
 ## Rice
 [SMGT 430/530: Introduction to Sport Analytics](smgt430/index.qmd)\
