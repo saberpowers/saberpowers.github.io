@@ -58,6 +58,8 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 ### Win Probability Models
 
+[Lecture Notes](lecture/markov_chain_win_probability.pdf){target="_blank"}
+
 [Colab Notebook](https://colab.research.google.com/drive/130szYABIinDc9lcnwBgExS6Evhz0_pAP){target="_blank"}
 
 [Assignment #5: Win Probability Model](assignment/6.pdf){target="_blank"}
