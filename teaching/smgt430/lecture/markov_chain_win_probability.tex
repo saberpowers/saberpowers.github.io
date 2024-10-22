@@ -42,7 +42,7 @@
 
     \subsubsection{\sc The Reward Function}
 
-      There is one additional component of the Markov chain process which is helpful for formulating win probability and run expectancy. The {\it reward function} $f : \mathcal S \times \mathcal S \rightarrow \mathbb{R}$ defines some value that is accrued on each transition from one state to another. The reward function quantifies some value whose expectation is of interest. One very simple (and very important) example of a reward function is the indicator that the home team has won the game. In this example, there are two terminal states H and A, respectively indicating that the home team has won the game or that the away team has won the game. The reward function is defined to be 1 for the transition from any non-terminal state into state H, and zero otherwise:
+      There is one additional component of the Markov chain process which is helpful for formulating win probability and run expectancy. The {\it reward function} $r : \mathcal S \times \mathcal S \rightarrow \mathbb{R}$ defines some value that is accrued on each transition from one state to another. The reward function quantifies some value whose expectation is of interest. One very simple (and very important) example of a reward function is the indicator that the home team has won the game. In this example, there are two terminal states H and A, respectively indicating that the home team has won the game or that the away team has won the game. The reward function is defined to be 1 for the transition from any non-terminal state into state H, and zero otherwise:
       \begin{align}
         \label{eqn:reward-home-win}
         r(s, s') = \begin{cases}
@@ -79,7 +79,7 @@
       \end{align}
       In other words, the value of a state $s$ is equal to the expected value of the next state, plus the expected reward for transitioning to the next state. We can see this more clearly by re-writing equation (\ref{eqn:bellman-equation}) in an equivalent form:
       \begin{align*}
-        v(s) &= \sum_{s' \in \mathcal s} p(s, s') \cdot r(s, s') + \sum_{s' \in \mathcal s} p(s, s') \cdot v(s')\\
+        v(s) &= \sum_{s' \in \mathcal S} p(s, s') \cdot r(s, s') + \sum_{s' \in \mathcal S} p(s, s') \cdot v(s')\\
         &= \mathbb E[r(S_i, S_{i+1}) \mid S_i = s] + E[v(S_{i+1}) \mid S_i = s].
       \end{align*}
 
