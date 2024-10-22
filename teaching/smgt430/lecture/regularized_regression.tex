@@ -54,7 +54,7 @@
   Regularization keeps the same model but changes the criterion for estimating $\boldsymbol{\beta}$, instead of least squares. The modified objective is to minimize the sum of squared residuals {\it plus} a penalty on the regression coefficients. One example of regularization, {\it ridge regression} penalizes the sum of squared coefficients:
   \begin{equation}
     \label{eqn-ridge-regression}
-    \boldsymbol{\hat\beta} = \arg\min_{\boldsymbol{\beta}} \left\{ \sum_{i=1}^n w_i (y_i - (\beta_0 + \beta_{h_i} - \beta_{a_i}))^2 + \lambda \sum_{j = 1}^p \beta_j^2 \right\}.
+    \boldsymbol{\hat\beta} = \arg\min_{\boldsymbol{\beta}} \left\{ \sum_{i=1}^n w_i \left(y_i - \left(\beta_0 + \sum_{j \in H_i}\beta_j - \sum_{j' \in A_i}\beta_{j'}\right)\right)^2 + \lambda \sum_{j = 1}^p \beta_j^2 \right\}.
   \end{equation}
   Using ridge regression to estimate the Adjusted Plus-Minus model is known as {\it Regularized Adjusted Plus-Minus} (RAPM) and is the standard of practice for estimating player strength in basketball and some other sports. Note that, by using ridge regression instead of least squares, we no longer have an identifiability problem in fitting the model. One can show that any $\boldsymbol{\beta}$ satisfying equation (\ref{eqn-ridge-regression}) will also satisfy $\sum_j \beta_j = 0$, meaning that the estimated regression coefficients will be mean zero.
 

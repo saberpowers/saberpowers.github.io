@@ -48,7 +48,7 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1zcZqQ1Vc-ilIieTaNdHFMV0njffBRzBm){target=_blank}
 
-[Assignment #3: Pitch Outcome Model](assignment/3.pdf){target=_blank}
+[Assignment #3: Pitch Outcome Model](assignment/pitch_outcome_model.pdf){target=_blank}
 
 ### "Stuff"
 
