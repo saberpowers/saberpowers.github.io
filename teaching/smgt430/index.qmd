@@ -64,6 +64,9 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Assignment #5: Win Probability Model](assignment/markov_chain_win_probability.pdf){target="_blank"}
 
+### Player Evaluation and In-Game Strategy
+
+[Lecture Notes](lecture/player_eval_ingame_strategy.pdf){target=_blank}
 
 ## Unit 4: Practicum
 
