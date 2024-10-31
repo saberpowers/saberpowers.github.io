@@ -61,6 +61,8 @@ title: "SMGT 435/535: Baseball Analytics"
 
 ### Fielding and Baserunning
 
+[Lecture Notes](lecture/fielding_baserunning.pdf){target=_blank}
+
 [Colab Notebook](https://colab.research.google.com/drive/1tyAWCmhTgQi7AC8hIXYF7NOsoqxTKoTY){target=_blank}
 
 ### Projections
