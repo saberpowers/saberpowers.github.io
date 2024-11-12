@@ -67,6 +67,8 @@ title: "SMGT 435/535: Baseball Analytics"
 
 ### Projections
 
+[Lecture Notes](lecture/projections.pdf){target=_blank}
+
 [Colab Notebook](https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA){target=_blank}
 
 
