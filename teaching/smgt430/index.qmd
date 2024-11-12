@@ -72,6 +72,8 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Lecture Notes](lecture/markov_decision_processes.pdf){target=_blank}
 
+[Colab Notebook](https://colab.research.google.com/drive/1sFdaEQopHqkSVHdVkFMhJ5gcOOGOxYZb){target="_blank"}
+
 ## Unit 4: Practicum
 
 [Project Overview](assignment/project.pdf){target="_blank"}
