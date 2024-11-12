@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <title>Stats 50: Homework</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link href="https://web.stanford.edu/class/stats50/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="print" href="https://web.stanford.edu/class/stats50/css/print.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="page-header">
+	<h1>Stats 50: Mathematics of Sports<br>
+	  <small>Spring 2019</small></h1>
+      </div>
+      <div class="row">
+	<div id="navigation" class="span2">
+	  <ul class="nav nav-pills nav-stacked" style="width:160px;">
+        <li id="home"><a href="index.html">Home</a></li>
+        <li id="description"><a href="description.html">Description</a></li>
+        <li id="staff"><a href="staff.html">Staff</a></li>
+        <li id="schedule"><a href="schedule.html">Schedule</a></li>
+        <li id="r"><a href="r.html">R</a></li>
+        <li id="grade"><a href="grade.html">Grade</a></li>
+        <li id="homework"><a href="homework.html">Homework</a></li>
+        <li id="project"><a href="project.html">Project</a></li>
+        <li id="piazza"><a
+            href="https://piazza.com/stanford/spring2019/stats50/home"
+            target="_blank">Piazza</a></li>
+        <li id="references"><a href="references.html">References</a></li>
+        <li id="advice"><a href="advice.html">Advice</a></li>
+        <li id="previous_projects"><a href="previous_projects.html">
+          Previous Projects</a></li>
+	  </ul>
+	</div>
+	<div class="span1">
+	</div>
+	<div class="span9">
+
+
+
+<h3>Homework Policy</h3>
+<p>Each homework submission may be a maximum of one page, front and back. To clarify,
+   this means that two pages is the maximum length allowed for a homework submission.
+  It should be typeset on a computer. You will have
+to upload your submission on Gradescope. You can enroll for the course with the
+following entry code: <strong> MDKDZG</strong>.
+
+<h3 id="1">Homework 1</h3>
+<p class="lead">Due Wednesday, April 17</p>
+<p><a href="files/hw1rubric.pdf" target="_blank">Grading Rubric</a>
+<p>Past exemplary work:
+<ul>
+    <li><a href="files/example_HM1_1.pdf" target="_blank">Basketball (2016)</a>
+    <li><a href="files/example_HM1_2.pdf" target="_blank">Soccer (2016)</a>
+</ul>
+<p>For the team sport of your choosing, invent a method for evaluating
+individual performance in terms of how it leads to team success.
+Imagine that you have been hired as a
+statistical analyst and the general manager has tasked you with creating
+ratings for individual players. How can the
+team determine which players to acquire?
+
+<p>Your assignment is to write a report describing in detail how to compute
+your proposed player ratings. Your method should lead to a statistic which
+estimates the value added by each player to whom it applies, in terms of team
+winning or scoring, relative to a league-average player.
+Note that your task is not to actually
+compute this statistic but rather to describe how to do so in enough detail
+that another statistical analyst could read your proposal and implement it
+herself. You may choose to focus on just one aspect of the
+sport. For example, the only aspect of baseball that wOBA evaluates is batting.
+Your report should address the following questions:
+<ul>
+    <li>What data are needed to compute these player evaluations? Are these
+        data available publicly? Privately? If these data do not currently
+        exist, what labor or technology would be required to gather the data?
+    <li>What are the limitations of the proposed method? In what ways might it
+        fail to accurately isolate individual performance from team
+        performance? What aspects of performance does it miss?
+    <li>What is the most similar statistic in the public domain for evaluating
+        individual performance? How is the proposed statistic different from
+        what is publicly available?
+</ul>
+<p>If you are struggling to find inspiration, here is an idea that you may use
+as the basis of your report:
+<p><em>Invent a method for rating NFL quarterbacks
+  in terms of point scoring. For each quarterback, this rating should estimate
+how many fewer (or more) points his team would score per game if he were
+replaced by a league-average quarterback.</em>
+
+<p> Feel free to choose a sport that you feel passionate about, and to provide us
+with specific instances in which your method would be effective and/or deficient.
+We want to learn things from you!
+<hr>
+
+<h3 id="2">Homework 2</h3>
+<p class="lead">Due Friday, April 26
+<p><a href="files/hw2rubric.pdf" target="_blank">Grading Rubric</a>
+<p>Past exemplary work:
+<ul>
+    <li><a href="files/example_HM2_1.pdf" target="_blank">Basketball (2016)</a>
+    <li><a href="files/example_HM2_2.pdf" target="_blank">Golf (2016)</a>
+</ul>
+
+<p>Pick a statistic (e.g. pass completion percentage in soccer) and find a
+dataset which reports this statistic for a set of athletes. Perform regression
+to the mean to estimate the true talent level in this statistic for all of the
+athletes in the dataset. A necessary component of this assignment is estimating
+the population standard deviation in underlying true talent for this statistic,
+in the set of athletes you have chosen to consider. If the statistic you have
+chosen is not a binomial percentage, then you will also have to estimate the
+sampling variance of the statistic. It can be interesting (but not mandatory) to
+also try and apply on the same statistic the Empirical Bayes method studied in
+class, where you first estimate the distribution of your statistic across all players,
+and then find individual estimates for each of them. In particular, you can compare how
+this Bayes estimator compares with the James-Stein estimator (regression to the mean).
+<p>Report your estimate of population standard deviation in underlying true
+talent for the statistic, and present a plot of estimated true talent versus
+observed statistic, with each athlete being one datapoint. In that plot,
+include the diagonal line <em>y = x</em> for reference. Pick one athlete and
+give that athlete's statistic and estimated true talent. Explain the
+interpretation of your estimated true talent for that athlete. In summary, your
+report should include:
+<ul>
+    <li>An explanation of the statistic and dataset you chose (and where you
+        found it)
+    <li>An estimate of the population standard deviation in underlying true
+        talent for this statistic
+    <li>A plot of estimated true talent versus observed statistic
+    <li>The interpretation of the results for one athlete of your choice
+    <li>Your code in a separate document (see below)
+</ul>
+<p>As with all homework reports, imagine that your audience is a front office
+executive and write prose that smoothly addresses all of the components of the
+prompt.
+<p><strong>When you submit your homework, include the code as an appendix to
+your main write-up.</strong>. We expect your code to fit on one page, front
+and back. If it does not, this suggests that you're making this harder on
+yourself than it needs to be. Consult the course staff for help.
+<p>If you are struggling for inspiration, you may use the dataset below as the
+basis of your report. For all players in the 2015-16 English Premier League, it
+includes total number of attempted passes and total number of successful
+passes. Estimate the true talent successful pass percentage for all players in
+the dataset. You are of course free to choose any statistic reflecting any
+ personal interest or preference, or even one which could later lead to a more
+ through analysis in a potential final project.
+<p><a href="files/EPLpassing15-16.csv">EPLpassing15-16.csv</a>
+<hr>
+
+<h3 id="3">Homework 3</h3>
+<p class="lead">Due Wednesday, May 8</p>
+
+<p><a href="files/hw3rubric.pdf" target="_blank">Grading Rubric</a>
+<p>Past exemplary work:
+<ul>
+    <li><a href="files/example_HM3_1.pdf" target="_blank">Basketball (2016)</a>
+    <li><a href="files/example_HM3_2.pdf" target="_blank">Baseball (2016)</a>
+</ul>
+
+<p>Find a dataset of game scores for the league or competition of your choice.
+Hold out the last (chronologically) 20% of the data as a test set. On the first
+80% of the data, fit (1) the regularized <em>normal</em> Bradley-Terry model
+and (2) the regularized <em>binomial</em> Bradley-Terry model to rank the teams
+or players in the league or competition. Use each model to predict the winners
+of the matchups in the last 20% of the data, which you had previously held out.
+Present a figure which visualizes some aspect of your results, and include your
+code as an appendix to your homework submission.
+<p>The meat of this assignment is your presentation and interpretation of your
+results. Include several paragraphs (roughly half to three-quarters of a page)
+discussing your results. Questions that you could address in this discussion
+include: <em>Which teams or players did each model identify as the best (and
+worst)? Does that agree with the popular consensus of who the best and worst
+teams are? What data are missing from these models that could lead to better
+rankings or matchup predictions? How does your model compare with how
+accurately Las Vegas sportsbooks are able to pick winners in this league or
+competition?</em> Think up your own questions, too.
+<p>At minimum, your report should include:
+<ul>
+    <li>Results (rankings) from fitting the Bradley-Terry models to the
+        first 80% of the data
+    <li>Results of using each model to predict winners in the last 20%
+        of the data (Which model did better?)
+    <li>A figure of your choice visualizing some aspect of your results
+    <li>A (several-paragraph) discussion of your results (as a whole) on this
+        dataset (see above)
+    <li>Your code as an appendix
+</ul>
+<p>As always, prepare your report for a front office executive (or coach) in the
+league you are analyzing. Imagine that your audience is interested in
+understanding who are the best teams in the league, with more sophisticated
+analysis than counting wins and losses. The task here is not just to find "the
+answer" but to communicate all of your findings effectively.
+
+<p>If your code does not fit on one page,
+front and back, seek help. If you are struggling for inspiration, use the
+college basketball data from <a href="r.html#2">R Tutorial 2</a>.
+<hr>
+
+<h3 id="4">Homework 4</h3>
+<p class="lead">Due Wednesday, May 15</p>
+
+<p><a href="files/hw4rubric.pdf" target="_blank">Grading Rubric</a>
+<p>Past exemplary work:
+<ul>
+    <li><a href="files/example_HM4_1.pdf" target="_blank">Basketball (2016)</a>
+    <li><a href="files/example_HM4_2.pdf" target="_blank">Football (2016)</a>
+</ul>
+<p>Find a dataset of event results (as opposed to game results
+for the previous assignment) for the sport of your choosing. The data should
+include the identity of at least one player for each event. Examples of
+datasets you could use are:
+<ul>
+    <li><strong>Soccer</strong>: Shots<br>
+        Offensive adversary: the shooter<br>
+        Defensive adversary: the goalie<br>
+        Other variables: the location of the shot, e.g.<br>
+        Outcome variable: indicator of whether goal is scored
+    <li><strong>Football</strong>: Running plays<br>
+        Offensive adversary: the running back<br>
+        Defensive adversary: the defensive team<br>
+        Other variables: the distance to go for first down, e.g.<br>
+        Outcome variable: number of yards gained by rusher
+    <li><strong>Basketball</strong>: Missed shots<br>
+        Offensive adversaries: the offensive players on the floor<br>
+        Defensive adversaries: the defensive players on the floor<br>
+        Other variables: indicator of whether shot was a three-pointer, e.g.<br>
+        Outcome variable: indicator of whether defense got the rebound
+    <li><strong>Baseball</strong>: At bats<br>
+        Offensive adversary: the batter<br>
+        Defensive adversary: the pitcher<br>
+        Other variables: the stadium, e.g.<br>
+        Outcome to model: wOBA value of the at bat result
+    <li><strong>Golf</strong>: Holes<br>
+        Offensive adversary: the golfer<br>
+        Defensive adversary: the hole<br>
+        Outcome variable: number of strokes
+</ul>
+<p>For your chosen dataset, describe the offensive and defensive adversaries,
+what other variables you have chosen to include in the model, and what outcome
+variable you are modelling. Use the data to fit a Rasch model. Report
+the top five and bottom five offensive and defensive adversaries from your
+model fit. Comment on the estimated regression coefficients for the "other"
+variables. Do the values match your intuition for what they should be? What
+other variables have you not included in the model that might be worth
+including? Include some vizualization of your results. Try to address all of
+the points in this paragraph through a smooth discussion of your results.
+<p>The objective here is not to just "answer all of the questions" but rather
+to present the results you obtain from fitting the Rasch model in smooth prose.
+Imagine that a front office executive has asked you to evaluate the offensive
+and defensive adversaries in your model and that he is going to use your report
+to make decisions about what players to acquire.
+<p>Include your code as an appendix to your submission.  If your code does not
+fit on one page, front and back, seek help. If you are struggling for
+inspiration, use the MLB play-by-play data from
+<a href="r.html#3">R Tutorial 3</a>. You could, for example, model
+the probability that a plate appearance results in a strikeout. Alternatively,
+you could model the probability that a plate appearance results in a home run.
+A more comprehensive task would be to model the wOBA weight of the plate
+appearance outcome. The choice is yours!
+<hr>
+
+<script type="text/javascript">
+  $('#homework').addClass('active');
+</script>
+
+	</div>
+      </div>
+
+    <script src="https://web.stanford.edu/class/stats50/bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

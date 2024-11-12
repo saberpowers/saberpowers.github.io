@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sed '1,3d' $1 | # Delete header
+    sed 's:^\([^ ]\+\) \+\([^0-9]\+\)\([0-9]\+\) \+\([^0-9]\+\)\([0-9]\+\):\1,\2,\3,\4,\5,:g' | # Insert commas in the right places
+    sed 's: \+,:,:g' | # Delete whitespace before commas
+    sed '1 i Date,Away Team,Away Score,Home Team, Home Score, Neutral Field' # Add correct header
+
