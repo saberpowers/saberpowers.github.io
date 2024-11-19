@@ -71,6 +71,7 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA){target=_blank}
 
+[Assignment #4: Projections](assignment/projections.pdf){target=_blank}
 
 ## Unit 4: Practicum
 
