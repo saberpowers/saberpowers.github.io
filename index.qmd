@@ -1,9 +1,10 @@
 ---
 title: "Scott Powers"
-image: assets/headshot.jpg
+image: assets/portrait_2024-09-12.jpg
 toc: false
 about:
     template: trestles
+    image-title: "Credit: Timothy Lee Photographers"
     links:
         - text: "{{< iconify simple-icons github >}}"
           href: https://github.com/saberpowers
@@ -17,8 +18,8 @@ about:
         - text: "{{< iconify simple-icons linkedin >}}"
           href: https://www.linkedin.com/in/saberpowers/
           target: _blank
-        - text: "{{< iconify simple-icons twitter >}}"
-          href: https://twitter.com/saberpowers
+        - text: "{{< iconify simple-icons bluesky >}}"
+          href: https://bsky.app/profile/saberpowers.bsky.social
           target: _blank
 ---
 
