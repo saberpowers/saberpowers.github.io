@@ -18,9 +18,6 @@ about:
         - text: "{{< iconify simple-icons linkedin >}}"
           href: https://www.linkedin.com/in/saberpowers/
           target: _blank
-        - text: "{{< iconify simple-icons bluesky >}}"
-          href: https://bsky.app/profile/saberpowers.bsky.social
-          target: _blank
 ---
 
 Check out the [American Soccer Insights Summit](https://americansoccerinsights.com/){target="_blank"}!
