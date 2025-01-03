@@ -11,10 +11,10 @@ website:
   search: false
   navbar:
     right:
-      - research.qmd
-      - software.qmd
+      - research/index.qmd
+      - software/index.qmd
       - teaching/index.qmd
-      - lab.qmd
+      - lab/index.qmd
       - jobs/index.qmd
       - text: CV
         href: assets/powers.pdf
