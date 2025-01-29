@@ -23,7 +23,7 @@ jobs:
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
-          cache-version: 0.5
+          cache-version: 0.1
           working-directory: jobs/
 
       - name: Render and Publish
