@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: quarto-action
+    branches: main
 
 name: Quarto Publish
 
@@ -22,9 +22,7 @@ jobs:
 
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
-        with:
-          cache-version: 0.1
-
+        
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
