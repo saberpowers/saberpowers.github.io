@@ -1,5 +1,4 @@
 /.quarto/
-/docs/
 *.DS_Store
 
 # LaTeX helper files
