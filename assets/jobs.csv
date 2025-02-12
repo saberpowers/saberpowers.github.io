@@ -1,6 +1,14 @@
-date_posted,team,title,discipline,stage,sport,url
+date_posted,team,title,discipline,stage,sport,url,compensation
+2025-02-11,Washington Mystics,Basketball Data Analyst,Analytics,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4149951800/,$80K/yr-$105K/yr
+2025-02-11,Miami Marlins,Sr Data Engineer,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4149266386/
+2025-02-11,Miami Marlins,Data Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4149235974/
+2025-02-11,Houston Rockets,Back-End Data Engineer,Business,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4150910058/
+2025-02-11,Houston Rockets,Front-End Engineer,Business,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4150157251/
+2025-02-08,Houston Astros,Business Strategy & Analytics Apprentice,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4145300711/
+2024-02-04,Pittsburgh Pirates,Data Engineer,Engineering,Entry-Level,Baseball,https://pirates.rec.pro.ukg.net/PIT1500PITA/JobBoard/1571bce9-cb30-4961-98da-07b26506146a/OpportunityDetail?opportunityId=bac21026-701a-4d19-b87e-155556d8f8a3
+2024-02-04,Tampa Bay Lightning,Data Scientist Assistant,Analytics,Part-Time,Hockey,https://www.teamworkonline.com/hockey-jobs/tampanhl/tampa-bay-lightning-jobs/part-time-data-scientist-assistant-2109782
 2025-02-03,Houston Astros,Research & Development Apprentice,Analytics,Internship,Baseball,https://www.teamworkonline.com/baseball-jobs/houstonbaseball/houston-astros/research-development-apprentice-2109550
-2025-02-03,National Basketball Association,Sr International Data Strategist,Analytics,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/4141131680/
+2025-02-03,National Basketball Association,Sr International Data Strategist,Analytics,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/4141131680/,$135K/yr-$160K/yr
 2025-01-31,Toronto Blue Jays,Machine Learning Engineer,Engineering,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/machine-learning-engineer-baseball-research-2109305
 2025-01-31,Boston Red Sox,Baseball Systems Developer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4139593601/
 2025-01-31,Boston Red Sox,Baseball Systems UI/UX Designer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4139591790/
@@ -26,6 +34,7 @@ date_posted,team,title,discipline,stage,sport,url
 2025-01-22,Colorado Rockies,Data Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4131958111/
 2025-01-22,Monaco,Data Engineer,Engineering,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4131717286/
 2025-01-22,Washington Nationals,Business Analytics Intern,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4132377647/
+2025-01-21,Chicago White Sox,Biomechanist,Performance,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/chicago-white-sox/chicago-white-sox-/biomechanist-2107325
 2025-01-17,Charlotte Hornets,Basketball Data Scientist,Analytics,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4015540852/
 2025-01-17,Detroit Tigers,Director of Baseball Strategy,Analytics,Senior,Baseball,https://ilitch.wd5.myworkdayjobs.com/en-US/Detroit-Tigers/details/Director-of-Baseball-Strategy_R6050
 2025-01-17,St Louis Cardinals,Business Strategy & Analytics Intern,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4129982254/
@@ -78,7 +87,7 @@ date_posted,team,title,discipline,stage,sport,url
 2024-12-05,Syracuse University,Assistant Professor of Sport Analytics,Analytics,Faculty,Multisport,https://www.linkedin.com/jobs/view/4090772069/
 2024-12-05,PFF FC,Sr Data Scientist,Analytics,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4090957997/
 2024-12-05,Cincinnati Reds,Applied Sports Science Associate,Performance,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4093166865/
-2025-12-05,National Football League,Director of Data & Analytics Club Business Support,Business,Senior,Football,https://www.linkedin.com/jobs/view/4091607295/
+2024-12-05,National Football League,Director of Data & Analytics Club Business Support,Business,Senior,Football,https://www.linkedin.com/jobs/view/4091607295/
 2024-12-04,National Basketball Association,Staff Software Engineer & System Architect,Engineering,Senior,Basketball,https://www.linkedin.com/jobs/view/4089450987/
 2024-12-03,Inter Miami CF,First Team Sports Scientist,Performance,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4090090230/
 2024-12-03,Chicago White Sox,Applied Sports Science Intern,Performance,Internship,Baseball,https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/OpportunityDetail?opportunityId=98cddcbf-c37e-4df1-93e9-e57db3291803
