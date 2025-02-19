@@ -20,8 +20,6 @@ about:
           target: _blank
 ---
 
-Check out the [American Soccer Insights Summit](https://americansoccerinsights.com/){target="_blank"}!
-
 *I am on parental leave during the 2025 spring semester.*
 
 I am an Assistant Professor of [Sport Analytics](https://sport.rice.edu/){target="_blank"} and of [Statistics](https://statistics.rice.edu/){target="_blank"} at [Rice University](https://www.rice.edu/){target="_blank"}. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.
