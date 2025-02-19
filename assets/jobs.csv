@@ -1,5 +1,6 @@
 date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-02-19,Atlanta United,Data Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4158678051/
+2025-02-19,Los Angeles Dodgers,Data Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4158680044/,120000,130000
 2025-02-18,Nashville SC,Business Analyst Summer Intern (Unpaid),Business,Internship,Soccer,https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/business-analyst-intern-summer-2025-college-credit-only-2111708,0,0
 2025-02-14,Leicester City,First Team Data Analyst,Analytics,Entry-Level,Soccer,https://lcfc.octo-firstclass.co.uk/candidates/c/applicationform/jobpost/188219?aisId=12
 2025-02-14,English Football Association,Women's Data Visualization Analyst,Analytics,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4153141812/
@@ -41,7 +42,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-01-24,Oakland Athletics,Data Scientist,Analytics,Entry-Level,Baseball,https://job-boards.greenhouse.io/athleticsbaseballops/jobs/7828385002
 2025-01-24,Oakland Athletics,Advance Scouting Intern,Analytics,Internship,Baseball,https://job-boards.greenhouse.io/athleticsbaseballops/jobs/7826157002
 2025-01-24,Kansas City Royals,Pro Player Analyst,Analytics,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/pro-player-analyst-2108009
-2025-01-23,Los Angeles Dodgers,Jr Baseball Strategy & Information Analyst,Analytics,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4132155569/
+2025-01-23,Los Angeles Dodgers,Jr Baseball Strategy & Information Analyst,Analytics,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4132155569/,46000,46000
 2025-01-22,New Jersey Devils,Sr Data Scientist,Analytics,Mid-Career,Hockey,https://www.linkedin.com/jobs/view/4132381264/
 2025-01-22,Kansas City Royals,Baseball Systems Developer,Engineering,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/developer-baseball-systems-2107654
 2025-01-22,Colorado Rockies,Data Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4131958111/
@@ -105,11 +106,11 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-12-03,Inter Miami CF,First Team Sports Scientist,Performance,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4090090230/
 2024-12-03,Chicago White Sox,Applied Sports Science Intern,Performance,Internship,Baseball,https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/OpportunityDetail?opportunityId=98cddcbf-c37e-4df1-93e9-e57db3291803
 2024-12-03,Los Angeles Dodgers,Data Engineering Fellow,Business,Internship,Baseball,https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/data-engineering-fellow-2101534
-2024-12-02,Los Angeles Dodgers,Quantitative Analysis Intern,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4087450231/
-2024-12-02,Los Angeles Dodgers,Baseball Systems Intern,Engineering,Internship,Baseball,https://www.linkedin.com/jobs/view/4087447534/
-2024-12-02,Los Angeles Dodgers,Performance Science Intern,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4087448395/
-2024-12-02,Los Angeles Dodgers,Baseball Strategy & Information Intern,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4087448396/
-2024-12-02,Los Angeles Dodgers,Business Strategy & Analytics Fellow,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4087448394/
+2024-12-02,Los Angeles Dodgers,Quantitative Analysis Intern,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4087450231/,35000,35000
+2024-12-02,Los Angeles Dodgers,Baseball Systems Intern,Engineering,Internship,Baseball,https://www.linkedin.com/jobs/view/4087447534/,35000,35000
+2024-12-02,Los Angeles Dodgers,Performance Science Intern,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4087448395/,35000,35000
+2024-12-02,Los Angeles Dodgers,Baseball Strategy & Information Intern,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4087448396/,35000,35000
+2024-12-02,Los Angeles Dodgers,Business Strategy & Analytics Fellow,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4087448394/,43000,43000
 2024-12-02,Buffalo Bills,Sr Director of Business Analytics,Business,Senior,Football,https://recruiting.ultipro.com/HOC10001BFLO/JobBoard/fe63f75a-e850-45d2-8772-63a210927fdc/OpportunityDetail?opportunityId=db95410d-3767-439b-917e-da0c61c77a07
 2024-11-28,San Francisco Giants,Baseball Operations Associate Analyst,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4085829686/
 2024-11-28,National Basketball Association,DevOps Engineer,Engineering,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4084657231/
