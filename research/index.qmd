@@ -4,10 +4,11 @@ title: "Research"
 
 ## Preprints
 
-Powers S, Stancil L, Consiglio N\
+Powers S, Stancil L, Consiglio N (2025)\
 "Estimating individual contributions to team success in women's college volleyball"\
 to appear in *Journal of Quantitative Analysis in Sports*
-[code](https://github.com/saberpowers/markov-chain-volleyball){target="blank"},
+[article](https://doi.org/10.1515/jqas-2024-0038){target=_blank},
+[code](https://github.com/saberpowers/markov-chain-volleyball){target=_blank},
 [preprint](https://arxiv.org/abs/2402.01083){target=_blank}
 
 ## Conference Presentations
