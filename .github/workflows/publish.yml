@@ -17,6 +17,11 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Github Action for LaTeX
+        uses: xu-cheng/latex-action@3.2.0
+        with:
+          root_file: assets/powers.tex
+
       - name: Install R
         uses: r-lib/actions/setup-r@v2
 
