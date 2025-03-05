@@ -10,9 +10,6 @@ _site/
 *.out
 *.synctex.gz
 
-# Rendered PDF files
-assets/*.pdf
-teaching/*/*/*.pdf
 teaching/smgt432/lecture/tracking/*.pdf
 
 # These images are just used for the syllabus
