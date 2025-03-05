@@ -15,6 +15,9 @@ Fall 2023
 [SMGT 435/535: Baseball Analytics](smgt435/index.qmd)\
 Spring 2024, Fall 2024
 
+[STAT 499/699: Topics in Statistical Sciences (Sport Analytics)](stat699/syllabus/latest.pdf){target=_blank}\
+Fall 2024
+
 ## Stanford
-[STATS 50: Mathematics of Sports](https://web.stanford.edu/class/stats50/){target="_blank"}\
+[STATS 50: Mathematics of Sports](https://web.stanford.edu/class/stats50/){target=_blank}\
 Spring 2016
