@@ -10,7 +10,11 @@ _site/
 *.out
 *.synctex.gz
 
-teaching/smgt432/lecture/tracking/*.pdf
+# Rendered lesson plans
+teaching/*/plan/*.pdf
 
-# These images are just used for the syllabus
+# Old syllabi
+teaching/*/syllabus/*.pdf
+
+# These images are just used for the syllabi
 teaching/images/
