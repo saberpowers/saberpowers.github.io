@@ -22,25 +22,25 @@ about:
 
 *I am on parental leave during the 2025 spring semester.*
 
-I am an Assistant Professor of [Sport Analytics](https://sport.rice.edu/){target="_blank"} and of [Statistics](https://statistics.rice.edu/){target="_blank"} at [Rice University](https://www.rice.edu/){target="_blank"}. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.
+I am an Assistant Professor of [Sport Analytics](https://sport.rice.edu/){target=_blank} and of [Statistics](https://statistics.rice.edu/){target=_blank} at [Rice University](https://www.rice.edu/){target=_blank}. Much of my work involves what team front offices want to know: (a) how to measure individual contributions to team success in team sports and (b) how to squeeze optimal estimates of player talent from limited data. Building on these results, I research what league offices want to know: how teams and players respond to incentives, from a game theoretic perspective. I want to understand how leagues can design these incentives to promote the health of their sport. My favorite tools for these problems tend to come from statistical machine learning (regularized regression, gradient boosting, etc.) although I am also partial to Bayesian models when appropriate (and when the computational cost is reasonable). My favorite sports are baseball, soccer and volleyball.
 
-I completed my PhD in statistics at [Stanford University](https://www.stanford.edu/){target="_blank"} in 2017. From there, I worked for the [Los Angeles Dodgers](https://www.mlb.com/dodgers){target="_blank"} in R&D for five years and then spent one season as an Assistant General Manager with the [Houston Astros](https://www.mlb.com/astros){target="_blank"} before joining Rice in 2023. Along the way, I've kept a thread of consulting, starting with the [Oakland Athletics](https://www.mlb.com/athletics){target="_blank"}, which led directly to part-time work for [AZ Alkmaar](https://www.az.nl/en){target="_blank"}, which became part-time work for [Zelus Analytics](https://zelusanalytics.com/){target="_blank"} (primarily soccer analytics), which became part-time work for [Teamworks](https://teamworks.com/){target="_blank"} (soccer analytics).
+I completed my PhD in statistics at [Stanford University](https://www.stanford.edu/){target=_blank} in 2017. From there, I worked for the [Los Angeles Dodgers](https://www.mlb.com/dodgers){target=_blank} in R&D for five years and then spent one season as an Assistant General Manager with the [Houston Astros](https://www.mlb.com/astros){target=_blank} before joining Rice in 2023. Along the way, I've kept a thread of consulting, starting with the [Oakland Athletics](https://www.mlb.com/athletics){target=_blank}, which led directly to part-time work for [AZ Alkmaar](https://www.az.nl/en){target=_blank}, which became part-time work for [Zelus Analytics](https://zelusanalytics.com/){target=_blank} (primarily soccer analytics), which became part-time work for [Teamworks](https://teamworks.com/){target=_blank} (soccer analytics). I am an organizer of the [American Soccer Insights Summit](https://americansoccerinsights.com/){target=_blank}.
 
 *Regretfully, I do not have the bandwidth to respond to individual requests from students for video calls or feedback on projects. If you are a potential collaborator with (a) data and (b) research questions, please reach out---I may be able to provide students and brainpower. I am also open to media inquiries.*
 
 #### In the news
 
-[Looking for friends among baseball's most passionate nerds](https://defector.com/looking-for-friends-among-baseballs-most-passionate-nerds){target="_blank"}\
+[Looking for friends among baseball's most passionate nerds](https://defector.com/looking-for-friends-among-baseballs-most-passionate-nerds){target=_blank}\
 2024-09-05 *Defector*
 
-[​​Scott Powers: Major league analyst acing Rice](https://www.ricethresher.org/article/2024/02/scott-powers-major-league-analyst-acing-rice){target="_blank"}\
+[​​Scott Powers: Major league analyst acing Rice](https://www.ricethresher.org/article/2024/02/scott-powers-major-league-analyst-acing-rice){target=_blank}\
 2024-02-13 *The Rice Thresher*
 
-[What volleyball can tell us about what’s missing in MLB analytics](https://www.ocregister.com/2023/09/27/hoornstra-reckoning-with-the-powers-and-limits-of-analytics-in-baseball/){target="_blank"}\
+[What volleyball can tell us about what’s missing in MLB analytics](https://www.ocregister.com/2023/09/27/hoornstra-reckoning-with-the-powers-and-limits-of-analytics-in-baseball/){target=_blank}\
 2023-09-27 *The Orange County Register*
 
-[Astros fire assistant general manager Scott Powers](https://www.mlbtraderumors.com/2022/11/astros-fire-assistant-general-manager-scott-powers.html){target="_blank"}\
+[Astros fire assistant general manager Scott Powers](https://www.mlbtraderumors.com/2022/11/astros-fire-assistant-general-manager-scott-powers.html){target=_blank}\
 2022-11-11 *MLB Trade Rumors*
 
-[Dodgers executive leaving for Astros front office is traitorous activity](https://dodgersway.com/2022/01/03/dodgers-executive-leaving-astros-front-office-traitorous-activity/){target="_blank"}\
+[Dodgers executive leaving for Astros front office is traitorous activity](https://dodgersway.com/2022/01/03/dodgers-executive-leaving-astros-front-office-traitorous-activity/){target=_blank}\
 2022-01-03 *Dodgers Way*
