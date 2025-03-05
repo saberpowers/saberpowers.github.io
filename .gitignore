@@ -1,4 +1,5 @@
 /.quarto/
+_site/
 *.DS_Store
 
 # LaTeX helper files
@@ -9,10 +10,11 @@
 *.out
 *.synctex.gz
 
-# Rendered PDF files
-assets/*.pdf
-teaching/*/*/*.pdf
-teaching/smgt432/lecture/tracking/*.pdf
+# Rendered lesson plans
+teaching/*/plan/*.pdf
 
-# These images are just used for the syllabus
+# Old syllabi
+teaching/*/syllabus/*.pdf
+
+# These images are just used for the syllabi
 teaching/images/
