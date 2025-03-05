@@ -8,8 +8,8 @@ This is nothing more than a list of cool job postings (mostly in R&D with pro sp
 [Unsolicited advice for becoming a competitive candidate for jobs in sport analytics](advice/index.qmd)
 
 ```{r, echo = FALSE}
-jobs <- read.csv("../assets/jobs.csv")
-logos <- read.csv("../assets/logos.csv")
+jobs <- read.csv("jobs.csv")
+logos <- read.csv("logos.csv")
 data <- jobs |>
     dplyr::mutate(team = stringr::str_trim(team, side = "both")) |>
     dplyr::left_join(logos, by = "team") |>
