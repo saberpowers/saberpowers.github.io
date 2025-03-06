@@ -8,3 +8,5 @@ toc: false
 [npmr](https://cran.rstudio.com/web/packages/npmr/index.html){target="_blank"} --- Nuclear Penalized Multinomial Regression
 
 [sabRmetrics](https://saberpowers.github.io/sabRmetrics/){target="_blank"} --- Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models
+
+test
