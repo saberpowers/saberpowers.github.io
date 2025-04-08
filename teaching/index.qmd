@@ -3,7 +3,9 @@ title: "Teaching"
 toc: false
 ---
 
-[Scott's recommendations for effectively communicating insights in sport analytics](recommendations/index.qmd)
+[Recommendations for effectively communicating insights in sport analytics](recommendations/index.qmd)
+
+[Resources for learning R at your own pace (free courses from Codecademy)](https://www.codecademy.com/catalog/language/r){target=_blank}
 
 ## Rice
 [SMGT 430/530: Introduction to Sport Analytics](smgt430/index.qmd)\
