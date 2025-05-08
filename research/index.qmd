@@ -49,7 +49,8 @@ Powers S, Shayer E\
 "True wOBA: Estimation of true talent level for batters"\
 2016 SABR Analytics Conference
 [code](https://github.com/sspowers/true-woba){target=_blank},
-[slides](https://drive.google.com/file/d/1ROrrWrpGyONj8a9cv-VYIO-NsK9jFD-n){target=_blank}
+[slides](https://drive.google.com/file/d/1ROrrWrpGyONj8a9cv-VYIO-NsK9jFD-n){target=_blank},
+[video](https://www.youtube.com/watch?v=g3skOLWc52k&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 Powers S\
 "Rewarding batters for baserunner advancement: A ridge-regressed Rasch model"\
