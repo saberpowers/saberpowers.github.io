@@ -14,6 +14,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Build CV
+        uses: xu-cheng/latex-action@v3
+        with:
+            root_file: assets/powers.tex
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
