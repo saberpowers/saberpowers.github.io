@@ -5,13 +5,7 @@ toc: false
 
 ## Current Students
 
-[Elizabeth Sepúlveda](https://www.linkedin.com/in/elizabeth-ellie-sep%C3%BAlveda-76a852224/){target=_blank} (BA Statistics and BA Sport Analytics, exp. 2025)
-
-[Judy Zhu](https://www.linkedin.com/in/judy-zhu-34060b22b/){target=_blank} (BA Mathematics w/ Data Science minor, exp. 2025)
-
 [Elisabeth Millington](https://www.linkedin.com/in/elisabeth-millington/){target=_blank} (BA Sports Medicine and Exercise Physiology and BA Sport Analytics, exp. 2026)
-
-[Lucca Ferraz](https://lucca-ferraz.github.io/www/){target=_blank} (BA Statistics and BA Sport Analytics, exp. 2026)
 
 [Rahul Herrero](https://www.linkedin.com/in/rahul-herrero-a70550261/){target=_blank} (BA Mathematical Economic Analysis and BA Sport Analytics, exp. 2027)
 
@@ -23,9 +17,15 @@ toc: false
 
 ## Alumni
 
-[Naomi Consiglio](https://www.linkedin.com/in/naomi-consiglio/){target=_blank} (BA Statistics and BA Sport Analytics, exp. 2025)
+[Lucca Ferraz](https://lucca-ferraz.github.io/www/){target=_blank} (BA Statistics and BA Sport Analytics, exp. 2026)
 
-[Jacob Hahn](https://www.linkedin.com/in/jacobfhahn/){target=_blank} (BA Statistics and BA Sport Analytics, exp. 2025)
+[Elizabeth Sepúlveda](https://www.linkedin.com/in/elizabeth-ellie-sep%C3%BAlveda-76a852224/){target=_blank} (BA Statistics and BA Sport Analytics, 2025)
+
+[Judy Zhu](https://www.linkedin.com/in/judy-zhu-34060b22b/){target=_blank} (BA Mathematics w/ Data Science minor, 2025)
+
+[Naomi Consiglio](https://www.linkedin.com/in/naomi-consiglio/){target=_blank} (BA Statistics and BA Sport Analytics, 2025)
+
+[Jacob Hahn](https://www.linkedin.com/in/jacobfhahn/){target=_blank} (BA Statistics and BA Sport Analytics, 2025)
 
 [Jeff Brover](https://www.linkedin.com/in/jeff-brover/){target=_blank} (BA Statistics and BA Sport Analytics, 2024)
 
