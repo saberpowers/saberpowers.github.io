@@ -1,4 +1,17 @@
 date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
+2025-05-30,Denver Broncos,Sr Data Scientist,Analytics,Mid-Career,Football,https://www.linkedin.com/jobs/view/4240987652/,132800,148100
+2025-05-30,Denver Broncos,Back-End Data Engineer,Engineering,Entry-Level,Football,https://www.linkedin.com/jobs/view/4240989326/,124700,141200
+2025-05-29,Minnesota Vikings,Football Quantitative Methods Associate,Analytics,Internship,Football,https://www.linkedin.com/jobs/view/4237279726/
+2025-05-29,Washington Commanders,Data Engineering Intern,Engineering,Internship,Football,https://www.linkedin.com/jobs/view/4237291921/,30000,30000
+2025-05-29,Pittsburgh Steelers,Lead Application Developer,Engineering,Mid-Career,Football,https://www.linkedin.com/jobs/view/4237009501/
+2025-05-29,Leeds United,Principal Data Scientist,Analytics,Senior,Soccer,https://www.linkedin.com/posts/bikash-deb-20993877_careers-leeds-united-activity-7333801354836013056-K9P9
+2025-05-29,Leeds United,Data Engineer/Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/posts/bikash-deb-20993877_careers-leeds-united-activity-7333801354836013056-K9P9
+2025-05-29,Leeds United,Software Engineer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/posts/bikash-deb-20993877_careers-leeds-united-activity-7333801354836013056-K9P9
+2025-05-29,Major League Soccer,Sr Analytics Engineer,Engineering,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4236849643/,130000,170000
+2025-05-28,Major League Soccer,Data Engineer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4235896433/,90000,115000
+2025-05-27,Wrexham,Data Scientist,Performance,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4236228136/
+2025-05-27,US Soccer Federation,Research & Innovation Assistant,Analytics,Entry-Level,Soccer,https://recruiting.paylocity.com/Recruiting/Jobs/Details/3293562
+2025-05-23,Pittsburgh Pirates,Director of Baseball Systems,Engineering,Senior,Baseball,https://pirates.rec.pro.ukg.net/PIT1500PITA/JobBoard/1571bce9-cb30-4961-98da-07b26506146a/OpportunityDetail?opportunityId=1f6bef68-89b5-4131-8456-d84708cecffd
 2025-05-23,Jacksonville Jaguars,Analytics Architect,Engineering,Mid-Career,Football,https://www.linkedin.com/jobs/view/4233471388/
 2025-05-22,Texas Rangers,Analytics Engineer,Engineering,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/texasbaseball/texas-rangers/analytics-engineer-baseball-research-development-2122451
 2025-05-22,Atlanta Braves,Baseball Systems Developer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4231974621/
@@ -6,6 +19,8 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-05-21,Braga,Data Engineer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4232549523/
 2025-05-20,Braga,Data Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4231813637/
 2025-05-20,Wrexham,Data Analyst,Performance,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4230636086/
+2025-05-20,Major League Soccer,Sr Director of Machine Learning & AI,Analytics,Senior,Soccer,https://www.linkedin.com/jobs/view/4231448953/,215000,235000
+2025-05-20,Major League Soccer,Sr Staff Engineer,Engineering,Senior,Soccer,https://www.linkedin.com/jobs/view/4231456262/,180000,200000
 2025-05-20,St Louis Blues,Hockey Lead Developer,Engineering,Mid-Career,Hockey,https://www.teamworkonline.com/hockey-jobs/hockeyjobs/st--louis-blues/hockey-lead-developer-2122150
 2025-05-20,St Louis Blues,Hockey Data Engineer,Engineering,Entry-Level,Hockey,https://www.teamworkonline.com/hockey-jobs/hockeyjobs/st--louis-blues/hockey-data-engineer-2122131
 2025-05-20,Boston Red Sox,Back-End/API Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4235372681/
@@ -17,13 +32,14 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-05-15,Tennessee Titans,Data Engineer,Business,Entry-Level,Football,https://www.linkedin.com/jobs/view/4227505446/
 2025-05-14,New York Jets,Sports Science Fellow,Performance,Internship,Football,https://www.teamworkonline.com/football-jobs/footballjobs/new-york-jets/sports-science-fellow-2121563
 2025-05-13,Portland Trail Blazers,Full-Stack Developer,Engineering,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4228913797/
+2025-05-13,Major League Soccer,Sr Business Insights & Analytics Manager,Business,Entry-Level,Soccer,https://www.linkedin.com/posts/sportsjobs-online_new-job-in-sports-analytics-activity-7328046757542559745-BwJs?utm_source=share&utm_medium=member_desktop&rcm=ACoAABRNxhEBenFpF19yenNXFnNhXJQcOtR8dSg,110000,135000
 2025-05-12,Club Brugge,Football Data Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4228430550/
 2025-05-10,Golden State Warriors,Data Scientist,Analytics,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4227416235/,130000,140000
 2025-05-09,Cincinnati Reds,Data Engineering Intern,Engineering,Internship,Baseball,https://www.linkedin.com/jobs/view/4226658024/
 2025-05-09,IMG Academy,Performance Scientist,Performance,Entry-Level,Multisport,https://www.linkedin.com/jobs/view/4225990055/
 2025-05-09,IMG Academy,Performance Science Analyst,Performance,Entry-Level,Multisport,https://www.linkedin.com/jobs/view/4225985662/
 2025-05-08,Club Brugge,Football Data Engineer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4226125116/
-2025-05-07,Seattle Sounders FC,Data Analyst,Analtics,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4226374169/
+2025-05-07,Seattle Sounders FC,Data Analyst,Analtics,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4226374169/,41500,41500
 2025-05-07,Milwaukee Brewers,UI/UX Associate,Engineering,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/milwaukeebaseball/milwaukee-brewers/associate-baseball-systems-user-interface-experience-ui-ux-2120874
 2025-05-07,Dallas Mavericks,Software Engineer Intern,Engineering,Internship,Basketball,https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68eee9454018ef2f81a7d05a4&id=8a78839e96888cec0196abb178315c8f
 2025-05-06,Tottenham Hotspur,Data Engineer,Business,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4222265603/
@@ -194,7 +210,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-12-16,Borussia Dortmund,Data Engineer,Engineering,Entry-Level,Soccer,https://expertinnen-bvb.career.softgarden.de/jobs/51892748/Data-Engineer-m-w-d-/
 2024-12-15,Atlanta United,Head of Sports Science & Performance Analytics,Performance,Mid-Career,Soccer,https://ambgroup.wd1.myworkdayjobs.com/en-US/AMBSE/job/Head-of-Sports-Science---Performance-Analytics---Atlanta-United-FC_R0027669-1
 2024-12-15,Indianapolis Colts,Business Analytics Intern,Business,Internship,Football,https://jobs.dayforcehcm.com/en-US/indianapoliscolts/CANDIDATEPORTAL/jobs/1594
-2024-12-14,US Soccer Federation,Research and Innovation Manager,Analytics,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4100918057/
+2024-12-14,US Soccer Federation,Research & Innovation Manager,Analytics,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4100918057/
 2024-12-13,Angel City FC,Sports Scientist,Performance,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4095615994/,100000,110000
 2024-12-12,Miami Marlins,Player Development Analytics Fellow,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4098639184/
 2024-12-12,PFF FC,Sr Data Engineer,Engineering,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4094482603/
@@ -239,7 +255,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-11-21,Phoenix Mercury,Sr Software Engineer,Engineering,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/4082049769/
 2024-11-21,National Basketball Association,Machine Learning Software Engineer,Engineering,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4078876387/,130000,165000
 2024-11-21,Miami Heat,Data Analyst,Business,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4079631218/
-2024-11-20,Leeds United,Data Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/feed/update/urn:li:activity:7265086937026150400/
+2024-11-20,Leeds United,Data Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/posts/konstantinos-michail_careers-leeds-united-activity-7265086937026150400-5kRQ
 2024-11-20,Houston Astros,Software Development Tech Lead,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4083511437/
 2024-11-20,Houston Astros,Full-Stack Developer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4083509537/
 2024-11-20,Houston Astros,Data Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4078427663/
