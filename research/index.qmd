@@ -124,6 +124,9 @@ Petersen A, Sitarik A, Luedtke A, Powers S, Bekmetjev A, Tintle NL (2011)\
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
+[Baseball pitch trajectory density estimation for predicting future pitcher outcomes](https://drive.google.com/file/d/1dBi1TJsnBYYR7gPnzy466_INyfHXm7d6){target=_blank} :baseball:\
+2024 Conference of Texas Statisticians
+
 [Pitch trajectory density estimation for predicting future outcomes](https://drive.google.com/file/d/1MI_olwoJ6AJ1BWEVaXiWwGh63Dt7vdqj){target=_blank} :baseball:\
 2023 Saberseminar
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/predictive-pitch-score){target=_blank}
