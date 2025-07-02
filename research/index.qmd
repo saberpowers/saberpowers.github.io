@@ -8,26 +8,26 @@ from: markdown+emoji
 [Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
 w/ Ruoqian (Judy) Zhu and Dave Love [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}
 
-[Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank} :baseball:\
+[Swinging, Fast and Slow: Interpreting variation in baseball swing tracking metrics](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank} :baseball:\
 w/ Ron Yurko\
-2024 Cascadia Symposium on Statistics in Sports
+2024 Cascadia Symposium on Statistics in Sports (Vancouver)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/12FuQxjcDzmxETV-RaKdjPA1gbP1BLUaR){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rsJmNvDaHJc&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-2024 Saberseminar
+2024 Saberseminar (Chicago)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
 [The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
 w/ Jacob Hahn, Mallesh Pai and Andrew Schaefer\
-2024 Cascadia Symposium on Statistics in Sports
+2024 Cascadia Symposium on Statistics in Sports (Vancouver)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/17jveBX0U5hDRP7KH2GtvgGVATdS8wI7Q){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=oOvvNnDCD5Y&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-2024 Saberseminar
+2024 Saberseminar (Chicago)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=sVQ-b1lW8nQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
 [Pitch trajectory density estimation for predicting future outcomes](https://github.com/saberpowers/predictive-pitch-score){target=_blank} :baseball:\
 w/ Vicente Iglesias\
-2023 Saberseminar
+2023 Saberseminar (Chicago)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1MI_olwoJ6AJ1BWEVaXiWwGh63Dt7vdqj){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=IgPB4TlTass&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
@@ -100,14 +100,18 @@ Petersen A, Sitarik A, Luedtke A, Powers S, Bekmetjev A, Tintle NL (2011)\
 
 ### Invited Talks
 
+[Winning baseball games by solving statistics puzzles](https://drive.google.com/file/d/1lbSWf_lJ7qO7tOJvk2X3OHQ8D1HWppbj){target=_blank} :baseball:\
+2025 International Conference on Statistics and Data Science (Vancouver)
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=iXqfh5QalaY&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
+
 [Spotlighting under-the-radar performers in college women's volleyball](https://drive.google.com/file/d/193olTWrsrSh-2qSuf67kVzfE17ZAGpRV){target=_blank} :volleyball:\
-2024 Sloan Sports Analytics Conference
+2024 Sloan Sports Analytics Conference (Boston)
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2402.01083){target=_blank}
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/markov-chain-volleyball){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=we8oPw_C4zQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Estimating individual contributions to team success in women's college volleyball](https://drive.google.com/file/d/1J4RUxu-oV8o_xQJi7cCvEKm8wfXS_B2Y){target=_blank} :volleyball:\
-2023 New England Symposium on Statistics in Sports
+2023 New England Symposium on Statistics in Sports (Boston)
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2402.01083){target=_blank}
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/markov-chain-volleyball){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=kiV2QDFDMVo&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
@@ -115,77 +119,77 @@ Petersen A, Sitarik A, Luedtke A, Powers S, Bekmetjev A, Tintle NL (2011)\
 ### Contributed Talks
 
 [Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length](https://drive.google.com/file/d/12FuQxjcDzmxETV-RaKdjPA1gbP1BLUaR){target=_blank} :baseball:\
-2024 Cascadia Symposium on Statistics in Sports
+2024 Cascadia Symposium on Statistics in Sports (Vancouver)
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rsJmNvDaHJc&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
 [Swinging, Fast and Slow: Untangling intention and timing error from bat speed and swing length](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank} :baseball:\
-2024 Saberseminar
+2024 Saberseminar (Chicago)
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Baseball pitch trajectory density estimation for predicting future pitcher outcomes](https://drive.google.com/file/d/1dBi1TJsnBYYR7gPnzy466_INyfHXm7d6){target=_blank} :baseball:\
-2024 Conference of Texas Statisticians
+2024 Conference of Texas Statisticians (Houston)
 
 [Pitch trajectory density estimation for predicting future outcomes](https://drive.google.com/file/d/1MI_olwoJ6AJ1BWEVaXiWwGh63Dt7vdqj){target=_blank} :baseball:\
-2023 Saberseminar
+2023 Saberseminar (Chicago)
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/predictive-pitch-score){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=IgPB4TlTass&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Jointly predicting exit velocity and launch angle for batter-pitcher matchups](https://drive.google.com/file/d/1dBwmXiejFQkje7MJ1mcv3-HMWg0sO1Qw){target=_blank} :baseball:\
-2016 Saberseminar
+2016 Saberseminar (Boston)
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/trajectory-distribution){target=_blank}
 
 [Nuclear penalized multinomial regression for predicting at bat outcomes in baseball](https://drive.google.com/file/d/1ERY4Ry63w80IIGf1dUpT6qp2mcX6gHvu){target=_blank} :baseball:\
-2016 Joint Statistical Meetings
+2016 Joint Statistical Meetings (Chicago)
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/1706.10272){target=_blank}
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/npmr){target=_blank}
 
 [True wOBA: Estimation of true talent level for batters](https://drive.google.com/file/d/1ROrrWrpGyONj8a9cv-VYIO-NsK9jFD-n){target=_blank} :baseball:\
-2016 SABR Analytics Conference
+2016 SABR Analytics Conference (Phoenix)
 [{{< iconify simple-icons github >}}](https://github.com/sspowers/true-woba){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=g3skOLWc52k&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Rewarding batters for baserunner advancement: A ridge-regressed Rasch model](https://drive.google.com/file/d/1IodOhnzXWrwM-jX5CU7GLqpzVJX2iVij){target=_blank} :baseball:\
-2015 Saberseminar
+2015 Saberseminar (Boston)
 
 ### Invited Panels
 
 [Data Science and Analytics in Sports Performance and Management](https://sportsai.engineering.columbia.edu/events/symposium-ai-and-sports){target=_blank}\
 w/ Mark Broadie, Natalie Kupperman and Jill McNitt-Gray\
-2024 Columbia Symposium on AI and Sports
+2024 Columbia Symposium on AI and Sports (New York)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=VWk82MRaiCk&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 ### Student Talks
 
 [The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://drive.google.com/file/d/17jveBX0U5hDRP7KH2GtvgGVATdS8wI7Q){target=_blank} :baseball:\
 Jacob Hahn\
-2024 Cascadia Symposium on Statistics in Sports
+2024 Cascadia Symposium on Statistics in Sports (Vancouver)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=oOvvNnDCD5Y&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-2024 Saberseminar
+2024 Saberseminar (Chicago)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=sVQ-b1lW8nQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Modifying k-means clustering to optimize defensive positioning in volleyball](https://drive.google.com/file/d/1I7is6OWz4pjr0_LHZ4aXLhDoWhQrc-Qt/view?usp=sharing){target=_blank} :volleyball:\
 Naomi Consiglio\
-2024 Women in Sports Data Symposium
+2024 Women in Sports Data Symposium (Philadelphia)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=YtEnMA_oo-M&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Do we learn more about AAA batters when they face better pitches?](https://drive.google.com/file/d/15tkgY2AF0itN_YAMJBSBGqdkhBkKn6bx){target=_blank} :baseball:\
 Jeff Brover\
-2024 Saberseminar
+2024 Saberseminar (Chicago)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=58IRGftqgNk&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 [Time warping for clustering pitcher deliveries](https://drive.google.com/file/d/1W_GtgfRGmzeAktd0CIqhjcxFYQsvJfaX){target=_blank} :baseball:\
 Drew Haugen\
-2024 Saberseminar
+2024 Saberseminar (Chicago)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=QcIdjBnQbHU&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 ### Student Posters
 
 [A statistical approach to sport climbing difficulty and progression](https://drive.google.com/file/d/1Yr4v89__a6qT_zFzkCu1ber-Xb6ybAer){target=_blank} :climbing:\
 Elizabeth Sepúlveda\
-2024 Cascadia Symposium on Statistics in Sports
+2024 Cascadia Symposium on Statistics in Sports (Vancouver)
 
 [Not All Features Are Created Equal: Player clustering and evaluation](https://drive.google.com/file/d/1lHfovGuNbaoPwJjo4VhS5VcErqmv3V4f){target=_blank} :soccer:\
 Andrew Kang\
-2024 Opta Forum
+2024 Opta Forum (London)
