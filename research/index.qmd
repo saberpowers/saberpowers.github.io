@@ -5,17 +5,19 @@ from: markdown+emoji
 
 ## Working Papers
 
-[Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
-w/ Ruoqian (Judy) Zhu and Dave Love [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}
-
 [Swinging, Fast and Slow: Interpreting variation in baseball swing tracking metrics](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank} :baseball:\
-w/ Ron Yurko\
+w/ Ron Yurko
+[{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2507.01238){target=_blank}\
 2024 Cascadia Symposium on Statistics in Sports (Vancouver)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/12FuQxjcDzmxETV-RaKdjPA1gbP1BLUaR){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rsJmNvDaHJc&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 2024 Saberseminar (Chicago)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+
+[Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
+w/ Ruoqian (Judy) Zhu and Dave Love
+[{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}
 
 [The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
 w/ Jacob Hahn, Mallesh Pai and Andrew Schaefer\
