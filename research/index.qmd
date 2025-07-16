@@ -19,6 +19,9 @@ w/ Ron Yurko
 w/ Ruoqian (Judy) Zhu and Dave Love
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}
 
+[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
+w/ Elisabeth Millington
+
 [The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
 w/ Jacob Hahn, Mallesh Pai and Andrew Schaefer\
 2024 Cascadia Symposium on Statistics in Sports (Vancouver)
