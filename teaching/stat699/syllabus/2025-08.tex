@@ -1,0 +1,126 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+%% color for the links 
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{longtable, graphicx}
+\usepackage{multicol}
+\usepackage{ebgaramond}		% for boldface small caps
+\usepackage{changepage}		% for indented paragraph blocks
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+%% hyperlinks
+\usepackage[
+	colorlinks=true,
+	urlcolor=MidnightBlue,
+	plainpages=false,
+  	]{hyperref}% color for the links 
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\begin{minipage}[c]{0.4\linewidth}
+  \includegraphics[height = 2cm]{../../images/rice_stat.png}
+\end{minipage}
+\begin{minipage}[c]{0.6\linewidth}
+  \raggedleft
+  {\bf Course:} SMGT $499/699$ -- Topics in Statistical Sciences:\\
+  Sport Analytics\\
+  {\bf Term:} Fall $2025$\\
+  {\bf Class:} $3$:$00$ -- $3$:$50$ p.m. Mon
+\end{minipage}
+
+\hrule
+
+~\\
+\textbf{\textsc{Instructor Contact Information}}
+\begin{adjustwidth}{1cm}{0cm}
+	{\bf Instructor:} Scott Powers\\
+  {\bf Office:} Kraft $246$\\
+  {\bf Email:} scott.powers@rice.edu\\
+  {\bf Office Hours:} $12$:$00$ -- $12$:$50$ p.m. and $2$:$30$ -- $3$:$20$ p.m. on Tuesdays and Thursdays\\
+  If you plan to attend my office hours, please email me in advance to confirm I will be there.
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Required Texts and Materials}}
+\begin{adjustwidth}{1cm}{0cm}
+	{\bf Class Website:} https://canvas.rice.edu\\
+	{\bf Required Text:} All readings will be made available on Canvas.\\
+	{\bf Required Material:} None
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Course Overview}}
+\begin{adjustwidth}{1cm}{0cm}
+  This course is intended for students interested in research on sports applications of quantitative methods (statistics, computer science, data science, etc.). In an informal seminar style, we will discuss a selection of the latest academic journal articles in sport analytics, as guided by student interest. Each week, one student will choose a paper and prepare a 20-minute oral presentation for the rest of the class, leaving space for discussion.\\
+  ~\\
+  A goal of this course is to foster research collaborations and opportunities for students. We hope to spin off research projects from ideas discussed in class. In addition to reading papers, we will set aside time to brainstorm and share ideas. Presenters may substitute their own research instead of summarizing a paper.\\
+  ~\\
+  {\bf The only enrollment offered is one credit hour per semester (repeatable for credit).}
+\end{adjustwidth}
+
+
+~\\
+\textbf{\textsc{Course Objectives and Learning Outcomes}}
+\begin{adjustwidth}{1cm}{0cm}
+  After successfully completing this course, you will be able to:
+  \begin{itemize}
+    \item Recognize central themes in the recent academic literature of sport analytics.
+    \item Evaluate statistical and computational methods used in sport analytics.
+    \item Present a summary of an academic journal article to a small audience.
+    \item Identify potential research problems in sport analytics.
+  \end{itemize}
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{How Your Grade Is Determined}}
+\begin{adjustwidth}{1cm}{0cm}
+  Satisfactory/Unsatisfactory: A ``satisfactory'' grade requires completion of one 20-minute oral presentation.
+\end{adjustwidth}
+
+\newpage
+\textbf{\textsc{Rice Honor Code}}
+\begin{adjustwidth}{1cm}{0cm}
+  In this course, all students will be held to the standards of the Rice Honor Code, a code that you pledged to honor when you matriculated at this institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the Honor System Handbook at \url{http://honor.rice.edu/honor-system-handbook/}. This handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.\\
+  ~\\
+  \textbf{AI Policy.} You are allowed (and even encouraged) to use AI as a tool for developing R code (attribution in this case is not necessary). Please do not use AI to generate any part of your writeups.
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Disability Resource Center}}
+\begin{adjustwidth}{1cm}{0cm}
+  If you have a documented disability or other condition that may affect academic performance you should: $1$) make sure this documentation is on file with the Disability Resource Center (Allen Center, Room $111$ / \href{mailto:adarice@rice.edu}{adarice@rice.edu} / x$5841$) to determine the accommodations you need; and $2$) talk with me to discuss your accommodation needs.
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Mental Health Policy}}
+\begin{adjustwidth}{1cm}{0cm}
+	The wellbeing and mental health of students is important; if you are having trouble completing your coursework, please reach out to the Wellbeing and Counseling Center. Rice University provides cost-free mental health services through the Wellbeing and Counseling Center to help you manage personal challenges that threaten your personal or academic well-being. If you believe you are experiencing unusual amounts of stress, sadness, or anxiety, the Student Wellbeing Office or the Rice Counseling Center may be able to assist you. The Wellbeing and Counseling Center is located in the Gibbs Wellness Center and can be reached at 713-348-3311 (available 24/7).
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Title IX Responsible Employee Notification}}
+\begin{adjustwidth}{1cm}{0cm}
+  At Rice University, unlawful discrimination in any form, including sexual misconduct, is prohibited under Rice Policy on Harassment and Sexual Harassment (Policy 830) and the Student Code of Conduct.
+
+  Please be aware that all employees of Rice University are ``mandatory reporters'', which means that if you tell me about a situation involving sexual harassment, sexual assault, dating violence, domestic violence, or stalking, I must share that information with the Title IX Coordinator.
+
+  Although I have to make that notification, you will control how your case will be handled, including whether or not you wish to pursue a formal complaint. Our goal is to make sure you are aware of the range of options available to you and have access to the resources you need.
+
+  To report sexual harassment, please contact the Title IX Coordinator at titleix@rice.edu. To explore supportive measures and other resources that are available to you, please visit the Office if Interpersonal Misconduct Prevention and Support at safe.rice.edu.
+\end{adjustwidth}
+
+~\\
+\textbf{This syllabus is only a guide for the course and is subject to change with advance notice.}
+
+\end{document}
