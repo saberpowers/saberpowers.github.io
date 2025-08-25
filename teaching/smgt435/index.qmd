@@ -34,8 +34,6 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1cd-KnI2VcNlG6fgDPQQi41Id_ZxCVyRT){target=_blank}
 
-[Assignment #2: Signal v. Noise in Pitcher Outcomes](assignment/pitcher_outcomes.pdf){target=_blank}
-
 ### Introduction to Pitch-Level Analysis
 
 [Lecture Notes](lecture/pitch_level_analysis.pdf){target=_blank}
@@ -48,16 +46,16 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1zcZqQ1Vc-ilIieTaNdHFMV0njffBRzBm){target=_blank}
 
-[Assignment #3: Pitch Outcome Model](assignment/pitch_outcome_model.pdf){target=_blank}
+[Assignment #2: Pitch Outcome Model](assignment/pitch_outcome_model.pdf){target=_blank}
+
+
+## Unit 3: Advanced Topics
 
 ### "Stuff"
 
 [Lecture Notes](lecture/stuff.pdf){target=_blank}
 
 [Colab Notebook](https://colab.research.google.com/drive/1X67kiqAVAFImx3VIxFH-1MvJ6TSQ83KC){target=_blank}
-
-
-## Unit 3: Valuing Player Performance
 
 ### Fielding and Baserunning
 
@@ -71,7 +69,8 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA){target=_blank}
 
-[Assignment #4: Projections](assignment/projections.pdf){target=_blank}
+[Assignment #3: Projections](assignment/projections.pdf){target=_blank}
+
 
 ## Unit 4: Practicum
 
