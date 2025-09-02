@@ -10,6 +10,9 @@ _site/
 *.out
 *.synctex.gz
 
+# File for environment variables (e.g. API keys)
+*.env
+
 # Rendered lesson plans
 teaching/*/plan/*.pdf
 
