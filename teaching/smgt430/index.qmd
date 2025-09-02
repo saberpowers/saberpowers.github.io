@@ -13,7 +13,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Colab Notebok](https://colab.research.google.com/drive/1qmyQF6ilN4mwtNAQOwtz1xgY8Wl3q48q){target="_blank"}
 
-[Assignment #1: Pythagorean Formula](assignment/pythagorean_formula.pdf){target="_blank"}
+[Assignment: Pythagorean Formula](assignment/pythagorean_formula.pdf){target="_blank"}
 
 ### Bradley-Terry Model
 
@@ -21,7 +21,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1nHK7E_6GXk_alOoMl3AL0SlxsxaCWq3b){target="_blank"}
 
-[Assignment #2: Bradley-Terry Model](assignment/bradley_terry.pdf){target="_blank"}
+[Assignment: Bradley-Terry Model](assignment/bradley_terry.pdf){target="_blank"}
 
 ### Plus-Minus Models
 
@@ -39,7 +39,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa){target="_blank"}
 
-[Assignment #3: Regression to the Mean](assignment/regression_to_the_mean.pdf){target="_blank"}
+[Assignment: Regression to the Mean](assignment/regression_to_the_mean.pdf){target="_blank"}
 
 ### Regularized Regression
 
@@ -51,7 +51,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Colab Notebook: Regularized Adjusted Plus-Minus](https://colab.research.google.com/drive/1bOJJPkNZ6gps0Qan6Wn_i_M9uIYOdTYd){target="_blank"}
 
-[Assignment #4: Regularized Regression](assignment/5.pdf){target="_blank"}
+[Assignment: Regularized Regression](assignment/5.pdf){target="_blank"}
 
 
 ## Unit 3: Applications of Markov Chains in Sports
@@ -62,7 +62,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Colab Notebook](https://colab.research.google.com/drive/130szYABIinDc9lcnwBgExS6Evhz0_pAP){target="_blank"}
 
-[Assignment #5: Win Probability Model](assignment/markov_chain_win_probability.pdf){target="_blank"}
+[Assignment: Win Probability Model](assignment/markov_chain_win_probability.pdf){target="_blank"}
 
 ### Player Evaluation and In-Game Strategy
 
@@ -78,7 +78,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Project Overview](assignment/project.pdf){target="_blank"}
 
-[Assignment #6: YouTube Short](assignment/7.pdf){target="_blank"}
+[Assignment: YouTube Short](assignment/7.pdf){target="_blank"}
 
 [Assignment: Article Review](assignment/article_review.pdf){target="_blank"} (SMGT 530 only)
 
