@@ -1,5 +1,16 @@
 date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
-2025-09-05,Chelsea,1st Team Data Analyst,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4294430671/
+2025-09-11,Vancouver Whitecaps,Data Analyst,Analytics,Entry-Level,Soccer,https://whitecapsfc.bamboohr.com/careers/187,60000,60000
+2025-09-11,Minnesota Twins,Baseball Research Fellow,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4299491411/,36000,36000
+2025-09-11,Minnesota Twins,Biomechanics Fellow,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4299476906/,36000,36000
+2025-09-11,Minnesota Twins,Sports Science Research Fellow,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4299491416/,36000,36000
+2025-09-11,Minnesota Twins,Business Strategy & Analytics Intern,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4299497028/,36000,36000
+2025-09-10,New York Mets,Software Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4296776026/,120000,160000
+2025-09-09,Tampa Bay Rays,Baseball Performance Science Intern,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4296282062/
+2025-09-09,Texas Rangers,Baseball Research & Development Apprentice,Analytics,Internship,Baseball,https://www.teamworkonline.com/baseball-jobs/texasbaseball/texas-rangers/apprentice-baseball-research-development-2133992
+2025-09-09,Newcastle United,Principal Scientist,Analytics,Senior,Soccer,https://www.linkedin.com/jobs/view/4297522143/
+2025-09-09,Los Angeles Lakers,Sports Scientist,Performance,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4297630863/,110000,120000
+2025-09-08,Nike,Director of Data Science,Analytics,Senior,Multisport,https://www.linkedin.com/jobs/view/4297685244/
+2025-09-05,Chelsea,First Team Data Analyst,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4294430671/
 2025-09-05,Seattle Mariners,Data Science Intern,Analytics,Internship,Baseball,https://jobs.jobvite.com/mariners/job/oTOFxfwD,44000,44000
 2025-09-05,Seattle Mariners,Baseball Projects Intern,Analytics,Internship,Baseball,https://jobs.jobvite.com/mariners/job/oAMIxfwl,44000,44000
 2025-09-04,Cleveland Guardians,Sr Data Scientist,Analytics,Mid-Career,Baseball,https://job-boards.greenhouse.io/clevelandguardiansbops/jobs/8150642002
@@ -10,6 +21,8 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-09-03,New York Yankees,Biomechanics Lab Associate,Performance,Internship,Baseball,https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/biomechanics-lab-associate-2133405
 2025-09-02,Columbus Fury,Technical Coordinator,Analytics,Entry-Level,Volleyball,https://www.teamworkonline.com/other-sports-jobs/pro-volleyball-federation-jobs/pro-volleyball-federation-columbus-jobs/volleyball-analytics-technical-coordinator-2133205
 2025-09-02,Detroit Lions,Football Information Season Associate,Analytics,Internship,Football,https://www.linkedin.com/jobs/view/4294328380/
+2025-09-01,Denison University,Assistant Professor of Data Analytics,Analytics,Faculty,Multisport,https://apply.interfolio.com/172731
+2025-09-01,Denison University,Associate Professor of Data Analytics,Analytics,Faculty,Multisport,https://apply.interfolio.com/172731
 2025-08-29,Indianapolis Colts,Football Data Analyst,Analytics,Entry-Level,Football,https://www.linkedin.com/jobs/view/4291176462/
 2025-08-29,Tottenham Hotspur,Jr Data Engineer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4291111882/
 2025-08-29,Juventus,Sport Science Intern,Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4292635360/
@@ -33,7 +46,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-08-12,Oklahoma City Thunder,Software Engineer Intern,Engineering,Internship,Basketball,https://www.linkedin.com/jobs/view/4281206244/
 2025-08-11,Miami Marlins,Director of Baseball Data,Engineering,Senior,Baseball,https://www.linkedin.com/jobs/view/4283406916/
 2025-08-10,Dallas Mavericks,Data Engineer,Engineering,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4283421670/
-2025-08-08,McLaren Racing,Sports Scientist,Performance,Entry-Level,Formula 1,https://www.linkedin.com/jobs/view/4282320027/
+2025-08-08,McLaren Racing,Sports Scientist,Performance,Entry-Level,Motorsport,https://www.linkedin.com/jobs/view/4282320027/
 2025-08-07,Tottenham Hotspur,Sr Data Scientist,Analytics,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4281651481/
 2025-08-07,Teamworks,Product Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4281911509/,92000,124000
 2025-08-04,Sacramento Kings,Basketball Software Engineer,Engineering,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4277742884/,70000,80000
@@ -116,7 +129,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-06-05,Anaheim Ducks,Front-End Engineer,Engineering,Entry-Level,Hockey,https://www.linkedin.com/jobs/view/4241286110/,100000,125000
 2025-06-05,Washington Commanders,Business Analyst,Business,Entry-Level,Football,https://www.linkedin.com/jobs/view/4242467580/,75000,85000
 2025-06-05,San Francisco 49ers,Football Research & Development Analyst,Analytics,Entry-Level,Football,https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=6691&company=SF49SP&st=C81C8138664A0CDC1E4F6AF6D0A1155128B5A74B,95000,105000
-2025-06-04,Dallas Cowboys,Strategic Football Fellow,Analytics,Internship,Fooball,https://jobs.dayforcehcm.com/en-US/jonesentities/DALLASCOWBOYSFOOTBALLCLUB/jobs/3147
+2025-06-04,Dallas Cowboys,Strategic Football Fellow,Analytics,Internship,Football,https://jobs.dayforcehcm.com/en-US/jonesentities/DALLASCOWBOYSFOOTBALLCLUB/jobs/3147
 2025-06-04,Phoenix Suns,Applied Scientist,Analytics,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4244901616/
 2025-06-04,New York Jets,UI/UX Web Developer,Engineering,Entry-Level,Football,https://www.teamworkonline.com/football-jobs/footballjobs/new-york-jets/ui-ux-web-developer-2123464,65000,80000
 2025-06-03,Nottingham Forest,Academy Data Insights Analyst,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4241156853/
@@ -238,14 +251,14 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-03-04,Club Brugge,Data Engineer,Engineering,Entry-Level,Soccer,https://jobs.clubbrugge.be/en/data-engineer
 2025-03-04,Dutch Football Association,Data Engineer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4173579135/
 2025-03-05,Phoenix Suns,Business Intelligence Analyst,Business,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4174539085/
-2025-03-03,Pittsburgh Steelers,Business Analytics Associate,Business,Internship,Fooball,https://www.linkedin.com/jobs/view/4174688110/
+2025-03-03,Pittsburgh Steelers,Business Analytics Associate,Business,Internship,Football,https://www.linkedin.com/jobs/view/4174688110/
 2025-02-28,Miami Heat,Data Analytics Summer Intern,Business,Internship,Basketball,https://www.linkedin.com/jobs/view/4171081062/
 2025-02-26,Atlanta Falcons,Jr Football Data Analyst,Analytics,Entry-Level,Football,https://www.linkedin.com/jobs/view/4168496007/
 2025-02-25,LA Galaxy,Director of Pro Analytics,Analytics,Senior,Soccer,https://www.teamworkonline.com/multiple-properties/aeg-sports/mls-los-angeles-galaxy/la-galaxy-director-pro-analytics-on-site-2112766,149812,204290
 2025-02-25,Pittsburgh Penguins,Business Intelligence Analyst Fellow,Business,Internship,Hockey,https://www.linkedin.com/jobs/view/4163513273/
 2025-02-24,SkillCorner,Soccer Prediction Intern,Analytics,Internship,Soccer,https://www.welcometothejungle.com/fr/companies/skillcorner/jobs/stagiaire-prediction-football_paris,15600,15600
 2025-02-24,Phoenix Mercury,Performance Scientist Fellow,Performance,Internship,Basketball,https://www.linkedin.com/jobs/view/4160912845/
-2025-02-20,Nashville SC,Performance Science Intern (Unpaid),Performance,Internship,Socer,https://www.linkedin.com/jobs/view/4161715535/,0,0
+2025-02-20,Nashville SC,Performance Science Intern (Unpaid),Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4161715535/,0,0
 2025-02-19,Atlanta United,Data Scientist,Analytics,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4158678051/
 2025-02-19,Los Angeles Dodgers,Sr Research Engineer,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4158845870/,145000,155000
 2025-02-19,Los Angeles Dodgers,Research Engineer,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4158850121/,120000,130000
@@ -470,7 +483,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-10-09,Norwegian Football Association,Performance Development Lead,Analytics,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4047205256/
 2024-10-08,Calgary Flames,Data Analyst,Analytics,Entry-Level,Hockey,https://recruiting.ultipro.ca/CAL5002/JobBoard/cd9d4411-045b-424a-96d6-3d101e8c9fd3/OpportunityDetail?opportunityId=a6989e0b-4762-49c7-be23-f089fabe0646
 2024-10-08,Calgary Flames,Hockey Systems Developer,Engineering,Entry-Level,Hockey,https://recruiting.ultipro.ca/CAL5002/JobBoard/cd9d4411-045b-424a-96d6-3d101e8c9fd3/OpportunityDetail?opportunityId=74a0ba1e-cc09-42b0-841a-574d995b1bc7
-2024-10-07,Red Bull Racing,Data Scientist,Analytics,Entry-Level,Formula 1,https://www.linkedin.com/jobs/view/4041964959/
+2024-10-07,Red Bull Racing,Data Scientist,Analytics,Entry-Level,Motorsport,https://www.linkedin.com/jobs/view/4041964959/
 2024-10-07,Toronto Blue Jays,Baseball Operations Entry Level Opportunities,Analytics,Entry-Level,Baseball,https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/baseball-operations-entry-level-opportunities-2095859
 2024-10-07,Indiana Pacers,Basketball Analytics Spring Intern,Analytics,Internship,Basketball,https://www.linkedin.com/jobs/view/4045205143/
 2024-10-07,Oakland Athletics,Sports Science Analyst,Performance,Entry-Level,Baseball,https://job-boards.greenhouse.io/athleticsbaseballops/jobs/7674065002
@@ -570,7 +583,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-07-24,Chicago Cubs,Pricing Analyst,Business,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/3983323653/
 2024-07-22,Chelsea,Performance Insights Lead,Performance,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/3980321148/
 2024-07-22,LA Galaxy,Sr Data Engineer,Engineering,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/3978036504/
-2024-07-18,Crystal Palace,First Team Data Analyst,Analytics,Entry-Level,Socer,https://ce0720li.webitrent.com/ce0720li_webrecruitment/wrd/run/etrec179gf.open?WVID=5342252rYN&LANG=USA&VACANCY_ID=1839703Vcu
+2024-07-18,Crystal Palace,First Team Data Analyst,Analytics,Entry-Level,Soccer,https://ce0720li.webitrent.com/ce0720li_webrecruitment/wrd/run/etrec179gf.open?WVID=5342252rYN&LANG=USA&VACANCY_ID=1839703Vcu
 2024-07-17,Los Angeles Clippers,Biomechanics & Motion Analysis Lab Manager,Performance,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/3977499312/,100000,110000
 2024-07-16,Los Angeles Lakers,Coaching Analyst,Analytics,Entry-Level,Basketball,https://www.teamworkonline.com/basketball-jobs/los-angeles-lakers/los-angeles-lakers-jobs/coaching-analyst-basketball-data-strategy-2086797
 2024-07-16,Liverpool,Jr Data Analyst,Analytics,Entry-Level,Soccer,https://careers.liverpoolfc.com/members/modules/job/detail.php?record=787
@@ -583,8 +596,8 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-07-12,Philadelphia Phillies,Engineering Manager,Engineering,Mid-Career,Baseball,https://boards.greenhouse.io/philadelphiaphilliesrddepartment/jobs/6053161003
 2024-07-12,Houston Astros,Business Strategy & Analytics Intern,Business,Internship,Baseball,https://recruiting2.ultipro.com/HOU1000/JobBoard/e68ddd55-8f58-ba9d-0b3a-76742aed1055/OpportunityDetail?opportunityId=38870ef2-1286-4135-9f8b-e33f1738665c
 2024-07-10,Miami Heat,Basketball Data Scientist,Analytics,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/3972727642/
-2024-07-09,McLaren Racing,Data Scientist,Analytics,Entry-Level,Formula 1,https://racingcareers.mclaren.com/o/data-scientist-3
-2024-07-09,McLaren Racing,Jr Data Scientist,Analytics,Entry-Level,Formula 1,https://racingcareers.mclaren.com/o/data-scientist-3
+2024-07-09,McLaren Racing,Data Scientist,Analytics,Entry-Level,Motorsport,https://racingcareers.mclaren.com/o/data-scientist-3
+2024-07-09,McLaren Racing,Jr Data Scientist,Analytics,Entry-Level,Motorsport,https://racingcareers.mclaren.com/o/data-scientist-3
 2024-07-02,Borussia M&ouml;nchengladbach,Data Engineer,Engineering,Entry-Level,Soccer,https://job.borussia.de/de?id=01f696
 2024-07-02,Phoenix Suns,Sr Software Engineer,Engineering,Mid-Career,Basketball,https://recruiting2.ultipro.com/PHO1000PHXSE/JobBoard/c249bb71-c106-49f4-9ae1-fd8f0173d326/OpportunityDetail?opportunityId=c8eb9273-4599-4582-b174-beba5467d660
 2024-06-28,Los Angeles Dodgers,Sr Quantitative Analyst,Analytics,Mid-Career,Baseball,https://recruiting.ultipro.com/LOS1000LADOD/JobBoard/5365ad6e-23ff-4703-bb77-1e9451fb855e/OpportunityDetail?opportunityId=e82a0181-229d-4cf9-9c91-d296d184c229
