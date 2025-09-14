@@ -9,29 +9,74 @@ I typically update this list over the weekend, so Monday is a good day to check 
 
 [Unsolicited advice for becoming a competitive candidate for jobs in sport analytics](advice/index.qmd)
 
+See also: Sean Sullivan's [URAM Analytics job board](https://www.uramanalytics.com/job-board){target=_blank}.
+
 ```{r, echo = FALSE}
 jobs <- read.csv("jobs.csv")
 logos <- read.csv("logos.csv")
 data <- jobs |>
-    dplyr::mutate(team = stringr::str_trim(team, side = "both")) |>
-    dplyr::left_join(logos, by = "team") |>
-    dplyr::transmute(
-        date_posted,
-        team = glue::glue("
-            <span style='display:inline-block;text-align:center;width:33px'>
-                <img height='22' src='{logo_url}'>
-            </span>
-            {team}
-        "),
-        title = glue::glue("<a target='_blank' href='{url}'>{title}</a>"),
-        discipline,
-        stage,
-        sport
+  dplyr::mutate(team = stringr::str_trim(team, side = "both")) |>
+  dplyr::left_join(logos, by = "team") |>
+  dplyr::mutate(
+    date_posted,
+    date_compact = paste(
+      lubridate::month(date_posted),
+      lubridate::day(date_posted),
+      substring(lubridate::year(date_posted), 3, 4),
+      sep = "/"
+    ),
+    image_tag = dplyr::case_when(
+      # This case is for PNG URLs
+      substring(logo_url, 1, 4) == "http" ~ glue::glue("
+        <img height='22' src='{logo_url}'></span>
+      "),
+      # Interpret path tags as SVGs to render
+      substring(logo_url, 1, 5) == "<path" ~ glue::glue("
+        <svg fill='currentColor' height='22' width='22'>{logo_url}</svg>
+      ")
+    ),
+    image_span = glue::glue("
+      <span style='display:inline-block;text-align:center;width:33px'>{image_tag}</span>
+    "),
+    team = paste(image_span, team),
+    title = glue::glue("<a target='_blank' href='{url}'>{title}</a>"),
+    sport_emoji = dplyr::case_when(
+      sport == "Baseball" ~ "&#x26BE;",
+      sport == "Basketball" ~ "&#x1F3C0;",
+      sport == "Football" ~ "&#x1F3C8;",
+      sport == "Hockey" ~ "&#x1F3D2;",
+      sport == "Motorsport" ~ "&#x1F3CE;",
+      sport == "Soccer" ~ "&#x26BD;",
+      sport == "Volleyball" ~ "&#x1F3D0;",
+    ),
+    # We create comp_midrange for sorting the displyed comp column.
+    # We coalesce with 1 so that unpaid jobs show up first when sorting on this column ascending.
+    comp_midrange = dplyr::coalesce((comp_floor + comp_ceiling) / 2, 1),
+    comp_range = dplyr::case_when(
+      comp_ceiling == 0 ~ "Unpaid",
+      is.na(comp_floor) | is.na(comp_ceiling) ~ "",
+      comp_floor == comp_ceiling ~ glue::glue("${round(comp_ceiling/1000)}K"),
+      TRUE ~ glue::glue("${round(comp_floor/1000)}K-${round(comp_ceiling/1000)}K")
     )
+  ) |>
+  dplyr::select(
+    sport_emoji, date_compact, team, title, discipline, stage, comp_range, comp_midrange, sport, date_posted
+  )
 DT::datatable(
-    data = data,
-    colnames = c("Date Posted", "Team", "Title", "Discipline", "Stage", "Sport"),
-    escape = FALSE,
-    style = 'bootstrap'
+  data = data,
+  colnames = c("", "Date", "Team", "Title", "Discipline", "Stage", "Comp*", "Comp Midrange", "Sport", "Date Verbose"),
+  escape = FALSE,
+  style = 'bootstrap',
+  options = list(
+    columnDefs = list(
+      list(className = 'dt-center', targets = c(1, 2, 7)),  # center date and comp range
+      list(orderData = 8, targets = 7),                     # sort comp range by midrange
+      list(orderData = 9, targets = 2),                     # sort compact date by verbose date
+      # hide row names, comp midrange, sport text, and verbose date
+      list(visible = FALSE, targets = c(0, 8, 9, 10))       
+    )
+  )
 )
 ```
+
+*Compensation range reflects either one year of annual salary or 2,000 hours of hourly wage.
