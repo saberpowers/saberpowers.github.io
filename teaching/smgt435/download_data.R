@@ -45,6 +45,7 @@ event_table <- tibble::tribble(
   "Pickoff Caught Stealing 2B",   "Not Batter Event",
   "Pickoff Caught Stealing 3B",   "Not Batter Event",
   "Pickoff Caught Stealing Home", "Not Batter Event",
+  "Pickoff Error 1B",             "Not Batter Event",
   "Pop Out",                      "Flyout",
   "Runner Out",                   "Not Batter Event",
   "Sac Bunt",                     "Not Batter Event",
@@ -69,13 +70,12 @@ batted_ball <- data_statsapi$pitch |>
   dplyr::filter(!is.na(launch_speed), !is.na(launch_angle), !is.na(spray_angle)) |>
   dplyr::select(game_id, event_index, launch_speed, launch_angle, spray_angle)
 
-event <- data_statsapi$event |>
+data_statsapi$event |>
   dplyr::left_join(event_table, by = "event") |>
   dplyr::left_join(batted_ball, by = c("game_id", "event_index")) |>
   dplyr::mutate(event = batter_event) |>
-  dplyr::select(-batter_event)
-
-data.table::fwrite(event, file = "~/Downloads/event.csv")
+  dplyr::select(-batter_event) |>
+  data.table::fwrite(file = "~/Downloads/event.csv")
 
 data_statsapi$pitch |>
   sabRmetrics::get_quadratic_coef() |>
