@@ -170,10 +170,6 @@
   \end{equation*}
   Unlike equation (\ref{eqn-least-squares}), this optimization problem does not have a closed-form solution, and it is solved using an iterative algorithm.\footnote{We omit the details of this calculation. You can learn this in STAT 410.}
 
-  \begin{framed}
-    {\sc Discussion:} When might you prefer to model win-loss outcome instead of score differential?
-  \end{framed}
-
   \subsection{\sc Predicting Future Outcomes}
 
   For both the linear regression model in equation (\ref{eqn-linear-regression}) and the logistic regression model in equation (\ref{eqn-logistic-regression}), we calculate the $n \times 1$ vector $\boldsymbol{\hat\eta}$ of fitted values from the regression the same way:
@@ -202,7 +198,14 @@
 
   Predicting the future outcomes is an important application for sports teams (because of the strategic implications) and for sports bettors. The design matrix $\bf X$ does not encode future games, but the formula for extracting predictions from the model is the same as for past games. For a future game between home team $h$ and away team $a$, the predicted score differential using the linear regression is $\hat\beta_0 + \hat\beta_h - \hat\beta_a$; and the predicted probability of the home team winning using the logistic regression is $e^{\hat\beta_0 + \hat\beta_h - \hat\beta_a} / (1 + e^{\hat\beta_0 + \hat\beta_h - \hat\beta_a})$. To make a large number of predictions in a computationally efficient way, one could encode the future matchups in a new design matrix $\bf \tilde X$ and extract the predictions using $\bf \tilde X \boldsymbol{\hat\beta}$.
 
-  \subsection{\sc Quiz Questions}
+  \subsection{\sc Discussion Questions}
+
+  \begin{enumerate}
+    \item Look for a website to answer the question: Which NFL team had the toughest strength of schedule last year? What method was used to come up with an answer?
+    \item When might we prefer to use win-loss outcome in the Bradley-Terry model instead of score differential?
+  \end{enumerate}
+
+  \subsection{\sc Exercises}
 
   \begin{enumerate}
     \item Why do we need to force $\beta_1 = 0$ in the Bradley-Terry model?
