@@ -29,10 +29,6 @@
     }.
   \end{equation}
 
-  \begin{framed}
-    {\sc Discussion:} What are strengths and weaknesses of using Plus-Minus for player evaluation?
-  \end{framed}
-
   \subsection{\sc Adjusted Plus-Minus}
 
   One drawback of Plus-Minus is that if one player typically plays alongside a particularly strong teammate, this will inflate their Plus-Minus. In other words, Plus-Minus does not control for quality of competition {\it or} quality of teammates. Our method for addressing this is directly analogous to the strength-of-schedule adjustment we learned using the Bradley-Terry model in the previous chapter. We use the random variable $Y_i$ to represent the score differential of stint $i$, and we model the distribution of $Y_i$ as follows:
@@ -79,10 +75,6 @@
   \end{equation*}
   Compare this expression with the definition of average Plus-Minus in equation (\ref{eqn-plus-minus}). Observe that the estimated strength of player $j$ is equivalent to their average Plus-Minus, after adjusting for the estimated strengths of all other players involved in player $j$'s stints. Hence the name: {\it Adjusted} Plus-Minus.
 
-  \begin{framed}
-    {\sc Discussion:} What are strengths and weaknesses of using Adjusted Plus-Minus for player evaluation?
-  \end{framed}
-
   \subsection{\sc The Rasch Model}
 
   So far we have seen two models (Bradley-Terry and Adjusted Plus-Minus) that are variations on the same concept. Whereas the Bradley-Terry model estimates team strengths, the Adjusted Plus-Minus model estimates player strengths. One may think of the Bradley-Terry model as a special case of a the Adjusted Plus-Minus model, where every matchup involves one home player and one away player (and every stint is the same length). In this section we introduce one more model which is yet another variation on this same core concept.
@@ -118,15 +110,17 @@
 
   The Rasch model is a generalization of the Bradley-Terry model in that the actors involved (teams or players) can have separate roles and separate strengths in each of these roles. We could generalize this further by allowing for non-normally distributed outcomes (as we saw with the Bradley-Terry model for win-loss outcomes) and/or by allowing for unequally weighted observations (as we saw with the Adjusted Plus-Minus model). Yet another way to generalize the Rasch model further is to allow for more than two roles. For example, one may hypothesize that the catcher and umpire could have some effect on the outcome of a baseball pitch (especially the ball/strike call if the batter does not swing). In this case, the linear term in the model would take the form $\eta_i = \beta_0 + \beta^B_{b_i} + \beta^P_{p_i} + \beta^C_{c_i} + \beta^U_{u_i}$, including effects from batter, pitcher, catcher and umpire. This is a flexible model that can describe the probability distribution of many different outcomes of interest in sports.
 
-  \begin{framed}
-    {\sc Discussion:} How is the Rasch model similar to the Bradley-Terry model? How is it different?
-  \end{framed}
-
-  \subsection{\sc Quiz Questions}
+  \subsection{\sc Discussion Questions}
 
   \begin{enumerate}
-    \item Why do we use Weighted Least Squares (WLS) instead of Ordinary Least Squares (OLS) to estimate the Adjusted Plus-Minus model?
+    \item What are strengths and weaknesses of using Plus-Minus for player evaluation?
+    \item What are strengths and weaknesses of using Adjusted Plus-Minus for player evaluation?
+    \item What is the difference between the Adjusted Plus-Minus model and the Bradley-Terry model?
     \item Which is it: Is the Adjusted Plus-Minus model a special case of the Bradley-Terry model? Or is the Bradley-Terry model a special case of the Adjusted Plus-Minus model?
+    \item What are some sports for which the Adjusted Plus-Minus model would be particularly useful? What are some sports for which it would not be very useful?
+    \item Why do we use Weighted Least Squares (WLS) instead of Ordinary Least Squares (OLS) to estimate the Adjusted Plus-Minus model?
+    \item What is the difference between the Rasch model and the Bradley-Terry model?
+    \item Think of an outcome in sports for which it would be appropriate to use a Rasch model. What is the sport? What is the outcome? Who are the actors who influence the outcome?
   \end{enumerate}
 
 \end{document}
