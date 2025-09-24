@@ -10,8 +10,8 @@ I typically update this list over the weekend, so Monday is a good day to check 
 See also:
 
 - Sean Sullivan's [URAM Analytics job board](https://www.uramanalytics.com/job-board){target=_blank}
-- Dr Amanda Glazer's [advice for getting started in sport analytics](https://www.amandaglazer.com/sports-analytics){target=_blank}
-- My unsolicited [advice for becoming a competitive candidate for jobs in sport analytics](advice/index.qmd)
+- Dr Amanda Glazer's [advice on getting started in sport analytics](https://www.amandaglazer.com/sports-analytics){target=_blank}
+- My unsolicited [advice on becoming a competitive candidate for jobs in sport analytics](advice/index.qmd)
 
 ```{r, echo = FALSE}
 jobs <- read.csv("jobs.csv")
