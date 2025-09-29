@@ -8,20 +8,54 @@ toc: false
 [Resources for learning R at your own pace (free courses from Codecademy)](https://www.codecademy.com/catalog/language/r){target=_blank}
 
 ## Rice
-[SMGT 430/530: Introduction to Sport Analytics](smgt430/index.qmd)\
-Spring 2024; Fall 2024, 2025
+
+::::{.columns}
+:::{.column width="20%"}
+![](smgt430/image.jpg)
+:::
+:::{.column width="1%"}
+:::
+:::{.column width="60%" .center}
+  [SMGT 430/530: Introduction to Sport Analytics](smgt430/index.qmd)\
+  \
+  Fall 2024, 2025\
+  Spring 2024
+:::
+::::
+
 
 [SMGT 432/532: Soccer Analytics](smgt432/index.qmd)\
 Fall 2023
 
-[SMGT 434: Football Analytics](smgt434/syllabus/latest.pdf){target=_blank}\
-Fall 2025
+::::{.columns}
+:::{.column width="20%"}
+  ![](smgt434/image.jpg)
+:::
+:::{.column width="1%"}
+:::
+:::{.column width="60%"}
+  [SMGT 434: Football Analytics](smgt434/syllabus/latest.pdf){target=_blank}\
+  \
+  Fall 2025
+:::
+::::
+
 
 [SMGT 435/535: Baseball Analytics](smgt435/index.qmd)\
 Spring 2024; Fall 2024, 2025
 
-[STAT 499/699: Topics in Statistical Sciences (Sport Analytics)](stat699/syllabus/latest.pdf){target=_blank}\
-Fall 2024, 2025
+::::{.columns}
+:::{.column width="20%"}
+  ![](stat699/image.jpg)
+:::
+:::{.column width="1%"}
+:::
+:::{.column width="60%"}
+  [STAT 499/699: Topics in Statistical Sciences (Sport Analytics)](stat699/syllabus/latest.pdf){target=_blank}\
+  \
+  Fall 2024, 2025
+:::
+::::
 
 ## Stanford
 [STATS 50: Mathematics of Sports](https://web.stanford.edu/class/stats50/){target=_blank}\
