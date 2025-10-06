@@ -122,4 +122,15 @@
 
     Estimating each of these regression models is a supervised learning task.\footnote{To learn more about supervised learning, see STAT 413.} Approaches generally fall into two categories. The first approach is to use more traditional regression techniques (logistic regression, linear regression) with careful feature engineering. In this case, it is important to construct features that have clear, interpretable relationships with outcomes. For example, break and plate location are defined in terms that clearly connect to the difficulty of hitting a baseball. By contrast, the second approach is to use less interpretable machine learning techniques (random forests, gradient boosting). In this case, the set of quadratic coefficients make for good features because they are a canonical representation for the data available. Tree-based methods can be interpreted as adaptive nearest neighbors, and the methods themselves perform the feature engineering. As long as the sample size is large enough, tree-based methods can approximate any function from the feature space to the outcome space.
 
+  \subsection{\sc Discussion Questions}
+
+    \begin{enumerate}
+      \item On FanGraphs, find the current PitchingBot leaderboard (Pitching Leaderboards $\rightarrow$ Pitch Modeling).
+      \begin{enumerate}
+        \item Who is leading the league in botxRV100? What is the cumulative run value of their performance over the full regular season, according to the PitchingBot model?
+        \item What is the largest gap you can find between a pitcher's botERA and their FIP? Why do you think this pitcher has such a large gap between their botERA and their FIP? Do you think their ERA next season will be closer to their current-season botERA or their current-season FIP?
+      \end{enumerate}
+      \item What are some reasons that a pitcher might truly be better or worse than a pitch outcome model would suggest based on their pitch trajectories?
+    \end{enumerate}
+
 \end{document}
