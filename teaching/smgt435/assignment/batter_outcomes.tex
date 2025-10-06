@@ -8,16 +8,16 @@
 
     This assignment is designed to simulate the type of open-ended data assessment you might face in an interview with a professional baseball team's analytics department. Your task is to build, validate, and apply models of batted ball outcomes, with a focus on distinguishing signal from noise in player performance.
 
-    \subsection*{\sc Part 1: Modeling}
+    \subsection*{\sc Part 1: Predictive Modeling}
 
       Fit a linear regression model\footnote{For the linear regression, think carefully about transformations of variables. For example, launch angle would probably be better as a quadratic term rather than a linear term, and you should consider interactions between variables as well.} and a random forest model (recommended package: ranger) to predict the linear weight\footnote{You'll need to join linear\_weight.csv (on Canvas) into the event table to get the linear weight of each batted ball.} of the batted balls in event.csv (on Canvas) using launch speed, launch angle, and spray angle. For each model, show a summary or visualization\footnote{See \texttt{ranger::importance.ranger()} for random forest variable importance plots.} of the fit. Explain the rationale behind your modeling choices, including your feature selection and transformations. Describe what aspects of batted ball outcomes your models capture well, and what they might miss.
 
       ~\\
       {\sc Bonus:} In addition to the linear regression model and the random forest model, fit either a generalized additive model (recommended package: mgcv) or a gradient boosting model (recommended package: xgboost).
 
-    \subsection*{\sc Part 2: Validation}
+    \subsection*{\sc Part 2: Model Validation}
 
-      Test the out-of-sample predictive performance of both the linear regression model and the random forest model and report the out-of-sample root mean square error (RMSE) of each model. For the random forest, explain how you chose the tuning parameters. Discuss which model performs better for this task and why.
+      Test the out-of-sample predictive performance of both the linear regression model and the random forest model and report the out-of-sample root mean square error (RMSE) of each model. For the random forest report the tuning parameters, and explain how you chose them. Discuss which model performs best for this task and why (i.e., why does that model achieve the lowest test error?).
 
       ~\\
       {\sc Bonus:} Include either a generalized additive model (GAM) or a gradient boosting model in this comparison.
@@ -44,11 +44,11 @@
 
       You will get feedback on your work product based on several criteria. Within each of those criteria, the feedback will be: Missing (0\%), Needs Improvement (70\%), Good (85\%) or Exceeds Expectations (100\%). Your grade on the assignment will be the average of the grades across criteria. The criteria are:
       \begin{enumerate}
-        \item {\bf Part 1.} Is the implementation correct? Are your interpretations justified by your results?
-        \item {\bf Part 2.} Is the implementation correct? Are your interpretations justified by your results?
-        \item {\bf Part 3.} Is the implementation correct? Are your interpretations justified by your results?
-        \item {\bf Written Communication.} Is the report well written and easy to follow?
+        \item {\bf Predictive Modeling.} Is the implementation correct? Are your interpretations justified?
+        \item {\bf Model Validation.} Is the implementation correct? Are your interpretations justified?
+        \item {\bf Player Evaluation.} Is the implementation correct? Are your interpretations justified?
         \item {\bf Data Visualization.} Have you used data visualization effectively to convey your findings?
+        \item {\bf Written Communication.} Is the report well written and easy to follow?
       \end{enumerate}
 
     \subsection*{\sc Reminders}
