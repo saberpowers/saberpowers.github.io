@@ -6,50 +6,55 @@
 
   \section*{\sc Assignment: Pitch Outcome Model}
 
-    Your task is to build a swing probability model.
+    This assignment is designed to simulate the type of open-ended data assessment you might face in an interview with a professional baseball club's analytics department. Your task is to train and validate a contact probability model (conditioned on swing), and then interpret the results to evaluate player performance.
+    
+    \subsection*{\sc Part 1: Predictive Modeling}
 
-    \subsection*{\sc Why are you being asked to do this?}
+      In the pitch outcome model R tutorial, we fit a simple logistic regression model for the probability of the batter making contact with a pitch, assuming that they swing and given the trajectory of the pitch. This simple model was based only on count, pitch location and pitch speed. Your task is to improve upon this simple model by thinking about additional predictor variables you could derive from the pitch tracking data (and how to use them in the logistic regression model). Use the data from pitch.csv (available on Canvas) to fit this improved model. Create a data visualization to illustrate the relationship between the most important pitch tracking features and the contact outcome. Explain the biggest weakness of your model.
 
-      If you ever interview with a baseball club, there is a decent chance you will be asked to estimate one component of a pitch outcome model. Predictive modeling is a broadly useful skill in baseball analytics.
+      ~\\
+      {\sc Bonus:} Additionally fit a gradient boosting model (recommended package: xgboost) and visualize the resulting model fit. Report the tuning parameters you used and explain how you chose them.
 
-    \subsection*{\sc What (exactly) are you being asked to do?}
+    \subsection*{\sc Part 2: Model Validation}
 
-      Pitch outcome modeling is more challenging than hit outcome modeling because it involves higher-dimensional observations, and the observations are greater in number (presenting computational challenges). The most computationally challenging component is the swing probability model. Using the provided data (pitch.csv), you are to train a model for the probability that the batter swings at a pitch, based on pitch characteristics and contextual features, such as batter handedness and count.
-      
-      Using your swing probability model, predict the swing probability for the test set (pitch\_test.csv). Your predictions will be evaluated using negative log-loss: If you predict $p$ on a pitch that does result in a swing, your loss is $-\mbox{log}(p)$; if you predict $p$ on a pitch that does NOT result in a swing, your loss is $-\mbox{log}(1 - p)$. Success means beating the simple model from the class R tutorial on the test set. In addition to the probability predictions, you must predict the test negative log-loss for both your model and the simple model from the class R tutorial.
+      Estimate and report the out-of-sample test error for the simple logistic regression model and the improved model you estimated in Part 1, using negative log loss.\footnote{For example, if you predicted contact probability $p$ and the pitch were to result in contact, your error would be $-\log(p)$. If that same pitch were to result in a swing-and-miss, your error would be $-\log(1-p)$.} Describe how you estimated the out-of-sample test error. Generate contact probability predictions for the pitches in pitch\_test.csv. Upload your predictions as a CSV file with two columns: pitch\_id and prob\_contact.
 
-      When developing your swing outcome model, you will need to rely on both statistical modeling expertise and baseball domain knowledge for deciding (a) what type of model to use, (b) which features to include, and (c) how to include them. In your writeup, describe your reasoning for your design choices, and describe the tradeoff between your choices and alternative choices you could have made.
+      ~\\
+      {\sc Bonus:} Include a gradient boosting model when reporting the out-of-sample test errors. If you do this, generate predictions in the CSV only for the model which you think will perform best on the test data.
 
-      \subsubsection*{\sc Submission Requirements}
+    \subsection*{\sc Part 3: Player Evaluation}
 
-        \begin{itemize}
-          \item A PDF report (max 4 pages) summarizing your findings, including at minimum the following:
-          \begin{itemize}
-            \item A description of (and reasoning for) your methodology for predicting swing probability
-            \item A prediction of the test negative log-loss for your model and the simple model from class
-            \item At least one data visualization that tells a story about your results
-          \end{itemize}
-          \item A CSV of predictions, with columns \texttt{pitch\_id} and \texttt{prob\_swing}
-          \item A R script (.R file extension) with all of the code you used to generate your report and the CSV
-        \end{itemize}
+      For each pitcher, calculate observed contact rate per swing (a); expected contact rate per swing (b); and residual (observed -- expected) contact rate per swing (c). Perform regression to the mean to estimate each pitcher's true talent for (b) and (c); and sum these two regressed metrics to create predicted contact rate (d). To report your results, create a leaderboard of the best pitchers according to (d), including columns for pitcher name and number of pitches thrown, as well as (a), (b) and (c). Visualize all pitchers by creating a plot of (a) on the x-axis vs. (d) on the y-axis. Describe what you find interesting about these results.
 
-      \subsubsection*{\sc Reminders}
+      ~\\
+      {\sc Bonus:} Identify two pitchers who exhibit strong evidence of over- and under-performing the contact rate expected from their pitch trajectories (one pitcher from each extreme). Using your understanding of baseball, explain why you think these two pitchers could truly have better or worse contact rates than pitch tracking data would suggest. Rather than describing in general terms why a pitcher might be better/worse than their pitch tracking data, write specifically about what you think could be happening with these pitchers.
 
-        \begin{itemize}
-          \item Prepare your report as if your audience is a baseball executive who has not seen the assignment prompt. Write clearly and concisely, and format your report in a way that makes it easy to read.
-          \item In this class we value {\bf critical thinking}! Don't just parrot what you've been taught---bring your own experiences to bear on the assignment. If you disagree with something we've covered in class, that's strongly encouraged! Be sure to explain your reasoning.
-          \item Please {\bf anonymize} your submission by removing any personally identifiable information (including file paths in your R script that contain things like a username!).
-        \end{itemize}
+    \subsection*{\sc Deliverables}
 
-    \subsection*{\sc How will your grade be determined?}
+      \begin{itemize}
+        \item A PDF report (max 4 pages) with labelled sections corresponding to Part 1, Part 2, and Part 3.\\
+        This report should contain absolutely no R code. It should be well written and easy to follow.\\
+        Summarize your findings and leverage data visualization as appropriate.
+        \item A CSV of predictions, with columns \texttt{pitch\_id} and \texttt{prob\_contact}
+        \item A R script (.R file extension) with all of the code you used to generate the results for your report
+      \end{itemize}
+
+    \subsection*{\sc Rubric}
 
       You will get feedback on your work product based on several criteria. Within each of those criteria, the feedback will be: Missing (0\%), Needs Improvement (70\%), Good (85\%) or Exceeds Expectations (100\%). Your grade on the assignment will be the average of the grades across criteria. The criteria are:
       \begin{enumerate}
-        \item {\bf Description of methodology.} Did you explain your methodology with sufficient detail? Did you make sound design choices, from both the statistical modeling perspective and the baseball perspective?
-        \item {\bf Model performance}. Did your model outperform the simple model on the test set? Did you accurately predict the test-set performances of both models?
-        \item {\bf Data visualization.} Did you include a data visualization that tells a compelling story?
-        \item {\bf Written communication.} Did you write clearly and concisely? Did you organize your key ideas with the evidence supporting them? Did you format your report in a way that makes it easy to read?
+        \item {\bf Predictive Modeling.} Is the implementation correct? Are your interpretations justified?
+        \item {\bf Model Validation.} Is the implementation correct? Are your interpretations justified?
+        \item {\bf Player Evaluation.} Is the implementation correct? Are your interpretations justified?
+        \item {\bf Data Visualization.} Have you used data visualization effectively to convey your findings?
+        \item {\bf Written Communication.} Is the report well written and easy to follow?
       \end{enumerate}
 
+    \subsection*{\sc Reminders}
+
+      \begin{itemize}
+        \item Please {\bf anonymize} your submission by removing any personally identifiable information (including file paths in your R script that contain things like usernames!).
+        \item In this class we value {\bf creativity} and {\bf critical thinking}! Don't just parrot what you've been taught---bring your own experiences to bear on the assignment. If you disagree with something we've covered in class, that's strongly encouraged! Be sure to explain your reasoning.
+      \end{itemize}
 
 \end{document}
