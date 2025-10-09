@@ -45,7 +45,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Lecture Notes](lecture/regularized_regression.pdf){target="_blank"}
 
-[Colab Notebook: Regularized Rasch Model](https://colab.research.google.com/drive/1-gOm05FhWTH1l0FJmqFGgQevBbM3WxyE){target="_blank"}
+[Colab Notebook: Rasch Linear Mixed-Effects Model](https://colab.research.google.com/drive/1fYlIrUnChr3GABtu5F9vu2uU_uMq6Tfd){target="_blank"}
 
 ### Regularized Adjusted Plus-Minus
 
