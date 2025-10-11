@@ -14,7 +14,8 @@ website:
       - software/index.qmd
       - teaching/index.qmd
       - lab/index.qmd
-      - jobs/index.qmd
+      - text: Jobs
+        href: jobs/index.qmd
       - text: CV
         href: assets/powers.pdf
         target: _blank
