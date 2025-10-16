@@ -1,4 +1,5 @@
 
+download_test_data <- FALSE
 year <- 2025
 
 cluster <- parallel::makeCluster(parallel::detectCores())
@@ -100,3 +101,38 @@ data_statsapi$play |>
     post_runner_1b_id, post_runner_2b_id, post_runner_3b_id, post_outs, post_balls, post_strikes
   ) |>
   data.table::fwrite(file = "~/Downloads/sb_attempt.csv")
+
+
+if (download_test_data) {
+
+  cluster <- parallel::makeCluster(parallel::detectCores())
+  data_statsapi_test <- sabRmetrics::download_statsapi(
+    start_date = glue::glue("{year - 1}-01-01"),
+    end_date = glue::glue("{year - 1}-12-31"),
+    cl = cluster
+  )
+  parallel::stopCluster(cluster)
+
+  pitch_test <- data_statsapi_test$pitch |>
+    sabRmetrics::get_quadratic_coef() |>
+    sabRmetrics::get_trackman_metrics() |>
+    dplyr::arrange(play_id) |>
+    dplyr::mutate(index = 1:dplyr::n())
+
+  pitch_test |>
+    dplyr::select(
+      index, outs, balls, strikes,
+      pitch_type, plate_x, plate_z,
+      ax, ay, az, vx0, vy0, vz0, x0, z0, extension, strike_zone_top, strike_zone_bottom
+    ) |>
+    data.table::fwrite(file = "~/Downloads/pitch_test.csv")
+
+  pitch_test |>
+    dplyr::select(
+      index,
+      play_id, game_id, event_index, play_index, pitch_number, outs, balls, strikes, description,
+      pitch_type, plate_x, plate_z,
+      ax, ay, az, vx0, vy0, vz0, x0, z0, extension, strike_zone_top, strike_zone_bottom
+    ) |>
+    data.table::fwrite(file = "~/Downloads/pitch_test_full.csv")
+}
