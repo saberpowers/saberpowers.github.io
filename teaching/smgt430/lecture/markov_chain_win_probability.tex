@@ -5,7 +5,13 @@
 \begin{document}
 
   \begin{framed}
-    {\sc Caution:} These lecture notes are under construction. You may find parts that are incomplete.
+    {\sc Warm-Up}\\
+
+    Search the internet to find a win probability chart from a recent baseball or football game. For baseball win probably charts, you could try Baseball Savant or FanGraphs. For football win probability charts, you could try ESPN.
+    \begin{itemize}
+      \item What insights about this particular game can you draw from the win probability chart you found?
+      \item What applications can you imaginge for a win probability model? For example, what specific tools could you build to support competitive decision-making or improve fan engagement?
+    \end{itemize}
   \end{framed}
 
   \setcounter{section}{5}
@@ -108,5 +114,19 @@
       Sometimes it is useful to model scoring expectation rather than win probability. For example, in baseball we might estimate the expected number of runs scored until the end of the inning, given the game state as the number of outs and which bases are occupied. In this case we are using the Markov chain to model the sub-game of a single (half-)inning, rather than modeling the full baseball game. In this case, the reward for transitioning from one state to another is based on the number of runs scored on that transition, and the rest of the math follows as above.
 
       Another example of modeling scoring expectation is Expected Points Added (EPA) in American football. In this case, the Markov chain models the progression of a single drive rather than the full game. In this case, the state of the drive is described by the down and the distance to go for a first down. The terminal state includes the number of points scored on the drive, and the reward for transitioning to this state is equal to the number of points scored on the drive (zero reward for all other transitions). From this setup, we calculate the value function $v$ and interpret it as the expected points scored on the drive. The concept of EPA is based on using changes in this scoring expectation to evaluate player performance, going a step beyond simply calculating scoring expectation. We will dive more deeply into this topic in the next chapter.
+
+  \newpage
+
+    \subsection{\sc Dicussion}
+
+      \begin{enumerate}
+        \item Imagine you set out to create a win probability model for baseball or football.
+        \begin{enumerate}
+          \item What would be your state space? How many states are there?
+          \item How would you estimate the transition probability function?
+          \item What would be your reward function?
+          \item How would you estimate the value function?
+        \end{enumerate}
+      \end{enumerate}
 
 \end{document}
