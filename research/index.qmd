@@ -23,7 +23,7 @@ w/ Elisabeth Millington\
 [Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
 w/ Ruoqian (Judy) Zhu and Dave Love
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}\
-2024 New England Symposium on Statistics in Sports
+2025 New England Symposium on Statistics in Sports
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
@@ -167,6 +167,10 @@ w/ Mark Broadie, Natalie Kupperman and Jill McNitt-Gray\
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=VWk82MRaiCk&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 ### Student Talks
+
+[Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank} :basketball:\
+Ruoqian (Judy) Zhu @ New England on Symposium Statistics in Sports 2025 (Boston)
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
 [The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://drive.google.com/file/d/17jveBX0U5hDRP7KH2GtvgGVATdS8wI7Q){target=_blank} :baseball:\
 Jacob Hahn @ Cascadia Symposium on Statistics in Sports 2024 (Vancouver)
