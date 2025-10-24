@@ -15,15 +15,17 @@ w/ Ron Yurko
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
+[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
+w/ Elisabeth Millington\
+2025 New England Symposium on Statistics in Sports
+[{{< iconify pajamas thumbtack-solid >}}](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank}\
+
 [Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
 w/ Ruoqian (Judy) Zhu and Dave Love
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}\
 2024 New England Symposium on Statistics in Sports
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-
-[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
-w/ Elisabeth Millington
 
 [The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
 w/ Jacob Hahn, Sivaramakrishnan Ramani and Andrew Schaefer\
@@ -185,6 +187,9 @@ Drew Haugen @ Saberseminar 2024 (Chicago)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=QcIdjBnQbHU&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 ### Student Posters
+
+[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank} :football:\
+Elisabeth Millington @ New England Symposium on Statistics in Sports 2025 (Boston)
 
 [A statistical approach to sport climbing difficulty and progression](https://drive.google.com/file/d/1Yr4v89__a6qT_zFzkCu1ber-Xb6ybAer){target=_blank} :climbing:\
 Elizabeth Sepúlveda @ Cascadia Symposium on Statistics in Sports 2024 (Vancouver)
