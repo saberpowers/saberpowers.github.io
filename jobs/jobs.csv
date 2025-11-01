@@ -152,7 +152,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-07-28,Chicago Blackhawks,Data Engineer,Business,Early-Career,Hockey,https://www.linkedin.com/jobs/view/4277258093/,75000,85000
 2025-07-26,University of Missouri,Director of Analytic Strategies,Analytics,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4270310578/
 2025-07-25,Paris FC,Data Analyst,Analytics,Early-Career,Soccer,https://www.linkedin.com/posts/paris-fc_data-analyste-paris-fc-activity-7354522987548569600-2_a_/
-2025-07-25,New York Red Bulls,Data Science Fall Intern (Unpaid),Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4269679155/,0,0
+2025-07-25,New York Red Bulls,Data Science Fall Intern,Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4269679155/,0,0
 2025-07-25,Cleveland Browns,Jr Full-Stack Developer,Engineering,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4278500500/
 2025-07-24,Parma,Data Scientist,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4275403096/
 2025-07-24,University of Michigan,Director of Basketball Analytics,Analytics,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/4275474823/
@@ -213,8 +213,8 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-06-10,Cleveland Cavaliers,Full-Stack Software Developer,Engineering,Early-Career,Basketball,https://us251.dayforcehcm.com/CandidatePortal/en-US/reg/Site/CANDIDATEPORTAL1/Posting/View/2001
 2025-06-10,Cleveland Cavaliers,Front-End Software Developer,Engineering,Early-Career,Basketball,https://us251.dayforcehcm.com/CandidatePortal/en-US/reg/Site/CANDIDATEPORTAL1/Posting/View/1995
 2025-06-06,Seattle Sounders FC,Data Platform Engineer,Engineering,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4245700720/,125000,150000
-2025-06-06,Nashville SC,Technical Analytics Intern (Unpaid),Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4243959781/,0,0
-2025-06-06,Nashville SC,Performance Science Intern (Unpaid),Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4243959775/,0,0
+2025-06-06,Nashville SC,Technical Analytics Intern,Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4243959781/,0,0
+2025-06-06,Nashville SC,Performance Science Intern,Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4243959775/,0,0
 2025-06-05,FC Porto,Data Scientist,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4245237190/
 2025-06-05,Anaheim Ducks,Front-End Engineer,Engineering,Early-Career,Hockey,https://www.linkedin.com/jobs/view/4241286110/,100000,125000
 2025-06-05,Washington Commanders,Business Analyst,Business,Early-Career,Football,https://www.linkedin.com/jobs/view/4242467580/,75000,85000
@@ -348,12 +348,12 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-02-25,Pittsburgh Penguins,Business Intelligence Analyst Fellow,Business,Internship,Hockey,https://www.linkedin.com/jobs/view/4163513273/
 2025-02-24,SkillCorner,Soccer Prediction Intern,Analytics,Internship,Soccer,https://www.welcometothejungle.com/fr/companies/skillcorner/jobs/stagiaire-prediction-football_paris,15600,15600
 2025-02-24,Phoenix Mercury,Performance Scientist Fellow,Performance,Internship,Basketball,https://www.linkedin.com/jobs/view/4160912845/
-2025-02-20,Nashville SC,Performance Science Intern (Unpaid),Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4161715535/,0,0
+2025-02-20,Nashville SC,Performance Science Intern,Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4161715535/,0,0
 2025-02-19,Atlanta United,Data Scientist,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4158678051/
 2025-02-19,Los Angeles Dodgers,Sr Research Engineer,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4158845870/,145000,155000
 2025-02-19,Los Angeles Dodgers,Research Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4158850121/,120000,130000
 2025-02-19,Los Angeles Dodgers,Data Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4158680044/,120000,130000
-2025-02-18,Nashville SC,Business Analyst Intern (Unpaid),Business,Internship,Soccer,https://www.linkedin.com/jobs/view/4158407931/,0,0
+2025-02-18,Nashville SC,Business Analyst Intern,Business,Internship,Soccer,https://www.linkedin.com/jobs/view/4158407931/,0,0
 2025-02-14,Leicester City,First Team Data Analyst,Analytics,Early-Career,Soccer,https://lcfc.octo-firstclass.co.uk/candidates/c/applicationform/jobpost/188219?aisId=12
 2025-02-14,English Football Association,Women's Data Visualization Analyst,Analytics,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4153141812/
 2025-02-14,Atlanta Braves,Data Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4153783287/
@@ -362,7 +362,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-02-13,New York Mets,Engineering Manager,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4149717825/,180000,220000
 2025-02-13,New York City FC,Sports Science Intern,Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4149754140/,33000,33000
 2025-02-12,New York Red Bulls,Data Analyst,Business,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4149937986/
-2025-02-12,New York Red Bulls,Data Science Summer Intern (Unpaid),Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4149937994/,0,0
+2025-02-12,New York Red Bulls,Data Science Summer Intern,Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4149937994/,0,0
 2025-02-11,Washington Mystics,Basketball Data Analyst,Analytics,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4149951800/,80000,105000
 2025-02-11,Miami Marlins,Sr Data Engineer,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4149266386/
 2025-02-11,Miami Marlins,Data Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4149235974/
@@ -446,7 +446,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-12-11,San Diego Wave FC,Sports Scientist,Performance,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4094028055/
 2024-12-11,San Francisco 49ers,Director of Business Analytics,Business,Senior,Football,https://www.linkedin.com/jobs/view/4097040371/,160000,185000
 2024-12-11,Cincinnati Reds,Business Analyst Intern,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4095135230/
-2024-12-10,Austin FC,Data Engineer/Analyst Intern (Unpaid),Analytics,Internship,Soccer,https://www.teamworkonline.com/soccer-jobs/austin-fc/austin-fc-jobs/data-engineer-analyst-internship-2102452
+2024-12-10,Austin FC,Data Engineer/Analyst Intern,Analytics,Internship,Soccer,https://www.teamworkonline.com/soccer-jobs/austin-fc/austin-fc-jobs/data-engineer-analyst-internship-2102452
 2024-12-07,Los Angeles FC,Business & Data Strategy Analyst,Business,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4092115912/,80000,100000
 2024-12-07,National Football League,Graduate Summer Intern,Analytics,Internship,Football,https://www.linkedin.com/jobs/view/4092019247/,64000,64000
 2024-12-06,Los Angeles Angels,Baseball Systems Developer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4092163871/,95000,110000
@@ -494,7 +494,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-11-16,Chicago Fire FC,Software Engineer,Engineering,Early-Career,Soccer,https://www.teamworkonline.com/soccer-jobs/chicago-fire-fc/chicago-fire/software-engineer-2100233
 2024-11-16,San Diego Padres,Full-Stack Developer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4078223836/,100000,120000
 2024-11-16,San Diego Padres,Data Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4078227221/,100000,120000
-2024-11-16,Hyannis Harbor Hawks,Baseball Operations Intern (Unpaid),Analytics,Internship,Baseball,https://x.com/nicholasmilo/status/1857838509392015865
+2024-11-16,Hyannis Harbor Hawks,Baseball Operations Intern,Analytics,Internship,Baseball,https://x.com/nicholasmilo/status/1857838509392015865,0,0
 2024-11-15,Inter Miami CF,Data Engineer,Engineering,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4074621756/
 2024-11-14,Detroit Red Wings,Full-Stack Software Engineer,Engineering,Early-Career,Hockey,https://ilitch.wd5.myworkdayjobs.com/en-US/Detroit-Red-Wings/job/Full-Stack-Software-Engineer_R5168
 2024-11-14,National Basketball Association,Sr DevOps Engineer,Engineering,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/4074482124/,145000,175000
@@ -526,9 +526,9 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2024-10-29,Milwaukee Brewers,Baseball Systems Intern,Engineering,Internship,Baseball,https://www.linkedin.com/jobs/view/4062536497/
 2024-10-29,Toronto Blue Jays,Sr Developer,Engineering,Mid-Career,Baseball,https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/senior-developer-baseball-systems-2098142
 2024-10-29,Toronto Blue Jays,Sr Data Engineer,Engineering,Mid-Career,Baseball,https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/senior-data-engineer-baseball-systems-2098143
-2024-10-29,New York Red Bulls,Data Science Spring Intern (Unpaid),Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4061966010/,0,0
-2024-10-29,Nashville SC,Technical Analytics Intern (Unpaid),Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4063387305/,0,0
-2024-10-29,Nashville SC,Business Analyst Intern (Unpaid),Business,Internship,Soccer,https://www.linkedin.com/jobs/view/4062729924/,0,0
+2024-10-29,New York Red Bulls,Data Science Spring Intern,Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4061966010/,0,0
+2024-10-29,Nashville SC,Technical Analytics Intern,Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4063387305/,0,0
+2024-10-29,Nashville SC,Business Analyst Intern,Business,Internship,Soccer,https://www.linkedin.com/jobs/view/4062729924/,0,0
 2024-10-25,Teamworks,Machine Learning Engineer,Engineering,Early-Career,Multisport,https://www.linkedin.com/jobs/view/4059259559/
 2024-10-25,Teamworks,Data Engineer,Engineering,Early-Career,Multisport,https://www.linkedin.com/jobs/view/4059261459/
 2024-10-25,Houston Astros,Performance Science Manager,Performance,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4058836682/
