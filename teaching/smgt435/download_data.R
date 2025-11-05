@@ -66,10 +66,11 @@ event_table <- tibble::tribble(
   "Wild Pitch",                   "Not Batter Event",
 )
 
-batted_ball <- data_statsapi$pitch |>
+data_statsapi$pitch |>
   dplyr::mutate(spray_angle = round((atan((hit_coord_x - 125) / (205 - hit_coord_y))) * 180 / pi)) |>
   dplyr::filter(!is.na(launch_speed), !is.na(launch_angle), !is.na(spray_angle)) |>
-  dplyr::select(game_id, event_index, launch_speed, launch_angle, spray_angle)
+  dplyr::select(game_id, event_index, launch_speed, launch_angle, spray_angle) |>
+  data.table::fwrite(file = "~/Downloads/batted_ball.csv")
 
 data_statsapi$event |>
   dplyr::left_join(event_table, by = "event") |>
