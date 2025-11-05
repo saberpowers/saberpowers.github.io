@@ -17,14 +17,14 @@
 
     \subsection*{\sc Part 2: Model Validation}
 
-      Estimate and report the out-of-sample test error for the simple logistic regression model and the improved model you estimated in Part 1, using negative log loss.\footnote{For example, if you predicted contact probability $p$ and the pitch were to result in contact, your error would be $-\log(p)$. If that same pitch were to result in a swing-and-miss, your error would be $-\log(1-p)$.} Describe how you estimated the out-of-sample test error. Generate contact probability predictions for the pitches in pitch\_test.csv. Upload your predictions as a CSV file with two columns: pitch\_id and prob\_contact.
+      Estimate and report the out-of-sample test error for the simple logistic regression model and the improved model you estimated in Part 1, using negative log loss.\footnote{For example, if you predicted contact probability $p$ and the pitch were to result in contact, your error would be $-\log(p)$. If that same pitch were to result in a swing-and-miss, your error would be $-\log(1-p)$.} Describe how you estimated the out-of-sample test error. Generate contact probability predictions for the pitches in pitch\_test.csv. Upload your predictions as a CSV file with two columns: \texttt{index} and \texttt{prob\_contact}.
 
       ~\\
       {\sc Bonus:} Include a gradient boosting model when reporting the out-of-sample test errors. If you do this, generate predictions in the CSV only for the model which you think will perform best on the test data.
 
     \subsection*{\sc Part 3: Player Evaluation}
 
-      For each pitcher, calculate observed contact rate per swing (a); expected contact rate per swing (b); and residual (observed -- expected) contact rate per swing (c). Perform regression to the mean to estimate each pitcher's true talent for (b) and (c); and sum these two regressed metrics to create predicted contact rate (d). To report your results, create a leaderboard of the best pitchers according to (d), including columns for pitcher name and number of pitches thrown, as well as (a), (b) and (c). Visualize all pitchers by creating a plot of (a) on the x-axis vs. (d) on the y-axis. Describe what you find interesting about these results.
+      For each pitcher, calculate observed contact rate per swing (a); expected contact rate per swing (b); and residual (observed -- expected) contact rate per swing (c). Perform regression to the mean to estimate each pitcher's true talent for (b) and (c); and sum these two regressed metrics to create predicted contact rate (d). To report your results, create a leaderboard of the top 10 pitchers according to (d), including columns for pitcher name and number of pitches thrown, as well as (a), (b) and (c). Visualize all pitchers by creating a plot of (a) on the x-axis vs. (d) on the y-axis. Describe what you find interesting about these results.
 
       ~\\
       {\sc Bonus:} Identify two pitchers who exhibit strong evidence of over- and under-performing the contact rate expected from their pitch trajectories (one pitcher from each extreme). Using your understanding of baseball, explain why you think these two pitchers could truly have better or worse contact rates than pitch tracking data would suggest. Rather than describing in general terms why a pitcher might be better/worse than their pitch tracking data, write specifically about what you think could be happening with these pitchers.
@@ -35,7 +35,7 @@
         \item A PDF report (max 4 pages) with labelled sections corresponding to Part 1, Part 2, and Part 3.\\
         This report should contain absolutely no R code. It should be well written and easy to follow.\\
         Summarize your findings and leverage data visualization as appropriate.
-        \item A CSV of predictions, with columns \texttt{pitch\_id} and \texttt{prob\_contact}
+        \item A CSV of predictions, with columns \texttt{index} and \texttt{prob\_contact}
         \item A R script (.R file extension) with all of the code you used to generate the results for your report
       \end{itemize}
 
