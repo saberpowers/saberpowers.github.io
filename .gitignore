@@ -14,7 +14,7 @@ _site/
 *.env
 
 # Rendered lesson plans
-teaching/*/plan/*.pdf
+teaching/*/plan/*.html
 
 # Old syllabi
 teaching/*/syllabus/*.pdf
