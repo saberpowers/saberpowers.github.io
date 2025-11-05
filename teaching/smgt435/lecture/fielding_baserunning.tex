@@ -8,94 +8,105 @@
 
 \begin{document}
 
-\begin{framed}
-  {\sc Caution:} These lecture notes are under construction. You may find parts that are incomplete.
-\end{framed}
+  \begin{framed}
+    {\sc Warm-Up}\\
+    \begin{itemize}
+      \item Find the Fielding Run Value leaderboard on Baseball Savant. How does the scale of the Range column compare with the scale of the Arm column? What does this mean? What else do you find interesting about this leaderboard?
+      \item Find the Baserunning Run Value leaderboard on Baseball Savant. What seems to be more important: Runs via Extra Bases Taken or Runs Via Stolen Bases? What else do you find interesting about this leaderboard?
+    \end{itemize}
+  \end{framed}
 
-\setcounter{section}{6}
-\section{\sc Fielding and Baserunning}
-
-  Recall from the chapter on batted ball outcome models that on each batted ball we observe the launch speed $x_1$, launch angle $x_2$, and spray angle $x_3$. In this chapter, we use $\vec x$ to denote $(x_1, x_2, x_3)$. The outcome $O$ of each batted ball is a random variable, and we use $\ell(O)$ to denote its linear weight. We modelled the expected linear weight of the outcome as $\mathbb{E}[\ell(O) | \vec x] = f_3(x_1, x_2, x_3)$. This expected linear weight was helpful for evaluating batters, and it is also helpful for evaluating fielder and baserunner performance. We attribute differences between actual and expected outcomes to fielders and baserunners.
-
-  Assume that, in addition to $\mathbb{E}[\ell(O) | \vec x]$, we have two models $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}]$ and $\mathbb{E}[\ell(O) | \vec x, \mbox{out}]$ for the expected linear weight of the outcome conditioned on batted ball characteristics and also on whether the batter does or does not reach base safely, respectively. For these purposes, a batter who reaches base on an error is considered to have reached base safely, but a batter who reaches base on a fielder's choice is {\it not} considered to have reached base safely. We can estimate each of those two additional models by filtering our training data on whether the batter reach base safely and then following the same procedure as in the original batted ball outcome model. Note that $\mathbb{E}[\ell(O) | \vec x, \mbox{out}]$ is not a very interesting function because the linear weight of all outs is approximately --0.27. But $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}]$ would be different between, for example, a soft ground ball and a deep fly ball.
-
-  For the purposes of fielder evaluation, we estimate one more model: $\mathbb{P}(\mbox{out} | \vec x)$, the probability that the batter does not reach base safely given the batted ball characteristics. This model is also fit using a similar method to how we estimate $\mathbb{E}[\ell(O) | \vec x]$, except that the outcome is binary rather than continuous. From this model, we write $\mathbb{P}(\mbox{safe} | \vec x) = 1 - \mathbb{P}(\mbox{out} | \vec x)$. Assume that, in addition to this out probability function, we also have a more granular version which estimates the probability of each fielder being the first fielder and recording the out, $\mathbb{P}(\mbox{out} \cap F = f| \vec x)$, for $f = 1, ..., 9$, representing the nine defensive positions according to their scorecard number. Here, $F$ is a random variable representing the first fielder. Note that
-  \begin{align}
-    \label{eqn:out-prob-sum}
-    \mathbb{P}(\mbox{out} | \vec x) = \sum_{f = 1}^9 \mathbb{P}(\mbox{out} \cap F = f | \vec x).
-  \end{align}
-
-  In summary, there are four models we rely on in this chapter. Each of these models would be best estimated via some machine learning approach, but the focus of this chapter is how to use these models, not how to obtain them.
-
-  \begin{enumerate}
-    \item $\mathbb{E}[\ell(O) | \vec x]$, the batted ball outcome model
-    \item $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}]$, the safe-conditional batted ball outcome model
-    \item $\mathbb{E}[\ell(O) | \vec x, \mbox{out}]$, the out-conditional batted ball outcome model
-    \item $\mathbb{P}(\mbox{out} | \vec x) = 1 - \mathbb{P}(\mbox{safe} | \vec x)$, the out probability model
-    \item $\mathbb{P}(\mbox{out} \cap F = f | \vec x)$ for $f = 1, ..., 9$, the position-specific out probability model
-  \end{enumerate}
-
-  \subsection{\sc Measuring Fielding Performance}
-
-    We break fielding evaluation into two parts: range and baserunner control.
-
-    \subsubsection{\sc Range}
-    \label{sec:range}
-      How many runs were saved by way of preventing (or not) the batter from reaching base safely?
-      \begin{enumerate}
-        \item Consider first the case where the batter does reach base safely. In this case, the change in run expectancy due to the batter outcome is given by $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x]$, which we re-write:
-          \begin{align}
-            \begin{split}
-              \label{eqn:fielding-run-breakdown}
-              \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x] &= \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - (\mathbb{P}(\mbox{safe} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] + \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\\
-                                                                                       &= (1 - \mathbb{P}(\mbox{safe} | \vec x)) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{out}]\\
-                                                                                       &= \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{out}]\\
-                                                                                       &= \mathbb{P}(\mbox{out} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}]).
-            \end{split}
-          \end{align}
-          This change in run expectancy is the quantity for which we want to distribute credit/blame among the nine fielders. Equation (\ref{eqn:out-prob-sum}) yields a natural way to distribute the blame:
+  \setcounter{section}{6}
+  \section{\sc Fielding and Baserunning}
+  
+    Recall from the chapter on batted ball outcome models that on each batted ball we observe the launch speed $x_1$, launch angle $x_2$, and spray angle $x_3$. In this chapter, we use $\vec x$ to denote $(x_1, x_2, x_3)$. The outcome $O$ of each batted ball is a random variable, and we use $\ell(O)$ to denote its linear weight. We modelled the expected linear weight of the outcome as $\mathbb{E}[\ell(O) | \vec x] = f_3(x_1, x_2, x_3)$. This expected linear weight was helpful for evaluating batters, and it is also helpful for evaluating fielder and baserunner performance. We attribute differences between actual and expected outcomes to fielders and baserunners.
+  
+    Assume that, in addition to $\mathbb{E}[\ell(O) | \vec x]$, we have two models $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}]$ and $\mathbb{E}[\ell(O) | \vec x, \mbox{out}]$ for the expected linear weight of the outcome conditioned on batted ball characteristics and also on whether the batter does or does not reach base safely, respectively. For these purposes, a batter who reaches base on an error is considered to have reached base safely, but a batter who reaches base on a fielder's choice is {\it not} considered to have reached base safely. We can estimate each of those two additional models by filtering our training data on whether the batter reach base safely and then following the same procedure as in the original batted ball outcome model. Note that $\mathbb{E}[\ell(O) | \vec x, \mbox{out}]$ is not a very interesting function because the linear weight of all outs is approximately --0.27. But $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}]$ would be different between, for example, a soft ground ball and a deep fly ball.
+  
+    For the purposes of fielder evaluation, we estimate one more model: $\mathbb{P}(\mbox{out} | \vec x)$, the probability that the batter does not reach base safely given the batted ball characteristics. This model is also fit using a similar method to how we estimate $\mathbb{E}[\ell(O) | \vec x]$, except that the outcome is binary rather than continuous. From this model, we write $\mathbb{P}(\mbox{safe} | \vec x) = 1 - \mathbb{P}(\mbox{out} | \vec x)$. Assume that, in addition to this out probability function, we also have a more granular version which estimates the probability of each fielder being the first fielder and recording the out, $\mathbb{P}(\mbox{out} \cap F = f| \vec x)$, for $f = 1, ..., 9$, representing the nine defensive positions according to their scorecard number. Here, $F$ is a random variable representing the first fielder. Note that
+    \begin{align}
+      \label{eqn:out-prob-sum}
+      \mathbb{P}(\mbox{out} | \vec x) = \sum_{f = 1}^9 \mathbb{P}(\mbox{out} \cap F = f | \vec x).
+    \end{align}
+  
+    In summary, there are four models we rely on in this chapter. Each of these models would be best estimated via some machine learning approach, but the focus of this chapter is how to use these models, not how to obtain them.
+  
+    \begin{enumerate}
+      \item $\mathbb{E}[\ell(O) | \vec x]$, the batted ball outcome model
+      \item $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}]$, the safe-conditional batted ball outcome model
+      \item $\mathbb{E}[\ell(O) | \vec x, \mbox{out}]$, the out-conditional batted ball outcome model
+      \item $\mathbb{P}(\mbox{out} | \vec x) = 1 - \mathbb{P}(\mbox{safe} | \vec x)$, the out probability model
+      \item $\mathbb{P}(\mbox{out} \cap F = f | \vec x)$ for $f = 1, ..., 9$, the position-specific out probability model
+    \end{enumerate}
+  
+    \subsection{\sc Measuring Fielding Performance}
+  
+      We break fielding evaluation into two parts: range and baserunner control.
+  
+      \subsubsection{\sc Range}
+      \label{sec:range}
+        How many runs were saved by way of preventing (or not) the batter from reaching base safely?
+        \begin{enumerate}
+          \item Consider first the case where the batter does reach base safely. In this case, the change in run expectancy due to the batter outcome is given by $\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x]$, which we re-write:
+            \begin{align}
+              \begin{split}
+                \label{eqn:fielding-run-breakdown}
+                \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x] &= \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - (\mathbb{P}(\mbox{safe} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] + \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\\
+                                                                                         &= (1 - \mathbb{P}(\mbox{safe} | \vec x)) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{out}]\\
+                                                                                         &= \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{P}(\mbox{out} | \vec x) \cdot \mathbb{E}[\ell(O) | \vec x, \mbox{out}]\\
+                                                                                         &= \mathbb{P}(\mbox{out} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}]).
+              \end{split}
+            \end{align}
+            This change in run expectancy is the quantity for which we want to distribute credit/blame among the nine fielders. Equation (\ref{eqn:out-prob-sum}) yields a natural way to distribute the blame:
+            \begin{align*}
+              \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x] &= \mathbb{P}(\mbox{out} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\\
+                                                                                       &= \left(\sum_{f = 1}^9 \mathbb{P}(\mbox{out} \cap F = f | \vec x)\right) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\\
+                                                                                       &= \left(\sum_{f = 1}^9 \mathbb{P}(\mbox{out} \cap F = f | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\right).
+            \end{align*}
+            Hence, in the case when the batter reaches safely, each fielder $f$ earns
+            $$\mathbb{P}(\mbox{out} \cap F = f | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])$$
+            fielding run value, a positive number which indicates below-average performance.
+          \item Second, consider the case where the batter does not reach safely. In this case, the change in run expectancy due to the batter outcome is given by $\mathbb{E}[\ell(O) | \vec x, \mbox{out}] - \mathbb{E}[\ell(O) | \vec x]$, which we re-write, leveraging the symmetry with equation (\ref{eqn:fielding-run-breakdown}) as a shortcut:
           \begin{align*}
-            \mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x] &= \mathbb{P}(\mbox{out} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\\
-                                                                                     &= \left(\sum_{f = 1}^9 \mathbb{P}(\mbox{out} \cap F = f | \vec x)\right) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\\
-                                                                                     &= \left(\sum_{f = 1}^9 \mathbb{P}(\mbox{out} \cap F = f | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])\right).
+            \mathbb{E}[\ell(O) | \vec x, \mbox{out}] - \mathbb{E}[\ell(O) | \vec x] &= \mathbb{P}(\mbox{safe} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{out}] - \mathbb{E}[\ell(O) | \vec x, \mbox{safe}])\\
+                                                                                    &= -\mathbb{P}(\mbox{safe} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}]).
           \end{align*}
-          Hence, in the case when the batter reaches safely, each fielder $f$ earns
-          $$\mathbb{P}(\mbox{out} \cap F = f | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}])$$
-          fielding run value, a positive number which indicates below-average performance.
-        \item Second, consider the case where the batter does not reach safely. In this case, the change in run expectancy due to the batter outcome is given by $\mathbb{E}[\ell(O) | \vec x, \mbox{out}] - \mathbb{E}[\ell(O) | \vec x]$, which we re-write, leveraging the symmetry with equation (\ref{eqn:fielding-run-breakdown}) as a shortcut:
-        \begin{align*}
-          \mathbb{E}[\ell(O) | \vec x, \mbox{out}] - \mathbb{E}[\ell(O) | \vec x] &= \mathbb{P}(\mbox{safe} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{out}] - \mathbb{E}[\ell(O) | \vec x, \mbox{safe}])\\
-                                                                                  &= -\mathbb{P}(\mbox{safe} | \vec x) \cdot (\mathbb{E}[\ell(O) | \vec x, \mbox{safe}] - \mathbb{E}[\ell(O) | \vec x, \mbox{out}]).
-        \end{align*}
-        Note that this is a negative number, reflecting above-average defensive performance. In this case, we give all of the fielding run credit to the first fielder, the one who made the play. All other fielders get zero credit.
-      \end{enumerate}
+          Note that this is a negative number, reflecting above-average defensive performance. In this case, we give all of the fielding run credit to the first fielder, the one who made the play. All other fielders get zero credit.
+        \end{enumerate}
+  
+      \subsubsection{\sc Baserunner Control}
+      \label{sec:baserunner-control}
+        How many runs were saved by way of baserunner outcomes beyond expectation given batter outcome?
+        
+        Whereas Part 1 leveraged context-neutral linear weights, that is not possible for baserunner advancement\footnote{This is not exactly true. We could, for example, put a linear weight on the action of advancing one more base than expected.} because it depends on the base-out state before and after the play. Instead of using the linear weight of an outcome, we base the run expectancy $v(\cdot)$ of the base-out state $s'$ at the end of the play. Depending on whether the batter reaches base safely or not, the change in run value due to baserunner advanced beyond expectation is given by $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{safe}]$ or $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{out}]$. Either way, we attribute all of this run value to the first fielder.
+  
+        Mostly, this reflects arm, especially for outfielders. Outfielders with strong arms prevent runners from taking bases and sometimes throw runners out, which this metric reflects. However, this metric also reflects outfielders cutting off balls in the gap to prevent singles turning into doubles. It also reflects ground ball double plays, on which it makes less sense to give all of the credit to the first fielder.
+  
+        The baserunner control metric is an approximation that has more blindspots than the range metric in Section \ref{sec:range}. For this reason, teams tend to base their fielder evaluations more on range and less on baserunner control, although outfielder arm strength can explain a meaningful run value.
+  
+    \subsection{\sc Measuring Baserunning Performance}
+  
+      We break baserunning evaluation into two parts: ball-in-play baserunning and stolen base attempts.
+  
+      \subsubsection{\sc Ball-in-Play Baserunning}
+  
+        This is the direct counterpart to Section \ref{sec:baserunner-control}. Every expected run allowed by a fielder is an expected run scored by a baserunner. The quantity $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{safe}]$ or $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{out}]$ belongs to the baserunners although it is trickier to distribute the credit among multiple baserunners when necessary. The public openWAR model simply divides the credit equally among the baserunners although a more sophisticated approach would be as follows:
+        \begin{enumerate}
+          \item Credit the lead runner for their outcome relative to expectation.
+          \item Credit the trail runner for their outcome relative to expectation {\it conditional on the lead runner outcome}.
+        \end{enumerate}
+  
+      \subsubsection{\sc Stolen Base Attempts}
+  
+        Stolen base attempts are straightforward to evaluate. There is a base-out state $s$ before the attempt and a base out state $s'$ after the attempt. The difference $v(s') - v(s)$ is attributable to the baserunner. We could strip away the context by calculating the average of $v(s') - v(s)$ on successful stolen bases and call this the linear weight of a stolen base. Similarly, we could calculate the linear weight of a caught stealing and credit baserunners with the linear weight of their outcome, ignoring the context in which they attempted the steal.
+  
+        An additional wrinkle to consider is that a player who never attempts a stolen base is producing below-average stolen base value. So we may debit a small amount for every opportunity on which the baserunner stays put. This is especially pertinent if we flip it around and consider value attribution for the pitcher and catcher responsible for stopping the stolen base. The best pitchers and catchers at controlling the run game will have very few stolen bases attempted against them, which adds value to their team. Yet another wrinkle to consider is how to distribute that value between the pitcher and the catcher. Traditionally, stolen base results have been considered a catcher statistic, but there's reason to believe that the pitcher has more control over this outcome based on how quickly they deliver the ball to the catcher on stolen base attempts.
+    
+    \subsection{\sc Discussion}
 
-    \subsubsection{\sc Baserunner Control}
-    \label{sec:baserunner-control}
-      How many runs were saved by way of baserunner outcomes beyond expectation given batter outcome?
-      
-      Whereas Part 1 leveraged context-neutral linear weights, that is not possible for baserunner advancement\footnote{This is not exactly true. We could, for example, put a linear weight on the action of advancing one more base than expected.} because it depends on the base-out state before and after the play. Instead of using the linear weight of an outcome, we base the run expectancy $v(\cdot)$ of the base-out state $s'$ at the end of the play. Depending on whether the batter reaches base safely or not, the change in run value due to baserunner advanced beyond expectation is given by $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{safe}]$ or $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{out}]$. Either way, we attribute all of this run value to the first fielder.
-
-      Mostly, this reflects arm, especially for outfielders. Outfielders with strong arms prevent runners from taking bases and sometimes throw runners out, which this metric reflects. However, this metric also reflects outfielders cutting off balls in the gap to prevent singles turning into doubles. It also reflects ground ball double plays, on which it makes less sense to give all of the credit to the first fielder.
-
-      The baserunner control metric is an approximation that has more blindspots than the range metric in Section \ref{sec:range}. For this reason, teams tend to base their fielder evaluations more on range and less on baserunner control, although outfielder arm strength can explain a meaningful run value.
-
-  \subsection{\sc Measuring Baserunning Performance}
-
-    We break baserunning evaluation into two parts: ball-in-play baserunning and stolen base attempts.
-
-    \subsubsection{\sc Ball-in-Play Baserunning}
-
-      This is the direct counterpart to Section \ref{sec:baserunner-control}. Every expected run allowed by a fielder is an expected run scored by a baserunner. The quantity $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{safe}]$ or $v(s') - \mathbb{E}[v(S') | \vec x, \mbox{out}]$ belongs to the baserunners although it is trickier to distribute the credit among multiple baserunners when necessary. The public openWAR model simply divides the credit equally among the baserunners although a more sophisticated approach would be as follows:
       \begin{enumerate}
-        \item Credit the lead runner for their outcome relative to expectation.
-        \item Credit the trail runner for their outcome relative to expectation {\it conditional on the lead runner outcome}.
+        \item Find the Outfielder Jump Leaderboard on Baseball Savant. How does the information here differ from what is available on the Fielding Run Value Leaderboard? If you were a general manager, which information would you rather use to evaluate players in trades or free agency?
+        \item Find the Sprint Speed Leaderboard on Baseball Savant. How does the information here differ from what is available on the Baserunning Run Value Leaderboard? If you were a general manager, which information would you rather use to evaluate players in trades or free agency?
       \end{enumerate}
-
-    \subsubsection{\sc Stolen Base Attempts}
-
-      Stolen base attempts are straightforward to evaluate. There is a base-out state $s$ before the attempt and a base out state $s'$ after the attempt. The difference $v(s') - v(s)$ is attributable to the baserunner. We could strip away the context by calculating the average of $v(s') - v(s)$ on successful stolen bases and call this the linear weight of a stolen base. Similarly, we could calculate the linear weight of a caught stealing and credit baserunners with the linear weight of their outcome, ignoring the context in which they attempted the steal.
-
-      An additional wrinkle to consider is that a player who never attempts a stolen base is producing below-average stolen base value. So we may debit a small amount for every opportunity on which the baserunner stays put. This is especially pertinent if we flip it around and consider value attribution for the pitcher and catcher responsible for stopping the stolen base. The best pitchers and catchers at controlling the run game will have very few stolen bases attempted against them, which adds value to their team. Yet another wrinkle to consider is how to distribute that value between the pitcher and the catcher. Traditionally, stolen base results have been considered a catcher statistic, but there's reason to believe that the pitcher has more control over this outcome based on how quickly they deliver the ball to the catcher on stolen base attempts.
 
 \end{document}

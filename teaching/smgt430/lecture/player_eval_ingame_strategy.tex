@@ -5,7 +5,13 @@
 \begin{document}
 
   \begin{framed}
-    {\sc Caution:} These lecture notes are under construction. You may find parts that are incomplete.
+    {\sc Warm-Up}\\
+
+    Check out the FanGraphs WPA Inquirer at fangraphs.com/tools/wpa-inquirer.
+    \begin{itemize}
+      \item Imagine you are the home team in a tied ballgame in the bottom of the ninth inning. You have a runner on second base and nobody out. Suppose that you could choose to bunt, in which case (we will assume) you would have a runner on third base one one out. Would this be a good idea?
+      \item Try to find the scenario in which it is most advantageous to bunt (assume runners on first base and second base advance one base each and there is one additional out). For which game scenario would a bunt increase the win probability by the most?
+    \end{itemize}
   \end{framed}
 
   \setcounter{section}{6}
@@ -51,5 +57,11 @@
       \end{enumerate}
 
       In football, we can imagine a situation in which a team has possession of the ball at the 50 yard line, facing a fourth-and-1, i.e. $s = (50, 4, 1)$. The coach needs to decide whether to punt or to go for a first down. In this case, the score expectation model is insufficient to support this decision because it does not factor in the downside risk of turning the ball over on downs (as opposed to punting). We would need to create a win probability model (with the reward based on reaching the terminal ``win'' state), factoring in the score differenc and the time remaining in the game in order to adequately support this decision. Even given a win probability model, the outcome of the ``go for it'' decision is a stochastic one, not a deterministic one, complicating the problem further.
+    
+    \subsection{\sc Discussion}
+
+      \begin{enumerate}
+        \item How would personnel considerations (i.e., the players involved in a play) change how you would use a Markov chain model to make an in-game strategic decision?
+      \end{enumerate}
 
 \end{document}
