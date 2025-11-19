@@ -17,6 +17,9 @@ w/ Ron Yurko
 
 [A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
 w/ Elisabeth Millington\
+2025 Carnegie Mellon Sports Analytics Conference
+[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1EvVk-xaJmDLhU9DWGD0ZDYOfgx-sgo_5){target=_blank}
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=8FSRZZbBUYs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 2025 New England Symposium on Statistics in Sports
 [{{< iconify pajamas thumbtack-solid >}}](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank}\
 
