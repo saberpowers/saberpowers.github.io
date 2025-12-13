@@ -73,7 +73,7 @@ DT::datatable(
     columnDefs = list(
       list(className = 'dt-center', targets = c(1, 2, 7)),  # center date and comp range
       list(orderData = 8, targets = 7),                     # sort comp range by midrange
-      list(orderData = 9, targets = 2),                     # sort compact date by verbose date
+      list(orderData = 10, targets = 2),                    # sort compact date by verbose date
       # hide row names, comp midrange, sport text, and verbose date
       list(visible = FALSE, targets = c(0, 8, 9, 10))       
     )
