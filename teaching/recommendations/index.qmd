@@ -3,6 +3,10 @@ title: "Tips that haven't made it into my lecture notes yet"
 toc: true
 ---
 
+#### Selecting Research Questions
+
+1. Be aware that when attempting to measure intangibles like momentum or clubhouse chemistry, the signal to noise ratio is often low. That means you generally need large amounts of data and sophisticated analysis methods to pick up on the signal. If you're just getting started in sport analytics, I recommend picking research questions about more tangible aspects of sports.
+
 #### Developing Metrics
 
 1. Something I see from students occasionally is that they will “make up” a metric by throwing some existing metrics together through multiplication or addition with only a hand-wavy justification of what the made-up metric is measuring. I want you to understand that metrics are derived (as estimands of model parameters) rather than “invented”.
