@@ -22,17 +22,7 @@ day_middle = datetime.strptime(DAY_MIDDLE, '%Y-%m-%d')
 day_last = datetime.strptime(DAY_LAST, '%Y-%m-%d')
 
 
-# Re-organize tabs and home page ----
-
-tabs_to_keep = ['Announcements', 'Syllabus', 'Assignments', 'Grades']
-
-for tab in course.get_tabs():
-    if tab.label in ['Home', 'Settings']:
-        continue                    # these tabes are not manageable
-    if tab.label in tabs_to_keep:
-        tab.update(hidden=False, position=tabs_to_keep.index(tab.label)+2)
-    else:
-        tab.update(hidden=True)
+# Re-organize home page and tabs ----
 
 course.update(
     course = {
@@ -40,6 +30,17 @@ course.update(
         'syllabus_body': '<p><a href="https://saberpowers.github.io/teaching/smgt373/syllabus.pdf" target="_blank" rel="noopener">Syllabus</a></p>',
     }
 )
+
+tabs_to_keep = ['Announcements', 'Syllabus', 'Assignments', 'Grades']
+all_tabs = course.get_tabs()
+
+for tab in all_tabs:
+    if tab.label in ['Home', 'Settings']:
+        continue                    # these tabes are not manageable
+    if tab.label in tabs_to_keep:
+        tab.update(hidden=False, position=tabs_to_keep.index(tab.label)+2)
+    else:
+        tab.update(hidden=True)
 
 
 # Set late policy ----

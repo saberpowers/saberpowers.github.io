@@ -31,13 +31,13 @@ class_days = [date for date in class_days if date not in days_off]
 
 # Create exit tickets ----
 
-exit_ticket_group = course.create_assignment_group(name='Exit Tickets')
+group_exit_ticket = course.create_assignment_group(name='Exit Tickets')
 
 for date in class_days:
     exit_ticket = course.create_quiz({
         'title': 'Exit Ticket ' + date.strftime(format='%Y-%m-%d'),
         'quiz_type': 'graded_survey',
-        'assignment_group_id': exit_ticket_group.id,
+        'assignment_group_id': group_exit_ticket.id,
         'points_possible': 0.5,
         'anonymous_submissions': True,
         'hide_results': 'always',
