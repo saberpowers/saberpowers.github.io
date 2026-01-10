@@ -1,0 +1,146 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+%% color for the links 
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{longtable, graphicx}
+\usepackage{multicol}
+\usepackage{ebgaramond}		% for boldface small caps
+\usepackage{changepage}		% for indented paragraph blocks
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+%% hyperlinks
+\usepackage[
+	colorlinks=true,
+	urlcolor=MidnightBlue,
+	plainpages=false,
+  	]{hyperref}% color for the links 
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\begin{minipage}[c]{0.4\linewidth}
+  \includegraphics[height = 2cm]{../../images/rice_stat.png}
+\end{minipage}
+\begin{minipage}[c]{0.6\linewidth}
+  \raggedleft
+  {\bf Course:} STAT $499/699$ -- Topics in Statistical Sciences:\\
+  Sport Analytics\\
+  {\bf Term:} Spring $2026$\\
+  {\bf Class:} $3$:$00$ -- $3$:$50$ p.m. Mon
+\end{minipage}
+
+\hrule
+
+~\\
+\textbf{\textsc{Instructor Contact Information}}
+\begin{adjustwidth}{1cm}{0cm}
+	{\bf Instructor:} Scott Powers\\
+  {\bf Office:} Kraft $246$\\
+  {\bf Email:} scott.powers@rice.edu\\
+  {\bf Office Hours:} by appointment
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Required Texts and Materials}}
+\begin{adjustwidth}{1cm}{0cm}
+	{\bf Class Website:} https://canvas.rice.edu\\
+	{\bf Required Material:} none
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Course Overview}}
+\begin{adjustwidth}{1cm}{0cm}
+  Sports present opportunities for novel statistical analysis because they generate rich datasets (such as spatiotemporal player tracking) in controlled environments. STAT 499/699 is an opportunity to get a taste of research in sport analytics, which involves analyzing data to inform on-field and off-field decision-making in sports. For example, researchers may seek to understand individual contributions to team success in team sports, or how to forecast individual player performance in the future. Examples of tools frequently used in sport analytics include machine learning, Bayesian hierarchical modeling and causal inference. Students will learn to recognize central themes in the recent academic literature of sport analytics and to evaluate statistical and computational methods used in sport analytics.\\
+  ~\\
+  We follow an informal seminar style in which one student delivers a casual 20-minute oral presentation each week, summarizing a research article of their choice for the rest of the group. Questions from the audience are highly encouraged, and we typically get lively discussions that lead to everyone learning more. The goal of the class is to create an on-ramp for research in sport analytics by introducing you to like-minded students to foster collaborations and the exchange of ideas for research projects. STAT 499/699 is helpful in getting you practice at reading academic journal articles and familiarizing yourself with research on statistics in sports.\\
+  ~\\
+  {\bf The only enrollment offered is one credit hour per semester (repeatable for credit).}
+\end{adjustwidth}
+
+
+~\\
+\textbf{\textsc{Course Objectives and Learning Outcomes}}
+\begin{adjustwidth}{1cm}{0cm}
+  After successfully completing this course, you will be able to:
+  \begin{itemize}
+    \item Recognize central themes in the recent academic literature of sport analytics.
+    \item Evaluate statistical and computational methods used in sport analytics.
+    \item Present a summary of an academic journal article to a small audience.
+    \item Identify potential research problems in sport analytics.
+  \end{itemize}
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Expectations}}
+\begin{adjustwidth}{1cm}{0cm}
+  On days when you are not presenting, this class is NOT your opportunity to do other work on your laptop. Keep your laptop put away unless you are using it to view the paper being presented.
+
+  Please ask questions early and often! This class is small enough that I expect each of you to ask at least one question per class. The purpose of asking questions is NOT to look smart. If you force yourself to go outside of your comfort zone and ask more questions, we will all get more out of this class.
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{How Your Grade Is Determined}}
+\begin{adjustwidth}{1cm}{0cm}
+  Your grade is based on your percentage earned of available points.
+  \begin{center}
+    \begin{tabular}{rclcrclcrcl}
+                      &               &     & & $[93\%,\,\infty)$ & $\rightarrow$ & A & & $[90\%, 93\%)$ & $\rightarrow$	& A--\\
+      $[87\%, 90\%)$  & $\rightarrow$	& B+  & & $[83\%, 87\%)$  & $\rightarrow$ & B & & $[80\%, 83\%)$ & $\rightarrow$	& B--\\
+      $[77\%, 80\%)$  & $\rightarrow$	& C+  & & $[73\%, 77\%)$  & $\rightarrow$ & C & & $[70\%, 73\%)$ & $\rightarrow$	& C--\\
+      $[67\%, 70\%)$  & $\rightarrow$	& D+  & & $[63\%, 67\%)$  & $\rightarrow$ & D & & $[60\%, 63\%)$ & $\rightarrow$  & D--\\
+                      &               &     & & $[ 0\%, 60\%)$  & $\rightarrow$ & F\\
+    \end{tabular}
+  \end{center}
+  ~\\
+  \textbf{Present Your Paper.} ($10$pts) Your presentation is graded for completion. If you successfully deliver a 20-minute oral presentation on your paper, your score will be $100$\%.
+
+  \textbf{Exit Tickets.} ($1$pt per class) Each week I will ask you to rate the paper (not the presentation) at the end of class and to explain your reasoning. Engaging with the other presentations in class (not just your own) is an important part of the learning experience in this course. Exit tickets will be graded for completion.
+
+  \textbf{Attendance Policy.} If you notify me via email at least one hour before class that you will be absent, then I will excuse you from completing the exit ticket. Please do not expect a response to your email.
+\end{adjustwidth}
+
+\newpage
+
+\textbf{\textsc{Rice Honor Code}}
+\begin{adjustwidth}{1cm}{0cm}
+  In this course, all students will be held to the standards of the Rice Honor Code, a code that you pledged to honor when you matriculated at this institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the Honor System Handbook at \url{http://honor.rice.edu/honor-system-handbook/}. This handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.\\
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Disability Resource Center}}
+\begin{adjustwidth}{1cm}{0cm}
+  If you have a documented disability or other condition that may affect academic performance you should: $1$) make sure this documentation is on file with the Disability Resource Center (Allen Center, Room $111$ / \href{mailto:adarice@rice.edu}{adarice@rice.edu} / x$5841$) to determine the accommodations you need; and $2$) talk with me to discuss your accommodation needs.
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Mental Health Policy}}
+\begin{adjustwidth}{1cm}{0cm}
+	The wellbeing and mental health of students is important; if you are having trouble completing your coursework, please reach out to the Wellbeing and Counseling Center. Rice University provides cost-free mental health services through the Wellbeing and Counseling Center to help you manage personal challenges that threaten your personal or academic well-being. If you believe you are experiencing unusual amounts of stress, sadness, or anxiety, the Student Wellbeing Office or the Rice Counseling Center may be able to assist you. The Wellbeing and Counseling Center is located in the Gibbs Wellness Center and can be reached at 713-348-3311 (available 24/7).
+\end{adjustwidth}
+
+~\\
+\textbf{\textsc{Title IX Responsible Employee Notification}}
+\begin{adjustwidth}{1cm}{0cm}
+  At Rice University, unlawful discrimination in any form, including sexual misconduct, is prohibited under Rice Policy on Harassment and Sexual Harassment (Policy 830) and the Student Code of Conduct.
+
+  Please be aware that all employees of Rice University are ``mandatory reporters'', which means that if you tell me about a situation involving sexual harassment, sexual assault, dating violence, domestic violence, or stalking, I must share that information with the Title IX Coordinator.
+
+  Although I have to make that notification, you will control how your case will be handled, including whether or not you wish to pursue a formal complaint. Our goal is to make sure you are aware of the range of options available to you and have access to the resources you need.
+
+  To report sexual harassment, please contact the Title IX Coordinator at titleix@rice.edu. To explore supportive measures and other resources that are available to you, please visit the Office if Interpersonal Misconduct Prevention and Support at safe.rice.edu.
+\end{adjustwidth}
+
+~\\
+\textbf{This syllabus is only a guide for the course and is subject to change with advance notice.}
+
+\end{document}
