@@ -1,4 +1,7 @@
 
+# Before publishing course...
+# 1. import "Experience Picture & Caption" assignment from last semester
+
 COURSE_ID = 85376
 DAY_FIRST = '2026-01-12'
 DAY_MIDDLE = '2026-02-27'
@@ -79,7 +82,7 @@ for i in range(5):
         'due_at': hour_log_end,
         'lock_at': hour_log_end + timedelta(days=10),
         'assignment_group_id': group_hour_log.id,
-        'description': f'Please copy and paste the template below and then edit it to report your hours between {hour_log_start:%A, %B %-d}, and {hour_log_end:%A, %B %-d}. Please delete any lines corresponding to dates on which you did not work.<br><br>Total: XX hours<br>{template}',
+        'description': f'Please copy and paste the template below and then edit it to report your hours between {hour_log_start:%A, %B %-d}, and {hour_log_end:%A, %B %-d}. Please delete any lines corresponding to dates on which you did not work.<br><br>Total: XX hours<br>Credit Hours: X    (how many credit hours did you enroll?)<br>Score: XX              (Total divided by Credit Hours)<br><br>{template}',
         'published': True,
     })
 
