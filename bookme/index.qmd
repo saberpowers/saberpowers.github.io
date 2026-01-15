@@ -1,0 +1,16 @@
+---
+title: "Book Me"
+---
+
+[Lunch Meeting](https://calendar.app.google/AShf9gV8nQgAzM5M8){target=_blank} at Rice\
+11:30a--12:00p on Tuesdays\
+11:30a--12:00p on Thursdays
+
+[Office Meeting](https://calendar.app.google/bnQW8nqPqok2Cpd16){target=_blank} at Rice\
+2:00p--2:30p on Mondays\
+12:15p--1:30p on Tuesdays\
+12:15p--1:30p on Thursdays
+
+[Virtual Meeting](https://calendar.app.google/ChTVeTD4yiQq4GZT9){target=_blank} on Zoom\
+2:00p--5:00p on Wednesdays\
+2:00p--5:00p on Fridays
