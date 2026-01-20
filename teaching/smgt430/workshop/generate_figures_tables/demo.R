@@ -1,5 +1,5 @@
 
-game <- data.table::fread("cfb_game_scores.csv") |>
+game <- data.table::fread("cfb_game_scores.csv", check.names = TRUE) |>
   dplyr::select(
     week = Wk,
     winner_team = Winner, 
@@ -7,7 +7,7 @@ game <- data.table::fread("cfb_game_scores.csv") |>
     loser_team = Loser, 
     loser_points = Pts.1 
   ) |>
-  dplyr::filter(!is.na(Pts), !is.na(Pts.1))
+  dplyr::filter(!is.na(winner_points), !is.na(loser_points))
 
 standings <- game |>
   # Reshape the data so each team gets its own row
@@ -18,8 +18,8 @@ standings <- game |>
   ) |>
   # Assign points for and against based on the result_type
   dplyr::mutate(
-    points_for = dplyr::if_else(outcome == "winner_team", points_winner, points_loser),
-    points_against = dplyr::if_else(outcome == "winner_team", points_loser, points_winner),
+    points_for = dplyr::if_else(outcome == "winner_team", winner_points, loser_points),
+    points_against = dplyr::if_else(outcome == "winner_team", loser_points, winner_points),
     is_win = outcome == "winner_team",
     parenthesis_location = stringr::str_locate(team_ranking, "\\) ")[, "start"],
     team = substring(team_ranking, dplyr::coalesce(parenthesis_location + 2, 1))
