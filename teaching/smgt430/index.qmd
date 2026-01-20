@@ -11,7 +11,7 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Workshop: How to Generate Figures and Tables in R](workshop/generate_figures_tables/slides.pdf){target=_blank}
 
-[Practice: Figures and Tables](assigments/practice_figures_tables.pdf){target=_blank}
+[Practice: Figures and Tables](assignment/practice_figures_tables.pdf){target=_blank}
 
 ### Pythagorean Formula
 
