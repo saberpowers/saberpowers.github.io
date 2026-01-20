@@ -7,8 +7,12 @@ _site/
 *.fdb_latexmk
 *.fls
 *.log
+*.nav
 *.out
+*.snm
 *.synctex.gz
+*.toc
+*.vrb
 
 # File for environment variables (e.g. API keys)
 *.env
