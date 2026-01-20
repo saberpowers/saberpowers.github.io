@@ -1,0 +1,163 @@
+
+\documentclass[handout]{beamer}
+\usetheme{Singapore}
+\setbeamertemplate{navigation symbols}{\insertframenumber}
+
+\title{SMGT 430 Workshop:\\How to Wrangle Data in R}
+\date{}
+
+\begin{document}
+
+  \begin{frame}
+    \maketitle
+  \end{frame}
+
+  \begin{frame}
+    \begin{columns}
+      \begin{column}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{images/wickham.jpg}
+      \end{column}
+      \pause
+      \begin{column}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{images/jordan.jpg}
+      \end{column}
+    \end{columns}
+  \end{frame}
+
+  \begin{frame}
+    \begin{columns}
+      \begin{column}{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/plyr.png}\\
+        plyr (2009--2015)
+      \end{column}
+      \pause
+      \begin{column}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.5\textwidth]{images/dplyr.png}\\
+        dplyr (2013--present)
+      \end{column}
+    \end{columns}
+  \end{frame}
+
+  \begin{frame}[fragile]{Preliminaries}
+    First, download \texttt{data.csv}. Then:\\
+    ~\\
+    If you want to work in R locally on your laptop:
+    \begin{enumerate}
+      \item You need to have the following packages installed in R:\\
+        \begin{verbatim}
+install.packages(
+  c("data.table", "dplyr", "tidyr")
+)\end{verbatim}
+      \item Download \texttt{exercises.R} move \texttt{data.csv} to working directory.
+    \end{enumerate}
+    ~\\
+    OR if you want to use the Google Colab notebook:
+    \begin{enumerate}
+      \item Runtime $\rightarrow$ Change runtime type $\rightarrow$ R (not Python 3)
+      \item Upload \texttt{data.csv} to your session.
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}{``Tidy'' data}
+    \centering
+    \includegraphics[width = \textwidth]{images/tidy_data.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::select()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/select.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::filter()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/filter.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{Exercise \#1}
+    Select the following columns and rename them using \texttt{snake\_case}:
+    \begin{itemize}
+      \item \texttt{week}
+      \item \texttt{winner\_team}
+      \item \texttt{winner\_pts}
+      \item \texttt{loser\_team}
+      \item \texttt{loser\_pts}
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::mutate()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/mutate.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::summarize()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/summarize.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::group\_by()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/group_by.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{Exercise \#2}
+    Calculate total wins and point differential for the winners.
+  \end{frame}
+
+  \begin{frame}{Exercise \#3}
+    Calculate total wins and point differential for the losers.
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::left\_join()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/left_join.png}
+    \vfill\hfill\tiny\color{gray}\url{https://bookdown.org/ansellbr/WEHI_tidyR_course_book/week3.html}
+  \end{frame}
+
+  \begin{frame}{\texttt{dplyr::arrange()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/arrange.png}
+    \vfill\hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}
+  \end{frame}
+
+  \begin{frame}{Exercise \#4}
+    Create a sorted standings table by joining the winners table and the losers table.
+  \end{frame}
+
+  \begin{frame}[fragile]{\texttt{tidyr::pivot\_longer()}}
+    \centering
+    \includegraphics[width = \textwidth]{images/pivot_longer.png}
+    \small
+    \begin{verbatim}
+df |>
+  tidyr::pivot_longer(
+    cols = c("X1", "X2", "X3"),
+    names_to = "V1",
+    values_to = "V2",
+  )
+    \end{verbatim}
+    \hfill\tiny\color{gray}\url{https://rstudio.github.io/cheatsheets/tidyr.pdf}
+  \end{frame}
+
+  \begin{frame}{Exercise \#5}
+    Try redoing Exercises \#2--4 in a single pipe change starting with \texttt{tidyr::pivot\_longer}.
+  \end{frame}
+
+  \begin{frame}{Additional resources}
+    R for Data Science:\\
+    {\tiny\url{https://r4ds.hadley.nz/}}\\
+    ~\\
+    Tidyverse Cookbook:\\
+    {\tiny\url{https://rstudio-education.github.io/tidyverse-cookbook/transform-tables.html}}\\
+    ~\\
+    dplyr cheatsheet:\\
+    {\tiny\url{https://rstudio.github.io/cheatsheets/data-transformation.pdf}}
+  \end{frame}
+  \end{document}

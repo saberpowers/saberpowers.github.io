@@ -1,0 +1,95 @@
+\documentclass[handout]{beamer}
+\usetheme{Singapore}
+\setbeamertemplate{navigation symbols}{\insertframenumber}
+
+\usepackage{minted}
+
+\title{SMGT 430 Workshop:\\How to Generate Figures and Tables in R}
+\date{}
+
+\begin{document}
+
+  \begin{frame}
+    \maketitle
+  \end{frame}
+
+  \begin{frame}{If You Learn Nothing Else Today...}
+    \begin{enumerate}
+      \item Remove screenshots from your workflow
+      \pause
+      \item Make everything human-readable
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}{Live Demo \#1: gt}
+    \begin{columns}
+      \begin{column}{0.3\textwidth}
+        \centering
+        \includegraphics[width = 0.8\textwidth]{images/gt.png}
+      \end{column}
+      \begin{column}{0.7\textwidth}
+        \begin{itemize}
+          \item \texttt{gt::gt()}
+          \pause
+          \item \texttt{gt::gtsave()}
+          \pause
+          \item \texttt{gt::cols\_label()}
+          \pause
+          \item \texttt{gt::fmt\_number()}
+          \pause
+          \item \texttt{gt::fmt\_percent()}
+          \pause
+          \item \texttt{gt::cols\_align()}
+        \end{itemize}
+      \end{column}
+    \end{columns}
+  \end{frame}
+
+  \begin{frame}{Live Demo \#2: ggplot2}
+    \begin{columns}
+      \begin{column}{0.3\textwidth}
+        \centering
+        \includegraphics[width = 0.8\textwidth]{images/ggplot2.png}
+      \end{column}
+      \begin{column}{0.7\textwidth}
+        \begin{itemize}
+          \item \texttt{ggplot2::ggplot()}
+          \pause
+          \item \texttt{ggplot2::aes()}
+          \pause
+          \item \texttt{ggplot2::geom\_point()}
+          \pause
+          \item \texttt{pdf(); dev.off()}
+          \pause
+          \item \texttt{ggplot2::labs()}
+          \pause
+          \item \texttt{ggplot2::scale\_x\_continuous()}
+          \pause
+          \item \texttt{ggplot2::theme\_classic()}
+        \end{itemize}
+      \end{column}
+    \end{columns}
+  \end{frame}
+
+  \begin{frame}{What Makes a Data Visualization Good?}
+    \pause
+    \begin{enumerate}
+      \item Tell the truth
+      \begin{itemize}
+        \item Avoid misleading scales
+      \end{itemize}
+      \pause
+      \item Tell a story
+      \begin{itemize}
+        \item Reveal patterns, trends, outliers
+      \end{itemize}
+      \pause
+      \item Maximize data:ink ratio
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}{Challenge}
+    Identify a compelling pattern, trend or outlier in the college football game score data, and design a graphic that tells the story clearly to a general sports fan.
+  \end{frame}
+
+\end{document}

@@ -1,0 +1,20 @@
+
+\documentclass{article}
+\include{preamble.sty}
+
+\begin{document}
+
+  \section*{\sc Practice: Figures and Tables}
+
+    \begin{enumerate}
+      \item Install the R package cfbfastR \url{https://cfbfastr.sportsdataverse.org/} and follow the instructions to get a CollegeFootballData API key and add it to your .Renviron file.
+      \item Use \texttt{cfbfastR::cfbd\_stats\_season\_player()} to download player statistics for the current season.
+      \item The NCAA passing efficiency rating is defined as
+        $$(8.4 \cdot \text{Yds} + 330 \cdot \text{TD} - 200 \cdot \text{Int} + 100 \cdot \text{Cmp}) / \text{Att}.$$
+      Create a quarterback leaderboard of the top 10 quarterbacks sorted on passing efficiency rating, minimum 200 attempts. In the leaderboard, include all of the input statistics for passing efficiency rating. Submit this table as a .png file on Canvas.
+      \item Create of data visualization of passing efficiency rating (x-axis) against yards per rushing carry (y-axis) for all quarterbacks with at least 200 passing attempts and at least 100 rushing carries. Submit this figure as a .pdf file on Canvas.
+      \item Submit your code as a .R file on Canvas.
+    \end{enumerate}
+    Peer review is worth 20\% of the grade on this assignment and is due 48 hours after the assignment deadline.
+
+\end{document}

@@ -2,32 +2,38 @@
 title: "SMGT 430/530: Introduction to Sport Analytics"
 ---
 
-[Syllabus](syllabus/latest.pdf){target="_blank"}
+[Syllabus](syllabus/latest.pdf){target=_blank}
 
 
 ## Unit 1: Estimating Team and Player Strength
 
+[Workshop: How to Wrangle Data in R](workshop/wrangle_data/slides.pdf){target=_blank}
+
+[Workshop: How to Generate Figures and Tables in R](workshop/generate_figures_tables/slides.pdf){target=_blank}
+
+[Practice: Figures and Tables](assigments/practice_figures_tables.pdf){target=_blank}
+
 ### Pythagorean Formula
 
-[Lecture Notes](lecture/pythagorean_formula.pdf){target="_blank"}
+[Lecture Notes](lecture/pythagorean_formula.pdf){target=_blank}
 
-[Colab Notebok](https://colab.research.google.com/drive/1qmyQF6ilN4mwtNAQOwtz1xgY8Wl3q48q){target="_blank"}
+[Colab Notebok](https://colab.research.google.com/drive/1qmyQF6ilN4mwtNAQOwtz1xgY8Wl3q48q){target=_blank}
 
-[Assignment: Pythagorean Formula](assignment/pythagorean_formula.pdf){target="_blank"}
+[Assignment: Pythagorean Formula](assignment/pythagorean_formula.pdf){target=_blank}
 
 ### Bradley-Terry Model
 
-[Lecture Notes](lecture/bradley_terry_model.pdf){target="_blank"}
+[Lecture Notes](lecture/bradley_terry_model.pdf){target=_blank}
 
-[Colab Notebook](https://colab.research.google.com/drive/1nHK7E_6GXk_alOoMl3AL0SlxsxaCWq3b){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/1nHK7E_6GXk_alOoMl3AL0SlxsxaCWq3b){target=_blank}
 
-[Assignment: Bradley-Terry Model](assignment/bradley_terry.pdf){target="_blank"}
+[Assignment: Bradley-Terry Model](assignment/bradley_terry.pdf){target=_blank}
 
 ### Plus-Minus Models
 
-[Lecture Notes](lecture/plus_minus_models.pdf){target="_blank"}
+[Lecture Notes](lecture/plus_minus_models.pdf){target=_blank}
 
-[Colab Notebook](https://colab.research.google.com/drive/1DD1XwQc4Ih5vpZRtdflKUqqlTr7azf6I){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/1DD1XwQc4Ih5vpZRtdflKUqqlTr7azf6I){target=_blank}
 
 
 
@@ -35,34 +41,34 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 ### Regression to the Mean
 
-[Lecture Notes](lecture/regression_to_the_mean.pdf){target="_blank"}
+[Lecture Notes](lecture/regression_to_the_mean.pdf){target=_blank}
 
-[Colab Notebook](https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/1y06VvXEj2ejdotwuLrVXFfkAKdW2lgOa){target=_blank}
 
-[Assignment: Regression to the Mean](assignment/regression_to_the_mean.pdf){target="_blank"}
+[Assignment: Regression to the Mean](assignment/regression_to_the_mean.pdf){target=_blank}
 
 ### Regularized Regression
 
-[Lecture Notes](lecture/regularized_regression.pdf){target="_blank"}
+[Lecture Notes](lecture/regularized_regression.pdf){target=_blank}
 
-[Colab Notebook: Rasch Linear Mixed-Effects Model](https://colab.research.google.com/drive/1fYlIrUnChr3GABtu5F9vu2uU_uMq6Tfd){target="_blank"}
+[Colab Notebook: Rasch Linear Mixed-Effects Model](https://colab.research.google.com/drive/1fYlIrUnChr3GABtu5F9vu2uU_uMq6Tfd){target=_blank}
 
 ### Regularized Adjusted Plus-Minus
 
-[Colab Notebook: Regularized Adjusted Plus-Minus](https://colab.research.google.com/drive/1bOJJPkNZ6gps0Qan6Wn_i_M9uIYOdTYd){target="_blank"}
+[Colab Notebook: Regularized Adjusted Plus-Minus](https://colab.research.google.com/drive/1bOJJPkNZ6gps0Qan6Wn_i_M9uIYOdTYd){target=_blank}
 
-[Assignment: Regularized Regression](assignment/5.pdf){target="_blank"}
+[Assignment: Regularized Regression](assignment/5.pdf){target=_blank}
 
 
 ## Unit 3: Applications of Markov Chains in Sports
 
 ### Win Probability Models
 
-[Lecture Notes](lecture/markov_chain_win_probability.pdf){target="_blank"}
+[Lecture Notes](lecture/markov_chain_win_probability.pdf){target=_blank}
 
-[Colab Notebook](https://colab.research.google.com/drive/1hahuHhWFv1YuFFD_vUO63jV-G49ipvKM){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/1hahuHhWFv1YuFFD_vUO63jV-G49ipvKM){target=_blank}
 
-[Assignment: Win Probability Model](assignment/markov_chain_win_probability.pdf){target="_blank"}
+[Assignment: Win Probability Model](assignment/markov_chain_win_probability.pdf){target=_blank}
 
 ### Player Evaluation and In-Game Strategy
 
@@ -72,29 +78,29 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Lecture Notes](lecture/markov_decision_processes.pdf){target=_blank}
 
-[Colab Notebook](https://colab.research.google.com/drive/1sFdaEQopHqkSVHdVkFMhJ5gcOOGOxYZb){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/1sFdaEQopHqkSVHdVkFMhJ5gcOOGOxYZb){target=_blank}
 
 ## Unit 4: Practicum
 
-[Project Overview](assignment/project.pdf){target="_blank"}
+[Project Overview](assignment/project.pdf){target=_blank}
 
-[Assignment: YouTube Short](assignment/7.pdf){target="_blank"}
+[Assignment: YouTube Short](assignment/7.pdf){target=_blank}
 
-[Assignment: Article Review](assignment/article_review.pdf){target="_blank"} (SMGT 530 only)
+[Assignment: Article Review](assignment/article_review.pdf){target=_blank} (SMGT 530 only)
 
 
 ## Lessons from Sport Analytics
 
-[Colab Notebook: Introduction to R](https://colab.research.google.com/drive/1sLJA9radwdvLjE2bw_mURiNLw-PvNgBg){target="_blank"}
+[Colab Notebook: Introduction to R](https://colab.research.google.com/drive/1sLJA9radwdvLjE2bw_mURiNLw-PvNgBg){target=_blank}
 
 ### Be careful with regression
 
-[Colab Notebook](https://colab.research.google.com/drive/182F7iWSPJP2umxfQ74zt8-pPtVhbaHuF){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/182F7iWSPJP2umxfQ74zt8-pPtVhbaHuF){target=_blank}
 
 ### Don't be fooled by noise
 
-[Lecture Notes](lecture/dont_be_fooled_by_noise.pdf){target="_blank"}
+[Lecture Notes](lecture/dont_be_fooled_by_noise.pdf){target=_blank}
 
-[Colab Notebook](https://colab.research.google.com/drive/1zdEslpU8Y-3gtnrHgOJA6n87BvS2i1cH){target="_blank"}
+[Colab Notebook](https://colab.research.google.com/drive/1zdEslpU8Y-3gtnrHgOJA6n87BvS2i1cH){target=_blank}
 
 ![](concept_map.png)
