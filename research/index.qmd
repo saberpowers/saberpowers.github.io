@@ -30,7 +30,7 @@ w/ Ruoqian (Judy) Zhu and Dave Love
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
-[The Two-Foot Rule: A game theoretic analysis of the pickoff limit in Major League Baseball](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
+[Lead distance under a pickoff limit in Major League Baseball: A sequential game model](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
 w/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2601.15608){target=_blank}\
 2024 Cascadia Symposium on Statistics in Sports (Vancouver)
