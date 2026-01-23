@@ -15,21 +15,6 @@ w/ Ron Yurko
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
-[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
-w/ Elisabeth Millington\
-2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)
-[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1EvVk-xaJmDLhU9DWGD0ZDYOfgx-sgo_5){target=_blank}
-[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=8FSRZZbBUYs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-2025 New England Symposium on Statistics in Sports (Boston)
-[{{< iconify pajamas thumbtack-solid >}}](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank}\
-
-[Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
-w/ Ruoqian (Judy) Zhu and Dave Love
-[{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}\
-2025 New England Symposium on Statistics in Sports (Boston)
-[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank}
-[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-
 [Lead distance under a pickoff limit in Major League Baseball: A sequential game model](https://github.com/jfhahn2/pickoff-game-theory){target=_blank} :baseball:\
 w/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2601.15608){target=_blank}\
@@ -38,6 +23,21 @@ w/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=oOvvNnDCD5Y&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 2024 Saberseminar (Chicago)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=sVQ-b1lW8nQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+
+[Ball path curvature and in-game free throw shooting proficiency in the National Basketball Association](https://github.com/judyz0415/free-throw-curvature){target=_blank} :basketball:\
+w/ Ruoqian (Judy) Zhu and Dave Love
+[{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2506.13779){target=_blank}\
+2025 New England Symposium on Statistics in Sports (Boston)
+[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank}
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+
+[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
+w/ Elisabeth Millington\
+2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)
+[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1EvVk-xaJmDLhU9DWGD0ZDYOfgx-sgo_5){target=_blank}
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=8FSRZZbBUYs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+2025 New England Symposium on Statistics in Sports (Boston)
+[{{< iconify pajamas thumbtack-solid >}}](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank}\
 
 [Pitch trajectory density estimation for predicting future outcomes](https://github.com/saberpowers/predictive-pitch-score){target=_blank} :baseball:\
 w/ Vicente Iglesias\
