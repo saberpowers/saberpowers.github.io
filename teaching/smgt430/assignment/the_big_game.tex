@@ -1,0 +1,90 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{graphicx}
+
+\title{Assignment \#1: The Big Game}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Overview}
+In this assignment, you will leverage NFL game score data to predict the outcome of the Super Bowl. You will implement two distinct modeling philosophies: a discrete \textbf{Logistic Bradley-Terry} model based on wins and losses, and a continuous \textbf{Linear Bradley-Terry} model integrated with the \textbf{Pythagorean Expectation} formula. 
+
+\section*{Step-by-Step Instructions}
+
+\begin{enumerate}[label=\textbf{Step \arabic*:}]
+    \item[\textbf{Step 0:}] \textbf{Data Acquisition} \\
+    Download games from the current season using \texttt{nflreadr::load\_schedules()}. You will need a table of all games from the 2025 season (including playoffs) with at least the following information: \texttt{game\_id}, \texttt{away\_team}, \texttt{away\_score}, \texttt{home\_team}, \texttt{home\_score}.
+
+    \item \textbf{Empirical Calibration of Alpha ($\alpha$)} \\
+    Before modeling, determine the optimal exponent for the Pythagorean formula specific to the 2025 season. Define an error function that calculates the Sum of Squared Errors (SSE) between actual win percentages and those predicted by:
+    $$ \text{Win } \% = \frac{\text{PF}^\alpha}{\text{PF}^\alpha + \text{PA}^\alpha} $$
+    Use \texttt{nls()} to find the $\alpha$ that minimizes SSE.
+
+    \item \textbf{Method 1: Logistic Bradley-Terry (Win/Loss)} \\
+    Estimate a logistic Bradley-Terry model using \texttt{glm()} where the response is whether the home team won.
+    \begin{align*}
+      Z_i &\sim \text{Bernoulli}\left(\frac{e^{\eta_i}}{1 + e^{\eta_i}}\right)\\
+      \eta_i &= \beta_0 + \beta_{h_i} - \beta_{a_i}
+    \end{align*}
+    Calculate the head-to-head win probability for the Super Bowl matchup. How will you handle the fact that the Super Bowl is played at a neutral site?
+
+    \item \textbf{Method 2: Linear Bradley-Terry (Scoring)} \\
+    Fit two separate linear Bradley-Terry models using the \texttt{lm()} function:
+    \begin{itemize}
+        \item \textbf{Model A:} Predict \texttt{score\_diff = home\_score - away\_score}.
+        \item \textbf{Model B:} Predict \texttt{score\_total = home\_score + away\_score}.
+    \end{itemize}
+    Use these models to generate a predicted scoring margin (\texttt{score\_diff}) and a predicted total score (\texttt{score\_total}) for the Super Bowl matchup. Again, how will you handle the fact that the Super Bowl is played at a neutral site?
+
+    \item \textbf{Synthesis: Pythagorean Conversion} \\
+    Convert the predicted margin and total from Step 4 into predicted home score and away score using the algebraic split:
+    $$ \texttt{home\_score} = \frac{\texttt{score\_total} + \texttt{score\_diff}}{2}, \quad \texttt{away\_score} = \frac{\texttt{score\_total} - \texttt{score\_diff}}{2} $$
+    Finally, calculate the Super Bowl win probability using your \textbf{custom $\alpha$} derived in Step 2.
+
+    \item \textbf{Table (PNG)} \\
+    Using the \texttt{gt} package, produce a table comparing the Super Bowl finalists. The table must include:
+    \begin{itemize}
+        \item Win probability from Method 1 (logistic).
+        \item Predicted home score and away score (Method 2).
+        \item Win probability from Method 2 (Pythagorean).
+    \end{itemize}
+    Export this as \texttt{table.png}.
+
+    \item \textbf{Figure (PDF)} \\
+    Create a scatter plot using \texttt{ggplot2} for all 32 NFL teams. 
+    \begin{itemize}
+        \item \textbf{X-axis:} Linear BT Strength Coefficients (from Step 4, Model A).
+        \item \textbf{Y-axis:} Logistic BT Strength Coefficients (from Step 3).
+        \item \textbf{Features:} Highlight the Super Bowl finalists in a distinct color.
+    \end{itemize}
+    Export this as \texttt{figure.pdf}.
+\end{enumerate}
+
+\section*{Submission Instructions}
+You must submit the following \textbf{three} files:
+\begin{enumerate}
+    \item \textbf{Table (PNG):} The standalone gt table.
+    \item \textbf{Figure (PDF):} The standalone high-resolution scatter plot.
+    \item \textbf{R Code (R):} A .R script with your R code for completing the assignment.
+\end{enumerate}
+
+\section*{Grading Rubric}
+\begin{enumerate}
+  \item Did you implement the Pythagorean formula correctly? (1pt)
+  \item Did you implement the logistic regression model correctly? (2pts)
+  \item Did you implement the linear regression models correctly? (2pts)
+  \item Did you calculate the Super Bowl predictions correctly? (1pt)
+  \item Did you produce the table correctly? (2pts)
+  \item Did you produce the figure correctly? (2pts)
+\end{enumerate}
+Extra credit: 1pt for particularly well-presented figure and table.
+
+\end{document}
