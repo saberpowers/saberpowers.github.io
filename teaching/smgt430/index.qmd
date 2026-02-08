@@ -13,6 +13,8 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Practice: Figures and Tables](assignment/practice_figures_tables.pdf){target=_blank}
 
+[Practice: Report](assignment/practice_report.pdf){target=_blank}
+
 ### Pythagorean Formula
 
 [Lecture Notes](lecture/pythagorean_formula.pdf){target=_blank}
