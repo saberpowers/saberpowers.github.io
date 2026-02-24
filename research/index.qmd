@@ -70,7 +70,7 @@ Powers S, Hastie T, Tibshirani R (2018)\
 2016 Joint Statistical Meetings (Chicago)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1ERY4Ry63w80IIGf1dUpT6qp2mcX6gHvu){target=_blank}
 
-[A linear model for estimating optimal service fraction in volleyball](https://doi.org/10.1515/jqas-2014-0087){target=_blank} :volleyball:\
+[A linear model for estimating optimal service error fraction in volleyball](https://doi.org/10.1515/jqas-2014-0087){target=_blank} :volleyball:\
 Burton T, Powers S (2015)\
 *Journal of Quantitative Analysis in Sports* **11**(2) 117-129
 
