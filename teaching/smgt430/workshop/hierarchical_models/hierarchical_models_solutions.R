@@ -139,7 +139,7 @@ dribbler_est_brms <- brms::ranef(fit_brms)$player_id |>                         
 dribbler_leaderboard_brms <- dribbler_est_brms |>                                                 #
   dplyr::left_join(player, by = "player_id") |>                                                   #
   dplyr::arrange(-est_completion_rate) |>                                                         #
-  dplyr::select(name, team, est_completion_rate)                                                  #
+  dplyr::select(player_id, name, team, est_completion_rate)                                       #
 
 
 # These three lines are just for making the x- and y-axes prettier                                #
@@ -148,6 +148,7 @@ breaks <- c(seq(from = 0, to = 1, by = 0.25), mean_completion_rate)             
 labels <- paste0(round(100 * breaks), "%")                                                        #
 
 dribbler_leaderboard_brms |>                                                                      #
+  dplyr::left_join(dribbler_summary, by = "player_id") |>                                         #
   ggplot2::ggplot(ggplot2::aes(x = obs_completion_rate, y = est_completion_rate)) +               #
   # Add a diagonal line
   ggplot2::geom_abline(slope = 1, intercept = 0, color = "gray", linetype = "dashed") +         #
