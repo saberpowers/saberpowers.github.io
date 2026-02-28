@@ -14,7 +14,7 @@
 
       Use the wehoop R package to download player box data and schedule data for the current NCAA women's basketball season. Estimate a hierarchical model for player-game three-point field goal percentage with random effects for player, conference, opposing conference, and opposing team. Extract estimates of player true talent three-point shooting percentage from this model. Think carefully about which effects to include when estimating player talent.
 
-      Write a report summarizing (max 2 pages) your findings, assuming the reader is a sports data scientist who does not know your assignment. Tell a STORY about your findings. Your report is a narrative about what the analysis reveals and why it matters. For this assignment, you must follow a specific prescribed format for your report:
+      Write a report (max 2 pages) summarizing your findings, assuming the reader is a sports data scientist who does not know your assignment. Tell a STORY about your findings. Your report is a narrative about what the analysis reveals and why it matters. For this assignment, you must follow a specific prescribed format for your report:
       \begin{itemize}
         \item {\bf Introduction.} Explain why your analysis matters (one paragraph).
         \item {\bf Methods.} Write down and explain the mathematical specification of the model (one paragraph).
@@ -33,9 +33,7 @@
 
       \subsection*{\sc Extra Credit}
 
-        Fit another hierarchical model with random effects only for player and opposing team (not conference or opposing conference). Is the population variance for opposing team larger or smaller than in the full model? Explain why.
-
-        If you attempt the extra credit, submit your response as a separate PDF file named \texttt{extra\_credit.pdf}.
+        Fit another hierarchical model with random effects only for player and opposing team (not conference or opposing conference). Is the population variance for opposing team larger or smaller than in the full model? Explain why. Submit your response as a separate PDF file named \texttt{extra\_credit.pdf}.
 
       \subsection*{\sc Submission Requirements}
       
@@ -43,11 +41,12 @@
         \begin{itemize}
           \item A PDF report named \texttt{the\_big\_dance.pdf}, summarizing your findings (max 2 pages)
           \item An R sript named \texttt{the\_big\_dance.R}, containing all of the code you usd to perform the analysis
+          \item A CSV file named \texttt{the\_big\_dance.csv} with your player picks (not graded, see page 2)
         \end{itemize}
 
       \subsection*{\sc Rubric}
 
-        \vspace{10mm}
+        \vspace{5mm}
         \hspace{-15mm}
         \begin{tabular}{|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{5cm}|>{\centering\arraybackslash}p{5cm}|>{\centering\arraybackslash}p{5cm}|}
           \hline
@@ -101,5 +100,14 @@
             \newline ~\\
           \hline
         \end{tabular}
+      \vspace{5mm}
+
+    \subsection*{\sc Player Picks}
+
+      For fun, we will run a contest. Pick 10 players and rank them 1 through 10. For every three-pointer made by a player on your list, you score points based on your rank for the player. Specifically, your total score is
+      \begin{equation*}
+        \sum_{r = 1}^{10} (11 - r) \cdot Y_r,
+      \end{equation*}
+      where $Y_r$ is the total number of three-pointers hit by your $r$-ranked player during the tournament. Submit your picks as a CSV with columns \texttt{rank} (integer-valued) and \texttt{player\_id} (integer-valued). The results of this contest will determine draft order for project presentation time slots at the end of the semester.
 
 \end{document}
