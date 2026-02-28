@@ -1,0 +1,105 @@
+
+\documentclass{article}
+\include{preamble.sty}
+
+\usepackage{array, graphicx}
+
+\begin{document}
+
+  \section*{\sc The Big Dance}
+
+    Our goal on this assignment is to evaluate three-point shooters in NCAA women's basketball. This is an example of an important job function fo analysts working in basketball front offices because evaluating talent is the starting point for player personnel decisions (draft, trades, free agency, etc.).
+
+    \subsection*{\sc Instructions}
+
+      Use the wehoop R package to download player box data and schedule data for the current NCAA women's basketball season. Estimate a hierarchical model for player-game three-point field goal percentage with random effects for player, conference, opposing conference, and opposing team. Extract estimates of player true talent three-point shooting percentage from this model. Think carefully about which effects to include when estimating player talent.
+
+      Write a report summarizing (max 2 pages) your findings, assuming the reader is a sports data scientist who does not know your assignment. Tell a STORY about your findings. Your report is a narrative about what the analysis reveals and why it matters. For this assignment, you must follow a specific prescribed format for your report:
+      \begin{itemize}
+        \item {\bf Introduction.} Explain why your analysis matters (one paragraph).
+        \item {\bf Methods.} Write down and explain the mathematical specification of the model (one paragraph).
+        \item {\bf Results.} Display two results:
+        \begin{itemize}
+          \item a table of top ten shooters by estimated true talent shooting percentage
+          \item a figure plotting estimated true talent ($y$-axis) vs. observed ($x$-axis) shooting percentage
+        \end{itemize}
+        Do the results look correct? Explain whether they pass the ``sniff'' test and why (one paragraph).
+        \item {\bf Discussion.} Write two paragraphs:
+        \begin{itemize}
+          \item Escape from Model Land. Choose a player for whom you think the estimated true talent is too high or too low. Provide your best guess of the player's actual true talent (guess an actual number), and explain what assumption(s) caused the model to get it wrong.
+          \item Write a concluding paragraph for your report. Recall that the purpose of the concluding paragraph is to (1) signal the ending; (2) restate the purpose of the report; (3) restate the key results; and (4) state why the findings matter (end with a bang).
+        \end{itemize}
+      \end{itemize}
+
+      \subsection*{\sc Extra Credit}
+
+        Fit another hierarchical model with random effects only for player and opposing team (not conference or opposing conference). Is the population variance for opposing team larger or smaller than in the full model? Explain why.
+
+        If you attempt the extra credit, submit your response as a separate PDF file named \texttt{extra\_credit.pdf}.
+
+      \subsection*{\sc Submission Requirements}
+      
+        {\bf Anonymize} your submission by removing any personally identifiable information (including file paths in your R script that contain things like a username!).
+        \begin{itemize}
+          \item A PDF report named \texttt{the\_big\_dance.pdf}, summarizing your findings (max 2 pages)
+          \item An R sript named \texttt{the\_big\_dance.R}, containing all of the code you usd to perform the analysis
+        \end{itemize}
+
+      \subsection*{\sc Rubric}
+
+        \vspace{10mm}
+        \hspace{-15mm}
+        \begin{tabular}{|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{5cm}|>{\centering\arraybackslash}p{5cm}|>{\centering\arraybackslash}p{5cm}|}
+          \hline
+            ~
+            \newline ~ & ~ \newline
+            Needs Improvement (60\%)
+            \newline ~ & ~ \newline
+            Meets Expectations (80\%)
+            \newline ~ & ~ \newline
+            Exceeds Expectations (100\%)
+            \newline ~\\
+          \hline
+          ~ \newline
+          Modeling
+            \newline ~ & ~ \newline
+            \it Your mathematical specification is missing, incomplete, or contains significant errors.
+            \newline ~ & ~ \newline
+            \it You correctly specified the model mathematically, but some notation may be slightly inconsistent.
+            \newline ~ & ~ \newline
+            \it Your mathematical specification is flawless and precise, fully defining the model parameters and structure.
+            \newline ~\\
+          \hline
+          ~ \newline
+          Coding
+            \newline ~ & ~ \newline
+            \it You did not implement the model correctly.
+            \newline ~ & ~ \newline
+            \it You implemented the model correctly, but your code is disorganized, lacks comments, or ignores Tidyverse style.
+            \newline ~ & ~ \newline
+            \it You implemented the model correctly with clean code: well commented, easy to read, and adhering to Tidyverse style.
+            \newline ~\\
+          \hline
+          ~ \newline
+          Critical \newline Thinking
+            \newline ~ & ~ \newline
+            \it Your analysis reveals a misunderstanding, or your results don't pass the ``sniff'' test, and you do not notice.
+            \newline ~ & ~ \newline
+            \it You discuss the results and identify model limitations in a general sense.
+            \newline ~ & ~ \newline
+            \it You connect specific results to model assumptions, identifying exactly where and why those assumptions limit the findings.
+            \newline ~\\
+          \hline
+          ~ \newline
+          Communication
+            \newline ~ & ~ \newline
+            \it Your writing is disorganized; your figures/tables are messy, unlabelled, or difficult to interpret.
+            \newline ~ & ~ \newline
+            \it Your writing is clear and figures are functional, but the report lacks a polished professional feel or strong paragraph structure.
+            \newline ~ & ~ \newline
+            \it Your figures and tables look polished, and your paragraphs have clear topic sentences with supporting evidence.
+            \newline ~\\
+          \hline
+        \end{tabular}
+
+\end{document}

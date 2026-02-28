@@ -61,6 +61,8 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 
 [Assignment: Regularized Regression](assignment/5.pdf){target=_blank}
 
+[Assignment: The Big Dance](assignment/the_big_dance.pdf){target=_blank}
+
 
 ## Unit 3: Applications of Markov Chains in Sports
 
