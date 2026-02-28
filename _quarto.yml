@@ -6,7 +6,7 @@ project:
     - "!*.ipynb"
 website:
   title: "Scott Powers"
-  favicon: assets/favicon_dark.png
+  favicon: assets/favicon_circle.png
   search: false
   navbar:
     right:
