@@ -55,7 +55,7 @@ Powers S, Stancil L, Consiglio N (2025)\
 *Journal of Quantitative Analysis in Sports* **21**(2) 117-135
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2402.01083){target=_blank}
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/markov-chain-volleyball){target=_blank}\
-2024 Sloan Sports Analytics Conference (Boston)
+2024 MIT Sloan Sports Analytics Conference (Boston)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/193olTWrsrSh-2qSuf67kVzfE17ZAGpRV){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=we8oPw_C4zQ&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 2023 New England Symposium on Statistics in Sports (Boston)
@@ -89,6 +89,11 @@ Saavedra S, Powers S, McCotter T, Porter MA, Mucha PJ (2010)\
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=iXqfh5QalaY&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
 
 ### Invited Panels
+
+[Building the Academic Playbook for Sports Analytics Education](https://www.sloansportsconference.com/event/building-the-academic-playbook-for-sports-analytics-education){target=_blank}\
+w/ Amanda Glazer, John Tobias and Ron Yurko\
+2026 MIT Sloan Sports Analytics Conference (Boston)
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=K1Km08M_5yo&t=11657s){target=_blank}
 
 [The Past, Present, and Future of Sports Analytics in Industry and the Academy](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1377){target=_blank}\
 w/ Zach Knowlton, Stephanie Kovalchik, Mike Lopez, Brian Macdonald and Ron Yurko\
