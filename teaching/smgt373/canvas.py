@@ -76,13 +76,13 @@ for i in range(5):
     course.create_assignment({
         'name': f'Hour Log #{i+1}',
         'submission_types': ['online_text_entry'],
-        'points_possible': 30,
+        'points_possible': 10,
         'grading_type': 'points',
         'unlock_at': hour_log_end - timedelta(days=10),
         'due_at': hour_log_end,
         'lock_at': hour_log_end + timedelta(days=10),
         'assignment_group_id': group_hour_log.id,
-        'description': f'Please copy and paste the template below and then edit it to report your hours between {hour_log_start:%A, %B %-d}, and {hour_log_end:%A, %B %-d}. Please delete any lines corresponding to dates on which you did not work.<br><br>Total: XX hours<br>Credit Hours: X    (how many credit hours did you enroll?)<br>Score: XX              (Total divided by Credit Hours)<br><br>{template}',
+        'description': f'Please copy and paste the template below and then edit it to report your hours between {hour_log_start:%A, %B %-d}, and {hour_log_end:%A, %B %-d}. Please delete any lines corresponding to dates on which you did not work.<br><br>Credit Hours: X              = how many credit hours you enrolled<br>Hours This Log: XX<br>Hours to Date: XX<br>Remaining Hours: XX    = (50 * Credit Hours) minus Hours to Date<br><br>Score: XX                        = Hours This Log divided by Credit Hours, rounded to nearest 0.01<br><br>You may not earn credit for more than 10 hours in one day.<br><br>{template}',
         'published': True,
     })
 
@@ -91,29 +91,29 @@ for i in range(5):
 
 group_perf_eval = course.create_assignment_group(name = 'Performance Evaluations')
 
-due_at = day_middle - timedelta(weeks=1)
+due_at = day_middle
 deadline = day_middle + timedelta(weeks=1)
 course.create_assignment({
     'name': 'Midterm Performance Evaluation',
     'submission_types': ['none'],
-    'points_possible': 75,
+    'points_possible': 25,
     'grading_type': 'percent',
     'due_at': due_at,
     'assignment_group_id': group_perf_eval.id,
-    'description': f"Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.github.io/teaching/smgt373' target='_blank' rel='noopener'>https://saberpowers.github.io/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}.",
+    'description': f"Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.github.io/teaching/smgt373' target='_blank' rel='noopener'>https://saberpowers.github.io/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}. In the email, please attach your job description to remind your supervisor of the responsibilities on which they are to evaluate you.",
     'published': True,
 })
 
-due_at = day_last - timedelta(weeks=1)
+due_at = day_last
 deadline = day_last + timedelta(weeks=1)
 course.create_assignment({
     'name': 'Final Performance Evaluation',
     'submission_types': ['none'],
-    'points_possible': 75,
+    'points_possible': 25,
     'grading_type': 'percent',
     'due_at': due_at,
     'assignment_group_id': group_perf_eval.id,
-    'description': f"Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.github.io/teaching/smgt373' target='_blank' rel='noopener'>https://saberpowers.github.io/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}.",
+    'description': f"Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.github.io/teaching/smgt373' target='_blank' rel='noopener'>https://saberpowers.github.io/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}. In the email, please attach your job description to remind your supervisor of the responsibilities on which they are to evaluate you.",
     'published': True,
 })
 
