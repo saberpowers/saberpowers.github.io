@@ -116,8 +116,9 @@ course.create_discussion_topic(
     published = True,
 )
 
+
 due_at = day_last - timedelta(days=4)           # email is due Monday of Week 15
-deadline = due_at + timedelta(days=3)         # supervisor deadline is one week after due date
+deadline = due_at + timedelta(weeks=1)          # supervisor deadline is one week after due date
 course.create_assignment({
     'name': 'Final Performance Evaluation',
     'submission_types': ['none'],
