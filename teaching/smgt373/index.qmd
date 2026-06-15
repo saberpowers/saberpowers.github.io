@@ -4,6 +4,6 @@ title: "SMGT 373/374: Sport Analytics Internship"
 
 [Syllabus](syllabus.pdf){target=_blank}
 
-[Supervisor Acknolwedgment Form](acknowledgment.pdf){target=_blank}
+[Supervisor Acknowledgment Form](acknowledgment.pdf){target=_blank}
 
 [Supervisor Evaluation Form](https://forms.gle/5R1AzpmW4kAmSQYL7){target=_blank}
