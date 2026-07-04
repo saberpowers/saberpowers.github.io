@@ -1,6 +1,19 @@
 date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
+2026-07-03,Chicago Stars,Scouting Analytics Specialist,Analytics,Part-Time,Soccer,https://www.teamworkonline.com/soccer-jobs/nwslsoccer/chicago-red-stars-29563/scouting-analytics-specialist-ncaa-liga-mx-part-time-2178363,50000,56000
+2026-07-02,Colorado Avalanche,Data Engineer,Engineering,Early-Career,Hockey,https://www.linkedin.com/jobs/view/4436457954/,80000,95000
+2026-07-02,Colorado Avalanche,Data Scientist,Analytics,Early-Career,Hockey,https://www.linkedin.com/jobs/view/4436458879/,70000,85000
+2026-07-02,Colorado Avalanche,Analytics Season Intern,Analytics,Internship,Hockey,https://www.linkedin.com/jobs/view/4436459787/,38000,38000
+2026-07-01,Boston Red Sox,Sr Data Scientist,Analytics,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4436136227/,100000,140000
+2026-07-01,Boston Red Sox,Data Scientist,Analytics,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4436138233/,75000,100000
+2026-07-01,Orlando Magic,Data Operations Engineer,Engineering,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4436127175/
+2026-06-30,Houston Astros,Business Strategy & Analytics Analyst,Business,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4435185846/
+2026-06-29,St Louis City,Director of Data & Insights,Analytics,Senior,Soccer,https://www.stlcitysc.com/employment-opportunities/?gnk=job&gni=8a7883ac9efb8722019f14414b2a1a54,150000,175000
+2026-06-29,Brooklyn Nets,Data Scientist,Analytics,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4434429474/,150000,170000
+2026-06-29,Brooklyn Nets,Full-Stack Basketball Systems Developer,Engineering,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4434428479/,150000,170000
+2026-06-26,Manchester City,Head of Football Performance Insights (Academy),Performance,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4433858688/
 2026-06-26,Leeds United,First Team Sports Scientist,Performance,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4433846178/
 2026-06-26,Chelsea,Jr AI Automation Engineer,GenAI,Entry-Level,Soccer,https://www.linkedin.com/jobs/view/4430227660/
+2026-06-25,Colorado Rapids,Development Performance Science Intern,Performance,Internship,Soccer,https://www.linkedin.com/jobs/view/4434038380/,38000,38000
 2026-06-24,Indiana Pacers,Basketball Front-End Developer,Engineering,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4432883131/
 2026-06-24,National Hockey League,AI Engineer,GenAI,Early-Career,Hockey,https://www.linkedin.com/jobs/view/4432875963/,200000,225000
 2026-06-23,University of Notre Dame,Data Science Associate,Analytics,Entry-Level,Multisport,https://www.linkedin.com/jobs/view/4429492139/,60000,60000
@@ -32,7 +45,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2026-05-26,Utah Mammoth,Full-Stack Software Engineer,Engineering,Early-Career,Hockey,https://www.linkedin.com/jobs/view/4419528037/
 2026-05-22,Orlando Magic,Machine Learning Data Scientist,Analytics,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4418187079/
 2026-05-22,Los Angeles Lakers,Associate Basketball Coaching Analyst,Analytics,Entry-Level,Basketball,https://www.linkedin.com/jobs/view/4418493392/,115000,125000
-2026-05-21,Chicago Cubs,Innovation Data Scientist,Analytics,Early-Career,Baseball,https://my1060wd.wd5.myworkdayjobs.com/Opportunity/job/Chicago-Illinois/AI-Innovation-Scientist--Baseball-Analytics_R001412,80000,150000
+2026-05-21,Chicago Cubs,Innovation Data Scientist,Analytics,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4423332786/,80000,150000
 2026-05-20,Cleveland Cavaliers,Data Scientist,Business,Early-Career,Basketball,https://jobs.dayforcehcm.com/en-US/reg/CANDIDATEPORTAL1/jobs/2673
 2026-05-20,Cleveland Browns,Sr Software Developer,Engineering,Mid-Career,Football,https://www.teamworkonline.com/football-jobs/browns/cleveland-browns-28698/senior-software-developer-2172217
 2026-05-19,University of Pittsburgh,Software Engineer,Engineering,Early-Career,Multisport,https://www.linkedin.com/jobs/view/4416696854/
@@ -42,7 +55,6 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2026-05-15,Columbus Crew,Data Analysis Manager,Business,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4415123859/
 2026-05-14,Colorado Rockies,Baseball Analytics Fellow,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4414549062/,58000,58000
 2026-05-14,Colorado Rockies,Baseball Analytics Associate,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4414537610/,38580,38580
-2026-05-14,New York Mets,Applied AI Engineer,GenAI,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4411175889/,180000,200000
 2026-05-14,National Basketball Association,Team Data Scientist,Business,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4414148733/,95000,110000
 2026-05-13,Baltimore Ravens,Data Scientist,Engineering,Early-Career,Football,https://jobs.dayforcehcm.com/en-US/baltimoreravens/CONFIDENTIALCANDIDATEPORTAL/jobs/2345,90000,105000
 2026-05-13,Baltimore Ravens,Football Systems Developer,Engineering,Early-Career,Football,https://jobs.dayforcehcm.com/en-US/baltimoreravens/CANDIDATEPORTAL/jobs/2349,90000,105000
@@ -426,7 +438,6 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-09-11,Minnesota Twins,Biomechanics Fellow,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4299476906/,36000,36000
 2025-09-11,Minnesota Twins,Sports Science Research Fellow,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4299491416/,36000,36000
 2025-09-11,Minnesota Twins,Business Strategy & Analytics Intern,Business,Internship,Baseball,https://www.linkedin.com/jobs/view/4299497028/,36000,36000
-2025-09-10,New York Mets,Software Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4296776026/,120000,160000
 2025-09-09,Tampa Bay Rays,Baseball Performance Science Intern,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4296282062/
 2025-09-09,Texas Rangers,Baseball Research & Development Apprentice,Analytics,Internship,Baseball,https://www.teamworkonline.com/baseball-jobs/texasbaseball/texas-rangers/apprentice-baseball-research-development-2133992
 2025-09-09,Newcastle United,Principal Scientist,Analytics,Senior,Soccer,https://www.linkedin.com/jobs/view/4297522143/
