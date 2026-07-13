@@ -1,1 +1,1 @@
-Sitemap: https://saberpowers.github.io/sitemap.xml
+Sitemap: https://saberpowers.com/sitemap.xml
