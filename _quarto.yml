@@ -4,6 +4,8 @@ project:
     - "*.qmd"
     - "!*.md"
     - "!*.ipynb"
+  resources:
+    - "CNAME"
 website:
   title: "Scott Powers"
   favicon: assets/favicon_square.png
