@@ -1,4 +1,9 @@
 date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
+2026-07-30,Golden State Warriors,Data Scientist,Analytics,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4447234409/,165000,165000
+2026-07-30,Golden State Warriors,Data Engineer,Engineering,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4447236408/,165000,165000
+2026-07-30,Golden State Warriors,Web Developer,Engineering,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4447279249/,120000,120000
+2026-07-27,Miami Marlins,Director of Baseball Applications,Engineering,Senior,Baseball,https://www.linkedin.com/jobs/view/4446111956/
+2026-07-27,Chelsea,Head of Analysis,Analytics,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4442832615/
 2026-07-24,National Football League,Director of Research & Innovation,Analytics,Senior,Football,https://www.linkedin.com/jobs/view/4441850170/,135000,170000
 2026-07-24,Washington Nationals,Business Strategy & Analytics Manager,Business,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4444780081/,84577,90000
 2026-07-24,Dallas Stars,Business Strategy & Analytics Analyst,Business,Early-Career,Hockey,https://www.teamworkonline.com/hockey-jobs/dallas-stars-jobs/dallas-stars/analyst-business-strategy-analytics-2181620
@@ -6,6 +11,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2026-07-23,Los Angeles Dodgers,Jr Product Desinger,Engineering,Entry-Level,Baseball,https://www.linkedin.com/jobs/view/4444474692/,96000,105760
 2026-07-23,Arsenal,Research Engineer,Engineering,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4444013883/
 2026-07-21,Phoenix Suns,Basketball Data Scientist,Analytics,Early-Career,Basketball,https://www.linkedin.com/jobs/view/4443806527/
+2026-07-21,SkillCorner,Python Developer Intern,Engineering,Internship,Basketball,https://www.linkedin.com/jobs/view/4442074619/
 2026-07-17,University of Georgia,Sr Director of Competitive Analytics & Decision Science,Analytics,Senior,Multisport,https://www.linkedin.com/jobs/view/4439284046/
 2026-07-17,University of Maryland,Coaching Operations & Analytics Strategist,Analytics,Early-Career,Football,https://umd.wd1.myworkdayjobs.com/en-US/UMCP/job/University-of-Maryland-College-Park/Football-Coaching-Operations---Analytics-Strategist_JR104407,89760,107712
 2026-07-17,Crystal Palace,Men's First Team Data Analyst,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4441199080/
@@ -20,7 +26,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2026-07-10,Pittsburgh Steelers,Sr Advanced Analytics Manager,Business,Mid-Career,Football,https://www.linkedin.com/jobs/view/4437997497/
 2026-07-10,English Football Association,Machine Learning Engineer,Engineering,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4439304913/
 2026-07-09,New York Islanders,Sr Director of Business Intelligence & Analytics,Business,Senior,Hockey,https://www.linkedin.com/jobs/view/4438599412/,155000,185000
-2026-07-09,Crystal Palace,Women's Team Sport Scientist,Performance,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4436567934/
+2026-07-09,Crystal Palace,Sport Scientist,Performance,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4436567934/
 2026-07-08,Newcastle United,Research & Insights Analyst,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4437771288/
 2026-07-07,US Soccer Federation,Nike Performance Innovation Lead,Performance,Mid-Career,Soccer,https://www.linkedin.com/jobs/view/4437845044/
 2026-07-07,Bay FC,Performance Sports Scientist,Performance,Early-Career,Soccer,https://www.teamworkonline.com/soccer-jobs/nwslsoccer/Bay-FC-Jobs/performance-sports-scientist-2178801,100000,120000
@@ -338,7 +344,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-11-20,Washington Mystics,Sr Software Engineer,Engineering,Mid-Career,Basketball,https://www.linkedin.com/jobs/view/4337210588/
 2025-11-19,New York Red Bulls,Data Science Spring Intern,Analytics,Internship,Soccer,https://www.linkedin.com/jobs/view/4336831989/,0,0
 2025-11-18,USA Baseball,Baseball Systems & Analytics Intern,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4340955395/
-2025-11-18,Tottenham Hotspur,Women's First Team Performance Scientist,Performance,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4341317651/
+2025-11-18,Tottenham Hotspur,First Team Performance Scientist,Performance,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4341317651/
 2025-11-18,Chicago White Sox,Full-Stack Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4322939428/,85000,90000
 2025-11-18,US Olympic & Paralympic Committee,Data Engineer,Engineering,Early-Career,Multisport,https://usopccareers.ttcportals.com/jobs/16887628-data-engineer,80000,90000
 2025-11-18,Arizona Cardinals,Assistant Data Engineer,Engineering,Internship,Football,https://www.linkedin.com/jobs/view/4323242843/
@@ -464,7 +470,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-09-11,US Olympic & Paralympic Committee,Sr Director of Applied Sciences,Performance,Senior,Multisport,https://www.linkedin.com/jobs/view/4298689932/,136805,173742
 2025-09-11,PSV Eindhoven,Data Scientist,Analytics,Early-Career,Soccer,https://werkenbij.psv.nl/o/data-scientist/c/new
 2025-09-11,Vancouver Whitecaps,Data Analyst,Analytics,Early-Career,Soccer,https://whitecapsfc.bamboohr.com/careers/187,60000,60000
-2025-09-11,English Football Association,Women's Recruitment Data Analyst,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4299161105/
+2025-09-11,English Football Association,Recruitment Data Analyst,Analytics,Early-Career,Soccer,https://www.linkedin.com/jobs/view/4299161105/
 2025-09-11,Minnesota Twins,Baseball Research Fellow,Analytics,Internship,Baseball,https://www.linkedin.com/jobs/view/4299491411/,36000,36000
 2025-09-11,Minnesota Twins,Biomechanics Fellow,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4299476906/,36000,36000
 2025-09-11,Minnesota Twins,Sports Science Research Fellow,Performance,Internship,Baseball,https://www.linkedin.com/jobs/view/4299491416/,36000,36000
@@ -505,7 +511,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-08-15,ESPN,Sr Sports Data Scientist,Analytics,Mid-Career,Multisport,https://www.linkedin.com/jobs/view/4287443929/
 2025-08-15,Atlanta Braves,Sr Data Engineer,Engineering,Mid-Career,Baseball,https://www.linkedin.com/jobs/view/4286987005/
 2025-08-15,University of Pittsburgh,Data Engineer,Engineering,Early-Career,Multisport,https://www.linkedin.com/jobs/view/4285949467/
-2025-08-14,Brighton & Hove Albion,Women's First Team Performance Scientist,Performance,Early-Career,Soccer,https://jobs.dayforcehcm.com/en-GB/bhafc/CANDIDATEPORTAL/jobs/498
+2025-08-14,Brighton & Hove Albion,First Team Performance Scientist,Performance,Early-Career,Soccer,https://jobs.dayforcehcm.com/en-GB/bhafc/CANDIDATEPORTAL/jobs/498
 2025-08-13,Detroit Pistons,Software Development Intern,Engineering,Internship,Basketball,https://www.linkedin.com/jobs/view/4284528963/
 2025-08-12,Oklahoma City Thunder,Basketball Operations Analyst Intern,Analytics,Internship,Basketball,https://www.linkedin.com/jobs/view/4281208198/
 2025-08-12,Oklahoma City Thunder,Applied AI Engineer Intern,GenAI,Internship,Basketball,https://www.linkedin.com/jobs/view/4281201823/
@@ -734,7 +740,7 @@ date_posted,team,title,discipline,stage,sport,url,comp_floor,comp_ceiling
 2025-02-19,Los Angeles Dodgers,Data Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4158680044/,120000,130000
 2025-02-18,Nashville SC,Business Analyst Intern,Business,Internship,Soccer,https://www.linkedin.com/jobs/view/4158407931/,0,0
 2025-02-14,Leicester City,First Team Data Analyst,Analytics,Early-Career,Soccer,https://lcfc.octo-firstclass.co.uk/candidates/c/applicationform/jobpost/188219?aisId=12
-2025-02-14,English Football Association,Women's Data Visualization Analyst,Analytics,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4153141812/
+2025-02-14,English Football Association,Data Visualization Analyst,Analytics,Part-Time,Soccer,https://www.linkedin.com/jobs/view/4153141812/
 2025-02-14,Atlanta Braves,Data Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4153783287/
 2025-02-14,Miami Marlins,Director of Baseball Applications,Engineering,Senior,Baseball,https://www.linkedin.com/jobs/view/4151651424/
 2025-02-14,New York Mets,Biomechanics Engineer,Engineering,Early-Career,Baseball,https://www.linkedin.com/jobs/view/4149768076/,80000,110000
