@@ -85,6 +85,9 @@ Saavedra S, Powers S, McCotter T, Porter MA, Mucha PJ (2010)\
 
 ### Invited Talks
 
+[Safer, Not Slower: Actionable insights from a large-scale survival analysis of baseball pitching mechanics](https://drive.google.com/file/d/1WtYKZLoGJ8y8JPm3Y0IRSPS6NgzXasPQ){target=_blank} :baseball:\
+2026 Joint Statistical Meetings (Boston)
+
 [Winning baseball games by solving statistics puzzles](https://drive.google.com/file/d/1lbSWf_lJ7qO7tOJvk2X3OHQ8D1HWppbj){target=_blank} :baseball:\
 2025 International Conference on Statistics and Data Science (Vancouver)
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=iXqfh5QalaY&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}
