@@ -156,7 +156,7 @@ course.create_assignment({
     'name': 'Experience Picture & Caption',
     'submission_types': ['online_text_entry', 'online_upload'],
     'allowed_extensions': ['jpg', 'png'],
-    'points_possible': 10,
+    'points_possible': 5,
     'grading_type': 'pass_fail',
     'due_at': midterm.due_at,   # make this due alongside the midterm performance evaluation email
     'assignment_group_id': group_perf_eval.id,
