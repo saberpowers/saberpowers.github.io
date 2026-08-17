@@ -14,8 +14,8 @@ title: "Book Me"
 
 [Office Meeting](https://calendar.app.google/q2RVvVyWBKAaPEMQ8){target=_blank} at Rice\
 1:30p--3:30p on Mondays\
-12:15p--12:45p, 2:30p--3:00p on Tuesdays\
-12:15p--12:45p, 2:30p--3:00p on Thursdays
+2:30p--3:00p on Tuesdays\
+2:30p--3:00p on Thursdays
 
 [Virtual Meeting](https://calendar.app.google/GjVdjazx5yybUqkVA){target=_blank} on Zoom\
 2:00p--5:00p on Wednesdays\
