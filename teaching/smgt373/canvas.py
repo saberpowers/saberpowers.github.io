@@ -191,6 +191,10 @@ registration.create_question(question = {
     'question_text': 'What is your internship job title?',
     'question_type': 'short_answer_question',
 })
+registration.create_question(question = {
+    'question_text': 'Please upload your Job Description as a PDF file.',
+    'question_type': 'file_upload_question',
+})
 
 
 # Delete the original Assignment group ----
