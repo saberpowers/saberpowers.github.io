@@ -2,18 +2,13 @@
 title: "Book Me"
 ---
 
-## Summer 2026
-
-[Virtual Meeting](https://calendar.app.google/XJ9WrsZAbfyx8Dmi7){target=_blank} on Zoom\
-3:00p--5:00p CT on Weekdays
-
 ## Fall 2026
 
 [Lunch Meeting](https://calendar.app.google/19JhchHxy4zC1kgH6){target=_blank} at Rice\
 11:30a--12:00p on Tuesdays
 
 [Office Meeting](https://calendar.app.google/q2RVvVyWBKAaPEMQ8){target=_blank} at Rice\
-1:30p--3:30p on Mondays\
+2:00p--3:30p on Mondays\
 2:30p--3:00p on Tuesdays\
 2:30p--3:00p on Thursdays
 
