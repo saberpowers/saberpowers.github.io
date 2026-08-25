@@ -1,38 +1,178 @@
 [
   {
-    "objectID": "teaching/smgt435/index.html",
-    "href": "teaching/smgt435/index.html",
+    "objectID": "teaching/smgt435/plan/2026-08.html",
+    "href": "teaching/smgt435/plan/2026-08.html",
     "title": "SMGT 435/535: Baseball Analytics",
     "section": "",
-    "text": "Syllabus"
+    "text": "1:00-1:05 Randomly assign students to 5 tables, choose table names\n1:05-1:10 Refresh everyone’s memory of Pythagorean winning percentage\n1:10-1:25 Think/pair/share\n\nWhich team is currently most over-performing their Pythagorean record?\nWhich team is currently most under-performing their Pythagorean record?\nWhat are some reasons a team might truly be better or worse than their Pythagorean record?\n\n1:25-1:40 Lecture on model for Pythagorean formula\n2:10-2:15 exit ticket"
   },
   {
-    "objectID": "teaching/smgt435/index.html#unit-1-measuring-batting-performance",
-    "href": "teaching/smgt435/index.html#unit-1-measuring-batting-performance",
+    "objectID": "teaching/smgt435/plan/2026-08.html#section",
+    "href": "teaching/smgt435/plan/2026-08.html#section",
     "title": "SMGT 435/535: Baseball Analytics",
-    "section": "Unit 1: Measuring Batting Performance",
-    "text": "Unit 1: Measuring Batting Performance\n\nPythagorean Formula\nLecture Notes\nColab Notebook\n\n\nBase-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook\n\n\nBatted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
+    "section": "",
+    "text": "1:00-1:05 Randomly assign students to 5 tables, choose table names\n1:05-1:10 Refresh everyone’s memory of Pythagorean winning percentage\n1:10-1:25 Think/pair/share\n\nWhich team is currently most over-performing their Pythagorean record?\nWhich team is currently most under-performing their Pythagorean record?\nWhat are some reasons a team might truly be better or worse than their Pythagorean record?\n\n1:25-1:40 Lecture on model for Pythagorean formula\n2:10-2:15 exit ticket"
   },
   {
-    "objectID": "teaching/smgt435/index.html#unit-2-measuring-pitching-performance",
-    "href": "teaching/smgt435/index.html#unit-2-measuring-pitching-performance",
-    "title": "SMGT 435/535: Baseball Analytics",
-    "section": "Unit 2: Measuring Pitching Performance",
-    "text": "Unit 2: Measuring Pitching Performance\n\nBABIP, FIP and DIPS\nColab Notebook\n\n\nIntroduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook\n\n\nPitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #2: Pitch Outcome Model"
+    "objectID": "teaching/smgt432/index.html",
+    "href": "teaching/smgt432/index.html",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "",
+    "text": "This course page is less built out than my other course pages.\nSyllabus"
   },
   {
-    "objectID": "teaching/smgt435/index.html#unit-3-advanced-topics",
-    "href": "teaching/smgt435/index.html#unit-3-advanced-topics",
-    "title": "SMGT 435/535: Baseball Analytics",
-    "section": "Unit 3: Advanced Topics",
-    "text": "Unit 3: Advanced Topics\n\n“Stuff”\nLecture Notes\nColab Notebook\n\n\nFielding and Baserunning\nLecture Notes\nColab Notebook\n\n\nProjections\nLecture Notes\nColab Notebook\nAssignment #3: Projections"
+    "objectID": "teaching/smgt432/index.html#lecture-notes",
+    "href": "teaching/smgt432/index.html#lecture-notes",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "Lecture Notes",
+    "text": "Lecture Notes\nBradley-Terry\nValidation and Regularization\nPlus-Minus\nA Lite Survey of Research with Tracking Data\nA Brief History of Tactics"
   },
   {
-    "objectID": "teaching/smgt435/index.html#unit-4-practicum",
-    "href": "teaching/smgt435/index.html#unit-4-practicum",
-    "title": "SMGT 435/535: Baseball Analytics",
-    "section": "Unit 4: Practicum",
-    "text": "Unit 4: Practicum\nProject Overview"
+    "objectID": "teaching/smgt432/index.html#python-notebooks",
+    "href": "teaching/smgt432/index.html#python-notebooks",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "Python Notebooks",
+    "text": "Python Notebooks\nGitHub repository"
+  },
+  {
+    "objectID": "teaching/smgt432/index.html#assignments",
+    "href": "teaching/smgt432/index.html#assignments",
+    "title": "SMGT 432: Soccer Analytics",
+    "section": "Assignments",
+    "text": "Assignments"
+  },
+  {
+    "objectID": "teaching/smgt373/index.html",
+    "href": "teaching/smgt373/index.html",
+    "title": "SMGT 373/374: Sport Analytics Internship",
+    "section": "",
+    "text": "Syllabus\nSupervisor Acknowledgment Form\nSupervisor Evaluation Form"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Here is a collection of tips that haven’t made it into my lecture notes yet\nResources for learning R at your own pace (free courses from Codecademy)"
+  },
+  {
+    "objectID": "teaching/index.html#rice",
+    "href": "teaching/index.html#rice",
+    "title": "Teaching",
+    "section": "Rice",
+    "text": "Rice\nSMGT 430/530: Introduction to Sport Analytics\nSpring 2026, 2024; Fall 2025, 2024\nSMGT 435/535: Baseball Analytics\nFall 2025, 2024; Spring 2024\nSMGT 432/532: Soccer Analytics\nFall 2023\nSMGT 434: Football Analytics\nFall 2025\nSTAT 499/699: Topics in Statistical Sciences (Sport Analytics)\nSpring 2026; Fall 2025, 2024"
+  },
+  {
+    "objectID": "teaching/index.html#stanford",
+    "href": "teaching/index.html#stanford",
+    "title": "Teaching",
+    "section": "Stanford",
+    "text": "Stanford\nSTATS 50: Mathematics of Sports\nSpring 2016"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Lead distance under a pickoff limit in Major League Baseball: A sequential game model ⚾\nw/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer \n2024 Cascadia Symposium on Statistics in Sports (Vancouver)  \n2024 Saberseminar (Chicago) \n\nBall path curvature and in-game free throw shooting proficiency in the National Basketball Association 🏀\nw/ Ruoqian (Judy) Zhu and Dave Love \n2025 New England Symposium on Statistics in Sports (Boston)  \n\nA comps-based approach for interpreting tree-based predictions with an application to the NFL draft 🏈\nw/ Elisabeth Millington\n2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)  \n2025 New England Symposium on Statistics in Sports (Boston) \n\nPitch trajectory density estimation for predicting future outcomes ⚾\nw/ Vicente Iglesias\n2024 Conference of Texas Statisticians (Houston) \n2023 Saberseminar (Chicago)"
+  },
+  {
+    "objectID": "research/index.html#active-projects",
+    "href": "research/index.html#active-projects",
+    "title": "Research",
+    "section": "",
+    "text": "Lead distance under a pickoff limit in Major League Baseball: A sequential game model ⚾\nw/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer \n2024 Cascadia Symposium on Statistics in Sports (Vancouver)  \n2024 Saberseminar (Chicago) \n\nBall path curvature and in-game free throw shooting proficiency in the National Basketball Association 🏀\nw/ Ruoqian (Judy) Zhu and Dave Love \n2025 New England Symposium on Statistics in Sports (Boston)  \n\nA comps-based approach for interpreting tree-based predictions with an application to the NFL draft 🏈\nw/ Elisabeth Millington\n2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)  \n2025 New England Symposium on Statistics in Sports (Boston) \n\nPitch trajectory density estimation for predicting future outcomes ⚾\nw/ Vicente Iglesias\n2024 Conference of Texas Statisticians (Houston) \n2023 Saberseminar (Chicago)"
+  },
+  {
+    "objectID": "research/index.html#published-projects",
+    "href": "research/index.html#published-projects",
+    "title": "Research",
+    "section": "Published Projects",
+    "text": "Published Projects\nSwinging, Fast and Slow: Interpreting variation in baseball swing tracking metrics ⚾\nPowers S, Yurko R (2026)\nThe American Statistician  \n2024 Cascadia Symposium on Statistics in Sports (Vancouver)  \n2024 Saberseminar (Chicago)  \n\nEstimating individual contributions to team success in women’s college volleyball 🏐\nPowers S, Stancil L, Consiglio N (2025)\nJournal of Quantitative Analysis in Sports 21(2) 117-135  \n2024 MIT Sloan Sports Analytics Conference (Boston)  \n2023 New England Symposium on Statistics in Sports (Boston)  \nNuclear penalized multinomial regression with an application to predicting at bat outcomes in baseball ⚾\nPowers S, Hastie T, Tibshirani R (2018)\nStatistical Modelling 18(5-6) 388-410  \n2016 Joint Statistical Meetings (Chicago) \nA linear model for estimating optimal service error fraction in volleyball 🏐\nBurton T, Powers S (2015)\nJournal of Quantitative Analysis in Sports 11(2) 117-129\nMutually-antagonistic interactions in baseball networks ⚾\nSaavedra S, Powers S, McCotter T, Porter MA, Mucha PJ (2010)\nPhysica A: Statistical Mechanics and its Applications 389 1131-1141"
+  },
+  {
+    "objectID": "research/index.html#conference-presentations",
+    "href": "research/index.html#conference-presentations",
+    "title": "Research",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\nInvited Talks\nSafer, Not Slower: Actionable insights from a large-scale survival analysis of baseball pitching mechanics ⚾\n2026 Joint Statistical Meetings (Boston)\nWinning baseball games by solving statistics puzzles ⚾\n2025 International Conference on Statistics and Data Science (Vancouver) \n\n\nInvited Panels\nBuilding the Academic Playbook for Sports Analytics Education\nw/ Amanda Glazer, John Tobias and Ron Yurko\n2026 MIT Sloan Sports Analytics Conference (Boston) \nThe Past, Present, and Future of Sports Analytics in Industry and the Academy\nw/ Zach Knowlton, Stephanie Kovalchik, Mike Lopez, Brian Macdonald and Ron Yurko\n2025 Joint Statistical Meetings (Nashville)\nData Science and Analytics in Sports Performance and Management\nw/ Mark Broadie, Natalie Kupperman and Jill McNitt-Gray\n2024 Columbia Symposium on AI and Sports (New York) \n\n\nStudent Talks\nModifying k-means clustering to optimize defensive positioning in volleyball 🏐\nNaomi Consiglio @ Women in Sports Data Symposium 2024 (Philadelphia) \nDo we learn more about AAA batters when they face better pitches? ⚾\nJeff Brover @ Saberseminar 2024 (Chicago) \nTime warping for clustering pitcher deliveries ⚾\nDrew Haugen @ Saberseminar 2024 (Chicago) \n\n\nStudent Posters\nA statistical approach to sport climbing difficulty and progression 🧗\nElizabeth Sepúlveda @ Cascadia Symposium on Statistics in Sports 2024 (Vancouver)\nNot All Features Are Created Equal: Player clustering and evaluation ⚽\nAndrew Kang @ Opta Forum 2024 (London)\n\n\nWayback Machine\nJointly predicting exit velocity and launch angle for batter-pitcher matchups ⚾\n2016 Saberseminar (Boston) \nTrue wOBA: Estimation of true talent level for batters ⚾\n2016 SABR Analytics Conference (Phoenix)  \nRewarding batters for baserunner advancement: A ridge-regressed Rasch model ⚾\n2015 Saberseminar (Boston)"
+  },
+  {
+    "objectID": "jobs/index.html",
+    "href": "jobs/index.html",
+    "title": "Field of Dreams",
+    "section": "",
+    "text": "This is nothing more than a list of cool job postings (mostly in R&D with pro sports teams) I have noticed. I have no inside knowledge of them.\nI typically update this list over the weekend, so Monday is a good day to check what jobs were posted in the previous week.\nSee also:\n\nSean Sullivan’s URAM Analytics job board\nAmanda Glazer’s advice on getting started in sport analytics\nMy unsolicited advice on becoming a competitive candidate for jobs in sport analytics\n\n\n\n\n\n\n\n*Compensation range reflects either one year of annual salary or 2,000 hours of hourly wage."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scott Powers",
+    "section": "",
+    "text": "You can call me Scott, or you can call me Powers. I did a PhD in statistics at Stanford University in 2017 and then had a brief career in baseball. I spent five seasons with the Los Angeles Dodgers, where I got a World Series ring as the analytics director in 2020; and I spent one season with the Houston Astros, where I got another World Series ring as an assistant general manager in 2022. By working with two of the most successful teams of the analytics era, I learned how front offices develop strategies to win championships.\nNow I am an assistant professor of sport analytics and of statistics at Rice University. These days, I think and write about how competitors should and do respond to rules put in place by leagues. I am interested in how league officials can design incentive structures to make their competitions safer for athletes and more entertaining to fans. Meanwhile, I am developing statistical methodology for modeling kinematic tracking data, with applications in player health and safety.\nI am lucky in that I have adorable little kids and spend lots of quality time with my family. If I am slow to respond to an email (or miss it altogether), please do not take it personally."
+  },
+  {
+    "objectID": "bookme/index.html",
+    "href": "bookme/index.html",
+    "title": "Book Me",
+    "section": "",
+    "text": "Lunch Meeting at Rice\n11:30a–12:00p on Tuesdays\nOffice Meeting at Rice\n2:00p–3:30p on Mondays\n2:30p–3:00p on Tuesdays\n2:30p–3:00p on Thursdays\nVirtual Meeting on Zoom\n2:00p–5:00p on Wednesdays\n2:00p–4:00p on Fridays"
+  },
+  {
+    "objectID": "bookme/index.html#fall-2026",
+    "href": "bookme/index.html#fall-2026",
+    "title": "Book Me",
+    "section": "",
+    "text": "Lunch Meeting at Rice\n11:30a–12:00p on Tuesdays\nOffice Meeting at Rice\n2:00p–3:30p on Mondays\n2:30p–3:00p on Tuesdays\n2:30p–3:00p on Thursdays\nVirtual Meeting on Zoom\n2:00p–5:00p on Wednesdays\n2:00p–4:00p on Fridays"
+  },
+  {
+    "objectID": "jobs/advice/index.html",
+    "href": "jobs/advice/index.html",
+    "title": "Advice on becoming a competitive candidate for jobs in sport analytics",
+    "section": "",
+    "text": "When I was a hiring manager in analytics for the Dodgers, we would post an entry-level quantitative analyst position and receive nearly a thousand applications. Among those candidates, based on the application alone, roughly half would seem to be qualified for the entry-level position. Without the resources to interview 500 candidates, we had to decide which small subset of candidates would advance to the interview stage (this is its own challenge and a story for another day).\nI relay this experience to you because it conveys some perspective from the other side of the job application process. How will you separate yourself (before the interview stage) from the many other candidates who could be qualified for the position? The best way to make your resume rise to the top of the stack is to work on a research project and present it at a sport analytics conference. If a resume reviewer is already familiar with your work (assuming it’s good work) before seeing your name in the candidate pool, then they are much more likely to offer you an interview. Below, I’ve listed some opportunities to stand out.\nGeneral Sports. New England Symposium on Statistics in Sports (September, Boston) and Cascadia Symposium on Statistics in Sports (September, Vancouver) are sibling conferences, with NESSIS occurring in odd-numbered years and CASSIS occurring in even-numbered years. The academic quality of presentations at these conferences is generally very high. It can be difficult for students to earn presentation slots on stage, but there are also opportunities to give poster presentations. For women and candidates of non-binary gender, Women in Sports Data Symposium (September, Philadelphia) can be an excellent opportunity to present your work on stage in front of industry professionals, including hiring managers. The WISD Symposium features a strong industry presence of any gender in the audience.\nBaseball. Saberseminar (August, Chicago) is a very accessible entry point for students seeking to give their first on-stage presentation at a major conference, featuring 10-minute student presentation slots. Most MLB clubs sponsor and send representatives to Saberseminar. SABR Analytics Conference (March, Phoenix) is a bit more competitive to get a presentation slot, and it is also well-sponsored and well-attended by MLB clubs.\nFootball. It’s not a conference, but the NFL’s Big Data Bowl is the hiring pipeline for football analytics. The contest typically runs from October into January and features thousands(!) of entrants. For this contest, the NFL makes available tracking(!) data and as much as $100,000(!) in prize money. The top contestants are invited to present their work at the NFL Combine (Indianapolis, February) in front of a star-student judge panel that may include a current NFL player(!).\nSoccer. For those of you in Europe (sorry for calling it soccer), Statsbomb Conference (Manchester, October) and Opta Forum (London, March) both allow students (and non-students) to submit research proposals. The top proposals receive proprietary data to complete their projects and invitations to present their work on stage at the events. For those of you in the Americas, the nascent American Soccer Insights Summit (Houston, January) follows a similar format, with a call for proposals, proprietary data and an opportunity to present on stage."
+  },
+  {
+    "objectID": "lab/index.html",
+    "href": "lab/index.html",
+    "title": "Rice Competitive Edge Lab",
+    "section": "",
+    "text": "Official Rice web page"
+  },
+  {
+    "objectID": "lab/index.html#current-students",
+    "href": "lab/index.html#current-students",
+    "title": "Rice Competitive Edge Lab",
+    "section": "Current Students",
+    "text": "Current Students\nRose Graves (PhD Statistics, exp. 2027)\nLou Zhou (BA Statistics; Sport Analytics, exp. 2027)\nEthan Larimore (BA Statistics; Sport Analytics, exp. 2028)\nAnjali Menezes (BA Sport Analytics; Business, exp. 2028)"
+  },
+  {
+    "objectID": "lab/index.html#alumni",
+    "href": "lab/index.html#alumni",
+    "title": "Rice Competitive Edge Lab",
+    "section": "Alumni",
+    "text": "Alumni\nRahul Herrero (BA Mathematical Economic Analysis; Sport Analytics, exp. 2027)\nElisabeth Millington (BA Sports Medicine & Exercise Physiology; Sport Analytics 2026)\nLucca Ferraz (BA Statistics; Sport Analytics 2026)\nElizabeth (Ellie) Sepúlveda (BA Statistics; Sport Analytics 2025)  \nRuoqian (Judy) Zhu (BA Mathematics 2025)  \nNaomi Consiglio (BA Statistics; Sport Analytics 2025)\nJacob Hahn (BA Statistics; Sport Analytics 2025)  \nJeff Brover (BA Statistics; Sport Analytics 2024)  \nLuke Stancil (BA Economics; Computational and Applied Mathematics 2024)"
+  },
+  {
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "Software",
+    "section": "",
+    "text": "mRchmadness — Numerical tools for filling out an NCAA basketball tournament bracket\nnpmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+  },
+  {
+    "objectID": "software/index.html#r-packages",
+    "href": "software/index.html#r-packages",
+    "title": "Software",
+    "section": "",
+    "text": "mRchmadness — Numerical tools for filling out an NCAA basketball tournament bracket\nnpmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+  },
+  {
+    "objectID": "teaching/recommendations/index.html",
+    "href": "teaching/recommendations/index.html",
+    "title": "Tips that haven’t made it into my lecture notes yet",
+    "section": "",
+    "text": "Selecting Research Questions\n\nBe aware that when attempting to measure intangibles like momentum or clubhouse chemistry, the signal to noise ratio is often low. That means you generally need large amounts of data and sophisticated analysis methods to pick up on the signal. If you’re just getting started in sport analytics, I recommend picking research questions about more tangible aspects of sports.\n\n\n\nDeveloping Metrics\n\nSomething I see from students occasionally is that they will “make up” a metric by throwing some existing metrics together through multiplication or addition with only a hand-wavy justification of what the made-up metric is measuring. I want you to understand that metrics are derived (as estimands of model parameters) rather than “invented”.\n\n\n\nReporting Results\n\nWhen reporting numeric results, don’t report too many digits.\nFor example, when you use R or Python to calculate the correlation between two vectors, your computer might spit out a result like 0.13083978. The interpretation of this output is that the correlation is 0.13. If you copy and paste the full number 0.13083978 into a report, that does two things:\n\nit injects white noise (083978) into your report, distracting the reader from what’s important; and\nit suggests to the reader that you don’t understand what is the meaning of your result.\n\nWhen presenting your results, your purpose is to convey meaning. As a simple rule of thumb, two or three significant digits would usually be appropriate for this purpose. Four digits would be pushing it, and five or more digits would be over the line.\nWhen plotting two variables that have the same unit of measurement, choose your x- and y-axis limits so that the aspect ratio is close to 1:1.\nThe scale that you choose for your x- and y-axes can have a huge impact on the perception and qualitative interpretation of your results. For example, consider the following two plots which display the exact same data (actual winning percentage on the x-axis and modeled winning percentage on the y-axis, same units for both variables: wins per game).\n \nAt first glance at the first plot, you might jump to the conclusion that modeled winning percentage aligns reasonably with actual winning percentage. But did you notice the scale of the y-axis? The second figure clearly communicates the important takeaway: modeled winning percentage is way more compressed than actual winning percentage. Perhaps this is how things should be, or perhaps this indicates a bug in your model. Either way, the second figure conveys the meaning of your results more effectively.\n\nThat’s it. That’s the list. I will add to it if/when I come across additional common pitfalls that compel me to write them up."
   },
   {
     "objectID": "teaching/smgt430/index.html",
@@ -77,164 +217,38 @@
     "text": "Lessons from Sport Analytics\nColab Notebook: Introduction to R\n\nBe careful with regression\nColab Notebook\n\n\nDon’t be fooled by noise\nLecture Notes\nColab Notebook"
   },
   {
-    "objectID": "teaching/recommendations/index.html",
-    "href": "teaching/recommendations/index.html",
-    "title": "Tips that haven’t made it into my lecture notes yet",
+    "objectID": "teaching/smgt435/index.html",
+    "href": "teaching/smgt435/index.html",
+    "title": "SMGT 435/535: Baseball Analytics",
     "section": "",
-    "text": "Selecting Research Questions\n\nBe aware that when attempting to measure intangibles like momentum or clubhouse chemistry, the signal to noise ratio is often low. That means you generally need large amounts of data and sophisticated analysis methods to pick up on the signal. If you’re just getting started in sport analytics, I recommend picking research questions about more tangible aspects of sports.\n\n\n\nDeveloping Metrics\n\nSomething I see from students occasionally is that they will “make up” a metric by throwing some existing metrics together through multiplication or addition with only a hand-wavy justification of what the made-up metric is measuring. I want you to understand that metrics are derived (as estimands of model parameters) rather than “invented”.\n\n\n\nReporting Results\n\nWhen reporting numeric results, don’t report too many digits.\nFor example, when you use R or Python to calculate the correlation between two vectors, your computer might spit out a result like 0.13083978. The interpretation of this output is that the correlation is 0.13. If you copy and paste the full number 0.13083978 into a report, that does two things:\n\nit injects white noise (083978) into your report, distracting the reader from what’s important; and\nit suggests to the reader that you don’t understand what is the meaning of your result.\n\nWhen presenting your results, your purpose is to convey meaning. As a simple rule of thumb, two or three significant digits would usually be appropriate for this purpose. Four digits would be pushing it, and five or more digits would be over the line.\nWhen plotting two variables that have the same unit of measurement, choose your x- and y-axis limits so that the aspect ratio is close to 1:1.\nThe scale that you choose for your x- and y-axes can have a huge impact on the perception and qualitative interpretation of your results. For example, consider the following two plots which display the exact same data (actual winning percentage on the x-axis and modeled winning percentage on the y-axis, same units for both variables: wins per game).\n \nAt first glance at the first plot, you might jump to the conclusion that modeled winning percentage aligns reasonably with actual winning percentage. But did you notice the scale of the y-axis? The second figure clearly communicates the important takeaway: modeled winning percentage is way more compressed than actual winning percentage. Perhaps this is how things should be, or perhaps this indicates a bug in your model. Either way, the second figure conveys the meaning of your results more effectively.\n\nThat’s it. That’s the list. I will add to it if/when I come across additional common pitfalls that compel me to write them up."
+    "text": "Syllabus"
   },
   {
-    "objectID": "software/index.html",
-    "href": "software/index.html",
-    "title": "Software",
-    "section": "",
-    "text": "mRchmadness — Numerical tools for filling out an NCAA basketball tournament bracket\nnpmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+    "objectID": "teaching/smgt435/index.html#unit-1-measuring-batting-performance",
+    "href": "teaching/smgt435/index.html#unit-1-measuring-batting-performance",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 1: Measuring Batting Performance",
+    "text": "Unit 1: Measuring Batting Performance\n\nPythagorean Formula\nLecture Notes\nColab Notebook\n\n\nBase-Out Run Expectancy and Linear Weight\nLecture Notes\nColab Notebook\n\n\nBatted Ball Outcome Model\nLecture Notes\nColab Notebook\nAssignment #1: Signal v. Noise in Batter Outcomes"
   },
   {
-    "objectID": "software/index.html#r-packages",
-    "href": "software/index.html#r-packages",
-    "title": "Software",
-    "section": "",
-    "text": "mRchmadness — Numerical tools for filling out an NCAA basketball tournament bracket\nnpmr — Nuclear Penalized Multinomial Regression\nsabRmetrics — Query {statsapi,baseballsavant}.mlb.com and fit fundamental sabermetric models"
+    "objectID": "teaching/smgt435/index.html#unit-2-measuring-pitching-performance",
+    "href": "teaching/smgt435/index.html#unit-2-measuring-pitching-performance",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 2: Measuring Pitching Performance",
+    "text": "Unit 2: Measuring Pitching Performance\n\nBABIP, FIP and DIPS\nColab Notebook\n\n\nIntroduction to Pitch-Level Analysis\nLecture Notes\nColab Notebook\n\n\nPitch Outcome Modeling\nLecture Notes\nColab Notebook\nAssignment #2: Pitch Outcome Model"
   },
   {
-    "objectID": "lab/index.html",
-    "href": "lab/index.html",
-    "title": "Rice Competitive Edge Lab",
-    "section": "",
-    "text": "Official Rice web page"
+    "objectID": "teaching/smgt435/index.html#unit-3-advanced-topics",
+    "href": "teaching/smgt435/index.html#unit-3-advanced-topics",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 3: Advanced Topics",
+    "text": "Unit 3: Advanced Topics\n\n“Stuff”\nLecture Notes\nColab Notebook\n\n\nFielding and Baserunning\nLecture Notes\nColab Notebook\n\n\nProjections\nLecture Notes\nColab Notebook\nAssignment #3: Projections"
   },
   {
-    "objectID": "lab/index.html#current-students",
-    "href": "lab/index.html#current-students",
-    "title": "Rice Competitive Edge Lab",
-    "section": "Current Students",
-    "text": "Current Students\nRose Graves (PhD Statistics, exp. 2027)\nLou Zhou (BA Statistics; Sport Analytics, exp. 2027)\nEthan Larimore (BA Statistics; Sport Analytics, exp. 2028)\nAnjali Menezes (BA Sport Analytics; Business, exp. 2028)"
-  },
-  {
-    "objectID": "lab/index.html#alumni",
-    "href": "lab/index.html#alumni",
-    "title": "Rice Competitive Edge Lab",
-    "section": "Alumni",
-    "text": "Alumni\nRahul Herrero (BA Mathematical Economic Analysis; Sport Analytics, exp. 2027)\nElisabeth Millington (BA Sports Medicine & Exercise Physiology; Sport Analytics 2026)\nLucca Ferraz (BA Statistics; Sport Analytics 2026)\nElizabeth (Ellie) Sepúlveda (BA Statistics; Sport Analytics 2025)  \nRuoqian (Judy) Zhu (BA Mathematics 2025)  \nNaomi Consiglio (BA Statistics; Sport Analytics 2025)\nJacob Hahn (BA Statistics; Sport Analytics 2025)  \nJeff Brover (BA Statistics; Sport Analytics 2024)  \nLuke Stancil (BA Economics; Computational and Applied Mathematics 2024)"
-  },
-  {
-    "objectID": "jobs/advice/index.html",
-    "href": "jobs/advice/index.html",
-    "title": "Advice on becoming a competitive candidate for jobs in sport analytics",
-    "section": "",
-    "text": "When I was a hiring manager in analytics for the Dodgers, we would post an entry-level quantitative analyst position and receive nearly a thousand applications. Among those candidates, based on the application alone, roughly half would seem to be qualified for the entry-level position. Without the resources to interview 500 candidates, we had to decide which small subset of candidates would advance to the interview stage (this is its own challenge and a story for another day).\nI relay this experience to you because it conveys some perspective from the other side of the job application process. How will you separate yourself (before the interview stage) from the many other candidates who could be qualified for the position? The best way to make your resume rise to the top of the stack is to work on a research project and present it at a sport analytics conference. If a resume reviewer is already familiar with your work (assuming it’s good work) before seeing your name in the candidate pool, then they are much more likely to offer you an interview. Below, I’ve listed some opportunities to stand out.\nGeneral Sports. New England Symposium on Statistics in Sports (September, Boston) and Cascadia Symposium on Statistics in Sports (September, Vancouver) are sibling conferences, with NESSIS occurring in odd-numbered years and CASSIS occurring in even-numbered years. The academic quality of presentations at these conferences is generally very high. It can be difficult for students to earn presentation slots on stage, but there are also opportunities to give poster presentations. For women and candidates of non-binary gender, Women in Sports Data Symposium (September, Philadelphia) can be an excellent opportunity to present your work on stage in front of industry professionals, including hiring managers. The WISD Symposium features a strong industry presence of any gender in the audience.\nBaseball. Saberseminar (August, Chicago) is a very accessible entry point for students seeking to give their first on-stage presentation at a major conference, featuring 10-minute student presentation slots. Most MLB clubs sponsor and send representatives to Saberseminar. SABR Analytics Conference (March, Phoenix) is a bit more competitive to get a presentation slot, and it is also well-sponsored and well-attended by MLB clubs.\nFootball. It’s not a conference, but the NFL’s Big Data Bowl is the hiring pipeline for football analytics. The contest typically runs from October into January and features thousands(!) of entrants. For this contest, the NFL makes available tracking(!) data and as much as $100,000(!) in prize money. The top contestants are invited to present their work at the NFL Combine (Indianapolis, February) in front of a star-student judge panel that may include a current NFL player(!).\nSoccer. For those of you in Europe (sorry for calling it soccer), Statsbomb Conference (Manchester, October) and Opta Forum (London, March) both allow students (and non-students) to submit research proposals. The top proposals receive proprietary data to complete their projects and invitations to present their work on stage at the events. For those of you in the Americas, the nascent American Soccer Insights Summit (Houston, January) follows a similar format, with a call for proposals, proprietary data and an opportunity to present on stage."
-  },
-  {
-    "objectID": "bookme/index.html",
-    "href": "bookme/index.html",
-    "title": "Book Me",
-    "section": "",
-    "text": "Lunch Meeting at Rice\n11:30a–12:00p on Tuesdays\nOffice Meeting at Rice\n2:00p–3:30p on Mondays\n2:30p–3:00p on Tuesdays\n2:30p–3:00p on Thursdays\nVirtual Meeting on Zoom\n2:00p–5:00p on Wednesdays\n2:00p–4:00p on Fridays"
-  },
-  {
-    "objectID": "bookme/index.html#fall-2026",
-    "href": "bookme/index.html#fall-2026",
-    "title": "Book Me",
-    "section": "",
-    "text": "Lunch Meeting at Rice\n11:30a–12:00p on Tuesdays\nOffice Meeting at Rice\n2:00p–3:30p on Mondays\n2:30p–3:00p on Tuesdays\n2:30p–3:00p on Thursdays\nVirtual Meeting on Zoom\n2:00p–5:00p on Wednesdays\n2:00p–4:00p on Fridays"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Scott Powers",
-    "section": "",
-    "text": "You can call me Scott, or you can call me Powers. I did a PhD in statistics at Stanford University in 2017 and then had a brief career in baseball. I spent five seasons with the Los Angeles Dodgers, where I got a World Series ring as the analytics director in 2020; and I spent one season with the Houston Astros, where I got another World Series ring as an assistant general manager in 2022. By working with two of the most successful teams of the analytics era, I learned how front offices develop strategies to win championships.\nNow I am an assistant professor of sport analytics and of statistics at Rice University. These days, I think and write about how competitors should and do respond to rules put in place by leagues. I am interested in how league officials can design incentive structures to make their competitions safer for athletes and more entertaining to fans. Meanwhile, I am developing statistical methodology for modeling kinematic tracking data, with applications in player health and safety.\nI am lucky in that I have adorable little kids and spend lots of quality time with my family. If I am slow to respond to an email (or miss it altogether), please do not take it personally."
-  },
-  {
-    "objectID": "jobs/index.html",
-    "href": "jobs/index.html",
-    "title": "Field of Dreams",
-    "section": "",
-    "text": "This is nothing more than a list of cool job postings (mostly in R&D with pro sports teams) I have noticed. I have no inside knowledge of them.\nI typically update this list over the weekend, so Monday is a good day to check what jobs were posted in the previous week.\nSee also:\n\nSean Sullivan’s URAM Analytics job board\nAmanda Glazer’s advice on getting started in sport analytics\nMy unsolicited advice on becoming a competitive candidate for jobs in sport analytics\n\n\n\n\n\n\n\n*Compensation range reflects either one year of annual salary or 2,000 hours of hourly wage."
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Lead distance under a pickoff limit in Major League Baseball: A sequential game model ⚾\nw/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer \n2024 Cascadia Symposium on Statistics in Sports (Vancouver)  \n2024 Saberseminar (Chicago) \n\nBall path curvature and in-game free throw shooting proficiency in the National Basketball Association 🏀\nw/ Ruoqian (Judy) Zhu and Dave Love \n2025 New England Symposium on Statistics in Sports (Boston)  \n\nA comps-based approach for interpreting tree-based predictions with an application to the NFL draft 🏈\nw/ Elisabeth Millington\n2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)  \n2025 New England Symposium on Statistics in Sports (Boston) \n\nPitch trajectory density estimation for predicting future outcomes ⚾\nw/ Vicente Iglesias\n2024 Conference of Texas Statisticians (Houston) \n2023 Saberseminar (Chicago)"
-  },
-  {
-    "objectID": "research/index.html#active-projects",
-    "href": "research/index.html#active-projects",
-    "title": "Research",
-    "section": "",
-    "text": "Lead distance under a pickoff limit in Major League Baseball: A sequential game model ⚾\nw/ Sivaramakrishnan Ramani, Jacob Hahn and Andrew Schaefer \n2024 Cascadia Symposium on Statistics in Sports (Vancouver)  \n2024 Saberseminar (Chicago) \n\nBall path curvature and in-game free throw shooting proficiency in the National Basketball Association 🏀\nw/ Ruoqian (Judy) Zhu and Dave Love \n2025 New England Symposium on Statistics in Sports (Boston)  \n\nA comps-based approach for interpreting tree-based predictions with an application to the NFL draft 🏈\nw/ Elisabeth Millington\n2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)  \n2025 New England Symposium on Statistics in Sports (Boston) \n\nPitch trajectory density estimation for predicting future outcomes ⚾\nw/ Vicente Iglesias\n2024 Conference of Texas Statisticians (Houston) \n2023 Saberseminar (Chicago)"
-  },
-  {
-    "objectID": "research/index.html#published-projects",
-    "href": "research/index.html#published-projects",
-    "title": "Research",
-    "section": "Published Projects",
-    "text": "Published Projects\nSwinging, Fast and Slow: Interpreting variation in baseball swing tracking metrics ⚾\nPowers S, Yurko R (2026)\nThe American Statistician  \n2024 Cascadia Symposium on Statistics in Sports (Vancouver)  \n2024 Saberseminar (Chicago)  \n\nEstimating individual contributions to team success in women’s college volleyball 🏐\nPowers S, Stancil L, Consiglio N (2025)\nJournal of Quantitative Analysis in Sports 21(2) 117-135  \n2024 MIT Sloan Sports Analytics Conference (Boston)  \n2023 New England Symposium on Statistics in Sports (Boston)  \nNuclear penalized multinomial regression with an application to predicting at bat outcomes in baseball ⚾\nPowers S, Hastie T, Tibshirani R (2018)\nStatistical Modelling 18(5-6) 388-410  \n2016 Joint Statistical Meetings (Chicago) \nA linear model for estimating optimal service error fraction in volleyball 🏐\nBurton T, Powers S (2015)\nJournal of Quantitative Analysis in Sports 11(2) 117-129\nMutually-antagonistic interactions in baseball networks ⚾\nSaavedra S, Powers S, McCotter T, Porter MA, Mucha PJ (2010)\nPhysica A: Statistical Mechanics and its Applications 389 1131-1141"
-  },
-  {
-    "objectID": "research/index.html#conference-presentations",
-    "href": "research/index.html#conference-presentations",
-    "title": "Research",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n\nInvited Talks\nSafer, Not Slower: Actionable insights from a large-scale survival analysis of baseball pitching mechanics ⚾\n2026 Joint Statistical Meetings (Boston)\nWinning baseball games by solving statistics puzzles ⚾\n2025 International Conference on Statistics and Data Science (Vancouver) \n\n\nInvited Panels\nBuilding the Academic Playbook for Sports Analytics Education\nw/ Amanda Glazer, John Tobias and Ron Yurko\n2026 MIT Sloan Sports Analytics Conference (Boston) \nThe Past, Present, and Future of Sports Analytics in Industry and the Academy\nw/ Zach Knowlton, Stephanie Kovalchik, Mike Lopez, Brian Macdonald and Ron Yurko\n2025 Joint Statistical Meetings (Nashville)\nData Science and Analytics in Sports Performance and Management\nw/ Mark Broadie, Natalie Kupperman and Jill McNitt-Gray\n2024 Columbia Symposium on AI and Sports (New York) \n\n\nStudent Talks\nModifying k-means clustering to optimize defensive positioning in volleyball 🏐\nNaomi Consiglio @ Women in Sports Data Symposium 2024 (Philadelphia) \nDo we learn more about AAA batters when they face better pitches? ⚾\nJeff Brover @ Saberseminar 2024 (Chicago) \nTime warping for clustering pitcher deliveries ⚾\nDrew Haugen @ Saberseminar 2024 (Chicago) \n\n\nStudent Posters\nA statistical approach to sport climbing difficulty and progression 🧗\nElizabeth Sepúlveda @ Cascadia Symposium on Statistics in Sports 2024 (Vancouver)\nNot All Features Are Created Equal: Player clustering and evaluation ⚽\nAndrew Kang @ Opta Forum 2024 (London)\n\n\nWayback Machine\nJointly predicting exit velocity and launch angle for batter-pitcher matchups ⚾\n2016 Saberseminar (Boston) \nTrue wOBA: Estimation of true talent level for batters ⚾\n2016 SABR Analytics Conference (Phoenix)  \nRewarding batters for baserunner advancement: A ridge-regressed Rasch model ⚾\n2015 Saberseminar (Boston)"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Here is a collection of tips that haven’t made it into my lecture notes yet\nResources for learning R at your own pace (free courses from Codecademy)"
-  },
-  {
-    "objectID": "teaching/index.html#rice",
-    "href": "teaching/index.html#rice",
-    "title": "Teaching",
-    "section": "Rice",
-    "text": "Rice\nSMGT 430/530: Introduction to Sport Analytics\nSpring 2026, 2024; Fall 2025, 2024\nSMGT 435/535: Baseball Analytics\nFall 2025, 2024; Spring 2024\nSMGT 432/532: Soccer Analytics\nFall 2023\nSMGT 434: Football Analytics\nFall 2025\nSTAT 499/699: Topics in Statistical Sciences (Sport Analytics)\nSpring 2026; Fall 2025, 2024"
-  },
-  {
-    "objectID": "teaching/index.html#stanford",
-    "href": "teaching/index.html#stanford",
-    "title": "Teaching",
-    "section": "Stanford",
-    "text": "Stanford\nSTATS 50: Mathematics of Sports\nSpring 2016"
-  },
-  {
-    "objectID": "teaching/smgt373/index.html",
-    "href": "teaching/smgt373/index.html",
-    "title": "SMGT 373/374: Sport Analytics Internship",
-    "section": "",
-    "text": "Syllabus\nSupervisor Acknowledgment Form\nSupervisor Evaluation Form"
-  },
-  {
-    "objectID": "teaching/smgt432/index.html",
-    "href": "teaching/smgt432/index.html",
-    "title": "SMGT 432: Soccer Analytics",
-    "section": "",
-    "text": "This course page is less built out than my other course pages.\nSyllabus"
-  },
-  {
-    "objectID": "teaching/smgt432/index.html#lecture-notes",
-    "href": "teaching/smgt432/index.html#lecture-notes",
-    "title": "SMGT 432: Soccer Analytics",
-    "section": "Lecture Notes",
-    "text": "Lecture Notes\nBradley-Terry\nValidation and Regularization\nPlus-Minus\nA Lite Survey of Research with Tracking Data\nA Brief History of Tactics"
-  },
-  {
-    "objectID": "teaching/smgt432/index.html#python-notebooks",
-    "href": "teaching/smgt432/index.html#python-notebooks",
-    "title": "SMGT 432: Soccer Analytics",
-    "section": "Python Notebooks",
-    "text": "Python Notebooks\nGitHub repository"
-  },
-  {
-    "objectID": "teaching/smgt432/index.html#assignments",
-    "href": "teaching/smgt432/index.html#assignments",
-    "title": "SMGT 432: Soccer Analytics",
-    "section": "Assignments",
-    "text": "Assignments"
+    "objectID": "teaching/smgt435/index.html#unit-4-practicum",
+    "href": "teaching/smgt435/index.html#unit-4-practicum",
+    "title": "SMGT 435/535: Baseball Analytics",
+    "section": "Unit 4: Practicum",
+    "text": "Unit 4: Practicum\nProject Overview"
   }
 ]
