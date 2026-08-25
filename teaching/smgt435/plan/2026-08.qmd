@@ -1,0 +1,18 @@
+
+# SMGT 435/535: Baseball Analytics
+
+## 2026-08-25
+
+1:00-1:05 Randomly assign students to 5 tables, choose table names
+
+1:05-1:10 Refresh everyone's memory of Pythagorean winning percentage
+
+1:10-1:25 Think/pair/share
+
+- Which team is currently most over-performing their Pythagorean record?
+- Which team is currently most under-performing their Pythagorean record?
+- What are some reasons a team might truly be better or worse than their Pythagorean record?
+
+1:25-1:40 Lecture on model for Pythagorean formula
+
+2:10-2:15 exit ticket
