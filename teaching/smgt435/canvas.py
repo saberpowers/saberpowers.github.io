@@ -205,9 +205,9 @@ for date in remaining_days:
         'anonymous_submissions': True,
         'hide_results': 'always',                       # there are no correct answers
         'access_code': random.randint(1000, 9999),
-        'unlock_at': date.replace(hour=15, minute=30),
-        'due_at': date.replace(hour=16, minute=0),
-        'lock_at': date.replace(hour=16, minute=0),
+        'unlock_at': date.replace(hour=14, minute=0),
+        'due_at': date.replace(hour=14, minute=30),
+        'lock_at': date.replace(hour=14, minute=30),
         'published': False,
     })
     exit_ticket.create_question(question = {
