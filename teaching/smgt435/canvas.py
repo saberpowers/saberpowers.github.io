@@ -112,16 +112,18 @@ for index, date in enumerate(assignment_due):
 
 group_project = course.create_assignment_group(name='Project')
 project_points_possible = [0, 5, 10, 10, 20]
+project_name = ['Registration', 'Proposal', 'Abstract', 'Presentation', 'Paper']
 project_module = [module_2, module_3, module_4, module_4, module_4]
 
 for index, date in enumerate(project_due):
     assignment = course.create_assignment({
-        'name': f'Project #{index}',
+        'name': f'Project #{index}: {project_name[index]}',
         'submission_types': ['online_upload'],
         'allowed_extensions': ['pdf'],
         'points_possible': project_points_possible[index],
         'grading_type': 'percent',
         'due_at': date,
+        'description': f'<a href="https://saberpowers.com/teaching/smgt435/assignment/project.pdf" target="_blank">Prompt</a>',
         'assignment_group_id': group_project.id,
         'published': True,
     })
@@ -234,3 +236,85 @@ try:    # if the late policy has already been set, this will throw an exception
     )
 except:
     print('the course already has a late policy')
+
+
+# Add content to modules ----
+
+for page in course.get_pages():
+    page.delete()
+
+topic_name = [
+    'Pythagorean Formula',
+    'Base-Out Run Expectancy and Linear Weights',
+    'Batted Ball Outcome Model',
+    'BABIP, FIP and DIPS',
+    'Introduction to Pitch-Level Analysis',
+    'Pitch Outcome Modeling',
+    '"Stuff"',
+    'Fielding and Baserunning',
+    'Projections'
+]
+topic_lecture = [
+    'pythagorean_formula',
+    'run_expectancy',
+    'batted_ball_outcome_model',
+    '',
+    'pitch_level_analysis',
+    'pitch_outcome_modeling',
+    'stuff',
+    'fielding_baserunning',
+    'projections'
+]
+topic_tutorial = [
+    '1iBKnJEVVIAOls98L7O2gDlZJyTD2GLDF',
+    '1ssbGKZM41kLR76-iLukm64DaSRpzrkwD',
+    '1DdBF-D_Pl3fzg0xgsEGtKBTPVj-9pV9g',
+    '1cd-KnI2VcNlG6fgDPQQi41Id_ZxCVyRT',
+    '1oR82uQxRAETizWOkJJFkt2M2EUyr2nH-',
+    '1zcZqQ1Vc-ilIieTaNdHFMV0njffBRzBm',
+    '1X67kiqAVAFImx3VIxFH-1MvJ6TSQ83KC',
+    '1tyAWCmhTgQi7AC8hIXYF7NOsoqxTKoTY',
+    '1xQSwzqo8McwjJDa1VBdV7Ri8GjrFAGtA'
+]
+topic_solution = [
+    '1AIaBKoAca8ei0-SMtdeKSr-Na1qLGdpZ',
+    '1T5ozdYnGBnOtXRFJX-wS9DWDWlPAEAHf',
+    '1yK_JIl_YHb-KryhqdsdVhFldxGUu4E-0',
+    '1iVvxNqVuVCfMM8ZRBy5OE1ubc4TmYyZn',
+    '1_I-K5JI9ky1Z7qQ0E0DBVPe1jMH3Did_',
+    '1RrjCp52lkAl-4bmZ1gV09I9WWoUPNml1',
+    '1leCmnIxwGnWInmy4ZwA6tcF3QVD6AVRB',
+    '15RLvIXi9tEC8SAboPWpaOcoBFVF7R-li',
+    '1kpMxDnAS_gJBXxX1BcVBq_-lC29V9GST'
+]
+topic_module = [0, 0, 0, 1, 1, 1, 2, 2, 2]
+
+prefix_lecture = 'https://saberpowers.com/teaching/smgt435/lecture/'
+prefix_notebook = 'https://colab.research.google.com/drive/'
+
+for i in range(len(topic_name)):
+    page = course.create_page(
+        {
+            'title': topic_name[i],
+            'body': f"""
+                <p><a href="{prefix_lecture}{topic_lecture[i]}.pdf" target="_blank">Lecture Notes</a></p>
+                <p><a href="{prefix_notebook}{topic_tutorial[i]}" target="_blank">R Tutorial</a></p>
+                <p><a href="{prefix_notebook}{topic_solution[i]}" target="_blank">R Tutorial Solutions</a></p>
+            """,
+            'published': True
+        }
+    )
+    course.get_modules()[topic_module[i]].create_module_item(
+        module_item = {'type': 'Page', 'page_url': page.url}
+    )
+
+
+module_1.create_module_item(
+    module_item={
+        'title': 'Pythagorean Formula Lecture Notes',
+        'type': 'ExternalUrl',
+        'external_url': 'https://saberpowers.com/teaching/smgt435/lecture/pythagorean_formula.pdf',
+        'new_tab': True,
+        'published': True
+    }
+)
