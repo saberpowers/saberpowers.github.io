@@ -160,7 +160,7 @@ get_to_know_you = course.create_quiz({
     'unlock_at': class_days[0].replace(hour=15, minute=30),
     'due_at': class_days[0].replace(hour=16, minute=0),
     'lock_at': class_days[0].replace(hour=16, minute=0),
-    'published': True,
+    'published': False,
 })
 get_to_know_you.create_question(question = {
     'question_text': 'What are your favorite sports and teams?',
@@ -193,7 +193,7 @@ for index, date in enumerate(course_eval_date):
         'unlock_at': date.replace(hour=15, minute=30),
         'due_at': date.replace(hour=16, minute=0),
         'lock_at': date.replace(hour=16, minute=0),
-        'published': True,
+        'published': False,
     })
     course_eval.create_question(question = {
         'question_text': '<p>To what extent do you agree with the following statement:</p><p>The <strong>lectures</strong> in this class have been valuable for my learning.</p>',
@@ -250,7 +250,7 @@ for date in remaining_days:
         'unlock_at': date.replace(hour=15, minute=30),
         'due_at': date.replace(hour=16, minute=0),
         'lock_at': date.replace(hour=16, minute=0),
-        'published': True,
+        'published': False,
     })
     exit_ticket.create_question(question = {
         'question_text': 'On a scale from 1 (too confusing, slow down!) to 3 (just right) to 5 (too boring, speed up!), how was the pace of class today?',
