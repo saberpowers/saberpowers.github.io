@@ -12,7 +12,7 @@
 
   \section*{\sc The Big Dig}
 
-    Our goal on this assignment is to develop a touch-by-touch point win probability model for Major League Volleyball (MLV). Win probability is an important foundational model for sport analytics with applications for player evaluation and in-game strategy. We will demonstrate how to use the model to improve upon hitting percentage for evaluating attackers.
+    Our goal on this assignment is to improve upon hitting percentage for evaluating attackers in Major League Volleyball (MLV). We will first develop a touch-by-touch pont win probability model and then evaluate attackers based the difference in their teams' point win probabilities before and after their attacks.
 
     \subsection*{\sc Instructions}
 
@@ -26,8 +26,8 @@
 
       Write a report (max 2 pages) summarizing your findings, assuming the reader is a sports data scientist who does not know your assignment. Tell a STORY about your findings. Your report is a narrative about what the analysis reveals and why it matters. For this assignment, you must follow a specific prescribed format for your report:
       \begin{itemize}
-        \item {\bf Introduction.} Explain why your analysis matters (one paragraph).
-        \item {\bf Methods.} Describe your state space and how you estimated transition probabilities (one paragraph).
+        \item {\bf Introduction.} Explain succinctly why your analysis matters (one pithy paragraph).
+        \item {\bf Methods.} Write down and explain the mathematical specification of the model (one paragraph).
         \item {\bf Results.} Display two results:
         \begin{itemize}
           \item a figure plotting sideout probability over time for the longest point (most touches) in the dataset
@@ -70,6 +70,16 @@
             \newline ~\\
           \hline
           ~ \newline
+          Communication
+            \newline ~ & ~ \newline
+            \it Your writing is disorganized; your figures/tables are messy, unlabelled, or difficult to interpret.
+            \newline ~ & ~ \newline
+            \it Your writing is clear and figures are functional, but the report lacks a polished professional feel or strong paragraph structure.
+            \newline ~ & ~ \newline
+            \it Your figures and tables look polished, and your paragraphs have clear topic sentences with supporting evidence.
+            \newline ~\\
+          \hline
+          ~ \newline
           Modeling
             \newline ~ & ~ \newline
             \it Your mathematical specification is missing, incomplete, or contains significant errors.
@@ -97,16 +107,6 @@
             \it You discuss the results and identify model limitations in a general sense.
             \newline ~ & ~ \newline
             \it You connect specific results to model assumptions, identifying exactly where and why those assumptions limit the findings.
-            \newline ~\\
-          \hline
-          ~ \newline
-          Communication
-            \newline ~ & ~ \newline
-            \it Your writing is disorganized; your figures/tables are messy, unlabelled, or difficult to interpret.
-            \newline ~ & ~ \newline
-            \it Your writing is clear and figures are functional, but the report lacks a polished professional feel or strong paragraph structure.
-            \newline ~ & ~ \newline
-            \it Your figures and tables look polished, and your paragraphs have clear topic sentences with supporting evidence.
             \newline ~\\
           \hline
         \end{tabular}
