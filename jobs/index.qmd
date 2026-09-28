@@ -45,9 +45,10 @@ data <- jobs |>
     sport_emoji = dplyr::case_when(
       sport == "Baseball" ~ "&#x26BE;",
       sport == "Basketball" ~ "&#x1F3C0;",
+      sport == "Esports" ~ "&#x1F3AE;",
       sport == "Football" ~ "&#x1F3C8;",
       sport == "Hockey" ~ "&#x1F3D2;",
-      sport == "Motorsport" ~ "&#x1F3CE;",
+      sport == "Motorsports" ~ "&#x1F3CE;",
       sport == "Soccer" ~ "&#x26BD;",
       sport == "Volleyball" ~ "&#x1F3D0;",
     ),
