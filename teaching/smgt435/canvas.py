@@ -147,6 +147,7 @@ for index, date in enumerate(course_eval_date):
         'title': f'Early Course Eval #{index + 1}',
         'description': 'This is an anonymous survey. You responses will be used to improve the quality of instruction for the remainder of the course. Please provide your honest feedback.',
         'quiz_type': 'survey',
+        'anonymous_submissions': True,
         'hide_results': 'always',                       # there are no correct answers
         'unlock_at': date.replace(hour=14, minute=0),
         'due_at': date.replace(hour=14, minute=30),
