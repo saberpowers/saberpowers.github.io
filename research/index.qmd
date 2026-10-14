@@ -26,14 +26,6 @@ w/ Ruoqian (Judy) Zhu and Dave Love
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1l7Ccx1ZuenY74t2DLuonTElKgxe4ViBE){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=_qGPVaSSMYE&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
 
-[A comps-based approach for interpreting tree-based predictions with an application to the NFL draft](https://github.com/elisabethmill/treecomp){target=_blank} :football:\
-w/ Elisabeth Millington\
-2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)
-[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1EvVk-xaJmDLhU9DWGD0ZDYOfgx-sgo_5){target=_blank}
-[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=8FSRZZbBUYs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
-2025 New England Symposium on Statistics in Sports (Boston)
-[{{< iconify pajamas thumbtack-solid >}}](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank}\
-
 [Pitch trajectory density estimation for predicting future outcomes](https://github.com/saberpowers/predictive-pitch-score){target=_blank} :baseball:\
 w/ Vicente Iglesias\
 2024 Conference of Texas Statisticians (Houston)
@@ -55,6 +47,16 @@ Powers S, Yurko R (2026)\
 2024 Saberseminar (Chicago)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1tmKdebUSCWPXwE2q09yf5HCdInPrOIsZ){target=_blank}
 [{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=rQ1BsjQEWKs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+
+[Models in the War Room: Translating random forest predictions into player comps](https://doi.org/10.1177/22150218261472166){target=_blank} :football:\
+Millington E, Powers S (2026)\
+*Journal of Sports Analytics* **12** 22150218261472166
+[{{< iconify simple-icons github >}}](https://github.com/elisabethmill/treecomp){target=_blank}\
+2025 Carnegie Mellon Sports Analytics Conference (Pittsburgh)
+[{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1EvVk-xaJmDLhU9DWGD0ZDYOfgx-sgo_5){target=_blank}
+[{{< iconify simple-icons youtube >}}](https://www.youtube.com/watch?v=8FSRZZbBUYs&list=PL40KH8fsrt-sX1lSf659bl1u341F76ue3){target=_blank}\
+2025 New England Symposium on Statistics in Sports (Boston)
+[{{< iconify pajamas thumbtack-solid >}}](https://drive.google.com/file/d/1cXUZ0u1jtdoX1gsC_LJIFWR3hw0nlrlc){target=_blank}\
 
 [Estimating individual contributions to team success in women's college volleyball](https://doi.org/10.1515/jqas-2024-0038){target=_blank} :volleyball:\
 Powers S, Stancil L, Consiglio N (2025)\
