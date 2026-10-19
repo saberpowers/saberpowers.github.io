@@ -113,7 +113,7 @@ midterm = course.create_assignment({
     'grading_type': 'percent',
     'due_at': due_at,
     'assignment_group_id': group_perf_eval.id,
-    'description': f"<p>Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.com/teaching/smgt373' target='_blank' rel='noopener'>saberpowers.com/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}. In the email, please attach your job description to remind your supervisor of the responsibilities on which they are to evaluate you.</p><p>To be clear, {due_at:%B %-d} is your deadline for sending this email to your supervisor, and {deadline:%B %-d} is the date by which we want your supervisor to complete the evaluation.</p>",
+    'description': f"<p>Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.com/teaching/smgt373' target='_blank' rel='noopener'>saberpowers.com/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}. <strong>In the email, please attach your job description to remind your supervisor of the responsibilities on which they are to evaluate you.</strong></p><p>To be clear, {due_at:%B %-d} is your deadline for sending this email to your supervisor, and {deadline:%B %-d} is the date by which we want your supervisor to complete the evaluation.</p>",
     'published': True,
 })
 
@@ -136,7 +136,7 @@ final = course.create_assignment({
     'grading_type': 'percent',
     'due_at': due_at,
     'assignment_group_id': group_perf_eval.id,
-    'description': f"<p>Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.com/teaching/smgt373' target='_blank' rel='noopener'>saberpowers.com/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}. In the email, please attach your job description to remind your supervisor of the responsibilities on which they are to evaluate you.</p><p>To be clear, {due_at:%B %-d} is your deadline for sending this email to your supervisor, and {deadline:%B %-d} is the date by which we want your supervisor to complete the evaluation.</p>",
+    'description': f"<p>Send an email to your internship supervisor with the course instructor CC'd. In the email, please link to <a href='https://saberpowers.com/teaching/smgt373' target='_blank' rel='noopener'>saberpowers.com/teaching/smgt373</a> and ask your supervisor to find the Supervisor Evaluation Form available on that page and complete it by {deadline:%A, %B %-d}. <strong>In the email, please attach your job description to remind your supervisor of the responsibilities on which they are to evaluate you.</strong></p><p>To be clear, {due_at:%B %-d} is your deadline for sending this email to your supervisor, and {deadline:%B %-d} is the date by which we want your supervisor to complete the evaluation.</p>",
     'published': True,
 })
 
