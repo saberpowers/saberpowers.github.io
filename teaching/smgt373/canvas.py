@@ -66,13 +66,16 @@ except:
     print('the course already has a late policy')
 
 
-# Flush existing assignments ----
+# Flush existing assignments and announcements ----
 
 for assignment in course.get_assignments():
     assignment.delete()
 
 for assignment_group in course.get_assignment_groups():
     assignment_group.delete()
+
+for discussion_topic in course.get_discussion_topics():
+    discussion_topic.delete()
 
 
 # Create hour log assignments ----
