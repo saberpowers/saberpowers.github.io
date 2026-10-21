@@ -38,7 +38,7 @@ w/ Vicente Iglesias\
 
 [Swinging, Fast and Slow: Interpreting variation in baseball swing tracking metrics](https://doi.org/10.1080/00031305.2026.2633338){target=_blank} :baseball:\
 Powers S, Yurko R (2026)\
-*The American Statistician*
+*The American Statistician* **80**(4) 535-549
 [{{< iconify simple-icons arxiv >}}](https://arxiv.org/abs/2507.01238){target=_blank}
 [{{< iconify simple-icons github >}}](https://github.com/saberpowers/swinging-fast-and-slow){target=_blank}\
 2024 Cascadia Symposium on Statistics in Sports (Vancouver)
