@@ -13,7 +13,7 @@ toc: false
 Spring 2026, 2024; Fall 2025, 2024
 
 [SMGT 435/535: Baseball Analytics](smgt435/index.qmd)\
-Fall 2025, 2024; Spring 2024
+Fall 2026, 2025, 2024; Spring 2024
 
 [SMGT 432/532: Soccer Analytics](smgt432/index.qmd)\
 Fall 2023
