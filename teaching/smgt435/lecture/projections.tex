@@ -37,7 +37,7 @@
   
       There are two aspects of the Marcel formula to note. First, the projection depends not only on the player's performance but also on the number of plate appearances. This is a critical point to understand about projections---if a model ignores the sample size of the performance, it is missing the fundamental job of a projection: regression to the mean. Second, the weight decreases for performances further back in time. This is another fundamental aspect of projections: that more recent performance gets more weight.
   
-    \subsection{\sc Grid Search}
+    \subsection{\sc Non-Linear Least Squares}
   
       We can write can approximation of the Marcel formula in a more general form by replacing the hard-coded coefficients with variables $c$ and $w$.
       \begin{equation}
@@ -50,7 +50,7 @@
   
       The annual dropoff $w$ in weight depends on two things: the noise in the data and the extent to which player talent tends to change from year to year. If player talent changes very little from year to year, then the optimal $w$ will be closer to one, putting relatively more weight on older performance. If player talent changes a lot from year to year, then the optimal $w$ will be closer to zero, putting less weight on older performance. If the noise is very low, then again the optimal $w$ will be closer to one because less historical data is required to supplement the most recent data. The higher the noise, the closer this moves the optimal $w$ to zero as more sharing across seasons is necessary to stabilize the prediction.
   
-      We cannot use linear regression to determine the optimal $c$ and $w$ in equation (\ref{eqn:grid-search}) because these coefficients appear in the denominator as well as in the numerator. Instead, we employ grid search, similar to how we found the optimal exponent $\alpha$ in the Pythagorean formula. Grid search is very simple: We specify a grid of candidate values for $(c, w)$ and try all of them to find out which one yields the predictions with the lowest error. Once we have the optimal $(c^*, w^*)$, we plug those numbers into equation (\ref{eqn:grid-search}) to get the projections.
+      We cannot use linear regression to determine the optimal $c$ and $w$ in equation (\ref{eqn:grid-search}) because these coefficients appear in the denominator as well as in the numerator. In other words, minimizing the sum of squared errors is a non-linear least squares problem. There are algorithms we can use to solve this. For example, the \texttt{nls()} function in base R implements the Gauss-Newton algorithm, which requires an initialization and can be sensitive to poor initializations or singular gradients. The \texttt{nlsLM()} function in the minpack.LM package implements the Levenberg-Marquardt algorithm, which interpolates between Gauss-Newton and gradient descent to provide more robust convergence.
   
     \subsection{\sc Projections as Multivariable Regression to the Mean}
   
