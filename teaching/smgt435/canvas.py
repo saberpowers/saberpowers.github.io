@@ -99,7 +99,7 @@ for index, date in enumerate(assignment_due):
     assignment = course.create_assignment({
         'name': f'Assignment #{index+1}: {assignment_name[index]}',
         'submission_types': ['online_upload'],
-        'allowed_extensions': ['pdf'],
+        'allowed_extensions': ['pdf', 'r'],
         'points_possible': 15,
         'grading_type': 'percent',
         'due_at': date,
@@ -112,6 +112,7 @@ for index, date in enumerate(assignment_due):
 
 group_project = course.create_assignment_group(name='Project')
 project_points_possible = [0, 5, 10, 10, 20]
+project_grading_type = ['pass_fail', 'pass_fail', 'percent', 'pass_fail', 'percent']
 project_name = ['Registration', 'Proposal', 'Abstract', 'Presentation', 'Paper']
 project_module = [module_2, module_3, module_4, module_4, module_4]
 
@@ -121,7 +122,7 @@ for index, date in enumerate(project_due):
         'submission_types': ['online_upload'],
         'allowed_extensions': ['pdf'],
         'points_possible': project_points_possible[index],
-        'grading_type': 'percent',
+        'grading_type': project_grading_type[index],
         'due_at': date,
         'description': f'<a href="https://saberpowers.com/teaching/smgt435/assignment/project.pdf" target="_blank">Prompt</a>',
         'assignment_group_id': group_project.id,
