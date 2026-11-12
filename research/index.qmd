@@ -5,7 +5,7 @@ from: markdown+emoji
 
 ## Active Projects
 
-[Safer, Not Slower: Actionable insights from a large-scale survival analysis of baseball pitching mechanics](https://github.com/saberpowers/mlb-risk-factors-tracking){target=_blank} :baseball:\
+[Pitch-tracking characteristics and arm injury risk in Major and Minor League Baseball pitchers](https://github.com/saberpowers/mlb-risk-factors-tracking){target=_blank} :baseball:\
 w/ Rose Graves, Marina Vannucci, Jimmy Buffi, Daniel Barrueco, John D'Angelo and Amanda Glazer\
 2026 Saberseminar (Chicago)
 [{{< iconify simple-icons googleslides >}}](https://drive.google.com/file/d/1NLhWPP-OL50tOUrPcL1i8fz5Il7Yjy2G){target=_blank}
