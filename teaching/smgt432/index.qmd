@@ -21,6 +21,6 @@ This course page is less built out than my other course pages.
 
 ## Python Notebooks
 
-[GitHub repository](https://github.com/saberpowers/teaching/tree/main/rice/smgt432/pyday){target="_blank"}
+[Code](https://github.com/saberpowers/saberpowers.github.io/tree/main/teaching/smgt432/notebook){target=_blank}
 
-## Assignments
+[Data](https://drive.google.com/drive/folders/13FpnwpkC2W035jfDqrvJ667VB6RuBXHL){target=_blank}
