@@ -71,6 +71,9 @@ title: "SMGT 435/535: Baseball Analytics"
 
 [Assignment #3: Projections](assignment/projections.pdf){target=_blank}
 
+### WAR and Contract Valuation
+
+[Lecture Notes](lecture/war.pdf){target=_blank}
 
 ## Unit 4: Practicum
 
