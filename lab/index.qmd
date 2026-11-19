@@ -39,3 +39,5 @@ toc: false
 &ensp;![](https://www.mlbstatic.com/team-logos/team-cap-on-dark/136.svg){height=22}
 
 [Luke Stancil](https://www.linkedin.com/in/lukejstancil/){target=_blank} (BA Economics; Computational and Applied Mathematics 2024)
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

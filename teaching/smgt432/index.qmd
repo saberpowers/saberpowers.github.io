@@ -24,3 +24,5 @@ This course page is less built out than my other course pages.
 [Code](https://github.com/saberpowers/saberpowers.github.io/tree/main/teaching/smgt432/notebook){target=_blank}
 
 [Data](https://drive.google.com/drive/folders/13FpnwpkC2W035jfDqrvJ667VB6RuBXHL){target=_blank}
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

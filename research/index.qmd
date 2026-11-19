@@ -177,3 +177,5 @@ Powers S, Yurko R (2026)
 [A conversation between statisticians in sports analytics](https://doi.org/10.1080/09332480.2026.2649114)\
 Yurko R, Powers S (2026)
 *CHANCE* **39**(1), 61-63
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

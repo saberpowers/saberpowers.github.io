@@ -7,3 +7,5 @@ title: "SMGT 373/374: Sport Analytics Internship"
 [Supervisor Acknowledgment Form](acknowledgment.pdf){target=_blank}
 
 [Supervisor Evaluation Form](https://forms.gle/5R1AzpmW4kAmSQYL7){target=_blank}
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

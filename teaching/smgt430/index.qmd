@@ -110,3 +110,5 @@ title: "SMGT 430/530: Introduction to Sport Analytics"
 [Colab Notebook](https://colab.research.google.com/drive/1zdEslpU8Y-3gtnrHgOJA6n87BvS2i1cH){target=_blank}
 
 ![](concept_map.png)
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

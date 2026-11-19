@@ -78,3 +78,5 @@ title: "SMGT 435/535: Baseball Analytics"
 ## Unit 4: Practicum
 
 [Project Overview](assignment/project.pdf){target=_blank}
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

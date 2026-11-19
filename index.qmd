@@ -26,5 +26,4 @@ Now I am an assistant professor of sport analytics and of statistics at Rice Uni
 
 *I am lucky in that I have adorable little kids and spend lots of quality time with my family. If I am slow to respond to an email (or miss it altogether), please do not take it personally.*
 
-<script data-goatcounter="https://saberpowers.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

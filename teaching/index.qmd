@@ -28,3 +28,5 @@ Spring 2026; Fall 2025, 2024
 
 [STATS 50: Mathematics of Sports](https://web.stanford.edu/class/stats50/){target=_blank}\
 Spring 2016
+
+<script data-goatcounter="https://saberpowers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
